@@ -6,3 +6,5 @@ This repository holds the course material (a website to browse it is coming soon
 
 - **`content/`** – the course itself: 10 modules, 30 short lessons, quizzes and a study plan, all in plain Markdown.
 
+## The course map
+
