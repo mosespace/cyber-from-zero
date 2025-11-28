@@ -23,3 +23,4 @@ This repository holds the course material (a website to browse it is coming soon
 
 ## Ground rules
 
+This course teaches defence and ethical hacking. **Only test systems you own or have written permission to test.**
