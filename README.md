@@ -15,3 +15,4 @@ This repository holds the course material (a website to browse it is coming soon
 | 3 | Networking Basics | Beginner |
 | 4 | Operating Systems and Linux | Beginner |
 | 5 | Passwords and Cryptography | Beginner |
+| 6 | Malware, Phishing and Social Engineering | Beginner |
