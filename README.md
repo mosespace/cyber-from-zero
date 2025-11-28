@@ -8,3 +8,4 @@ This repository holds the course material (a website to browse it is coming soon
 
 ## The course map
 
+| # | Module | Level |
