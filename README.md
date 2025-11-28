@@ -14,3 +14,4 @@ This repository holds the course material (a website to browse it is coming soon
 | 2 | The Security Mindset | Beginner |
 | 3 | Networking Basics | Beginner |
 | 4 | Operating Systems and Linux | Beginner |
+| 5 | Passwords and Cryptography | Beginner |
