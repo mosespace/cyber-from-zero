@@ -10,3 +10,4 @@ This repository holds the course material (a website to browse it is coming soon
 
 | # | Module | Level |
 |---|--------|-------|
+| 1 | How the Digital World Works | Beginner |
