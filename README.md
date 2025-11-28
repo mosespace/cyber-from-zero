@@ -18,3 +18,4 @@ This repository holds the course material (a website to browse it is coming soon
 | 6 | Malware, Phishing and Social Engineering | Beginner |
 | 7 | Web Security Essentials | Intermediate |
 | 8 | Defending Systems | Intermediate |
+| 9 | Ethical Hacking and Pentesting | Intermediate |
