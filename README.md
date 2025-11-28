@@ -12,3 +12,4 @@ This repository holds the course material (a website to browse it is coming soon
 |---|--------|-------|
 | 1 | How the Digital World Works | Beginner |
 | 2 | The Security Mindset | Beginner |
+| 3 | Networking Basics | Beginner |
