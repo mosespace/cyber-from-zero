@@ -19,3 +19,5 @@ This repository holds the course material (a website to browse it is coming soon
 | 7 | Web Security Essentials | Intermediate |
 | 8 | Defending Systems | Intermediate |
 | 9 | Ethical Hacking and Pentesting | Intermediate |
+| 10 | Incident Response and Your Career | Advanced |
+
