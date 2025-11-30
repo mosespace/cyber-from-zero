@@ -8,3 +8,4 @@ You can finish the course in **10 weeks** with about 30 minutes a day.
 | 2 | 2. Security Mindset | Explain the CIA triad to a friend |
 | 3 | 3. Networking | Name five ports and what they do |
 | 4 | 4. Operating Systems | Use ten Linux commands without looking |
+| 5 | 5. Cryptography | Set up a password manager and MFA |
