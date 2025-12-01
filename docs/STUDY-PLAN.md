@@ -9,3 +9,4 @@ You can finish the course in **10 weeks** with about 30 minutes a day.
 | 3 | 3. Networking | Name five ports and what they do |
 | 4 | 4. Operating Systems | Use ten Linux commands without looking |
 | 5 | 5. Cryptography | Set up a password manager and MFA |
+| 6 | 6. Threats | Spot a phishing email in under 10 seconds |
