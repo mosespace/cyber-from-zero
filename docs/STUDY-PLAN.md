@@ -15,3 +15,5 @@ You can finish the course in **10 weeks** with about 30 minutes a day.
 | 9 | 9. Ethical Hacking | Finish a beginner room on TryHackMe |
 | 10 | 10. Response and Career | Write your 12-month plan |
 
+## Daily routine (30 minutes)
+
