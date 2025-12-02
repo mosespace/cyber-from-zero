@@ -11,3 +11,4 @@ You can finish the course in **10 weeks** with about 30 minutes a day.
 | 5 | 5. Cryptography | Set up a password manager and MFA |
 | 6 | 6. Threats | Spot a phishing email in under 10 seconds |
 | 7 | 7. Web Security | Explain SQL injection and XSS and their fixes |
+| 8 | 8. Defence | Design a simple layered defence for a small shop |
