@@ -12,3 +12,4 @@ You can finish the course in **10 weeks** with about 30 minutes a day.
 | 6 | 6. Threats | Spot a phishing email in under 10 seconds |
 | 7 | 7. Web Security | Explain SQL injection and XSS and their fixes |
 | 8 | 8. Defence | Design a simple layered defence for a small shop |
+| 9 | 9. Ethical Hacking | Finish a beginner room on TryHackMe |
