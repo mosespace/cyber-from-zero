@@ -10,3 +10,4 @@ You can finish the course in **10 weeks** with about 30 minutes a day.
 | 4 | 4. Operating Systems | Use ten Linux commands without looking |
 | 5 | 5. Cryptography | Set up a password manager and MFA |
 | 6 | 6. Threats | Spot a phishing email in under 10 seconds |
+| 7 | 7. Web Security | Explain SQL injection and XSS and their fixes |
