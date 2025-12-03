@@ -19,3 +19,5 @@ You can finish the course in **10 weeks** with about 30 minutes a day.
 
 1. Read one lesson (10 min).
 2. Try the exercise or lab (15 min).
+3. Write three sentences about what you learned (5 min).
+
