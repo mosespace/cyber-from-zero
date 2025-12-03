@@ -18,3 +18,4 @@ You can finish the course in **10 weeks** with about 30 minutes a day.
 ## Daily routine (30 minutes)
 
 1. Read one lesson (10 min).
+2. Try the exercise or lab (15 min).
