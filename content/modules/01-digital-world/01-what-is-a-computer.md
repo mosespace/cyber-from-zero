@@ -5,3 +5,5 @@ minutes: 6
 ---
 A computer is a machine that follows instructions very fast. That is all. Your phone, your laptop, a game console and even a smart fridge are computers.
 
+## The four main parts
+
