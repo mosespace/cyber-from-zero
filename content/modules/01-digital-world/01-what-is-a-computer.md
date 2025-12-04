@@ -3,3 +3,5 @@ title: What Is a Computer, Really?
 summary: Hardware, software and the brain that follows instructions.
 minutes: 6
 ---
+A computer is a machine that follows instructions very fast. That is all. Your phone, your laptop, a game console and even a smart fridge are computers.
+
