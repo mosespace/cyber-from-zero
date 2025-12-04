@@ -23,3 +23,4 @@ You can finish the course in **10 weeks** with about 30 minutes a day.
 
 ## How to know you are ready to move on
 
+You can explain the lesson **out loud, in simple words**, without looking.
