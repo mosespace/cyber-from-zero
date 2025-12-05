@@ -9,3 +9,4 @@ A computer is a machine that follows instructions very fast. That is all. Your p
 
 | Part | Job | Real-life comparison |
 |------|-----|----------------------|
+| CPU (processor) | Does the thinking and maths | The chef |
