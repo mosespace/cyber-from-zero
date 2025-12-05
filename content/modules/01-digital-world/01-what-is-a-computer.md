@@ -8,3 +8,4 @@ A computer is a machine that follows instructions very fast. That is all. Your p
 ## The four main parts
 
 | Part | Job | Real-life comparison |
+|------|-----|----------------------|
