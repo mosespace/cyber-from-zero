@@ -11,3 +11,4 @@ A computer is a machine that follows instructions very fast. That is all. Your p
 |------|-----|----------------------|
 | CPU (processor) | Does the thinking and maths | The chef |
 | RAM (memory) | Holds things you use right now | The kitchen table |
+| Storage (disk) | Keeps things for a long time | The pantry |
