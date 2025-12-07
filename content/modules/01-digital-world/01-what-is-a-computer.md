@@ -16,3 +16,4 @@ A computer is a machine that follows instructions very fast. That is all. Your p
 
 ## Hardware and software
 
+- **Hardware** is the part you can touch: screen, keyboard, chips.
