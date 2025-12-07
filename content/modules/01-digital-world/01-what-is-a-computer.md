@@ -14,3 +14,5 @@ A computer is a machine that follows instructions very fast. That is all. Your p
 | Storage (disk) | Keeps things for a long time | The pantry |
 | Network card | Talks to other computers | The telephone |
 
+## Hardware and software
+
