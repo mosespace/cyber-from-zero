@@ -19,3 +19,5 @@ A computer is a machine that follows instructions very fast. That is all. Your p
 - **Hardware** is the part you can touch: screen, keyboard, chips.
 - **Software** is the set of instructions: apps, games, the operating system.
 
+Hackers almost always attack the **software**, because it is written by humans and humans make mistakes.
+
