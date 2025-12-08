@@ -14,3 +14,4 @@ We normally count in tens (0 to 9). Computers count in twos. This is called **bi
 | 1 | 1 |
 | 2 | 10 |
 | 3 | 11 |
+| 4 | 100 |
