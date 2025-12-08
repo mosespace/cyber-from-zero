@@ -21,3 +21,5 @@ We normally count in tens (0 to 9). Computers count in twos. This is called **bi
 
 The letter **A** is stored as the number 65, which is `01000001` in binary. A whole message is just a long list of numbers.
 
+## Sizes you will meet
+
