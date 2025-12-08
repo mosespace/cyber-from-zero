@@ -21,3 +21,5 @@ A computer is a machine that follows instructions very fast. That is all. Your p
 
 Hackers almost always attack the **software**, because it is written by humans and humans make mistakes.
 
+## Why this matters for security
+
