@@ -23,3 +23,4 @@ The letter **A** is stored as the number 65, which is `01000001` in binary. A wh
 
 ## Sizes you will meet
 
+- 1 KB is about a short email.
