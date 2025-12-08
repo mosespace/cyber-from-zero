@@ -17,3 +17,5 @@ We normally count in tens (0 to 9). Computers count in twos. This is called **bi
 | 4 | 100 |
 | 5 | 101 |
 
+## Letters are numbers too
+
