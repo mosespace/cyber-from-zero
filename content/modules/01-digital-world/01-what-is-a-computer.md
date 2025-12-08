@@ -28,3 +28,4 @@ Every attack ends up doing one of three things: reading data, changing data, or 
 ## Remember
 
 - A computer follows instructions, nothing more.
+- Software mistakes are called **bugs**. Some bugs become **vulnerabilities**.
