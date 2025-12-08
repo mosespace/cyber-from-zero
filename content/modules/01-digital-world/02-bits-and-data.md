@@ -5,3 +5,5 @@ minutes: 7
 ---
 Computers do not understand letters or pictures. They only understand two states: **on (1)** and **off (0)**. One of these is called a **bit**. Eight bits make a **byte**.
 
+## Counting with only two digits
+
