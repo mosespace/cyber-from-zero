@@ -29,3 +29,4 @@ Every attack ends up doing one of three things: reading data, changing data, or 
 
 - A computer follows instructions, nothing more.
 - Software mistakes are called **bugs**. Some bugs become **vulnerabilities**.
+- Security is the job of keeping computers doing only what their owners want.
