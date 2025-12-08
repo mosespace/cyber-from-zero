@@ -7,3 +7,5 @@ Computers do not understand letters or pictures. They only understand two states
 
 ## Counting with only two digits
 
+We normally count in tens (0 to 9). Computers count in twos. This is called **binary**.
+
