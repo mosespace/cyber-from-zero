@@ -23,3 +23,5 @@ Hackers almost always attack the **software**, because it is written by humans a
 
 ## Why this matters for security
 
+Every attack ends up doing one of three things: reading data, changing data, or stopping a computer from working. Knowing where data lives (RAM, disk, network) tells you where to protect it.
+
