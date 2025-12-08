@@ -12,3 +12,4 @@ We normally count in tens (0 to 9). Computers count in twos. This is called **bi
 | Normal number | Binary |
 |---------------|--------|
 | 1 | 1 |
+| 2 | 10 |
