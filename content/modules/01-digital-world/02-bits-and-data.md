@@ -39,3 +39,4 @@ Write your first name as numbers: A = 1, B = 2, C = 3 and so on. You just made a
 ## Remember
 
 - Everything on a computer is bits.
+- Eight bits = one byte.
