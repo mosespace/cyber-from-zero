@@ -28,3 +28,5 @@ The letter **A** is stored as the number 65, which is `01000001` in binary. A wh
 - 1 GB is about 250 songs.
 - 1 TB is about 250,000 songs.
 
+## Why this matters for security
+
