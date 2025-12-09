@@ -30,3 +30,5 @@ The letter **A** is stored as the number 65, which is `01000001` in binary. A wh
 
 ## Why this matters for security
 
+Because everything is numbers, we can **scramble** numbers using maths. That scrambling is called **encryption**, and you will learn it in Module 5.
+
