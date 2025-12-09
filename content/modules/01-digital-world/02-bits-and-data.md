@@ -34,3 +34,5 @@ Because everything is numbers, we can **scramble** numbers using maths. That scr
 
 ## Try it yourself
 
+Write your first name as numbers: A = 1, B = 2, C = 3 and so on. You just made a simple code!
+
