@@ -8,3 +8,4 @@ The internet is not a cloud. It is millions of real computers connected by real 
 ## What happens when you open a website
 
 1. You type `example.com` into your browser.
+2. A **DNS server** works like a phone book. It turns the name into an **IP address** like `93.184.216.34`.
