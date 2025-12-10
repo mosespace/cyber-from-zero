@@ -7,3 +7,4 @@ The internet is not a cloud. It is millions of real computers connected by real 
 
 ## What happens when you open a website
 
+1. You type `example.com` into your browser.
