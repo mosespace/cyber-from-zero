@@ -13,3 +13,6 @@ The internet is not a cloud. It is millions of real computers connected by real 
 4. The **server** there sends back the web page.
 5. Your browser draws the page on your screen.
 
+```chart:http-flow
+```
+
