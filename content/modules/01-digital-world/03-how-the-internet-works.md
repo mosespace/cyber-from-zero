@@ -32,3 +32,5 @@ Big files are cut into small pieces called **packets**. Each packet has the send
 
 ## Why this matters for security
 
+Your packets pass through many computers you do not own. If they are not protected, someone along the way could read them. This is why we use **HTTPS** (the padlock in your browser).
+
