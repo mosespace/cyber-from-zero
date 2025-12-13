@@ -16,3 +16,5 @@ The internet is not a cloud. It is millions of real computers connected by real 
 ```chart:http-flow
 ```
 
+## Packets: sending a letter in pieces
+
