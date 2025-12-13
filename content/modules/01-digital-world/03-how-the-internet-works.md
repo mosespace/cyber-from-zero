@@ -36,3 +36,4 @@ Your packets pass through many computers you do not own. If they are not protect
 
 ## Remember
 
+- Names become addresses through DNS.
