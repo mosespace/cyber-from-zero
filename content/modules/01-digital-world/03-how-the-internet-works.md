@@ -24,3 +24,4 @@ Big files are cut into small pieces called **packets**. Each packet has the send
 
 | Term | Simple meaning |
 |------|----------------|
+| IP address | The home address of a computer on a network |
