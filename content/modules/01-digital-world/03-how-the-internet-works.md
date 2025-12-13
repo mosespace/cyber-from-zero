@@ -22,3 +22,4 @@ Big files are cut into small pieces called **packets**. Each packet has the send
 
 ## Key words
 
+| Term | Simple meaning |
