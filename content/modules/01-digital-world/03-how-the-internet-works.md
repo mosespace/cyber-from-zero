@@ -20,3 +20,5 @@ The internet is not a cloud. It is millions of real computers connected by real 
 
 Big files are cut into small pieces called **packets**. Each packet has the sender's address, the receiver's address and a bit of the data. They travel by different routes and are put back together at the end.
 
+## Key words
+
