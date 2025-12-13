@@ -27,3 +27,4 @@ Big files are cut into small pieces called **packets**. Each packet has the send
 | IP address | The home address of a computer on a network |
 | DNS | The internet phone book |
 | Server | A computer that gives things to other computers |
+| Client | The computer that asks (your phone or laptop) |
