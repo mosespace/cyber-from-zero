@@ -28,3 +28,5 @@ Big files are cut into small pieces called **packets**. Each packet has the send
 | DNS | The internet phone book |
 | Server | A computer that gives things to other computers |
 | Client | The computer that asks (your phone or laptop) |
+| ISP | The company that connects you to the internet |
+
