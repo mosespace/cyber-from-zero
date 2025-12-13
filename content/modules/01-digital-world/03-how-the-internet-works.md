@@ -30,3 +30,5 @@ Big files are cut into small pieces called **packets**. Each packet has the send
 | Client | The computer that asks (your phone or laptop) |
 | ISP | The company that connects you to the internet |
 
+## Why this matters for security
+
