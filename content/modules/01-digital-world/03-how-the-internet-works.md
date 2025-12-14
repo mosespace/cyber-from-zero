@@ -38,3 +38,4 @@ Your packets pass through many computers you do not own. If they are not protect
 
 - Names become addresses through DNS.
 - Data travels as packets.
+- Always look for the padlock (HTTPS) on websites.
