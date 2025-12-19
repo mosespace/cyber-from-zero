@@ -41,3 +41,4 @@
    "A cable"
   ],
   "answer": 0,
+  "why": "Big files are cut into packets and put back together at the end."
