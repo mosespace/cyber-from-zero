@@ -47,3 +47,4 @@ On Windows use `tracert example.com`. Each line is one computer your packets pas
 ## Questions to answer
 
 1. What is the IP address of example.com?
+2. How many hops did the traceroute show?
