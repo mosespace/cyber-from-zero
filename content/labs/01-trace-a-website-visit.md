@@ -18,3 +18,5 @@ In Module 1 you learned that opening a website starts with DNS and ends with a w
 nslookup example.com
 ```
 
+Look for the line that says **Address**. That is the IP address of the server. This is step 2 of the lesson, the phone book answering you.
+
