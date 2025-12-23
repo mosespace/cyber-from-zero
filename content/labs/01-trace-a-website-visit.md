@@ -36,3 +36,5 @@ curl -I https://example.com
 
 The first line starts with `HTTP/2 200`. You met **200** in Module 7: it means OK. Find the `content-type` line. It tells the browser what kind of file is coming.
 
+## Step 4: Follow the road
+
