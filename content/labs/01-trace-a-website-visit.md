@@ -42,3 +42,5 @@ The first line starts with `HTTP/2 200`. You met **200** in Module 7: it means O
 traceroute example.com
 ```
 
+On Windows use `tracert example.com`. Each line is one computer your packets pass through on the way.
+
