@@ -26,3 +26,5 @@ Look for the line that says **Address**. That is the IP address of the server. T
 ping -c 4 example.com
 ```
 
+On Windows use `ping -n 4 example.com`. You will see how many milliseconds each packet took. Small numbers mean a fast connection.
+
