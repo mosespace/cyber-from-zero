@@ -9,3 +9,4 @@ In Module 1 you learned that opening a website starts with DNS and ends with a w
 
 ## What you need
 
+- A Mac, Linux or Windows computer
