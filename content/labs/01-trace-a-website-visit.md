@@ -49,3 +49,5 @@ On Windows use `tracert example.com`. Each line is one computer your packets pas
 1. What is the IP address of example.com?
 2. How many hops did the traceroute show?
 3. Which status code did you get?
+4. Which step of the lesson matches each command?
+
