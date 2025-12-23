@@ -38,3 +38,7 @@ The first line starts with `HTTP/2 200`. You met **200** in Module 7: it means O
 
 ## Step 4: Follow the road
 
+```bash
+traceroute example.com
+```
+
