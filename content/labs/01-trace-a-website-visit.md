@@ -44,3 +44,5 @@ traceroute example.com
 
 On Windows use `tracert example.com`. Each line is one computer your packets pass through on the way.
 
+## Questions to answer
+
