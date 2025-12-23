@@ -30,3 +30,7 @@ On Windows use `ping -n 4 example.com`. You will see how many milliseconds each 
 
 ## Step 3: Look at the HTTP headers
 
+```bash
+curl -I https://example.com
+```
+
