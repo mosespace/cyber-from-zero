@@ -22,3 +22,7 @@ Look for the line that says **Address**. That is the IP address of the server. T
 
 ## Step 2: Check the server is alive
 
+```bash
+ping -c 4 example.com
+```
+
