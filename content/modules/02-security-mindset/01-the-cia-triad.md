@@ -10,3 +10,4 @@ Nearly everything in cybersecurity serves three goals. We call them the **CIA tr
 
 ## The three goals
 
+- **Confidentiality**: only the right people can see the data. Example: only you can read your messages.
