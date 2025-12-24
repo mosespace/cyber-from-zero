@@ -51,3 +51,5 @@ On Windows use `tracert example.com`. Each line is one computer your packets pas
 3. Which status code did you get?
 4. Which step of the lesson matches each command?
 
+## Checkpoint
+
