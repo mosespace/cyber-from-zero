@@ -8,3 +8,5 @@ Nearly everything in cybersecurity serves three goals. We call them the **CIA tr
 ```chart:cia-triad
 ```
 
+## The three goals
+
