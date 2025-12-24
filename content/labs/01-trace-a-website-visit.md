@@ -53,3 +53,4 @@ On Windows use `tracert example.com`. Each line is one computer your packets pas
 
 ## Checkpoint
 
+You can now explain, with proof, how your computer finds and talks to a website.
