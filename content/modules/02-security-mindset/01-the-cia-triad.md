@@ -14,3 +14,5 @@ Nearly everything in cybersecurity serves three goals. We call them the **CIA tr
 - **Integrity**: the data is correct and has not been secretly changed. Example: your bank balance does not change by itself.
 - **Availability**: the data and services work when you need them. Example: a shop website that is not crashed on sale day.
 
+## Match the attack to the goal
+
