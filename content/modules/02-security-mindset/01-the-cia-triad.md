@@ -20,3 +20,4 @@ Nearly everything in cybersecurity serves three goals. We call them the **CIA tr
 |--------|---------------------|
 | Someone steals a database of emails | Confidentiality |
 | A criminal edits a bank transfer amount | Integrity |
+| Attackers flood a website until it crashes | Availability |
