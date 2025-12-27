@@ -23,3 +23,5 @@ Nearly everything in cybersecurity serves three goals. We call them the **CIA tr
 | Attackers flood a website until it crashes | Availability |
 | Ransomware locks your files | Availability |
 
+## Try it yourself
+
