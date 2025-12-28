@@ -5,3 +5,4 @@ minutes: 7
 ---
 Imagine your house.
 
+- A **vulnerability** is a weakness: a window that does not lock.
