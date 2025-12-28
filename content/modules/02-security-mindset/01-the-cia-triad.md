@@ -29,3 +29,4 @@ Pick an app you use every day. Write one sentence for each goal: how does the ap
 
 ## Remember
 
+- C: keep secrets secret.
