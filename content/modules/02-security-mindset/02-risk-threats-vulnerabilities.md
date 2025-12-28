@@ -11,3 +11,5 @@ Imagine your house.
 
 ## Risk in one line
 
+> Risk = how likely it is x how bad it would be
+
