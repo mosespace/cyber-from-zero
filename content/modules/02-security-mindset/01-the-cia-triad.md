@@ -25,3 +25,5 @@ Nearly everything in cybersecurity serves three goals. We call them the **CIA tr
 
 ## Try it yourself
 
+Pick an app you use every day. Write one sentence for each goal: how does the app protect it?
+
