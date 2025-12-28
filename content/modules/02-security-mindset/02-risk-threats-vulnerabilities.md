@@ -7,3 +7,5 @@ Imagine your house.
 
 - A **vulnerability** is a weakness: a window that does not lock.
 - A **threat** is something that could use the weakness: a burglar.
+- A **risk** is the chance that the bad thing happens, and how much it would hurt.
+
