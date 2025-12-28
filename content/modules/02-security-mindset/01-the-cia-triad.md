@@ -31,3 +31,4 @@ Pick an app you use every day. Write one sentence for each goal: how does the ap
 
 - C: keep secrets secret.
 - I: keep data correct.
+- A: keep things working.
