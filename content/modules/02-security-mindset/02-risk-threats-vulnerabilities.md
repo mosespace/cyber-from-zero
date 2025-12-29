@@ -13,3 +13,5 @@ Imagine your house.
 
 > Risk = how likely it is x how bad it would be
 
+A small chance of a huge loss can be a bigger risk than a big chance of a tiny loss.
+
