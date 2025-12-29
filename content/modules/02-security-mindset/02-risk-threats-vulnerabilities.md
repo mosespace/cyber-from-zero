@@ -15,3 +15,5 @@ Imagine your house.
 
 A small chance of a huge loss can be a bigger risk than a big chance of a tiny loss.
 
+## What do we do about risk?
+
