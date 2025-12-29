@@ -20,3 +20,4 @@ A small chance of a huge loss can be a bigger risk than a big chance of a tiny l
 | Choice | Meaning | House example |
 |--------|---------|---------------|
 | Reduce | Fix the weakness | Install a lock |
+| Avoid | Stop doing the risky thing | Do not keep cash at home |
