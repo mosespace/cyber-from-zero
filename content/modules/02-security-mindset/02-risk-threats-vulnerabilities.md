@@ -18,3 +18,4 @@ A small chance of a huge loss can be a bigger risk than a big chance of a tiny l
 ## What do we do about risk?
 
 | Choice | Meaning | House example |
+|--------|---------|---------------|
