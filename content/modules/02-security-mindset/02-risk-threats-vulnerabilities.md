@@ -24,3 +24,5 @@ A small chance of a huge loss can be a bigger risk than a big chance of a tiny l
 | Transfer | Let someone else carry it | Buy insurance |
 | Accept | Live with it | Ignore a small scratch on the door |
 
+## Why this matters
+
