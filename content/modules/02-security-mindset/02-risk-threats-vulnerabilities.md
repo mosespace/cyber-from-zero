@@ -31,3 +31,4 @@ You can never make anything 100 percent safe. Security is about picking the best
 ## Remember
 
 - Vulnerability + threat = risk.
+- Fix the biggest risks first.
