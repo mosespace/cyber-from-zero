@@ -5,3 +5,5 @@ minutes: 6
 ---
 The word "hacker" simply means someone who is very good with computers. What they do with that skill is what matters.
 
+## Types of hackers
+
