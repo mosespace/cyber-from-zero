@@ -13,3 +13,4 @@ The word "hacker" simply means someone who is very good with computers. What the
 | Black hat | Steal, cheat or destroy | No |
 | Grey hat | Break rules but without bad intent | Usually not |
 | Script kiddie | Use tools made by others, for fun or fame | No |
+| Hacktivist | Protest for a cause | No |
