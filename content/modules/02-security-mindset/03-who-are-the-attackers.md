@@ -7,3 +7,4 @@ The word "hacker" simply means someone who is very good with computers. What the
 
 ## Types of hackers
 
+| Type | Goal | Legal? |
