@@ -18,3 +18,6 @@ The word "hacker" simply means someone who is very good with computers. What the
 
 ## Why do attackers attack?
 
+```chart:attack-motives
+```
+
