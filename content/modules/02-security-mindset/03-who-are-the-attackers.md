@@ -16,3 +16,5 @@ The word "hacker" simply means someone who is very good with computers. What the
 | Hacktivist | Protest for a cause | No |
 | Nation-state | Spy for a government | Not for the public |
 
+## Why do attackers attack?
+
