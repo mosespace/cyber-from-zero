@@ -21,3 +21,5 @@ The word "hacker" simply means someone who is very good with computers. What the
 ```chart:attack-motives
 ```
 
+Money is by far the biggest reason. That means ordinary people and small shops are targets too, not only banks.
+
