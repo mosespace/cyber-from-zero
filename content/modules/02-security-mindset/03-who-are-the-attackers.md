@@ -25,3 +25,5 @@ Money is by far the biggest reason. That means ordinary people and small shops a
 
 ## The golden rule
 
+Never test a system you do not own or do not have **written permission** to test. Ethical hackers always get permission first.
+
