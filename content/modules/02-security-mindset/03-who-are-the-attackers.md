@@ -29,3 +29,4 @@ Never test a system you do not own or do not have **written permission** to test
 
 ## Remember
 
+- Skill is neutral. Permission makes it ethical.
