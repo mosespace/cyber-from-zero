@@ -9,3 +9,5 @@ Companies keep a **risk register**: a table of the things that could go wrong. Y
 
 ## Step 1: List what matters
 
+Write down your five most valuable digital things. For example:
+
