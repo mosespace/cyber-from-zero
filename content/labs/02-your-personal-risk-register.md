@@ -11,3 +11,4 @@ Companies keep a **risk register**: a table of the things that could go wrong. Y
 
 Write down your five most valuable digital things. For example:
 
+1. Your email account
