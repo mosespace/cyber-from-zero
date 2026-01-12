@@ -17,3 +17,5 @@ Write down your five most valuable digital things. For example:
 4. Your bank app
 5. Your school or work files
 
+## Step 2: Name a threat for each
+
