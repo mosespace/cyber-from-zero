@@ -15,3 +15,5 @@ Write down your five most valuable digital things. For example:
 2. Your phone
 3. Your photos
 4. Your bank app
+5. Your school or work files
+
