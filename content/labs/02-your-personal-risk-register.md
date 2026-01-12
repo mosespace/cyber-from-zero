@@ -19,3 +19,5 @@ Write down your five most valuable digital things. For example:
 
 ## Step 2: Name a threat for each
 
+Think about what could go wrong. A stolen phone? A phishing email? A broken hard drive?
+
