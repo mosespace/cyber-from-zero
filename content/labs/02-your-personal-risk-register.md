@@ -21,3 +21,5 @@ Write down your five most valuable digital things. For example:
 
 Think about what could go wrong. A stolen phone? A phishing email? A broken hard drive?
 
+## Step 3: Score each one
+
