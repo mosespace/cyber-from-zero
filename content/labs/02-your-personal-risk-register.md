@@ -28,3 +28,4 @@ Give **likelihood** and **impact** a score from 1 (low) to 5 (high). Multiply th
 | Asset | Threat | Likelihood | Impact | Risk |
 |-------|--------|-----------:|-------:|-----:|
 | Email | Phishing | 4 | 5 | 20 |
+| Photos | Phone lost | 3 | 4 | 12 |
