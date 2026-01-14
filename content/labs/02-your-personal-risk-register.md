@@ -35,3 +35,5 @@ Give **likelihood** and **impact** a score from 1 (low) to 5 (high). Multiply th
 
 For each row choose one: **reduce**, **avoid**, **transfer** or **accept**. Write the exact action. For example: "Turn on MFA for my email."
 
+## Step 5: Do the top one today
+
