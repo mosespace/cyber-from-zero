@@ -31,3 +31,5 @@ Give **likelihood** and **impact** a score from 1 (low) to 5 (high). Multiply th
 | Photos | Phone lost | 3 | 4 | 12 |
 | Bank app | Weak PIN | 2 | 5 | 10 |
 
+## Step 4: Choose a response
+
