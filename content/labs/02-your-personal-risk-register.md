@@ -26,3 +26,4 @@ Think about what could go wrong. A stolen phone? A phishing email? A broken hard
 Give **likelihood** and **impact** a score from 1 (low) to 5 (high). Multiply them.
 
 | Asset | Threat | Likelihood | Impact | Risk |
+|-------|--------|-----------:|-------:|-----:|
