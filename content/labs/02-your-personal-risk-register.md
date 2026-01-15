@@ -37,3 +37,5 @@ For each row choose one: **reduce**, **avoid**, **transfer** or **accept**. Writ
 
 ## Step 5: Do the top one today
 
+Pick the row with the highest score and finish the action before bedtime.
+
