@@ -39,3 +39,5 @@ For each row choose one: **reduce**, **avoid**, **transfer** or **accept**. Writ
 
 Pick the row with the highest score and finish the action before bedtime.
 
+## Checkpoint
+
