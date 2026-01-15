@@ -41,3 +41,4 @@ Pick the row with the highest score and finish the action before bedtime.
 
 ## Checkpoint
 
+You used threat, vulnerability, likelihood and impact on something real. That is exactly how professionals think.
