@@ -8,3 +8,5 @@ Think of a big apartment building.
 - The **IP address** is the building's street address.
 - The **port** is the apartment door number.
 
+Data needs both to reach the right program.
+
