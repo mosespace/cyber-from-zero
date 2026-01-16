@@ -10,3 +10,5 @@ Think of a big apartment building.
 
 Data needs both to reach the right program.
 
+## IP address types
+
