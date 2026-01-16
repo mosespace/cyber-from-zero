@@ -14,3 +14,4 @@ Data needs both to reach the right program.
 
 | Type | Example | Notes |
 |------|---------|-------|
+| IPv4 | `192.168.1.10` | Four numbers from 0 to 255 |
