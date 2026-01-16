@@ -5,3 +5,4 @@ minutes: 7
 ---
 Think of a big apartment building.
 
+- The **IP address** is the building's street address.
