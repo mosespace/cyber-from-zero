@@ -12,3 +12,4 @@ Data needs both to reach the right program.
 
 ## IP address types
 
+| Type | Example | Notes |
