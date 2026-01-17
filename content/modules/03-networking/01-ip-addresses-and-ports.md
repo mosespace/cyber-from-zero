@@ -21,3 +21,4 @@ Data needs both to reach the right program.
 
 ## Common ports
 
+| Port | Used for |
