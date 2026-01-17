@@ -17,3 +17,5 @@ Data needs both to reach the right program.
 | IPv4 | `192.168.1.10` | Four numbers from 0 to 255 |
 | IPv6 | `2001:db8::1` | Much longer, made for the future |
 | Private | `192.168.x.x` | Used inside homes and offices |
+| Public | `93.184.216.34` | Visible on the internet |
+
