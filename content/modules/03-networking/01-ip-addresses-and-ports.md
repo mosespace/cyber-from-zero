@@ -19,3 +19,5 @@ Data needs both to reach the right program.
 | Private | `192.168.x.x` | Used inside homes and offices |
 | Public | `93.184.216.34` | Visible on the internet |
 
+## Common ports
+
