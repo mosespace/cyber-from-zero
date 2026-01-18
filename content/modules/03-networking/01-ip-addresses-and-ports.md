@@ -26,3 +26,4 @@ Data needs both to reach the right program.
 | 80 | Normal websites (HTTP) |
 | 443 | Secure websites (HTTPS) |
 | 22 | Secure remote login (SSH) |
+| 53 | DNS |
