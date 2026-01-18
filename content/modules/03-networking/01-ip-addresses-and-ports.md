@@ -24,3 +24,4 @@ Data needs both to reach the right program.
 | Port | Used for |
 |------|----------|
 | 80 | Normal websites (HTTP) |
+| 443 | Secure websites (HTTPS) |
