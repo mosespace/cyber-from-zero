@@ -27,3 +27,5 @@ Data needs both to reach the right program.
 | 443 | Secure websites (HTTPS) |
 | 22 | Secure remote login (SSH) |
 | 53 | DNS |
+| 25 | Sending email |
+
