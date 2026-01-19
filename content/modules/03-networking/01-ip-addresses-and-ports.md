@@ -31,3 +31,5 @@ Data needs both to reach the right program.
 
 ## Why this matters for security
 
+An **open port** means a program is listening. Every open port is a possible door for an attacker, so we close the ones we do not need.
+
