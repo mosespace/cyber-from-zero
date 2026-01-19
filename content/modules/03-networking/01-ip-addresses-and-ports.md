@@ -33,3 +33,5 @@ Data needs both to reach the right program.
 
 An **open port** means a program is listening. Every open port is a possible door for an attacker, so we close the ones we do not need.
 
+## Remember
+
