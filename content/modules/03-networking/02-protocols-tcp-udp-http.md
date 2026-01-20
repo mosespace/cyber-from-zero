@@ -5,3 +5,5 @@ minutes: 7
 ---
 A **protocol** is a set of rules for talking, like saying "hello" before a phone call.
 
+## TCP vs UDP
+
