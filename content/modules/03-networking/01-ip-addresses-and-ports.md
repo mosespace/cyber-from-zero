@@ -36,3 +36,4 @@ An **open port** means a program is listening. Every open port is a possible doo
 ## Remember
 
 - IP finds the computer. Port finds the program.
+- Fewer open ports means a smaller attack surface.
