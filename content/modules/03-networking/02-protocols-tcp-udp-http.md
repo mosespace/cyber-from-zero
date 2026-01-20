@@ -10,3 +10,4 @@ A **protocol** is a set of rules for talking, like saying "hello" before a phone
 | | TCP | UDP |
 |--|-----|-----|
 | Style | Careful phone call | Shouting across a room |
+| Checks data arrived? | Yes | No |
