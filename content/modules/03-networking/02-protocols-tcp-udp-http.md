@@ -7,3 +7,4 @@ A **protocol** is a set of rules for talking, like saying "hello" before a phone
 
 ## TCP vs UDP
 
+| | TCP | UDP |
