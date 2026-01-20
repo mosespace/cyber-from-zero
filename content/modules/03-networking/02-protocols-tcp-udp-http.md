@@ -11,3 +11,4 @@ A **protocol** is a set of rules for talking, like saying "hello" before a phone
 |--|-----|-----|
 | Style | Careful phone call | Shouting across a room |
 | Checks data arrived? | Yes | No |
+| Speed | Slower | Faster |
