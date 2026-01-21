@@ -18,3 +18,5 @@ A **protocol** is a set of rules for talking, like saying "hello" before a phone
 
 1. Client: "Can we talk?" (SYN)
 2. Server: "Yes, can you hear me?" (SYN-ACK)
+3. Client: "Yes, I can." (ACK)
+
