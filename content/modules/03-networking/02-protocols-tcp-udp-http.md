@@ -22,3 +22,5 @@ A **protocol** is a set of rules for talking, like saying "hello" before a phone
 
 Then the real data flows. Attackers sometimes send thousands of step 1 messages and never finish. That is called a **SYN flood**.
 
+## HTTP and HTTPS
+
