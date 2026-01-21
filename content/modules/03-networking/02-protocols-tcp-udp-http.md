@@ -14,3 +14,5 @@ A **protocol** is a set of rules for talking, like saying "hello" before a phone
 | Speed | Slower | Faster |
 | Used for | Websites, email, files | Video calls, games |
 
+## The TCP three-way handshake
+
