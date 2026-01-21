@@ -16,3 +16,4 @@ A **protocol** is a set of rules for talking, like saying "hello" before a phone
 
 ## The TCP three-way handshake
 
+1. Client: "Can we talk?" (SYN)
