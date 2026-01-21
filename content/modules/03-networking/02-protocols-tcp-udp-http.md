@@ -20,3 +20,5 @@ A **protocol** is a set of rules for talking, like saying "hello" before a phone
 2. Server: "Yes, can you hear me?" (SYN-ACK)
 3. Client: "Yes, I can." (ACK)
 
+Then the real data flows. Attackers sometimes send thousands of step 1 messages and never finish. That is called a **SYN flood**.
+
