@@ -25,3 +25,5 @@ Then the real data flows. Attackers sometimes send thousands of step 1 messages 
 ## HTTP and HTTPS
 
 - **HTTP** sends web pages as plain text. Anyone on the path can read them.
+- **HTTPS** is HTTP wrapped in encryption (TLS). Only you and the website can read it.
+
