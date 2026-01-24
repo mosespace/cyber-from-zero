@@ -10,3 +10,5 @@ The OSI model splits networking into **seven layers**. Each layer has one job an
 
 ## A trick to remember the order
 
+From layer 7 down to 1: **A**ll **P**eople **S**eem **T**o **N**eed **D**ata **P**rocessing.
+
