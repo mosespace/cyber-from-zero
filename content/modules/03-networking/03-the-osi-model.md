@@ -8,3 +8,5 @@ The OSI model splits networking into **seven layers**. Each layer has one job an
 ```chart:osi-layers
 ```
 
+## A trick to remember the order
+
