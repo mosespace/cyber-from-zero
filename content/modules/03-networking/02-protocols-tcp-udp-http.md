@@ -29,3 +29,4 @@ Then the real data flows. Attackers sometimes send thousands of step 1 messages 
 
 ## Remember
 
+- TCP is reliable, UDP is quick.
