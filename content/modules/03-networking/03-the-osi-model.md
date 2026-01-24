@@ -5,3 +5,6 @@ minutes: 8
 ---
 The OSI model splits networking into **seven layers**. Each layer has one job and talks to the layers above and below it.
 
+```chart:osi-layers
+```
+
