@@ -16,3 +16,4 @@ From layer 7 down to 1: **A**ll **P**eople **S**eem **T**o **N**eed **D**ata **P
 
 | Layer | Example attack |
 |-------|----------------|
+| 7 Application | SQL injection, phishing links |
