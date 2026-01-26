@@ -20,3 +20,5 @@ From layer 7 down to 1: **A**ll **P**eople **S**eem **T**o **N**eed **D**ata **P
 | 4 Transport | SYN flood |
 | 3 Network | IP spoofing |
 | 2 Data link | Fake Wi-Fi, ARP spoofing |
+| 1 Physical | Cutting a cable, stealing a laptop |
+
