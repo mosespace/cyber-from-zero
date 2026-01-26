@@ -29,3 +29,4 @@ When something breaks or is attacked, defenders ask: "Which layer is this?" That
 ## Remember
 
 - Seven layers, each with one job.
+- Defend every layer. Attackers pick the weakest one.
