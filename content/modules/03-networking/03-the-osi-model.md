@@ -26,3 +26,5 @@ From layer 7 down to 1: **A**ll **P**eople **S**eem **T**o **N**eed **D**ata **P
 
 When something breaks or is attacked, defenders ask: "Which layer is this?" That question quickly narrows the problem.
 
+## Remember
+
