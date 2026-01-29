@@ -41,3 +41,4 @@
    "A firewall rule"
   ],
   "answer": 1,
+  "why": "Every open port is a possible door, so close the ones you do not need."
