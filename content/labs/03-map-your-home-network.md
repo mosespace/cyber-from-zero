@@ -5,3 +5,5 @@ minutes: 25
 module: networking
 level: Beginner
 ---
+You will draw a map of your own network. **Only do this on a network you own or have permission to use.**
+
