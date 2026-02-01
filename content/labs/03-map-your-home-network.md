@@ -9,3 +9,5 @@ You will draw a map of your own network. **Only do this on a network you own or 
 
 ## Step 1: Find your own address
 
+On Mac or Linux:
+
