@@ -23,3 +23,5 @@ ipconfig
 
 Look for an address like `192.168.1.23`. That is your private IP.
 
+## Step 2: See who else is nearby
+
