@@ -21,3 +21,5 @@ On Windows:
 ipconfig
 ```
 
+Look for an address like `192.168.1.23`. That is your private IP.
+
