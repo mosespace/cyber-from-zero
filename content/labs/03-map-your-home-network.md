@@ -11,3 +11,7 @@ You will draw a map of your own network. **Only do this on a network you own or 
 
 On Mac or Linux:
 
+```bash
+ifconfig | grep "inet "
+```
+
