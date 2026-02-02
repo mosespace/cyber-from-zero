@@ -17,3 +17,7 @@ ifconfig | grep "inet "
 
 On Windows:
 
+```bash
+ipconfig
+```
+
