@@ -15,3 +15,5 @@ On Mac or Linux:
 ifconfig | grep "inet "
 ```
 
+On Windows:
+
