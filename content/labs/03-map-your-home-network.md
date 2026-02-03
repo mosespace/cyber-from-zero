@@ -39,3 +39,5 @@ On Mac or Linux:
 lsof -i -P | grep LISTEN
 ```
 
+On Windows:
+
