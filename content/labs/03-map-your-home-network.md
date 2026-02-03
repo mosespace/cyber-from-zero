@@ -29,3 +29,5 @@ Look for an address like `192.168.1.23`. That is your private IP.
 arp -a
 ```
 
+This lists devices your computer has talked to recently, with their IP and hardware (MAC) addresses.
+
