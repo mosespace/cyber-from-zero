@@ -33,3 +33,5 @@ This lists devices your computer has talked to recently, with their IP and hardw
 
 ## Step 3: See which doors are open on your own computer
 
+On Mac or Linux:
+
