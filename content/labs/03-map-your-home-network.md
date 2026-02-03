@@ -31,3 +31,5 @@ arp -a
 
 This lists devices your computer has talked to recently, with their IP and hardware (MAC) addresses.
 
+## Step 3: See which doors are open on your own computer
+
