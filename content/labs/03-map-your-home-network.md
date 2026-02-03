@@ -35,3 +35,7 @@ This lists devices your computer has talked to recently, with their IP and hardw
 
 On Mac or Linux:
 
+```bash
+lsof -i -P | grep LISTEN
+```
+
