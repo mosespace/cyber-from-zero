@@ -41,3 +41,7 @@ lsof -i -P | grep LISTEN
 
 On Windows:
 
+```bash
+netstat -an | findstr LISTENING
+```
+
