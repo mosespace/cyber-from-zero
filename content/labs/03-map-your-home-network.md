@@ -47,3 +47,5 @@ netstat -an | findstr LISTENING
 
 Every line is a program waiting for connections. Note the port numbers. Do you recognise them from Module 3?
 
+## Step 4: Draw the map
+
