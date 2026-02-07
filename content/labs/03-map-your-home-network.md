@@ -51,3 +51,5 @@ Every line is a program waiting for connections. Note the port numbers. Do you r
 
 On paper, draw your router in the middle and each device around it. Next to each one write its IP address and what it is.
 
+## Questions
+
