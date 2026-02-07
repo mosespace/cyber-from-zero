@@ -54,3 +54,4 @@ On paper, draw your router in the middle and each device around it. Next to each
 ## Questions
 
 1. How many devices are on your network?
+2. Are there any devices you do not recognise?
