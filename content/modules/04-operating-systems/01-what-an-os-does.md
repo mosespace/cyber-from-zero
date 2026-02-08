@@ -24,3 +24,4 @@ If an attacker gets admin or root, the game is almost over. So we follow the **p
 
 ## Remember
 
+- The OS controls everything on the computer.
