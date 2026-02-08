@@ -11,3 +11,5 @@ The **operating system (OS)** sits between the apps you use and the hardware. Ex
 - Manage memory so apps do not trample each other.
 - Store files in folders.
 - Control **who** (users) can do **what** (permissions).
+- Talk to devices: printers, cameras, keyboards.
+
