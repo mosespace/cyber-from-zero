@@ -8,3 +8,4 @@ The **operating system (OS)** sits between the apps you use and the hardware. Ex
 ## Its main jobs
 
 - Run programs and share the CPU between them.
+- Manage memory so apps do not trample each other.
