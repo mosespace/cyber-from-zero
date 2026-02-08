@@ -20,3 +20,5 @@ The **operating system (OS)** sits between the apps you use and the hardware. Ex
 | Normal user | Can use apps and their own files |
 | Administrator / root | Can change anything on the machine |
 
+If an attacker gets admin or root, the game is almost over. So we follow the **principle of least privilege**: give every person and program only the power they need.
+
