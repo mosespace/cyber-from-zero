@@ -59,3 +59,4 @@ On paper, draw your router in the middle and each device around it. Next to each
 
 ## Checkpoint
 
+If you find a device you do not recognise, change your Wi-Fi password and turn on WPA3 or WPA2 in your router settings.
