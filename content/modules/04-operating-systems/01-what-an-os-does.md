@@ -13,3 +13,5 @@ The **operating system (OS)** sits between the apps you use and the hardware. Ex
 - Control **who** (users) can do **what** (permissions).
 - Talk to devices: printers, cameras, keyboards.
 
+## Users and the all-powerful admin
+
