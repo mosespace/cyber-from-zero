@@ -17,3 +17,4 @@ The **operating system (OS)** sits between the apps you use and the hardware. Ex
 
 | Account | Power |
 |---------|-------|
+| Normal user | Can use apps and their own files |
