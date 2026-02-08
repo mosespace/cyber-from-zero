@@ -5,3 +5,5 @@ minutes: 6
 ---
 The **operating system (OS)** sits between the apps you use and the hardware. Examples: Windows, macOS, Linux, Android, iOS.
 
+## Its main jobs
+
