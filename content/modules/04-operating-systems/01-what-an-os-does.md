@@ -22,3 +22,5 @@ The **operating system (OS)** sits between the apps you use and the hardware. Ex
 
 If an attacker gets admin or root, the game is almost over. So we follow the **principle of least privilege**: give every person and program only the power they need.
 
+## Remember
+
