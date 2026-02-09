@@ -9,3 +9,4 @@ Most servers in the world run Linux. You control it by typing commands into the 
 
 | Command | What it does |
 |---------|--------------|
+| `pwd` | Shows which folder you are in |
