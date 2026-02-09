@@ -8,3 +8,4 @@ Most servers in the world run Linux. You control it by typing commands into the 
 ## Ten commands to start
 
 | Command | What it does |
+|---------|--------------|
