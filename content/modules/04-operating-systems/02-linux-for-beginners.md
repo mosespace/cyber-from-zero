@@ -14,3 +14,4 @@ Most servers in the world run Linux. You control it by typing commands into the 
 | `cd folder` | Moves into a folder |
 | `mkdir name` | Makes a new folder |
 | `touch file` | Makes an empty file |
+| `cat file` | Shows what is inside a file |
