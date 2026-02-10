@@ -17,3 +17,4 @@ Most servers in the world run Linux. You control it by typing commands into the 
 | `cat file` | Shows what is inside a file |
 | `cp a b` | Copies a to b |
 | `mv a b` | Moves or renames |
+| `rm file` | Deletes a file (no recycle bin!) |
