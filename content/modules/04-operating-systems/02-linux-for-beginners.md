@@ -18,3 +18,5 @@ Most servers in the world run Linux. You control it by typing commands into the 
 | `cp a b` | Copies a to b |
 | `mv a b` | Moves or renames |
 | `rm file` | Deletes a file (no recycle bin!) |
+| `man command` | Shows the manual for a command |
+
