@@ -31,3 +31,5 @@ ls
 
 ## Be careful
 
+Commands do exactly what you type. Never copy a command from the internet if you do not understand it, especially anything with `sudo` (run as admin) or `rm -rf`.
+
