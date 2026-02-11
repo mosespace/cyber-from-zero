@@ -20,3 +20,5 @@ Most servers in the world run Linux. You control it by typing commands into the 
 | `rm file` | Deletes a file (no recycle bin!) |
 | `man command` | Shows the manual for a command |
 
+## Try it yourself
+
