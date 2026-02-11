@@ -22,3 +22,10 @@ Most servers in the world run Linux. You control it by typing commands into the 
 
 ## Try it yourself
 
+```bash
+mkdir practice
+cd practice
+touch hello.txt
+ls
+```
+
