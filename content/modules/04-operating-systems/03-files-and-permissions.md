@@ -7,3 +7,4 @@ Every file on Linux has an owner and three kinds of permission.
 
 | Letter | Permission | Meaning |
 |--------|------------|---------|
+| r | Read | Look inside the file |
