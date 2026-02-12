@@ -19,3 +19,5 @@ Run `ls -l` and you might see `-rwxr-xr--`.
 - Next `r-x`: the **group** can read and run.
 - Last `r--`: **everyone else** can only read.
 
+## Numbers instead of letters
+
