@@ -9,3 +9,5 @@ Every file on Linux has an owner and three kinds of permission.
 |--------|------------|---------|
 | r | Read | Look inside the file |
 | w | Write | Change the file |
+| x | Execute | Run it as a program |
+
