@@ -11,3 +11,5 @@ Every file on Linux has an owner and three kinds of permission.
 | w | Write | Change the file |
 | x | Execute | Run it as a program |
 
+## Reading the permission string
+
