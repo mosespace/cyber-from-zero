@@ -23,3 +23,7 @@ Run `ls -l` and you might see `-rwxr-xr--`.
 
 r = 4, w = 2, x = 1. Add them up. So `rwx` = 7, `r-x` = 5, `r--` = 4, and the string above is **754**.
 
+```bash
+chmod 754 script.sh
+```
+
