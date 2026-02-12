@@ -6,3 +6,4 @@ minutes: 7
 Every file on Linux has an owner and three kinds of permission.
 
 | Letter | Permission | Meaning |
+|--------|------------|---------|
