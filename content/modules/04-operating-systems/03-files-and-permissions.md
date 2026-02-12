@@ -27,3 +27,5 @@ r = 4, w = 2, x = 1. Add them up. So `rwx` = 7, `r-x` = 5, `r--` = 4, and the st
 chmod 754 script.sh
 ```
 
+## Why this matters
+
