@@ -17,3 +17,5 @@ Run `ls -l` and you might see `-rwxr-xr--`.
 
 - First `rwx`: the **owner** can read, write, run.
 - Next `r-x`: the **group** can read and run.
+- Last `r--`: **everyone else** can only read.
+
