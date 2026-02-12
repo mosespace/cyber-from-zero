@@ -35,3 +35,4 @@ Commands do exactly what you type. Never copy a command from the internet if you
 
 ## Remember
 
+- The terminal is a conversation with the OS.
