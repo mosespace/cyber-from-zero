@@ -31,3 +31,5 @@ chmod 754 script.sh
 
 A password file that everyone can read is a disaster. Wrong permissions are one of the most common mistakes that attackers use.
 
+## Remember
+
