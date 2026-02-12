@@ -15,3 +15,4 @@ Every file on Linux has an owner and three kinds of permission.
 
 Run `ls -l` and you might see `-rwxr-xr--`.
 
+- First `rwx`: the **owner** can read, write, run.
