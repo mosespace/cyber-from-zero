@@ -33,3 +33,4 @@ A password file that everyone can read is a disaster. Wrong permissions are one 
 
 ## Remember
 
+- Give the fewest permissions that still work.
