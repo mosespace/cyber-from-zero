@@ -13,3 +13,5 @@ Every file on Linux has an owner and three kinds of permission.
 
 ## Reading the permission string
 
+Run `ls -l` and you might see `-rwxr-xr--`.
+
