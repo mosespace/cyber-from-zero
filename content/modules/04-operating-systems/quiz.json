@@ -3,3 +3,4 @@
   "q": "Which command lists files?",
   "options": [
    "pwd",
+   "ls",
