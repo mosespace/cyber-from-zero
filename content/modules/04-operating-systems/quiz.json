@@ -35,3 +35,4 @@
  {
   "q": "Which command shows the folder you are in?",
   "options": [
+   "pwd",
