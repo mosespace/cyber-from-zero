@@ -41,3 +41,4 @@
    "mv"
   ],
   "answer": 0,
+  "why": "pwd means print working directory."
