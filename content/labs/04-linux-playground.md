@@ -32,3 +32,5 @@ ls -l scripts/hello.sh
 
 You will see something like `-rw-r--r--`. Nobody can run it yet because there is no `x`.
 
+## Step 4: Make it runnable
+
