@@ -47,3 +47,4 @@
   "q": "What does chmod 754 give 'everyone else'?",
   "options": [
    "Read only",
+   "Read and write",
