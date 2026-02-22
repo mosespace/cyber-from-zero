@@ -9,3 +9,11 @@ You will practise the commands from Module 4 in a folder that is safe to break. 
 
 ## Step 1: Build a practice folder
 
+```bash
+mkdir ~/linux-lab
+cd ~/linux-lab
+mkdir notes scripts secrets
+touch notes/todo.txt scripts/hello.sh secrets/key.txt
+ls -R
+```
+
