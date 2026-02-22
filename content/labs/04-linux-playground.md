@@ -19,3 +19,8 @@ ls -R
 
 ## Step 2: Put something in a file
 
+```bash
+echo "echo Hello from my first script" > scripts/hello.sh
+cat scripts/hello.sh
+```
+
