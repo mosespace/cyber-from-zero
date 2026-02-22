@@ -26,3 +26,7 @@ cat scripts/hello.sh
 
 ## Step 3: Check permissions
 
+```bash
+ls -l scripts/hello.sh
+```
+
