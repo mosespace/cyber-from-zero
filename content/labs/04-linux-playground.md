@@ -34,3 +34,8 @@ You will see something like `-rw-r--r--`. Nobody can run it yet because there is
 
 ## Step 4: Make it runnable
 
+```bash
+chmod 755 scripts/hello.sh
+./scripts/hello.sh
+```
+
