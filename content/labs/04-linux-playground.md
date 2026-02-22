@@ -17,3 +17,5 @@ touch notes/todo.txt scripts/hello.sh secrets/key.txt
 ls -R
 ```
 
+## Step 2: Put something in a file
+
