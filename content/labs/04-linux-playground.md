@@ -24,3 +24,5 @@ echo "echo Hello from my first script" > scripts/hello.sh
 cat scripts/hello.sh
 ```
 
+## Step 3: Check permissions
+
