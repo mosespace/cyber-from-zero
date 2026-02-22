@@ -30,3 +30,5 @@ cat scripts/hello.sh
 ls -l scripts/hello.sh
 ```
 
+You will see something like `-rw-r--r--`. Nobody can run it yet because there is no `x`.
+
