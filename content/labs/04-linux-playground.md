@@ -50,3 +50,5 @@ ls -l secrets
 
 Only you can now read the folder and the file. That is least privilege in action.
 
+## Step 6: Clean up
+
