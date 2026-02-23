@@ -19,3 +19,5 @@ A password is only strong if guessing it takes too long. The graph shows how lon
 ```widget:password-meter
 ```
 
+## Good habits
+
