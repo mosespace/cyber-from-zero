@@ -39,3 +39,5 @@ chmod 755 scripts/hello.sh
 ./scripts/hello.sh
 ```
 
+## Step 5: Lock down the secrets
+
