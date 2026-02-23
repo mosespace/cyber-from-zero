@@ -8,3 +8,5 @@ A password is only strong if guessing it takes too long. The graph shows how lon
 ```chart:password-time
 ```
 
+## What the graph teaches
+
