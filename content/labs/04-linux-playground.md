@@ -41,3 +41,10 @@ chmod 755 scripts/hello.sh
 
 ## Step 5: Lock down the secrets
 
+```bash
+chmod 700 secrets
+chmod 600 secrets/key.txt
+ls -ld secrets
+ls -l secrets
+```
+
