@@ -48,3 +48,5 @@ ls -ld secrets
 ls -l secrets
 ```
 
+Only you can now read the folder and the file. That is least privilege in action.
+
