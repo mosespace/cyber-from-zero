@@ -12,3 +12,5 @@ A password is only strong if guessing it takes too long. The graph shows how lon
 
 - Each extra character multiplies the work.
 - Using capitals, numbers and symbols helps, but **length helps more**.
+- A **passphrase** of four random words is easy to remember and very hard to crack.
+
