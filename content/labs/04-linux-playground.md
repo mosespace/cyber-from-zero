@@ -59,3 +59,4 @@ rm -r linux-lab
 
 ## Questions
 
+1. What number gives the owner everything and everyone else nothing?
