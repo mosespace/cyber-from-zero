@@ -52,3 +52,8 @@ Only you can now read the folder and the file. That is least privilege in action
 
 ## Step 6: Clean up
 
+```bash
+cd ~
+rm -r linux-lab
+```
+
