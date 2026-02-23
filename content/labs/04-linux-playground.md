@@ -61,3 +61,4 @@ rm -r linux-lab
 
 1. What number gives the owner everything and everyone else nothing?
 2. Why is `chmod 777` a bad idea?
+3. What does `rm -r` do, and why should you be careful with it?
