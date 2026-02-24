@@ -28,3 +28,4 @@ A password is only strong if guessing it takes too long. The graph shows how lon
 
 ## Remember
 
+- Long and unique beats short and clever.
