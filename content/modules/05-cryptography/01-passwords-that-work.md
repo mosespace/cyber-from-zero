@@ -22,3 +22,4 @@ A password is only strong if guessing it takes too long. The graph shows how lon
 ## Good habits
 
 1. Use a different password for every account.
+2. Use a **password manager** so you only remember one strong passphrase.
