@@ -26,3 +26,5 @@ A password is only strong if guessing it takes too long. The graph shows how lon
 3. Turn on **multi-factor authentication (MFA)** everywhere.
 4. Never share passwords, even with people you trust.
 
+## Remember
+
