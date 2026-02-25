@@ -9,3 +9,4 @@ People mix these up, but they do different jobs.
 |--|---------|------------|
 | Direction | One way only | Two ways (lock and unlock) |
 | Needs a key? | No | Yes |
+| Can you get the original back? | No | Yes, with the key |
