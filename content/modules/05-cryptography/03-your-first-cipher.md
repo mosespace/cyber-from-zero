@@ -7,3 +7,6 @@ Julius Caesar sent secret notes by moving each letter a few places along the alp
 
 ## Play with it
 
+```widget:caesar
+```
+
