@@ -30,3 +30,4 @@ Websites should store the **hash** of your password, not the password. Even if t
 
 ## Remember
 
+- Hash passwords. Encrypt messages.
