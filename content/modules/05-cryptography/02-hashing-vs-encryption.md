@@ -25,3 +25,4 @@ Websites should store the **hash** of your password, not the password. Even if t
 
 ## Encryption: a lock with a key
 
+- **Symmetric**: one key locks and unlocks (fast, e.g. AES).
