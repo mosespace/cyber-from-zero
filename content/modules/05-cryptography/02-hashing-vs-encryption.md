@@ -6,3 +6,4 @@ minutes: 7
 People mix these up, but they do different jobs.
 
 | | Hashing | Encryption |
+|--|---------|------------|
