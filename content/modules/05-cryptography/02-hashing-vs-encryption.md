@@ -14,3 +14,5 @@ People mix these up, but they do different jobs.
 
 ## Hashing: a fingerprint
 
+A hash turns any data into a short fixed code. Change one letter and the whole code changes.
+
