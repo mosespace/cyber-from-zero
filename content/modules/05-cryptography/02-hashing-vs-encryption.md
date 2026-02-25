@@ -28,3 +28,5 @@ Websites should store the **hash** of your password, not the password. Even if t
 - **Symmetric**: one key locks and unlocks (fast, e.g. AES).
 - **Asymmetric**: a public key locks, a private key unlocks (e.g. RSA). This is how strangers can send you secrets safely.
 
+## Remember
+
