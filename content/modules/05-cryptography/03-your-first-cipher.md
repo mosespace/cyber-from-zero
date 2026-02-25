@@ -18,3 +18,5 @@ There are only 25 possible shifts. A computer can try them all in a blink. This 
 
 A good code stays safe even if the attacker knows **how** it works. Only the key must be secret. This idea is called **Kerckhoffs's principle**.
 
+## Remember
+
