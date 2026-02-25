@@ -23,3 +23,5 @@ Hello  ->  185f8db32271fe25...
 
 Websites should store the **hash** of your password, not the password. Even if the database leaks, attackers cannot just read your password. Good sites also add a random **salt** so identical passwords get different hashes.
 
+## Encryption: a lock with a key
+
