@@ -12,3 +12,5 @@ People mix these up, but they do different jobs.
 | Can you get the original back? | No | Yes, with the key |
 | Used for | Storing passwords, checking files | Private messages, HTTPS |
 
+## Hashing: a fingerprint
+
