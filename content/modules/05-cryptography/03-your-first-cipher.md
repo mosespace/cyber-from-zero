@@ -21,3 +21,4 @@ A good code stays safe even if the attacker knows **how** it works. Only the key
 ## Remember
 
 - Old ciphers are fun but not safe.
+- Real security comes from strong, well-tested algorithms and secret keys.
