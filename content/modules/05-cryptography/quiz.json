@@ -47,3 +47,4 @@
   "q": "Which key lets strangers send you a secret safely?",
   "options": [
    "Your private key",
+   "Your public key",
