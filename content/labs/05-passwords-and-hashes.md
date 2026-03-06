@@ -11,3 +11,8 @@ This lab makes your real accounts safer and shows you how hashing works.
 
 On Mac:
 
+```bash
+echo -n "hello" | shasum -a 256
+echo -n "Hello" | shasum -a 256
+```
+
