@@ -7,3 +7,5 @@ level: Beginner
 ---
 This lab makes your real accounts safer and shows you how hashing works.
 
+## Part A: Hash something
+
