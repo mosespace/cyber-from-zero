@@ -20,3 +20,10 @@ On Linux use `sha256sum` instead of `shasum -a 256`. Compare the two outputs. On
 
 ## Part B: Hash a file
 
+```bash
+echo "my secret plan" > plan.txt
+shasum -a 256 plan.txt
+echo "my secret plan!" > plan.txt
+shasum -a 256 plan.txt
+```
+
