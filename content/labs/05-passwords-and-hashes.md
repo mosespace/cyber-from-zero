@@ -18,3 +18,5 @@ echo -n "Hello" | shasum -a 256
 
 On Linux use `sha256sum` instead of `shasum -a 256`. Compare the two outputs. One capital letter changed **every** character. That is the avalanche effect.
 
+## Part B: Hash a file
+
