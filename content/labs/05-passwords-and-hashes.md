@@ -29,3 +29,5 @@ shasum -a 256 plan.txt
 
 If a hash changes, the file changed. This is how people check downloads have not been tampered with.
 
+## Part C: Install a password manager
+
