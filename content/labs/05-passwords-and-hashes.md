@@ -35,3 +35,5 @@ If a hash changes, the file changed. This is how people check downloads have not
 2. Create a **passphrase** of four random words as your master password.
 3. Save the recovery kit somewhere safe, offline.
 
+## Part D: Turn on MFA
+
