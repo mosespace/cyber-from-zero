@@ -37,3 +37,5 @@ If a hash changes, the file changed. This is how people check downloads have not
 
 ## Part D: Turn on MFA
 
+Turn on MFA for these three accounts first:
+
