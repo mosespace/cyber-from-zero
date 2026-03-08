@@ -40,3 +40,4 @@ If a hash changes, the file changed. This is how people check downloads have not
 Turn on MFA for these three accounts first:
 
 1. Your main email
+2. Your phone's app store account
