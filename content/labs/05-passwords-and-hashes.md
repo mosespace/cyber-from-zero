@@ -31,3 +31,4 @@ If a hash changes, the file changed. This is how people check downloads have not
 
 ## Part C: Install a password manager
 
+1. Choose a trusted manager (for example Bitwarden or 1Password).
