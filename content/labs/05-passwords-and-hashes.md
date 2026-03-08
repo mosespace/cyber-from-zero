@@ -33,3 +33,5 @@ If a hash changes, the file changed. This is how people check downloads have not
 
 1. Choose a trusted manager (for example Bitwarden or 1Password).
 2. Create a **passphrase** of four random words as your master password.
+3. Save the recovery kit somewhere safe, offline.
+
