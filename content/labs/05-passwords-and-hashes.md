@@ -45,3 +45,5 @@ Turn on MFA for these three accounts first:
 
 Prefer an authenticator app or a hardware key over text messages.
 
+## Checkpoint
+
