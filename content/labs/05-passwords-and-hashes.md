@@ -43,3 +43,5 @@ Turn on MFA for these three accounts first:
 2. Your phone's app store account
 3. Your bank or money app
 
+Prefer an authenticator app or a hardware key over text messages.
+
