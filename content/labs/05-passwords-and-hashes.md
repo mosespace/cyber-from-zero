@@ -41,3 +41,5 @@ Turn on MFA for these three accounts first:
 
 1. Your main email
 2. Your phone's app store account
+3. Your bank or money app
+
