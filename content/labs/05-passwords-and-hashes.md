@@ -48,3 +48,4 @@ Prefer an authenticator app or a hardware key over text messages.
 ## Checkpoint
 
 - You can explain what a hash is and why a small change makes a totally different hash.
+- Your email has a unique password and MFA.
