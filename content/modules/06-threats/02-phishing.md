@@ -7,3 +7,4 @@ minutes: 6
 
 ## Red flags
 
+- Pressure: "Act now or your account will close!"
