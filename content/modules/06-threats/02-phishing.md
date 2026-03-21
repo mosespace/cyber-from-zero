@@ -10,3 +10,4 @@ minutes: 6
 - Pressure: "Act now or your account will close!"
 - Strange sender address: `support@paypa1-security.com`
 - Generic greeting: "Dear customer"
+- Links that do not match when you hover over them
