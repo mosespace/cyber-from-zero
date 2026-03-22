@@ -14,3 +14,5 @@ minutes: 6
 - Attachments you did not expect
 - Spelling mistakes or an offer that is too good to be true
 
+## Types
+
