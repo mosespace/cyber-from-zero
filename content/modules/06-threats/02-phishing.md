@@ -11,3 +11,4 @@ minutes: 6
 - Strange sender address: `support@paypa1-security.com`
 - Generic greeting: "Dear customer"
 - Links that do not match when you hover over them
+- Attachments you did not expect
