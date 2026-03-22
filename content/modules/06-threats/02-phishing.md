@@ -17,3 +17,4 @@ minutes: 6
 ## Types
 
 | Name | Channel |
+|------|---------|
