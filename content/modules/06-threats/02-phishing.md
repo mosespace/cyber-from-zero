@@ -20,3 +20,4 @@ minutes: 6
 |------|---------|
 | Phishing | Email |
 | Smishing | Text message (SMS) |
+| Vishing | Phone call (voice) |
