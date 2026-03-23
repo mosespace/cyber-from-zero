@@ -19,3 +19,4 @@ minutes: 6
 | Name | Channel |
 |------|---------|
 | Phishing | Email |
+| Smishing | Text message (SMS) |
