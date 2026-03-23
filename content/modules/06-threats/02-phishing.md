@@ -18,3 +18,4 @@ minutes: 6
 
 | Name | Channel |
 |------|---------|
+| Phishing | Email |
