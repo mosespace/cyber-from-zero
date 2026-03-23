@@ -23,3 +23,5 @@ minutes: 6
 | Vishing | Phone call (voice) |
 | Spear phishing | Aimed at one specific person |
 
+## What to do
+
