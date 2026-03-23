@@ -21,3 +21,5 @@ minutes: 6
 | Phishing | Email |
 | Smishing | Text message (SMS) |
 | Vishing | Phone call (voice) |
+| Spear phishing | Aimed at one specific person |
+
