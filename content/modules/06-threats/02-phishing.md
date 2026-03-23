@@ -25,3 +25,4 @@ minutes: 6
 
 ## What to do
 
+1. Stop. Do not click.
