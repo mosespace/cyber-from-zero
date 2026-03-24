@@ -27,3 +27,4 @@ minutes: 6
 
 1. Stop. Do not click.
 2. Go to the real website by typing the address yourself.
+3. Report the message.
