@@ -28,3 +28,5 @@ minutes: 6
 1. Stop. Do not click.
 2. Go to the real website by typing the address yourself.
 3. Report the message.
+4. If you did click and typed a password, change it right away and turn on MFA.
+
