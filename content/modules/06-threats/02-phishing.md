@@ -26,3 +26,4 @@ minutes: 6
 ## What to do
 
 1. Stop. Do not click.
+2. Go to the real website by typing the address yourself.
