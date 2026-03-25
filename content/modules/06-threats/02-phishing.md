@@ -32,3 +32,4 @@ minutes: 6
 
 ## Remember
 
+- Slow down. Attackers want you rushed.
