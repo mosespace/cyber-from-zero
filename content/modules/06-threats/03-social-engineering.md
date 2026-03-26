@@ -18,3 +18,4 @@ People want to be helpful, hate to look rude, and obey anyone who sounds importa
 
 ## How to defend
 
+1. Verify who someone is using a number you already know.
