@@ -12,3 +12,5 @@ It is often easier to trick a person than to break a computer. **Social engineer
 - **Tailgating**: following someone through a locked door.
 - **Quid pro quo**: "I will help you if you do this one thing for me."
 
+## Why it works
+
