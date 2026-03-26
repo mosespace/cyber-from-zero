@@ -9,3 +9,4 @@ It is often easier to trick a person than to break a computer. **Social engineer
 
 - **Pretexting**: inventing a story. "Hi, I am from IT, I need your password to fix your laptop."
 - **Baiting**: leaving a USB stick labelled "Salaries" on a desk.
+- **Tailgating**: following someone through a locked door.
