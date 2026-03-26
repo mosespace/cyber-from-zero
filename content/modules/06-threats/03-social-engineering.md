@@ -14,3 +14,5 @@ It is often easier to trick a person than to break a computer. **Social engineer
 
 ## Why it works
 
+People want to be helpful, hate to look rude, and obey anyone who sounds important.
+
