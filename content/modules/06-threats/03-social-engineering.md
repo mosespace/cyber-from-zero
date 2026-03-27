@@ -23,3 +23,5 @@ People want to be helpful, hate to look rude, and obey anyone who sounds importa
 3. It is OK to say, "Let me check and call you back."
 4. Do not plug in unknown USB drives.
 
+## Remember
+
