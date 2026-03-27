@@ -26,3 +26,4 @@ People want to be helpful, hate to look rude, and obey anyone who sounds importa
 ## Remember
 
 - You are the last firewall.
+- Politely checking is never rude.
