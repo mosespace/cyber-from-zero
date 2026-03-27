@@ -21,3 +21,5 @@ People want to be helpful, hate to look rude, and obey anyone who sounds importa
 1. Verify who someone is using a number you already know.
 2. Real IT teams never ask for your password.
 3. It is OK to say, "Let me check and call you back."
+4. Do not plug in unknown USB drives.
+
