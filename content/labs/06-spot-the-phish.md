@@ -30,3 +30,5 @@ Count the pressure words: URGENT, 24 hours, lose access. Real companies rarely t
 
 On a computer, hover the mouse over the link. On a phone, press and hold. The real address appears. Does it match the company?
 
+## Step 5: Decide what to do
+
