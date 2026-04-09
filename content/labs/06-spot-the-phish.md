@@ -26,3 +26,5 @@ Count the pressure words: URGENT, 24 hours, lose access. Real companies rarely t
 
 "Dear customer" means the sender does not know your name.
 
+## Step 4: Check the link without clicking
+
