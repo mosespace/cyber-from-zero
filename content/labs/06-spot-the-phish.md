@@ -22,3 +22,5 @@ Look closely at the address. Is it `paypal.com` or something close? Here the let
 
 Count the pressure words: URGENT, 24 hours, lose access. Real companies rarely threaten you like this.
 
+## Step 3: Check the greeting
+
