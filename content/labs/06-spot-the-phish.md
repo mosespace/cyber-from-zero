@@ -11,3 +11,4 @@ Phishing works when we are in a hurry. This lab slows you down on purpose.
 
 > From: support@paypa1-security.com
 > Subject: URGENT: your account will be closed in 24 hours
+>
