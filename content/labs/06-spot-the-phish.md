@@ -18,3 +18,5 @@ Phishing works when we are in a hurry. This lab slows you down on purpose.
 
 Look closely at the address. Is it `paypal.com` or something close? Here the letter **l** is replaced by the number **1**.
 
+## Step 2: Check the pressure
+
