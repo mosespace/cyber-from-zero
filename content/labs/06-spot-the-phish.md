@@ -24,3 +24,5 @@ Count the pressure words: URGENT, 24 hours, lose access. Real companies rarely t
 
 ## Step 3: Check the greeting
 
+"Dear customer" means the sender does not know your name.
+
