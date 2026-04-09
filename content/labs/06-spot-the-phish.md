@@ -14,3 +14,5 @@ Phishing works when we are in a hurry. This lab slows you down on purpose.
 >
 > Dear customer, we noticed strange activity. Click here to verify your identity now or lose access.
 
+## Step 1: Check the sender
+
