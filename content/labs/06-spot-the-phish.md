@@ -43,3 +43,4 @@ Take a real message from your spam folder. Write down five red flags you can fin
 
 ## Checkpoint
 
+You now check the sender, pressure, greeting and link every time. It takes ten seconds and it stops most attacks.
