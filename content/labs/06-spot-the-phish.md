@@ -39,3 +39,5 @@ On a computer, hover the mouse over the link. On a phone, press and hold. The re
 
 ## Make your own
 
+Take a real message from your spam folder. Write down five red flags you can find. Then tell a family member the three you think they would miss.
+
