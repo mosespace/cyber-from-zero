@@ -8,3 +8,5 @@ Every click is a **request** from your browser and a **response** from the serve
 ```chart:http-flow
 ```
 
+## Parts of a request
+
