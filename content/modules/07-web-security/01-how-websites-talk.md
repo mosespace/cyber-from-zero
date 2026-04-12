@@ -17,3 +17,5 @@ Every click is a **request** from your browser and a **response** from the serve
 | Headers | Extra info, like your browser type |
 | Body | Form data such as your username |
 
+## Status codes
+
