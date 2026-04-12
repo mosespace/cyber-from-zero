@@ -14,3 +14,4 @@ Every click is a **request** from your browser and a **response** from the serve
 |------|---------|
 | Method | `GET` (read) or `POST` (send) |
 | URL | `/login` |
+| Headers | Extra info, like your browser type |
