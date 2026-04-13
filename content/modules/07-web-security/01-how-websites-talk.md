@@ -20,3 +20,4 @@ Every click is a **request** from your browser and a **response** from the serve
 ## Status codes
 
 - **200** OK
+- **301** Moved
