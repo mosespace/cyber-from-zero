@@ -23,3 +23,5 @@ Every click is a **request** from your browser and a **response** from the serve
 - **301** Moved
 - **403** Forbidden
 - **404** Not found
+- **500** Server error
+
