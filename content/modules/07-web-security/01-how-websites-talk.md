@@ -27,3 +27,5 @@ Every click is a **request** from your browser and a **response** from the serve
 
 ## Cookies
 
+Web pages forget you between clicks. A **cookie** is a small note the server asks your browser to keep, like a wristband at a festival. It proves you already logged in.
+
