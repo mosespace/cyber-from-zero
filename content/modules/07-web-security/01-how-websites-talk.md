@@ -29,3 +29,5 @@ Every click is a **request** from your browser and a **response** from the serve
 
 Web pages forget you between clicks. A **cookie** is a small note the server asks your browser to keep, like a wristband at a festival. It proves you already logged in.
 
+If an attacker steals your session cookie, they can **be you**. That is why cookies need flags such as `HttpOnly` and `Secure`.
+
