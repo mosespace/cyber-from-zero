@@ -31,3 +31,5 @@ Web pages forget you between clicks. A **cookie** is a small note the server ask
 
 If an attacker steals your session cookie, they can **be you**. That is why cookies need flags such as `HttpOnly` and `Secure`.
 
+## Remember
+
