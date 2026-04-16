@@ -13,3 +13,4 @@ minutes: 8
 | Insecure design | The idea itself was unsafe |
 | Security misconfiguration | Default passwords, debug mode left on |
 | Vulnerable components | Using old libraries with known bugs |
+| Authentication failures | Weak logins, no lockout |
