@@ -9,3 +9,4 @@ minutes: 8
 |------|--------------------|
 | Broken access control | A normal user can open admin pages |
 | Cryptographic failures | Sensitive data sent or stored without protection |
+| Injection | Attacker sneaks commands into a form |
