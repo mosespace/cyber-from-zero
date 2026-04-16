@@ -14,3 +14,4 @@ minutes: 8
 | Security misconfiguration | Default passwords, debug mode left on |
 | Vulnerable components | Using old libraries with known bugs |
 | Authentication failures | Weak logins, no lockout |
+| Integrity failures | Trusting updates or data that were not checked |
