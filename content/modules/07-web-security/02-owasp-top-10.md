@@ -11,3 +11,4 @@ minutes: 8
 | Cryptographic failures | Sensitive data sent or stored without protection |
 | Injection | Attacker sneaks commands into a form |
 | Insecure design | The idea itself was unsafe |
+| Security misconfiguration | Default passwords, debug mode left on |
