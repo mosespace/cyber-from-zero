@@ -33,3 +33,4 @@ If an attacker steals your session cookie, they can **be you**. That is why cook
 
 ## Remember
 
+- Never trust anything that comes from the browser. Users can change it.
