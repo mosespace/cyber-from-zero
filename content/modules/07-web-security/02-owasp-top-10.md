@@ -8,3 +8,4 @@ minutes: 8
 | Risk | Simple explanation |
 |------|--------------------|
 | Broken access control | A normal user can open admin pages |
+| Cryptographic failures | Sensitive data sent or stored without protection |
