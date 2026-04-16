@@ -6,3 +6,4 @@ minutes: 8
 **OWASP** is a non-profit group that publishes a famous list of the biggest web risks. Here are the ideas in plain words.
 
 | Risk | Simple explanation |
+|------|--------------------|
