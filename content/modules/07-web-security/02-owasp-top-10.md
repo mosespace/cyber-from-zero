@@ -15,3 +15,4 @@ minutes: 8
 | Vulnerable components | Using old libraries with known bugs |
 | Authentication failures | Weak logins, no lockout |
 | Integrity failures | Trusting updates or data that were not checked |
+| Logging failures | Nobody notices the attack happening |
