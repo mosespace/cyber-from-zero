@@ -12,3 +12,4 @@ minutes: 8
 | Injection | Attacker sneaks commands into a form |
 | Insecure design | The idea itself was unsafe |
 | Security misconfiguration | Default passwords, debug mode left on |
+| Vulnerable components | Using old libraries with known bugs |
