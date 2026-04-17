@@ -20,3 +20,5 @@ minutes: 8
 
 ## Think about it
 
+Most items on the list are not clever hacks. They are **mistakes that were easy to avoid**.
+
