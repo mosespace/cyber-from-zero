@@ -16,3 +16,5 @@ minutes: 8
 | Authentication failures | Weak logins, no lockout |
 | Integrity failures | Trusting updates or data that were not checked |
 | Logging failures | Nobody notices the attack happening |
+| Server-side request forgery | Tricking a server to call internal places |
+
