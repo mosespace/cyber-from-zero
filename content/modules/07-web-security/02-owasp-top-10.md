@@ -18,3 +18,5 @@ minutes: 8
 | Logging failures | Nobody notices the attack happening |
 | Server-side request forgery | Tricking a server to call internal places |
 
+## Think about it
+
