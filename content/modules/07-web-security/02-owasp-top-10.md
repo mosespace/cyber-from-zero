@@ -25,3 +25,4 @@ Most items on the list are not clever hacks. They are **mistakes that were easy 
 ## Remember
 
 - Learn the list. It guides secure coding and testing.
+- Check the current version at owasp.org.
