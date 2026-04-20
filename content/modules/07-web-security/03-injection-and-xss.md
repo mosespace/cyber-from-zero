@@ -19,3 +19,5 @@ If a user types something tricky instead of a name, the question changes meaning
 
 ## Cross-site scripting (XSS)
 
+XSS happens when a site shows user text on a page without cleaning it. An attacker leaves a comment containing a small script. Every visitor's browser runs it.
+
