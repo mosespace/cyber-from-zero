@@ -17,3 +17,5 @@ If a user types something tricky instead of a name, the question changes meaning
 
 **The fix:** use **prepared statements** (parameterised queries). They keep data separate from commands.
 
+## Cross-site scripting (XSS)
+
