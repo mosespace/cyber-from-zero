@@ -9,3 +9,7 @@ Websites ask a database questions using a language called SQL. If a site builds 
 
 Imagine a login box that does this:
 
+```
+SELECT * FROM users WHERE name = '<what you typed>'
+```
+
