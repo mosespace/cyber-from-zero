@@ -7,3 +7,5 @@ minutes: 8
 
 Websites ask a database questions using a language called SQL. If a site builds a question by gluing user text into it, an attacker can add their own commands.
 
+Imagine a login box that does this:
+
