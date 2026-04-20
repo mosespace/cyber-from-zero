@@ -15,3 +15,5 @@ SELECT * FROM users WHERE name = '<what you typed>'
 
 If a user types something tricky instead of a name, the question changes meaning. The database may reveal every user.
 
+**The fix:** use **prepared statements** (parameterised queries). They keep data separate from commands.
+
