@@ -23,3 +23,5 @@ XSS happens when a site shows user text on a page without cleaning it. An attack
 
 **The fix:** **escape output** so `<` becomes `&lt;`, and use a Content Security Policy.
 
+## One rule to cover both
+
