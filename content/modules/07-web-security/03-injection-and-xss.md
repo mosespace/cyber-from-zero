@@ -27,3 +27,5 @@ XSS happens when a site shows user text on a page without cleaning it. An attack
 
 > Treat all user input as dangerous until proven safe.
 
+## Where to practise legally
+
