@@ -33,3 +33,4 @@ Use deliberately vulnerable practice sites such as PortSwigger Web Security Acad
 
 ## Remember
 
+- Separate data from commands.
