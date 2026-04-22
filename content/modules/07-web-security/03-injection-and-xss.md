@@ -29,3 +29,5 @@ XSS happens when a site shows user text on a page without cleaning it. An attack
 
 ## Where to practise legally
 
+Use deliberately vulnerable practice sites such as PortSwigger Web Security Academy, OWASP Juice Shop or TryHackMe. Never test real websites without permission.
+
