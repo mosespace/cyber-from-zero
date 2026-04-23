@@ -8,3 +8,4 @@
    "Hiding the login page"
   ],
   "answer": 1,
+  "why": "They keep user data separate from SQL commands."
