@@ -36,3 +36,4 @@
   "q": "Which status code means 'not found'?",
   "options": [
    "200",
+   "301",
