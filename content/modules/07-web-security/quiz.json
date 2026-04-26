@@ -47,3 +47,4 @@
   "q": "What is the fix for XSS?",
   "options": [
    "Escape output",
+   "Use longer passwords",
