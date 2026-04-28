@@ -11,3 +11,5 @@ Every browser has built-in developer tools. They let you see what a website real
 
 Press **F12** (or right-click, then Inspect). Open the **Network** tab. Reload the page.
 
+## Step 2: Read the requests
+
