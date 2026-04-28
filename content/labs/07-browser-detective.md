@@ -16,3 +16,4 @@ Press **F12** (or right-click, then Inspect). Open the **Network** tab. Reload t
 Click the first request. Look at:
 
 | Part | What to find |
+|------|--------------|
