@@ -13,3 +13,5 @@ Press **F12** (or right-click, then Inspect). Open the **Network** tab. Reload t
 
 ## Step 2: Read the requests
 
+Click the first request. Look at:
+
