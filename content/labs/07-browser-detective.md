@@ -18,3 +18,4 @@ Click the first request. Look at:
 | Part | What to find |
 |------|--------------|
 | Request method | Usually GET |
+| Status | 200, 301, 404 ... |
