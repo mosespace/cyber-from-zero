@@ -21,3 +21,5 @@ Click the first request. Look at:
 | Status | 200, 301, 404 ... |
 | Response headers | `content-type`, `set-cookie` |
 
+## Step 3: Find a cookie
+
