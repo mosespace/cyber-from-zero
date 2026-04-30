@@ -19,3 +19,5 @@ Click the first request. Look at:
 |------|--------------|
 | Request method | Usually GET |
 | Status | 200, 301, 404 ... |
+| Response headers | `content-type`, `set-cookie` |
+
