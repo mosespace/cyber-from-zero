@@ -23,3 +23,5 @@ Click the first request. Look at:
 
 ## Step 3: Find a cookie
 
+Open the **Application** tab (Chrome) or **Storage** tab (Firefox). Click **Cookies**. For each cookie, check the flags **HttpOnly** and **Secure**.
+
