@@ -33,3 +33,5 @@ Click the padlock in the address bar. Read who issued the certificate and when i
 
 Run **OWASP Juice Shop** on your own computer by following the official instructions on owasp.org. Then try the first beginner challenges.
 
+## Questions
+
