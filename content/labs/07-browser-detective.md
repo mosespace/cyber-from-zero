@@ -27,3 +27,5 @@ Open the **Application** tab (Chrome) or **Storage** tab (Firefox). Click **Cook
 
 ## Step 4: Check for HTTPS
 
+Click the padlock in the address bar. Read who issued the certificate and when it ends.
+
