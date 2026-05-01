@@ -29,3 +29,5 @@ Open the **Application** tab (Chrome) or **Storage** tab (Firefox). Click **Cook
 
 Click the padlock in the address bar. Read who issued the certificate and when it ends.
 
+## Step 5: Practise on a safe target
+
