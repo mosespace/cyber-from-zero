@@ -31,3 +31,5 @@ Click the padlock in the address bar. Read who issued the certificate and when i
 
 ## Step 5: Practise on a safe target
 
+Run **OWASP Juice Shop** on your own computer by following the official instructions on owasp.org. Then try the first beginner challenges.
+
