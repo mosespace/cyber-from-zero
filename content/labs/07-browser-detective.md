@@ -25,3 +25,5 @@ Click the first request. Look at:
 
 Open the **Application** tab (Chrome) or **Storage** tab (Firefox). Click **Cookies**. For each cookie, check the flags **HttpOnly** and **Secure**.
 
+## Step 4: Check for HTTPS
+
