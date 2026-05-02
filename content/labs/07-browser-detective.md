@@ -36,3 +36,4 @@ Run **OWASP Juice Shop** on your own computer by following the official instruct
 ## Questions
 
 1. Which cookies did the site set?
+2. Do they use HttpOnly and Secure? Why does that help?
