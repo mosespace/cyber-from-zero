@@ -39,3 +39,5 @@ Run **OWASP Juice Shop** on your own computer by following the official instruct
 2. Do they use HttpOnly and Secure? Why does that help?
 3. What would happen if the site used plain HTTP?
 
+## Checkpoint
+
