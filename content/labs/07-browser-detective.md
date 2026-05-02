@@ -41,3 +41,4 @@ Run **OWASP Juice Shop** on your own computer by following the official instruct
 
 ## Checkpoint
 
+You can now look at a website the way a tester does.
