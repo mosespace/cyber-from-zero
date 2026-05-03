@@ -13,3 +13,5 @@ Example rule list:
 |------|--------|
 | Allow port 443 from anywhere | Allow |
 | Allow port 22 from the office only | Allow |
+| Everything else | Block |
+
