@@ -9,3 +9,4 @@ A **firewall** is a guard that checks every packet against a list of rules: allo
 
 Example rule list:
 
+| Rule | Action |
