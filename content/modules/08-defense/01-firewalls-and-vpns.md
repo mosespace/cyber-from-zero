@@ -12,3 +12,4 @@ Example rule list:
 | Rule | Action |
 |------|--------|
 | Allow port 443 from anywhere | Allow |
+| Allow port 22 from the office only | Allow |
