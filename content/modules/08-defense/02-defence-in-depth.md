@@ -11,3 +11,4 @@ A castle has a moat, walls, guards and a locked inner room. If one fails, the ot
 ## Layers and examples
 
 | Layer | Examples |
+|-------|----------|
