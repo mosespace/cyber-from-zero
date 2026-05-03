@@ -15,3 +15,5 @@ Example rule list:
 | Allow port 22 from the office only | Allow |
 | Everything else | Block |
 
+The safe approach is **default deny**: block everything, then open only what is needed.
+
