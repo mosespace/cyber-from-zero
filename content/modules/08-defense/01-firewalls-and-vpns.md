@@ -23,3 +23,4 @@ A **VPN** (virtual private network) builds an encrypted tunnel between you and a
 
 ## Remember
 
+- Default deny is the safest firewall style.
