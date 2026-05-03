@@ -19,3 +19,5 @@ The safe approach is **default deny**: block everything, then open only what is 
 
 ## VPN
 
+A **VPN** (virtual private network) builds an encrypted tunnel between you and another network. It protects you on public Wi-Fi and hides your traffic from the local network. It does not make you invincible. A VPN provider can still see your traffic, so choose a trustworthy one.
+
