@@ -17,3 +17,5 @@ Example rule list:
 
 The safe approach is **default deny**: block everything, then open only what is needed.
 
+## VPN
+
