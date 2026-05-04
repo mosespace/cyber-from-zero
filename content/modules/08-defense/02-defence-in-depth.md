@@ -14,3 +14,4 @@ A castle has a moat, walls, guards and a locked inner room. If one fails, the ot
 |-------|----------|
 | People | Training, awareness |
 | Perimeter | Firewalls |
+| Network | Segmentation, monitoring |
