@@ -9,3 +9,4 @@ minutes: 7
 - Remove programs and services you do not use.
 - Turn on automatic updates (**patching**).
 - Close unused ports.
+- Use MFA and least privilege.
