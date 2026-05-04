@@ -8,3 +8,4 @@ minutes: 7
 - Change default passwords.
 - Remove programs and services you do not use.
 - Turn on automatic updates (**patching**).
+- Close unused ports.
