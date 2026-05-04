@@ -16,3 +16,4 @@ A castle has a moat, walls, guards and a locked inner room. If one fails, the ot
 | Perimeter | Firewalls |
 | Network | Segmentation, monitoring |
 | Host | Updates, antivirus |
+| Application | Secure coding, input checks |
