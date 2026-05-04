@@ -10,3 +10,5 @@ minutes: 7
 - Turn on automatic updates (**patching**).
 - Close unused ports.
 - Use MFA and least privilege.
+- Encrypt disks, especially on laptops.
+
