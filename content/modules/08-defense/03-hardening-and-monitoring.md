@@ -16,3 +16,5 @@ minutes: 7
 
 **Logs** are diaries kept by computers: who logged in, what failed, what changed. Tools gather logs in one place called a **SIEM**.
 
+Things that look suspicious:
+
