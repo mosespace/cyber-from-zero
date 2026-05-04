@@ -23,3 +23,5 @@ A castle has a moat, walls, guards and a locked inner room. If one fails, the ot
 
 A modern idea: **never trust, always verify**. Even inside the network, every user and device must prove who they are each time.
 
+## Remember
+
