@@ -6,3 +6,4 @@ minutes: 7
 ## Hardening: make it tougher
 
 - Change default passwords.
+- Remove programs and services you do not use.
