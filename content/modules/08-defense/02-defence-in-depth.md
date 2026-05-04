@@ -26,3 +26,4 @@ A modern idea: **never trust, always verify**. Even inside the network, every us
 ## Remember
 
 - No single tool is enough.
+- Assume something will fail, and plan for it.
