@@ -12,3 +12,5 @@ minutes: 7
 - Use MFA and least privilege.
 - Encrypt disks, especially on laptops.
 
+## Monitoring: watch for trouble
+
