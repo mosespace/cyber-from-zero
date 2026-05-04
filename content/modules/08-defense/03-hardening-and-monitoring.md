@@ -14,3 +14,5 @@ minutes: 7
 
 ## Monitoring: watch for trouble
 
+**Logs** are diaries kept by computers: who logged in, what failed, what changed. Tools gather logs in one place called a **SIEM**.
+
