@@ -5,3 +5,4 @@ minutes: 7
 ---
 ## Hardening: make it tougher
 
+- Change default passwords.
