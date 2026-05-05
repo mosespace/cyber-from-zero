@@ -4,3 +4,4 @@
   "options": [
    "Block everything, allow only needed",
    "Allow everything",
+   "Delete logs",
