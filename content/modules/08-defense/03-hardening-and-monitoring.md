@@ -29,3 +29,5 @@ Things that look suspicious:
 
 ## The 3-2-1 backup rule
 
+Keep **3** copies, on **2** types of storage, with **1** copy off-site or offline.
+
