@@ -25,3 +25,5 @@ Things that look suspicious:
 ## IDS and IPS
 
 - **IDS** (intrusion detection system) raises an alarm.
+- **IPS** (intrusion prevention system) raises an alarm and blocks.
+
