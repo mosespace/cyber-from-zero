@@ -3,3 +3,4 @@
   "q": "What does 'default deny' mean?",
   "options": [
    "Block everything, allow only needed",
+   "Allow everything",
