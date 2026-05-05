@@ -27,3 +27,5 @@ Things that look suspicious:
 - **IDS** (intrusion detection system) raises an alarm.
 - **IPS** (intrusion prevention system) raises an alarm and blocks.
 
+## The 3-2-1 backup rule
+
