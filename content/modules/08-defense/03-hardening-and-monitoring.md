@@ -22,3 +22,5 @@ Things that look suspicious:
 - A login at 3 a.m. from another country
 - A user suddenly copying huge amounts of data
 
+## IDS and IPS
+
