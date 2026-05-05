@@ -33,3 +33,4 @@ Keep **3** copies, on **2** types of storage, with **1** copy off-site or offlin
 
 ## Remember
 
+- Patch fast.
