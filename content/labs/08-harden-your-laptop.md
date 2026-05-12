@@ -5,3 +5,5 @@ minutes: 30
 module: defense
 level: Intermediate
 ---
+Hardening means making something tougher. Work through this list on your own computer.
+
