@@ -14,3 +14,4 @@ Hardening means making something tougher. Work through this list on your own com
 | Install updates | System Settings, Software Update | Settings, Windows Update | `sudo apt update && sudo apt upgrade` |
 | Turn on the firewall | Settings, Network, Firewall | Windows Security, Firewall | `sudo ufw enable` |
 | Encrypt the disk | FileVault | BitLocker | LUKS at install |
+| Lock screen after a short time | Settings, Lock Screen | Settings, Accounts | Settings, Privacy |
