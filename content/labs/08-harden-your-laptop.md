@@ -17,3 +17,5 @@ Hardening means making something tougher. Work through this list on your own com
 | Lock screen after a short time | Settings, Lock Screen | Settings, Accounts | Settings, Privacy |
 | Use a normal account daily | Create an admin and a user | Same | Same |
 
+## Step 1: Backups with the 3-2-1 rule
+
