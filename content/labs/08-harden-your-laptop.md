@@ -12,3 +12,4 @@ Hardening means making something tougher. Work through this list on your own com
 | Step | Mac | Windows | Linux |
 |------|-----|---------|-------|
 | Install updates | System Settings, Software Update | Settings, Windows Update | `sudo apt update && sudo apt upgrade` |
+| Turn on the firewall | Settings, Network, Firewall | Windows Security, Firewall | `sudo ufw enable` |
