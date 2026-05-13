@@ -21,3 +21,5 @@ Hardening means making something tougher. Work through this list on your own com
 
 Keep **3** copies, on **2** kinds of storage, with **1** copy somewhere else. A cloud backup plus an external drive covers it.
 
+## Step 2: Remove what you do not use
+
