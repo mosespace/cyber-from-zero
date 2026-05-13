@@ -15,3 +15,5 @@ Hardening means making something tougher. Work through this list on your own com
 | Turn on the firewall | Settings, Network, Firewall | Windows Security, Firewall | `sudo ufw enable` |
 | Encrypt the disk | FileVault | BitLocker | LUKS at install |
 | Lock screen after a short time | Settings, Lock Screen | Settings, Accounts | Settings, Privacy |
+| Use a normal account daily | Create an admin and a user | Same | Same |
+
