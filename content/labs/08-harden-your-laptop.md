@@ -9,3 +9,4 @@ Hardening means making something tougher. Work through this list on your own com
 
 ## Checklist
 
+| Step | Mac | Windows | Linux |
