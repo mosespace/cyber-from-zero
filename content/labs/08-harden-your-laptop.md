@@ -23,3 +23,5 @@ Keep **3** copies, on **2** kinds of storage, with **1** copy somewhere else. A 
 
 ## Step 2: Remove what you do not use
 
+List your apps. Remove anything you have not used for a year. Fewer programs mean fewer bugs.
+
