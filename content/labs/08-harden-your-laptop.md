@@ -25,3 +25,5 @@ Keep **3** copies, on **2** kinds of storage, with **1** copy somewhere else. A 
 
 List your apps. Remove anything you have not used for a year. Fewer programs mean fewer bugs.
 
+## Step 3: Browser tidy-up
+
