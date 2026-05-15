@@ -28,3 +28,4 @@ List your apps. Remove anything you have not used for a year. Fewer programs mea
 ## Step 3: Browser tidy-up
 
 - Remove extensions you do not recognise.
+- Turn on automatic updates.
