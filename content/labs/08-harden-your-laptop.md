@@ -33,3 +33,5 @@ List your apps. Remove anything you have not used for a year. Fewer programs mea
 
 ## Step 4: Test your backup
 
+Restore one file from your backup. A backup you never tested is only a hope.
+
