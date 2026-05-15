@@ -31,3 +31,5 @@ List your apps. Remove anything you have not used for a year. Fewer programs mea
 - Turn on automatic updates.
 - Use a password manager instead of the browser's saved passwords on shared computers.
 
+## Step 4: Test your backup
+
