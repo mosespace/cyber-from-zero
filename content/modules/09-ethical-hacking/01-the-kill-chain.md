@@ -10,3 +10,4 @@ Attacks follow steps. If defenders can break any one step, the attack fails.
 
 ## Plain English
 
+1. **Recon**: collect public information about the target.
