@@ -13,3 +13,4 @@ Attacks follow steps. If defenders can break any one step, the attack fails.
 1. **Recon**: collect public information about the target.
 2. **Scanning**: look for open ports and weak software.
 3. **Gain access**: use a weakness to get in.
+4. **Stay in**: add a hidden way back.
