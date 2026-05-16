@@ -5,3 +5,6 @@ minutes: 7
 ---
 Attacks follow steps. If defenders can break any one step, the attack fails.
 
+```chart:kill-chain
+```
+
