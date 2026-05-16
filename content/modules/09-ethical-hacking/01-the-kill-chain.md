@@ -11,3 +11,4 @@ Attacks follow steps. If defenders can break any one step, the attack fails.
 ## Plain English
 
 1. **Recon**: collect public information about the target.
+2. **Scanning**: look for open ports and weak software.
