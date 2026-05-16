@@ -35,3 +35,5 @@ List your apps. Remove anything you have not used for a year. Fewer programs mea
 
 Restore one file from your backup. A backup you never tested is only a hope.
 
+## Checkpoint
+
