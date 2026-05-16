@@ -37,3 +37,4 @@ Restore one file from your backup. A backup you never tested is only a hope.
 
 ## Checkpoint
 
+Write down the date you finished. Repeat this lab every six months.
