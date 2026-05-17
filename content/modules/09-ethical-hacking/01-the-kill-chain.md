@@ -20,3 +20,5 @@ Attacks follow steps. If defenders can break any one step, the attack fails.
 
 ## Why defenders love this model
 
+Each step leaves clues. If you notice scanning early, you can stop the attacker long before they steal anything.
+
