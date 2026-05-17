@@ -18,3 +18,5 @@ Attacks follow steps. If defenders can break any one step, the attack fails.
 6. **Reach the goal**: steal or damage data.
 7. **Cover tracks**: hide what happened.
 
+## Why defenders love this model
+
