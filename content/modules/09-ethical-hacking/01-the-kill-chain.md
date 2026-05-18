@@ -25,3 +25,4 @@ Each step leaves clues. If you notice scanning early, you can stop the attacker 
 ## Remember
 
 - Attacks are a chain. Break one link.
+- Early detection saves the most damage.
