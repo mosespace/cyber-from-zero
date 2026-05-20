@@ -21,3 +21,5 @@ Tools are just helpers. Understanding comes first. Use these **only on systems y
 3. Add a deliberately weak target such as Metasploitable or OWASP Juice Shop.
 4. Keep the lab network isolated from your real one.
 
+## Rules of engagement
+
