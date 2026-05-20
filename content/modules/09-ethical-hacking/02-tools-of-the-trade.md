@@ -6,3 +6,4 @@ minutes: 7
 Tools are just helpers. Understanding comes first. Use these **only on systems you own or have written permission to test**.
 
 | Tool | Used for |
+|------|----------|
