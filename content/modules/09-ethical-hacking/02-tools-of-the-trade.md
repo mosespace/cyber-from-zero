@@ -7,3 +7,4 @@ Tools are just helpers. Understanding comes first. Use these **only on systems y
 
 | Tool | Used for |
 |------|----------|
+| Nmap | Finding devices and open ports |
