@@ -30,3 +30,4 @@ Tools are just helpers. Understanding comes first. Use these **only on systems y
 
 ## Remember
 
+- A tool does not make you a hacker. Knowledge does.
