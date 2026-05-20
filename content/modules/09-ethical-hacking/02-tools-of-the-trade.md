@@ -24,3 +24,4 @@ Tools are just helpers. Understanding comes first. Use these **only on systems y
 ## Rules of engagement
 
 - Get **written permission**.
+- Stay inside the agreed scope.
