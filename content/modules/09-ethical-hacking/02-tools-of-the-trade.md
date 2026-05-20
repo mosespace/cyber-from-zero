@@ -16,3 +16,4 @@ Tools are just helpers. Understanding comes first. Use these **only on systems y
 
 ## Set up a safe lab
 
+1. Install VirtualBox or UTM (free).
