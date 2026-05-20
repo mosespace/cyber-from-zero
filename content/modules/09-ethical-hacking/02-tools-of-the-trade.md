@@ -9,3 +9,4 @@ Tools are just helpers. Understanding comes first. Use these **only on systems y
 |------|----------|
 | Nmap | Finding devices and open ports |
 | Wireshark | Looking inside network packets |
+| Burp Suite | Testing websites |
