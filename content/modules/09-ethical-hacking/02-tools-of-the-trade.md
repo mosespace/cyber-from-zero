@@ -18,3 +18,4 @@ Tools are just helpers. Understanding comes first. Use these **only on systems y
 
 1. Install VirtualBox or UTM (free).
 2. Add Kali Linux as one virtual machine.
+3. Add a deliberately weak target such as Metasploitable or OWASP Juice Shop.
