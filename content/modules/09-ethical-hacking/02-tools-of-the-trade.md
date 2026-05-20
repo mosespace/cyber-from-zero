@@ -14,3 +14,5 @@ Tools are just helpers. Understanding comes first. Use these **only on systems y
 | John the Ripper / Hashcat | Testing password strength |
 | Kali Linux | A Linux system packed with security tools |
 
+## Set up a safe lab
+
