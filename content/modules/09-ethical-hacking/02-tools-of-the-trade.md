@@ -12,3 +12,5 @@ Tools are just helpers. Understanding comes first. Use these **only on systems y
 | Burp Suite | Testing websites |
 | Metasploit | Testing known weaknesses |
 | John the Ripper / Hashcat | Testing password strength |
+| Kali Linux | A Linux system packed with security tools |
+
