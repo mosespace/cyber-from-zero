@@ -10,3 +10,4 @@ The best way to learn is by doing, and the best places are built for it.
 | Place | Style |
 |-------|-------|
 | TryHackMe | Guided rooms, perfect for beginners |
+| Hack The Box | Harder machines and challenges |
