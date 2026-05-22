@@ -12,3 +12,4 @@ The best way to learn is by doing, and the best places are built for it.
 | TryHackMe | Guided rooms, perfect for beginners |
 | Hack The Box | Harder machines and challenges |
 | OverTheWire | Command-line games like Bandit |
+| picoCTF | Friendly competitions for students |
