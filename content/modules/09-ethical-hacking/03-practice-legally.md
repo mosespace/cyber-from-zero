@@ -13,3 +13,4 @@ The best way to learn is by doing, and the best places are built for it.
 | Hack The Box | Harder machines and challenges |
 | OverTheWire | Command-line games like Bandit |
 | picoCTF | Friendly competitions for students |
+| PortSwigger Web Security Academy | Free web security labs |
