@@ -16,3 +16,5 @@ The best way to learn is by doing, and the best places are built for it.
 | PortSwigger Web Security Academy | Free web security labs |
 | OWASP Juice Shop | A buggy shop you run yourself |
 
+## What is a CTF?
+
