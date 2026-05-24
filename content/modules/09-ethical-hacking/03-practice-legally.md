@@ -23,3 +23,4 @@ The best way to learn is by doing, and the best places are built for it.
 ## A 30-minute daily habit
 
 1. 10 minutes reading a lesson.
+2. 15 minutes in a lab.
