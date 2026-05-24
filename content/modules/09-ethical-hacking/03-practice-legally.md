@@ -24,3 +24,5 @@ The best way to learn is by doing, and the best places are built for it.
 
 1. 10 minutes reading a lesson.
 2. 15 minutes in a lab.
+3. 5 minutes writing what you learned.
+
