@@ -18,3 +18,5 @@ The best way to learn is by doing, and the best places are built for it.
 
 ## What is a CTF?
 
+**Capture The Flag**: puzzles where you find a hidden text (the flag) by solving a security challenge.
+
