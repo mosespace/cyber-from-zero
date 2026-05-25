@@ -29,3 +29,4 @@ The best way to learn is by doing, and the best places are built for it.
 ## Remember
 
 - Consistency beats long weekend sessions.
+- Write notes. Teaching yourself on paper locks it in.
