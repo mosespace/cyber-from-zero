@@ -41,3 +41,5 @@ nmap -F scanme.nmap.org
 
 `-F` means a fast scan of the most common ports. Read the results and match each port to Module 3.
 
+## Step 5: Write a mini report
+
