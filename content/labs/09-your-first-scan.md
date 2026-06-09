@@ -19,3 +19,7 @@ On Linux use `sudo apt install nmap`.
 
 ## Step 2: Scan your own computer
 
+```bash
+nmap 127.0.0.1
+```
+
