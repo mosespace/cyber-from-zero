@@ -9,3 +9,5 @@ Nmap shows which ports are open on a computer. **Only scan machines you own or h
 
 ## Step 1: Install Nmap
 
+Download it from nmap.org, or use your package manager:
+
