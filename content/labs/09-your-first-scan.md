@@ -25,3 +25,5 @@ nmap 127.0.0.1
 
 `127.0.0.1` always means "this computer". Which ports are open? Compare with the `lsof` results from Lab 3.
 
+## Step 3: Learn more about each service
+
