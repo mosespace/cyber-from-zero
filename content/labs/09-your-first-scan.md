@@ -15,3 +15,5 @@ Download it from nmap.org, or use your package manager:
 brew install nmap
 ```
 
+On Linux use `sudo apt install nmap`.
+
