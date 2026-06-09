@@ -27,3 +27,7 @@ nmap 127.0.0.1
 
 ## Step 3: Learn more about each service
 
+```bash
+nmap -sV 127.0.0.1
+```
+
