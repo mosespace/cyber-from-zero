@@ -31,3 +31,5 @@ nmap 127.0.0.1
 nmap -sV 127.0.0.1
 ```
 
+The `-sV` flag asks Nmap to guess the program and version behind each port.
+
