@@ -44,3 +44,4 @@ nmap -F scanme.nmap.org
 ## Step 5: Write a mini report
 
 | Port | Service | Is it needed? | What I would do |
+|------|---------|---------------|-----------------|
