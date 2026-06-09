@@ -39,3 +39,5 @@ The `-sV` flag asks Nmap to guess the program and version behind each port.
 nmap -F scanme.nmap.org
 ```
 
+`-F` means a fast scan of the most common ports. Read the results and match each port to Module 3.
+
