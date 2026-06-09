@@ -50,3 +50,4 @@ nmap -F scanme.nmap.org
 
 ## Checkpoint
 
+You ran the scanning phase from the kill chain legally, and you wrote down what a defender should do about it.
