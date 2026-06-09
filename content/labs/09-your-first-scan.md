@@ -17,3 +17,5 @@ brew install nmap
 
 On Linux use `sudo apt install nmap`.
 
+## Step 2: Scan your own computer
+
