@@ -11,3 +11,7 @@ Nmap shows which ports are open on a computer. **Only scan machines you own or h
 
 Download it from nmap.org, or use your package manager:
 
+```bash
+brew install nmap
+```
+
