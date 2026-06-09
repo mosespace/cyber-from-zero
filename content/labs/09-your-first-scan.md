@@ -35,3 +35,7 @@ The `-sV` flag asks Nmap to guess the program and version behind each port.
 
 ## Step 4: Scan the practice host
 
+```bash
+nmap -F scanme.nmap.org
+```
+
