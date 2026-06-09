@@ -46,3 +46,5 @@ nmap -F scanme.nmap.org
 | Port | Service | Is it needed? | What I would do |
 |------|---------|---------------|-----------------|
 | 22 | SSH | Yes | Use keys, disable passwords |
+| 80 | HTTP | Maybe | Redirect to HTTPS |
+
