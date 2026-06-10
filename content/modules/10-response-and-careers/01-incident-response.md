@@ -10,3 +10,4 @@ An **incident** is a security event that causes harm or could. Teams follow a cl
 1. **Prepare**: have a plan, contacts and tools ready.
 2. **Identify**: confirm something is really wrong.
 3. **Contain**: stop it spreading (for example, unplug the machine from the network).
+4. **Eradicate**: remove the cause.
