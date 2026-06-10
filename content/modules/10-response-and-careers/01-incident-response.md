@@ -12,3 +12,5 @@ An **incident** is a security event that causes harm or could. Teams follow a cl
 3. **Contain**: stop it spreading (for example, unplug the machine from the network).
 4. **Eradicate**: remove the cause.
 5. **Recover**: bring systems back safely.
+6. **Learn**: write down what happened and improve.
+
