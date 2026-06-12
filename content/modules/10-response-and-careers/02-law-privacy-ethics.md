@@ -16,3 +16,4 @@ Privacy laws such as GDPR in Europe say organisations must protect personal data
 ## Ethics checklist
 
 - Do I have permission?
+- Could this hurt someone?
