@@ -24,3 +24,4 @@ An **incident** is a security event that causes harm or could. Teams follow a cl
 
 ## Remember
 
+- Contain first, investigate second.
