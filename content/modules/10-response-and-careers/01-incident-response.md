@@ -20,3 +20,5 @@ An **incident** is a security event that causes harm or could. Teams follow a cl
 2. Turn on MFA.
 3. Log out all other sessions.
 4. Tell friends not to trust strange messages from you.
+5. Check your email forwarding rules.
+
