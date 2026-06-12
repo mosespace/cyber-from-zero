@@ -9,3 +9,5 @@ Skill brings responsibility.
 
 Most countries have computer misuse laws. Accessing a system without permission is a crime, even if you "just looked around" and even if you meant well.
 
+## Privacy
+
