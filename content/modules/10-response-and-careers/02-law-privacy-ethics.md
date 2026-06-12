@@ -5,3 +5,5 @@ minutes: 6
 ---
 Skill brings responsibility.
 
+## The law
+
