@@ -17,3 +17,4 @@ An **incident** is a security event that causes harm or could. Teams follow a cl
 ## If your own account is hacked
 
 1. Change the password from a clean device.
+2. Turn on MFA.
