@@ -13,3 +13,5 @@ Most countries have computer misuse laws. Accessing a system without permission 
 
 Privacy laws such as GDPR in Europe say organisations must protect personal data, only collect what they need, and report serious leaks. Fines can be very large.
 
+## Ethics checklist
+
