@@ -17,3 +17,4 @@ Privacy laws such as GDPR in Europe say organisations must protect personal data
 
 - Do I have permission?
 - Could this hurt someone?
+- Am I being honest in my report?
