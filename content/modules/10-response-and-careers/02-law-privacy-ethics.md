@@ -20,3 +20,5 @@ Privacy laws such as GDPR in Europe say organisations must protect personal data
 - Am I being honest in my report?
 - Would I be happy if this appeared in the news?
 
+## Responsible disclosure
+
