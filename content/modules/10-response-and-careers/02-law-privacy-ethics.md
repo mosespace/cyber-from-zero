@@ -24,3 +24,5 @@ Privacy laws such as GDPR in Europe say organisations must protect personal data
 
 If you find a bug by accident, do not exploit it. Tell the owner privately and give them time to fix it. Many companies run **bug bounty** programs that pay for such reports.
 
+## Remember
+
