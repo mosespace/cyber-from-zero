@@ -26,3 +26,4 @@ If you find a bug by accident, do not exploit it. Tell the owner privately and g
 
 ## Remember
 
+- Permission, honesty, care.
