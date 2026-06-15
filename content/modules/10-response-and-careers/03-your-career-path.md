@@ -5,3 +5,5 @@ minutes: 8
 ---
 Cybersecurity has more open jobs than skilled people. You can start with no degree if you build real skills.
 
+## Popular roles
+
