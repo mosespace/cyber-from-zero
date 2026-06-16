@@ -8,3 +8,4 @@ Cybersecurity has more open jobs than skilled people. You can start with no degr
 ## Popular roles
 
 | Role | What you do |
+|------|-------------|
