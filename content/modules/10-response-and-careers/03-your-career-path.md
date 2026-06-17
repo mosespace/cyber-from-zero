@@ -14,3 +14,5 @@ Cybersecurity has more open jobs than skilled people. You can start with no degr
 | Security engineer | Build safe systems |
 | Cloud security | Protect cloud accounts |
 | GRC analyst | Rules, risk and audits |
+| Forensics | Investigate incidents |
+
