@@ -12,3 +12,4 @@ Cybersecurity has more open jobs than skilled people. You can start with no degr
 | SOC analyst | Watch alerts and respond |
 | Penetration tester | Attack with permission |
 | Security engineer | Build safe systems |
+| Cloud security | Protect cloud accounts |
