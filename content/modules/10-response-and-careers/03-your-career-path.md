@@ -19,3 +19,4 @@ Cybersecurity has more open jobs than skilled people. You can start with no degr
 ## Certificates to consider
 
 1. **CompTIA Security+**: the standard entry level.
+2. **Google Cybersecurity Certificate**: very beginner friendly.
