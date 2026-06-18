@@ -25,3 +25,4 @@ Cybersecurity has more open jobs than skilled people. You can start with no degr
 
 ## A 12-month plan
 
+| Months | Focus |
