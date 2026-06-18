@@ -16,3 +16,5 @@ Cybersecurity has more open jobs than skilled people. You can start with no degr
 | GRC analyst | Rules, risk and audits |
 | Forensics | Investigate incidents |
 
+## Certificates to consider
+
