@@ -27,3 +27,4 @@ Cybersecurity has more open jobs than skilled people. You can start with no degr
 
 | Months | Focus |
 |--------|-------|
+| 1-2 | Modules 1 to 4 of this course, plus learn basic Linux |
