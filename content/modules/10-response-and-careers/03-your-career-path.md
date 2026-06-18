@@ -23,3 +23,5 @@ Cybersecurity has more open jobs than skilled people. You can start with no degr
 3. **eJPT / PNPT**: practical hacking starters.
 4. **CISSP**: advanced, needs experience.
 
+## A 12-month plan
+
