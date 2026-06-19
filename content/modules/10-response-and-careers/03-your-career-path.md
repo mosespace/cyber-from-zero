@@ -33,3 +33,5 @@ Cybersecurity has more open jobs than skilled people. You can start with no degr
 | 7-9 | Study for Security+ |
 | 10-12 | Write blog posts, join CTFs, apply for jobs |
 
+## Remember
+
