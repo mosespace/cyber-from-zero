@@ -31,3 +31,5 @@ Cybersecurity has more open jobs than skilled people. You can start with no degr
 | 3-4 | Modules 5 to 7, start TryHackMe |
 | 5-6 | Modules 8 and 9, build a home lab |
 | 7-9 | Study for Security+ |
+| 10-12 | Write blog posts, join CTFs, apply for jobs |
+
