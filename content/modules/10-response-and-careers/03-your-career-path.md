@@ -35,3 +35,4 @@ Cybersecurity has more open jobs than skilled people. You can start with no degr
 
 ## Remember
 
+- Show your work: a blog or GitHub with write-ups.
