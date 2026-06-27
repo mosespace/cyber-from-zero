@@ -11,3 +11,4 @@ This final lab has two parts. One protects you. The other plans your future.
 
 Copy this and fill it in with real names and numbers.
 
+| Question | My answer |
