@@ -5,3 +5,5 @@ minutes: 40
 module: response-and-careers
 level: Advanced
 ---
+This final lab has two parts. One protects you. The other plans your future.
+
