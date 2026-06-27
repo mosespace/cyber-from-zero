@@ -9,3 +9,5 @@ This final lab has two parts. One protects you. The other plans your future.
 
 ## Part A: A one-page incident plan
 
+Copy this and fill it in with real names and numbers.
+
