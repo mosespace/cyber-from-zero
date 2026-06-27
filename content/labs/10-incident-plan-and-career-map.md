@@ -7,3 +7,5 @@ level: Advanced
 ---
 This final lab has two parts. One protects you. The other plans your future.
 
+## Part A: A one-page incident plan
+
