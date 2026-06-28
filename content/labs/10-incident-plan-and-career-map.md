@@ -15,3 +15,4 @@ Copy this and fill it in with real names and numbers.
 |----------|-----------|
 | Which accounts matter most? | |
 | Who do I call if my phone is stolen? | |
+| Where are my recovery codes? | |
