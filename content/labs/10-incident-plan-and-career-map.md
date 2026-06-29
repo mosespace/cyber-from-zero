@@ -19,3 +19,5 @@ Copy this and fill it in with real names and numbers.
 | Where is my newest backup? | |
 | Who can help me check my accounts? | |
 
+Then practise the six steps: prepare, identify, contain, eradicate, recover, learn.
+
