@@ -24,3 +24,4 @@ Then practise the six steps: prepare, identify, contain, eradicate, recover, lea
 ## Part B: A 12-month career map
 
 1. Pick a role from Module 10 that sounds exciting.
+2. Find three real job adverts for it and list the skills they ask for.
