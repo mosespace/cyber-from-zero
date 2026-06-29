@@ -21,3 +21,5 @@ Copy this and fill it in with real names and numbers.
 
 Then practise the six steps: prepare, identify, contain, eradicate, recover, learn.
 
+## Part B: A 12-month career map
+
