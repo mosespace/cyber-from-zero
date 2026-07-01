@@ -31,3 +31,4 @@ Then practise the six steps: prepare, identify, contain, eradicate, recover, lea
 
 | Months | Focus | Proof of work |
 |--------|-------|---------------|
+| 1-2 | Modules 1 to 4 | Notes and Lab 4 |
