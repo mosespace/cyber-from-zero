@@ -29,3 +29,4 @@ Then practise the six steps: prepare, identify, contain, eradicate, recover, lea
 4. Choose one certificate and one practice site.
 5. Fill in a monthly plan.
 
+| Months | Focus | Proof of work |
