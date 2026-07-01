@@ -35,3 +35,5 @@ Then practise the six steps: prepare, identify, contain, eradicate, recover, lea
 | 3-4 | Modules 5 to 7 | A TryHackMe path |
 | 5-6 | Modules 8 and 9 | Home lab write-up |
 | 7-9 | Certificate study | Practice exam score |
+| 10-12 | Apply for jobs | Blog posts, CV |
+
