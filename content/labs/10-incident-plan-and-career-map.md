@@ -27,3 +27,5 @@ Then practise the six steps: prepare, identify, contain, eradicate, recover, lea
 2. Find three real job adverts for it and list the skills they ask for.
 3. Match each skill to a module in this course.
 4. Choose one certificate and one practice site.
+5. Fill in a monthly plan.
+
