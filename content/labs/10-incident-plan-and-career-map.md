@@ -41,3 +41,5 @@ Then practise the six steps: prepare, identify, contain, eradicate, recover, lea
 
 Publish one blog post explaining something you learned in your own words. Teaching is the fastest way to learn.
 
+## Checkpoint
+
