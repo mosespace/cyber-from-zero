@@ -43,3 +43,4 @@ Publish one blog post explaining something you learned in your own words. Teachi
 
 ## Checkpoint
 
+You have a plan for the worst day and a plan for your best year.
