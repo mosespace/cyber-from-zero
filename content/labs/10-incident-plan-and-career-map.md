@@ -37,3 +37,5 @@ Then practise the six steps: prepare, identify, contain, eradicate, recover, lea
 | 7-9 | Certificate study | Practice exam score |
 | 10-12 | Apply for jobs | Blog posts, CV |
 
+## Part C: Write it up
+
