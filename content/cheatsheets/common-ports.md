@@ -8,3 +8,4 @@ Print this and stick it near your desk.
 ## Web
 
 | Port | Service | Notes |
+|-----:|---------|-------|
