@@ -10,3 +10,4 @@ Print this and stick it near your desk.
 | Port | Service | Notes |
 |-----:|---------|-------|
 | 80 | HTTP | Plain web pages |
+| 443 | HTTPS | Encrypted web pages |
