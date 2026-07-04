@@ -11,3 +11,5 @@ Print this and stick it near your desk.
 |-----:|---------|-------|
 | 80 | HTTP | Plain web pages |
 | 443 | HTTPS | Encrypted web pages |
+| 8080 | HTTP alternate | Often used for testing |
+
