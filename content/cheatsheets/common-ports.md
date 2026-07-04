@@ -16,3 +16,4 @@ Print this and stick it near your desk.
 ## Remote access
 
 | Port | Service | Notes |
+|-----:|---------|-------|
