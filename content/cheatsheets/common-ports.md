@@ -18,3 +18,4 @@ Print this and stick it near your desk.
 | Port | Service | Notes |
 |-----:|---------|-------|
 | 22 | SSH | Safe remote terminal |
+| 23 | Telnet | Old and unsafe. Avoid |
