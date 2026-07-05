@@ -23,3 +23,4 @@ Print this and stick it near your desk.
 
 ## Email
 
+| Port | Service | Notes |
