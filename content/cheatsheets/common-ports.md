@@ -25,3 +25,4 @@ Print this and stick it near your desk.
 
 | Port | Service | Notes |
 |-----:|---------|-------|
+| 25 | SMTP | Server to server mail |
