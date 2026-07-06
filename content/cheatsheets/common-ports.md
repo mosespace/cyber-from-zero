@@ -27,3 +27,5 @@ Print this and stick it near your desk.
 |-----:|---------|-------|
 | 25 | SMTP | Server to server mail |
 | 587 | SMTP submission | Sending mail from a client |
+| 143 / 993 | IMAP / IMAPS | Reading mail |
+
