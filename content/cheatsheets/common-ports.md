@@ -32,3 +32,4 @@ Print this and stick it near your desk.
 ## Name and file services
 
 | Port | Service | Notes |
+|-----:|---------|-------|
