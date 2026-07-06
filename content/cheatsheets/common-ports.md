@@ -34,3 +34,4 @@ Print this and stick it near your desk.
 | Port | Service | Notes |
 |-----:|---------|-------|
 | 53 | DNS | Names to addresses |
+| 21 | FTP | Old file transfer |
