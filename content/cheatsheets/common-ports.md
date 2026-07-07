@@ -35,3 +35,5 @@ Print this and stick it near your desk.
 |-----:|---------|-------|
 | 53 | DNS | Names to addresses |
 | 21 | FTP | Old file transfer |
+| 445 | SMB | Windows file sharing |
+
