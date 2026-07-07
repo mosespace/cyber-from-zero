@@ -41,3 +41,4 @@ Print this and stick it near your desk.
 
 | Port | Service |
 |-----:|---------|
+| 3306 | MySQL |
