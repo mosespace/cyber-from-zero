@@ -39,3 +39,4 @@ Print this and stick it near your desk.
 
 ## Databases
 
+| Port | Service |
