@@ -45,3 +45,5 @@ Print this and stick it near your desk.
 | 5432 | PostgreSQL |
 | 27017 | MongoDB |
 
+## Tip
+
