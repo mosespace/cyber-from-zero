@@ -7,3 +7,4 @@ color: "#B5DB6C"
 
 | Letter | Number | Power |
 |--------|-------:|-------|
+| r | 4 | Read |
