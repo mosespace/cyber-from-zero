@@ -11,3 +11,5 @@ color: "#B5DB6C"
 | w | 2 | Write |
 | x | 1 | Run |
 
+Add the numbers for each group: **owner**, **group**, **everyone else**.
+
