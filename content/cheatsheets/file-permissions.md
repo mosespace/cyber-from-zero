@@ -5,3 +5,4 @@ color: "#B5DB6C"
 ---
 ## The three powers
 
+| Letter | Number | Power |
