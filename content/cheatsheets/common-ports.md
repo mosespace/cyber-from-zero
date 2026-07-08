@@ -43,3 +43,5 @@ Print this and stick it near your desk.
 |-----:|---------|
 | 3306 | MySQL |
 | 5432 | PostgreSQL |
+| 27017 | MongoDB |
+
