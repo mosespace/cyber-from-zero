@@ -23,3 +23,5 @@ Add the numbers for each group: **owner**, **group**, **everyone else**.
 | 4 | r-- | Read only |
 | 0 | --- | Nothing |
 
+## Examples to remember
+
