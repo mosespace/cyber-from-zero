@@ -25,3 +25,4 @@ Add the numbers for each group: **owner**, **group**, **everyone else**.
 
 ## Examples to remember
 
+| chmod | Used for |
