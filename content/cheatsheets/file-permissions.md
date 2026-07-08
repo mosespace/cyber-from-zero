@@ -19,3 +19,4 @@ Add the numbers for each group: **owner**, **group**, **everyone else**.
 |-------:|---------|---------|
 | 7 | rwx | Everything |
 | 6 | rw- | Read and write |
+| 5 | r-x | Read and run |
