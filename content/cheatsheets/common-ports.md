@@ -47,3 +47,4 @@ Print this and stick it near your desk.
 
 ## Tip
 
+If a database port is open to the whole internet, that is almost always a mistake.
