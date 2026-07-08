@@ -17,3 +17,4 @@ Add the numbers for each group: **owner**, **group**, **everyone else**.
 
 | Number | Letters | Meaning |
 |-------:|---------|---------|
+| 7 | rwx | Everything |
