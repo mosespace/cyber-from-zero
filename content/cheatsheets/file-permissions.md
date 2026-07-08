@@ -15,3 +15,4 @@ Add the numbers for each group: **owner**, **group**, **everyone else**.
 
 ## Common combinations
 
+| Number | Letters | Meaning |
