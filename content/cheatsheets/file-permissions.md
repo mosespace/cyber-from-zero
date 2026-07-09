@@ -27,3 +27,4 @@ Add the numbers for each group: **owner**, **group**, **everyone else**.
 
 | chmod | Used for |
 |------:|----------|
+| 600 | Private keys and secrets. Only you read and write |
