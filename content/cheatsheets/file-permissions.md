@@ -30,3 +30,4 @@ Add the numbers for each group: **owner**, **group**, **everyone else**.
 | 600 | Private keys and secrets. Only you read and write |
 | 644 | Normal files anyone can read |
 | 700 | Private folders and scripts |
+| 755 | Programs and public folders |
