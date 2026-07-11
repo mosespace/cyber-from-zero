@@ -31,3 +31,5 @@ Add the numbers for each group: **owner**, **group**, **everyone else**.
 | 644 | Normal files anyone can read |
 | 700 | Private folders and scripts |
 | 755 | Programs and public folders |
+| 777 | Almost never correct |
+
