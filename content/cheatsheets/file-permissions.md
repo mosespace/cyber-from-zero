@@ -33,3 +33,5 @@ Add the numbers for each group: **owner**, **group**, **everyone else**.
 | 755 | Programs and public folders |
 | 777 | Almost never correct |
 
+## Reading ls -l
+
