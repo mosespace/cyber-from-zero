@@ -39,3 +39,4 @@ Add the numbers for each group: **owner**, **group**, **everyone else**.
 -rwxr-xr--  1 sam staff  120 Nov 27 notes.sh
 ```
 
+The first dash means a normal file. Then `rwx` for the owner, `r-x` for the group, `r--` for everyone else.
