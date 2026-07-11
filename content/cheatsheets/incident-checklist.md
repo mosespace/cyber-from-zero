@@ -5,3 +5,4 @@ color: "#7ED3D9"
 ---
 ## First 15 minutes
 
+- [ ] Write down the time and what you noticed.
