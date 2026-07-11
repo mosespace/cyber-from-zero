@@ -35,3 +35,7 @@ Add the numbers for each group: **owner**, **group**, **everyone else**.
 
 ## Reading ls -l
 
+```
+-rwxr-xr--  1 sam staff  120 Nov 27 notes.sh
+```
+
