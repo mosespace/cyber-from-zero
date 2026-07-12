@@ -8,3 +8,5 @@ color: "#7ED3D9"
 - [ ] Write down the time and what you noticed.
 - [ ] Do not panic or delete anything.
 - [ ] Disconnect the affected device from the network.
+- [ ] Tell the right person (IT, your manager, or your bank).
+
