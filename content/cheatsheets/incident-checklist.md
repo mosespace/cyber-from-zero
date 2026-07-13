@@ -10,3 +10,5 @@ color: "#7ED3D9"
 - [ ] Disconnect the affected device from the network.
 - [ ] Tell the right person (IT, your manager, or your bank).
 
+## Contain
+
