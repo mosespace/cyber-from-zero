@@ -21,3 +21,5 @@ color: "#7ED3D9"
 
 - [ ] What happened, and when did it start?
 - [ ] Which accounts, files or devices are involved?
+- [ ] Was data stolen, changed or locked?
+
