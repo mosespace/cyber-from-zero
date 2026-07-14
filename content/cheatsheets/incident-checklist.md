@@ -20,3 +20,4 @@ color: "#7ED3D9"
 ## Investigate
 
 - [ ] What happened, and when did it start?
+- [ ] Which accounts, files or devices are involved?
