@@ -13,3 +13,4 @@ color: "#7ED3D9"
 ## Contain
 
 - [ ] Change passwords from a clean device.
+- [ ] Sign out all other sessions.
