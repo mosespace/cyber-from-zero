@@ -14,3 +14,4 @@ color: "#7ED3D9"
 
 - [ ] Change passwords from a clean device.
 - [ ] Sign out all other sessions.
+- [ ] Turn on MFA.
