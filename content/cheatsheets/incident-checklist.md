@@ -23,3 +23,5 @@ color: "#7ED3D9"
 - [ ] Which accounts, files or devices are involved?
 - [ ] Was data stolen, changed or locked?
 
+## Recover
+
