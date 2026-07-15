@@ -33,3 +33,4 @@ color: "#7ED3D9"
 ## Learn
 
 - [ ] Write a short report with a timeline.
+- [ ] List what worked and what did not.
