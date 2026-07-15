@@ -30,3 +30,5 @@ color: "#7ED3D9"
 - [ ] Apply the missing updates.
 - [ ] Watch closely for a week.
 
+## Learn
+
