@@ -25,3 +25,4 @@ color: "#7ED3D9"
 
 ## Recover
 
+- [ ] Restore from a clean backup.
