@@ -34,3 +34,4 @@ color: "#7ED3D9"
 
 - [ ] Write a short report with a timeline.
 - [ ] List what worked and what did not.
+- [ ] Make one change so it cannot happen the same way again.
