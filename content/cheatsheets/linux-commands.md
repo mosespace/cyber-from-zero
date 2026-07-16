@@ -6,3 +6,4 @@ color: "#F7C948"
 ## Moving around
 
 | Command | What it does |
+|---------|--------------|
