@@ -7,3 +7,4 @@ color: "#F7C948"
 
 | Command | What it does |
 |---------|--------------|
+| `pwd` | Show where you are |
