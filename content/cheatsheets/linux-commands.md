@@ -8,3 +8,4 @@ color: "#F7C948"
 | Command | What it does |
 |---------|--------------|
 | `pwd` | Show where you are |
+| `ls -la` | List all files with details |
