@@ -9,3 +9,4 @@ color: "#F7C948"
 |---------|--------------|
 | `pwd` | Show where you are |
 | `ls -la` | List all files with details |
+| `cd folder` | Go into a folder |
