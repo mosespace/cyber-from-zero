@@ -11,3 +11,5 @@ color: "#F7C948"
 | `ls -la` | List all files with details |
 | `cd folder` | Go into a folder |
 | `cd ..` | Go up one folder |
+| `cd ~` | Go to your home folder |
+
