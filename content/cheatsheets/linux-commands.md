@@ -16,3 +16,4 @@ color: "#F7C948"
 ## Working with files
 
 | Command | What it does |
+|---------|--------------|
