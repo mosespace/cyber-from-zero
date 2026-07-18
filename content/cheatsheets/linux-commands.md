@@ -13,3 +13,5 @@ color: "#F7C948"
 | `cd ..` | Go up one folder |
 | `cd ~` | Go to your home folder |
 
+## Working with files
+
