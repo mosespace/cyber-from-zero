@@ -17,3 +17,4 @@ color: "#F7C948"
 
 | Command | What it does |
 |---------|--------------|
+| `touch file` | Create an empty file |
