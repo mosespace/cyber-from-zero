@@ -19,3 +19,4 @@ color: "#F7C948"
 |---------|--------------|
 | `touch file` | Create an empty file |
 | `cat file` | Show a file |
+| `less file` | Scroll through a long file |
