@@ -21,3 +21,4 @@ color: "#F7C948"
 | `cat file` | Show a file |
 | `less file` | Scroll through a long file |
 | `cp a b` | Copy |
+| `mv a b` | Move or rename |
