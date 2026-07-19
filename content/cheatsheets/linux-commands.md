@@ -22,3 +22,4 @@ color: "#F7C948"
 | `less file` | Scroll through a long file |
 | `cp a b` | Copy |
 | `mv a b` | Move or rename |
+| `rm file` | Delete a file |
