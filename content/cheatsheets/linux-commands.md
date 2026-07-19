@@ -23,3 +23,5 @@ color: "#F7C948"
 | `cp a b` | Copy |
 | `mv a b` | Move or rename |
 | `rm file` | Delete a file |
+| `rm -r folder` | Delete a folder. Be careful |
+
