@@ -25,3 +25,5 @@ color: "#F7C948"
 | `rm file` | Delete a file |
 | `rm -r folder` | Delete a folder. Be careful |
 
+## Finding things
+
