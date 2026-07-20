@@ -28,3 +28,4 @@ color: "#F7C948"
 ## Finding things
 
 | Command | What it does |
+|---------|--------------|
