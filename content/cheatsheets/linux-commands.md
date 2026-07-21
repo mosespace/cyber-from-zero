@@ -36,3 +36,4 @@ color: "#F7C948"
 
 ## Users and power
 
+| Command | What it does |
