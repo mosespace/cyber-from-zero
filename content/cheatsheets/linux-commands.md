@@ -34,3 +34,5 @@ color: "#F7C948"
 | `head -n 5 file` | First five lines |
 | `tail -f log` | Watch a log grow |
 
+## Users and power
+
