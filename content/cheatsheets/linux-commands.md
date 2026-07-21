@@ -39,3 +39,4 @@ color: "#F7C948"
 | Command | What it does |
 |---------|--------------|
 | `whoami` | Who am I? |
+| `sudo command` | Run as admin |
