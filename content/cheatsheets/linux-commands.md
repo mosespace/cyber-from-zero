@@ -29,3 +29,4 @@ color: "#F7C948"
 
 | Command | What it does |
 |---------|--------------|
+| `grep word file` | Find lines with a word |
