@@ -40,3 +40,4 @@ color: "#F7C948"
 |---------|--------------|
 | `whoami` | Who am I? |
 | `sudo command` | Run as admin |
+| `chmod 755 file` | Change permissions |
