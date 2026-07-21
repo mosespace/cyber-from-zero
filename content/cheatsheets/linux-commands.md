@@ -32,3 +32,5 @@ color: "#F7C948"
 | `grep word file` | Find lines with a word |
 | `find . -name "*.txt"` | Find files by name |
 | `head -n 5 file` | First five lines |
+| `tail -f log` | Watch a log grow |
+
