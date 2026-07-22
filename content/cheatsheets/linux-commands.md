@@ -46,3 +46,4 @@ color: "#F7C948"
 ## Network
 
 | Command | What it does |
+|---------|--------------|
