@@ -53,3 +53,4 @@ color: "#F7C948"
 
 ## Get help
 
+Use `man command` or `command --help`.
