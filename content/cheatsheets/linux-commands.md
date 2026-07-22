@@ -47,3 +47,4 @@ color: "#F7C948"
 
 | Command | What it does |
 |---------|--------------|
+| `ping host` | Is it alive? |
