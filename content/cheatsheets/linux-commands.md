@@ -49,3 +49,5 @@ color: "#F7C948"
 |---------|--------------|
 | `ping host` | Is it alive? |
 | `curl -I url` | Show HTTP headers |
+| `ss -tulpn` | Show listening ports |
+
