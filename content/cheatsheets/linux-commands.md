@@ -51,3 +51,5 @@ color: "#F7C948"
 | `curl -I url` | Show HTTP headers |
 | `ss -tulpn` | Show listening ports |
 
+## Get help
+
