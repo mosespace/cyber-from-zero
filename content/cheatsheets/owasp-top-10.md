@@ -7,3 +7,4 @@ color: "#8DA6FF"
 
 | Risk | In one line | Main fix |
 |------|-------------|----------|
+| Broken access control | Users see things they should not | Check permissions on the server for every request |
