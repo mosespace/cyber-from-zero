@@ -5,3 +5,4 @@ color: "#8DA6FF"
 ---
 ## The list in plain words
 
+| Risk | In one line | Main fix |
