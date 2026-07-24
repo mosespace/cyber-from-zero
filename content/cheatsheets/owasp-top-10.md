@@ -9,3 +9,4 @@ color: "#8DA6FF"
 |------|-------------|----------|
 | Broken access control | Users see things they should not | Check permissions on the server for every request |
 | Cryptographic failures | Sensitive data left unprotected | Use HTTPS and strong encryption |
+| Injection | User input becomes a command | Prepared statements, input checks |
