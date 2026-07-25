@@ -11,3 +11,4 @@ color: "#8DA6FF"
 | Cryptographic failures | Sensitive data left unprotected | Use HTTPS and strong encryption |
 | Injection | User input becomes a command | Prepared statements, input checks |
 | Insecure design | The plan itself was risky | Threat model early |
+| Security misconfiguration | Defaults and open settings | Harden and review settings |
