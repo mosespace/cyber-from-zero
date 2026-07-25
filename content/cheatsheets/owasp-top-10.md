@@ -12,3 +12,4 @@ color: "#8DA6FF"
 | Injection | User input becomes a command | Prepared statements, input checks |
 | Insecure design | The plan itself was risky | Threat model early |
 | Security misconfiguration | Defaults and open settings | Harden and review settings |
+| Vulnerable components | Old libraries with known bugs | Update and track dependencies |
