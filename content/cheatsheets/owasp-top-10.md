@@ -14,3 +14,4 @@ color: "#8DA6FF"
 | Security misconfiguration | Defaults and open settings | Harden and review settings |
 | Vulnerable components | Old libraries with known bugs | Update and track dependencies |
 | Authentication failures | Weak login protection | MFA, lockouts, strong passwords |
+| Integrity failures | Unchecked updates or data | Sign and verify |
