@@ -13,3 +13,4 @@ color: "#8DA6FF"
 | Insecure design | The plan itself was risky | Threat model early |
 | Security misconfiguration | Defaults and open settings | Harden and review settings |
 | Vulnerable components | Old libraries with known bugs | Update and track dependencies |
+| Authentication failures | Weak login protection | MFA, lockouts, strong passwords |
