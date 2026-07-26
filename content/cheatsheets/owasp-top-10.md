@@ -16,3 +16,5 @@ color: "#8DA6FF"
 | Authentication failures | Weak login protection | MFA, lockouts, strong passwords |
 | Integrity failures | Unchecked updates or data | Sign and verify |
 | Logging failures | Nobody sees the attack | Log and alert |
+| SSRF | Server tricked into calling internal places | Allow-lists |
+
