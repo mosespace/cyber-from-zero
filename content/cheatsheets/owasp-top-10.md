@@ -24,3 +24,5 @@ color: "#8DA6FF"
 2. Give each user the least power needed.
 3. Keep everything updated.
 
+## Practise legally
+
