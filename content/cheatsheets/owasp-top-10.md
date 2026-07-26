@@ -22,3 +22,5 @@ color: "#8DA6FF"
 
 1. Never trust user input.
 2. Give each user the least power needed.
+3. Keep everything updated.
+
