@@ -18,3 +18,5 @@ color: "#8DA6FF"
 | Logging failures | Nobody sees the attack | Log and alert |
 | SSRF | Server tricked into calling internal places | Allow-lists |
 
+## Three habits that prevent most of them
+
