@@ -26,3 +26,4 @@ color: "#8DA6FF"
 
 ## Practise legally
 
+PortSwigger Web Security Academy and OWASP Juice Shop are free and made for learning.
