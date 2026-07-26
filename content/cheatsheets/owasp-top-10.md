@@ -15,3 +15,4 @@ color: "#8DA6FF"
 | Vulnerable components | Old libraries with known bugs | Update and track dependencies |
 | Authentication failures | Weak login protection | MFA, lockouts, strong passwords |
 | Integrity failures | Unchecked updates or data | Sign and verify |
+| Logging failures | Nobody sees the attack | Log and alert |
