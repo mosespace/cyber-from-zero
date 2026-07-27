@@ -5,3 +5,4 @@ color: "#F5A3B8"
 ---
 ## The ten-second check
 
+1. **Sender**: is the address exactly right?
