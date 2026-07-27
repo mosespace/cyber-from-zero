@@ -6,3 +6,4 @@ color: "#F5A3B8"
 ## The ten-second check
 
 1. **Sender**: is the address exactly right?
+2. **Pressure**: does it say urgent, final or act now?
