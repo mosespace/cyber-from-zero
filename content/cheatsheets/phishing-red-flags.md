@@ -12,3 +12,4 @@ color: "#F5A3B8"
 5. **Attachment**: were you expecting one?
 6. **Request**: is it asking for a password, code or money?
 7. **Spelling**: are there odd mistakes?
+8. **Offer**: is it too good to be true?
