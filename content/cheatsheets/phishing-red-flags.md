@@ -13,3 +13,4 @@ color: "#F5A3B8"
 6. **Request**: is it asking for a password, code or money?
 7. **Spelling**: are there odd mistakes?
 8. **Offer**: is it too good to be true?
+9. **Channel**: would this company really contact you this way?
