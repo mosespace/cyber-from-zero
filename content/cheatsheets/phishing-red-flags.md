@@ -7,3 +7,4 @@ color: "#F5A3B8"
 
 1. **Sender**: is the address exactly right?
 2. **Pressure**: does it say urgent, final or act now?
+3. **Greeting**: does it know your name?
