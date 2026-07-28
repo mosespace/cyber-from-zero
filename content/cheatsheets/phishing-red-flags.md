@@ -19,3 +19,4 @@ color: "#F5A3B8"
 ## Types
 
 | Name | Channel |
+|------|---------|
