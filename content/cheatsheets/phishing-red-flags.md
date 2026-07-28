@@ -9,3 +9,4 @@ color: "#F5A3B8"
 2. **Pressure**: does it say urgent, final or act now?
 3. **Greeting**: does it know your name?
 4. **Link**: does the hover address match the company?
+5. **Attachment**: were you expecting one?
