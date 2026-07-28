@@ -16,3 +16,5 @@ color: "#F5A3B8"
 9. **Channel**: would this company really contact you this way?
 10. **Feeling**: do you feel rushed or scared?
 
+## Types
+
