@@ -11,3 +11,4 @@ color: "#F5A3B8"
 4. **Link**: does the hover address match the company?
 5. **Attachment**: were you expecting one?
 6. **Request**: is it asking for a password, code or money?
+7. **Spelling**: are there odd mistakes?
