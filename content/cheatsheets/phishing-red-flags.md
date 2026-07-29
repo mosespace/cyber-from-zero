@@ -26,3 +26,5 @@ color: "#F5A3B8"
 | Spear phishing | Targeted at one person |
 | Quishing | Fake QR codes |
 
+## If you clicked
+
