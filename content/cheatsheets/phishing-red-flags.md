@@ -23,3 +23,4 @@ color: "#F5A3B8"
 | Phishing | Email |
 | Smishing | Text message |
 | Vishing | Phone call |
+| Spear phishing | Targeted at one person |
