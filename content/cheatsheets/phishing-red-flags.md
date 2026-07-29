@@ -20,3 +20,4 @@ color: "#F5A3B8"
 
 | Name | Channel |
 |------|---------|
+| Phishing | Email |
