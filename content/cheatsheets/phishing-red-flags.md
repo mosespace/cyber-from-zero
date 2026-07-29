@@ -24,3 +24,5 @@ color: "#F5A3B8"
 | Smishing | Text message |
 | Vishing | Phone call |
 | Spear phishing | Targeted at one person |
+| Quishing | Fake QR codes |
+
