@@ -29,3 +29,4 @@ color: "#F5A3B8"
 ## If you clicked
 
 1. Disconnect from the network if you opened a file.
+2. Change the password from a clean device.
