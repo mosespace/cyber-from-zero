@@ -32,3 +32,4 @@ color: "#F5A3B8"
 2. Change the password from a clean device.
 3. Turn on MFA.
 4. Tell the company or your IT team.
+5. Watch your accounts for strange activity.
