@@ -31,3 +31,4 @@ color: "#F5A3B8"
 1. Disconnect from the network if you opened a file.
 2. Change the password from a clean device.
 3. Turn on MFA.
+4. Tell the company or your IT team.
