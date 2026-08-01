@@ -7,3 +7,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "audio": "node scripts/make-audio.mjs"
+  },
+  "dependencies": {
