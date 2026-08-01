@@ -4,3 +4,6 @@
   "private": true,
   "description": "A beginner-friendly cybersecurity course in simple English, with a Next.js learning site.",
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
