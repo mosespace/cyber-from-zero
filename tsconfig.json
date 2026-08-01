@@ -4,3 +4,6 @@
     "lib": [
       "dom",
       "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": false,
