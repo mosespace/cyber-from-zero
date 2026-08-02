@@ -19,3 +19,6 @@ export type Lesson = {
 
 export type QuizQuestion = {
   q: string;
+  options: string[];
+  answer: number;
+  why: string;
