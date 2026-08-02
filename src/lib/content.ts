@@ -9,3 +9,6 @@ export type Lesson = {
   moduleSlug: string;
   order: number;
   title: string;
+  summary: string;
+  minutes: number;
+  body: string;
