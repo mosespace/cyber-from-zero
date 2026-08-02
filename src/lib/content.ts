@@ -32,3 +32,6 @@ export type Module = {
   level: string;
   hours: number;
   blurb: string;
+  overview: string;
+  lessons: Lesson[];
+  quiz: QuizQuestion[];
