@@ -52,3 +52,6 @@ function parseFrontmatter(raw: string) {
 }
 
 /** Turn lesson Markdown into text that sounds natural when read aloud. */
+export function toPlainText(md: string): string {
+  return md
+    .replace(/```[\s\S]*?```/g, " ")
