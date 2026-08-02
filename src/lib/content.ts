@@ -6,3 +6,6 @@ const ROOT = path.join(process.cwd(), "content", "modules");
 
 export type Lesson = {
   slug: string;
+  moduleSlug: string;
+  order: number;
+  title: string;
