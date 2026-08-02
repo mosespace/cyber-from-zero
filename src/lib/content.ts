@@ -12,3 +12,6 @@ export type Lesson = {
   summary: string;
   minutes: number;
   body: string;
+  plain: string;
+  headings: { id: string; text: string }[];
+  remember: string[];
