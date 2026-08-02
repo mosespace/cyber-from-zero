@@ -70,3 +70,7 @@ export function toPlainText(md: string): string {
     .replace(/[*_`]/g, "")
     .replace(/\n{2,}/g, "\n")
     .trim();
+}
+
+function num(name: string) {
+  return parseInt(name.match(/^(\d+)/)?.[1] ?? "0", 10);
