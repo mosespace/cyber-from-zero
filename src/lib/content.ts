@@ -22,3 +22,7 @@ export type QuizQuestion = {
   options: string[];
   answer: number;
   why: string;
+};
+
+export type Module = {
+  slug: string;
