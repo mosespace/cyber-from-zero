@@ -45,3 +45,6 @@ function parseFrontmatter(raw: string) {
     const i = line.indexOf(":");
     if (i === -1) continue;
     const key = line.slice(0, i).trim();
+    const value = line.slice(i + 1).trim().replace(/^["']|["']$/g, "");
+    data[key] = value;
+  }
