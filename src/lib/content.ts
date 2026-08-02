@@ -26,3 +26,6 @@ export type QuizQuestion = {
 
 export type Module = {
   slug: string;
+  order: number;
+  title: string;
+  color: string;
