@@ -61,3 +61,6 @@ export function toPlainText(md: string): string {
       l.includes("|")
         ? l.split("|").map((c) => c.trim()).filter(Boolean).join(": ") + "."
         : l,
+    )
+    .join("\n")
+    .replace(/^#+\s*/gm, "")
