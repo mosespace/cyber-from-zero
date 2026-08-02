@@ -29,3 +29,6 @@ export type Module = {
   order: number;
   title: string;
   color: string;
+  level: string;
+  hours: number;
+  blurb: string;
