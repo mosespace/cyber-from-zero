@@ -64,3 +64,6 @@ export function toPlainText(md: string): string {
     )
     .join("\n")
     .replace(/^#+\s*/gm, "")
+    .replace(/^>\s?/gm, "")
+    .replace(/^\s*[-*]\s+/gm, "")
+    .replace(/^\s*\d+\.\s+/gm, "")
