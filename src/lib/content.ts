@@ -58,3 +58,6 @@ export function toPlainText(md: string): string {
     .split("\n")
     .filter((l) => !/^\s*\|?\s*[-:| ]+\|?\s*$/.test(l) || !l.includes("|"))
     .map((l) =>
+      l.includes("|")
+        ? l.split("|").map((c) => c.trim()).filter(Boolean).join(": ") + "."
+        : l,
