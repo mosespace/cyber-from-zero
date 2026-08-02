@@ -42,3 +42,6 @@ function parseFrontmatter(raw: string) {
   if (!m) return { data: {} as Record<string, string>, body: raw };
   const data: Record<string, string> = {};
   for (const line of m[1].split("\n")) {
+    const i = line.indexOf(":");
+    if (i === -1) continue;
+    const key = line.slice(0, i).trim();
