@@ -39,3 +39,6 @@ export type Module = {
 
 function parseFrontmatter(raw: string) {
   const m = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/);
+  if (!m) return { data: {} as Record<string, string>, body: raw };
+  const data: Record<string, string> = {};
+  for (const line of m[1].split("\n")) {
