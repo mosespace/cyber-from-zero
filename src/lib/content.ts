@@ -15,3 +15,7 @@ export type Lesson = {
   plain: string;
   headings: { id: string; text: string }[];
   remember: string[];
+};
+
+export type QuizQuestion = {
+  q: string;
