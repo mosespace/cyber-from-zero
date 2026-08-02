@@ -78,3 +78,6 @@ function num(name: string) {
 
 /** Pulls the closing "Remember" bullets out so the page can show them as a takeaway card. */
 function splitRemember(body: string) {
+  const i = body.search(/^## Remember\s*$/m);
+  const main = i === -1 ? body : body.slice(0, i).trimEnd();
+  const tail = i === -1 ? "" : body.slice(i);
