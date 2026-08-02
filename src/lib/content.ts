@@ -74,3 +74,7 @@ export function toPlainText(md: string): string {
 
 function num(name: string) {
   return parseInt(name.match(/^(\d+)/)?.[1] ?? "0", 10);
+}
+
+/** Pulls the closing "Remember" bullets out so the page can show them as a takeaway card. */
+function splitRemember(body: string) {
