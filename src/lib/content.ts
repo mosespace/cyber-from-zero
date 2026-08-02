@@ -55,3 +55,6 @@ function parseFrontmatter(raw: string) {
 export function toPlainText(md: string): string {
   return md
     .replace(/```[\s\S]*?```/g, " ")
+    .split("\n")
+    .filter((l) => !/^\s*\|?\s*[-:| ]+\|?\s*$/.test(l) || !l.includes("|"))
+    .map((l) =>
