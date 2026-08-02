@@ -35,3 +35,7 @@ export type Module = {
   overview: string;
   lessons: Lesson[];
   quiz: QuizQuestion[];
+};
+
+function parseFrontmatter(raw: string) {
+  const m = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/);
