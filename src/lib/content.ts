@@ -48,3 +48,7 @@ function parseFrontmatter(raw: string) {
     const value = line.slice(i + 1).trim().replace(/^["']|["']$/g, "");
     data[key] = value;
   }
+  return { data, body: m[2].trim() };
+}
+
+/** Turn lesson Markdown into text that sounds natural when read aloud. */
