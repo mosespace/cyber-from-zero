@@ -84,3 +84,8 @@ function splitRemember(body: string) {
   const remember = tail.split("\n").filter((l) => /^\s*[-*]\s+/.test(l)).map((l) => l.replace(/^\s*[-*]\s+/, "").replace(/\*\*/g, ""));
   const headings = [...main.matchAll(/^## (.+)$/gm)].map((m) => ({ text: m[1].trim(), id: slugify(m[1]) }));
   return { body: main, headings, remember };
+}
+
+let cache: Module[] | null = null;
+
+export function getModules(): Module[] {
