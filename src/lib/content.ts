@@ -122,3 +122,7 @@ export function getModules(): Module[] {
     const quizPath = path.join(base, "quiz.json");
     const quiz: QuizQuestion[] = fs.existsSync(quizPath)
       ? JSON.parse(fs.readFileSync(quizPath, "utf8"))
+      : [];
+
+    return {
+      slug,
