@@ -126,3 +126,6 @@ export function getModules(): Module[] {
 
     return {
       slug,
+      order: num(dir),
+      title: index.data.title ?? slug,
+      color: index.data.color ?? "#38bdf8",
