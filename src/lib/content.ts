@@ -129,3 +129,6 @@ export function getModules(): Module[] {
       order: num(dir),
       title: index.data.title ?? slug,
       color: index.data.color ?? "#38bdf8",
+      level: index.data.level ?? "Beginner",
+      hours: Number(index.data.hours ?? 2),
+      blurb: index.data.blurb ?? "",
