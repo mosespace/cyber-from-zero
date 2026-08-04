@@ -99,3 +99,7 @@ export function getModules(): Module[] {
   cache = dirs.map((dir) => {
     const base = path.join(ROOT, dir);
     const index = parseFrontmatter(fs.readFileSync(path.join(base, "index.md"), "utf8"));
+    const slug = dir.replace(/^\d+-/, "");
+
+    const lessons: Lesson[] = fs
+      .readdirSync(base)
