@@ -115,3 +115,7 @@ export function getModules(): Module[] {
           summary: data.summary ?? "",
           minutes: Number(data.minutes ?? 5),
           plain: `${data.title}. ${toPlainText(body)}`,
+          ...splitRemember(body),
+        };
+      });
+
