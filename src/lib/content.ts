@@ -103,3 +103,6 @@ export function getModules(): Module[] {
 
     const lessons: Lesson[] = fs
       .readdirSync(base)
+      .filter((f) => /^\d+-.*\.md$/.test(f))
+      .sort()
+      .map((f) => {
