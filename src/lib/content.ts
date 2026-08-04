@@ -96,3 +96,6 @@ export function getModules(): Module[] {
     .map((d) => d.name)
     .sort();
 
+  cache = dirs.map((dir) => {
+    const base = path.join(ROOT, dir);
+    const index = parseFrontmatter(fs.readFileSync(path.join(base, "index.md"), "utf8"));
