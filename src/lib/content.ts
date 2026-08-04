@@ -92,3 +92,7 @@ export function getModules(): Module[] {
   if (cache) return cache;
   const dirs = fs
     .readdirSync(ROOT, { withFileTypes: true })
+    .filter((d) => d.isDirectory())
+    .map((d) => d.name)
+    .sort();
+
