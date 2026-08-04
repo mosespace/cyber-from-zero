@@ -112,3 +112,6 @@ export function getModules(): Module[] {
           moduleSlug: slug,
           order: num(f),
           title: data.title ?? f,
+          summary: data.summary ?? "",
+          minutes: Number(data.minutes ?? 5),
+          plain: `${data.title}. ${toPlainText(body)}`,
