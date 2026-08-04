@@ -132,3 +132,6 @@ export function getModules(): Module[] {
       level: index.data.level ?? "Beginner",
       hours: Number(index.data.hours ?? 2),
       blurb: index.data.blurb ?? "",
+      overview: index.body,
+      lessons,
+      quiz,
