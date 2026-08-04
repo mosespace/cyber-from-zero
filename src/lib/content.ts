@@ -89,3 +89,6 @@ function splitRemember(body: string) {
 let cache: Module[] | null = null;
 
 export function getModules(): Module[] {
+  if (cache) return cache;
+  const dirs = fs
+    .readdirSync(ROOT, { withFileTypes: true })
