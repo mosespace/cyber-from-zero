@@ -109,3 +109,6 @@ export function getModules(): Module[] {
         const { data, body } = parseFrontmatter(fs.readFileSync(path.join(base, f), "utf8"));
         return {
           slug: f.replace(/^\d+-/, "").replace(/\.md$/, ""),
+          moduleSlug: slug,
+          order: num(f),
+          title: data.title ?? f,
