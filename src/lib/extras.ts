@@ -9,3 +9,6 @@ export type Extra = {
   title: string;
   summary: string;
   body: string;
+  minutes: number;
+  level: string;
+  moduleSlug?: string;
