@@ -19,3 +19,6 @@ export type Extra = {
 function read(dir: "labs" | "cheatsheets"): Extra[] {
   const base = path.join(ROOT, dir);
   if (!fs.existsSync(base)) return [];
+  const modules = getModules();
+  return fs
+    .readdirSync(base)
