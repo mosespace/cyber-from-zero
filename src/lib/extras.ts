@@ -2,3 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { getModules } from "./content";
 
+const ROOT = path.join(process.cwd(), "content");
+
+export type Extra = {
+  slug: string;
