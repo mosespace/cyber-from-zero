@@ -157,3 +157,6 @@ export function getNeighbours(moduleSlug: string, lessonSlug: string) {
   return { prev: flat[i - 1], next: flat[i + 1] };
 }
 
+export function totals() {
+  const mods = getModules();
+  return {
