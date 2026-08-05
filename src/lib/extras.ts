@@ -6,3 +6,6 @@ const ROOT = path.join(process.cwd(), "content");
 
 export type Extra = {
   slug: string;
+  title: string;
+  summary: string;
+  body: string;
