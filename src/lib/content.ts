@@ -150,3 +150,6 @@ export function getLesson(moduleSlug: string, lessonSlug: string) {
   return mod && lesson ? { mod, lesson } : undefined;
 }
 
+/** Previous and next lesson across module boundaries. */
+export function getNeighbours(moduleSlug: string, lessonSlug: string) {
+  const flat = getModules().flatMap((m) => m.lessons);
