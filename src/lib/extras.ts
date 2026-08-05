@@ -12,3 +12,7 @@ export type Extra = {
   minutes: number;
   level: string;
   moduleSlug?: string;
+  moduleTitle?: string;
+  color: string;
+};
+
