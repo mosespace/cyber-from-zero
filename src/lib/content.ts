@@ -153,3 +153,7 @@ export function getLesson(moduleSlug: string, lessonSlug: string) {
 /** Previous and next lesson across module boundaries. */
 export function getNeighbours(moduleSlug: string, lessonSlug: string) {
   const flat = getModules().flatMap((m) => m.lessons);
+  const i = flat.findIndex((l) => l.moduleSlug === moduleSlug && l.slug === lessonSlug);
+  return { prev: flat[i - 1], next: flat[i + 1] };
+}
+
