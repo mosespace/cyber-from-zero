@@ -142,3 +142,7 @@ export function getModules(): Module[] {
 
 export function getModule(slug: string) {
   return getModules().find((m) => m.slug === slug);
+}
+
+export function getLesson(moduleSlug: string, lessonSlug: string) {
+  const mod = getModule(moduleSlug);
