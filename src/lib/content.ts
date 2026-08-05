@@ -138,3 +138,7 @@ export function getModules(): Module[] {
     };
   });
   return cache;
+}
+
+export function getModule(slug: string) {
+  return getModules().find((m) => m.slug === slug);
