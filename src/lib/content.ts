@@ -146,3 +146,7 @@ export function getModule(slug: string) {
 
 export function getLesson(moduleSlug: string, lessonSlug: string) {
   const mod = getModule(moduleSlug);
+  const lesson = mod?.lessons.find((l) => l.slug === lessonSlug);
+  return mod && lesson ? { mod, lesson } : undefined;
+}
+
