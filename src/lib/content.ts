@@ -160,3 +160,6 @@ export function getNeighbours(moduleSlug: string, lessonSlug: string) {
 export function totals() {
   const mods = getModules();
   return {
+    modules: mods.length,
+    lessons: mods.reduce((n, m) => n + m.lessons.length, 0),
+    hours: mods.reduce((n, m) => n + m.hours, 0),
