@@ -22,3 +22,6 @@ function read(dir: "labs" | "cheatsheets"): Extra[] {
   const modules = getModules();
   return fs
     .readdirSync(base)
+    .filter((f) => f.endsWith(".md"))
+    .sort()
+    .map((f) => {
