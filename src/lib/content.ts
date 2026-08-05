@@ -135,3 +135,6 @@ export function getModules(): Module[] {
       overview: index.body,
       lessons,
       quiz,
+    };
+  });
+  return cache;
