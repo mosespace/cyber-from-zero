@@ -16,3 +16,6 @@ export type Extra = {
   color: string;
 };
 
+function read(dir: "labs" | "cheatsheets"): Extra[] {
+  const base = path.join(ROOT, dir);
+  if (!fs.existsSync(base)) return [];
