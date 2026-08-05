@@ -163,3 +163,6 @@ export function totals() {
     modules: mods.length,
     lessons: mods.reduce((n, m) => n + m.lessons.length, 0),
     hours: mods.reduce((n, m) => n + m.hours, 0),
+    minutes: mods.reduce((n, m) => n + m.lessons.reduce((a, l) => a + l.minutes, 0), 0),
+  };
+}
