@@ -37,3 +37,6 @@ function read(dir: "labs" | "cheatsheets"): Extra[] {
         slug: f.replace(/^\d+-/, "").replace(/\.md$/, ""),
         title: data.title ?? f,
         summary: data.summary ?? "",
+        body: (m?.[2] ?? raw).trim(),
+        minutes: Number(data.minutes ?? 5),
+        level: data.level ?? "Beginner",
