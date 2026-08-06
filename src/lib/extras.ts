@@ -34,3 +34,6 @@ function read(dir: "labs" | "cheatsheets"): Extra[] {
       }
       const mod = modules.find((x) => x.slug === data.module);
       return {
+        slug: f.replace(/^\d+-/, "").replace(/\.md$/, ""),
+        title: data.title ?? f,
+        summary: data.summary ?? "",
