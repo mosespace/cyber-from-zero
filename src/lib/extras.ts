@@ -25,3 +25,6 @@ function read(dir: "labs" | "cheatsheets"): Extra[] {
     .filter((f) => f.endsWith(".md"))
     .sort()
     .map((f) => {
+      const raw = fs.readFileSync(path.join(base, f), "utf8");
+      const m = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/);
+      const data: Record<string, string> = {};
