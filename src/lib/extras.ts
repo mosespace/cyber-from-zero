@@ -28,3 +28,6 @@ function read(dir: "labs" | "cheatsheets"): Extra[] {
       const raw = fs.readFileSync(path.join(base, f), "utf8");
       const m = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/);
       const data: Record<string, string> = {};
+      for (const line of (m?.[1] ?? "").split("\n")) {
+        const i = line.indexOf(":");
+        if (i > 0) data[line.slice(0, i).trim()] = line.slice(i + 1).trim().replace(/^["']|["']$/g, "");
