@@ -43,3 +43,7 @@ function read(dir: "labs" | "cheatsheets"): Extra[] {
         moduleSlug: mod?.slug,
         moduleTitle: mod?.title,
         color: data.color ?? mod?.color ?? "#F7C948",
+      };
+    });
+}
+
