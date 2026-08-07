@@ -40,3 +40,7 @@ function save(next: State) {
     const raw = JSON.stringify(next);
     localStorage.setItem(KEY, raw);
     cache = { raw, state: next };
+  } catch {}
+  listeners.forEach((l) => l());
+}
+
