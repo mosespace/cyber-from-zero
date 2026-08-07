@@ -40,3 +40,6 @@ function read(dir: "labs" | "cheatsheets"): Extra[] {
         body: (m?.[2] ?? raw).trim(),
         minutes: Number(data.minutes ?? 5),
         level: data.level ?? "Beginner",
+        moduleSlug: mod?.slug,
+        moduleTitle: mod?.title,
+        color: data.color ?? mod?.color ?? "#F7C948",
