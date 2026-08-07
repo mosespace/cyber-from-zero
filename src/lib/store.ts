@@ -21,3 +21,6 @@ function load(): State {
   try {
     const raw = localStorage.getItem(KEY);
     if (cache && cache.raw === raw) return cache.state;
+    let state = EMPTY;
+    if (raw) state = { ...EMPTY, ...JSON.parse(raw) };
+    else {
