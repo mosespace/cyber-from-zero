@@ -37,3 +37,6 @@ function load(): State {
 
 function save(next: State) {
   try {
+    const raw = JSON.stringify(next);
+    localStorage.setItem(KEY, raw);
+    cache = { raw, state: next };
