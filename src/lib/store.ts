@@ -50,3 +50,7 @@ function subscribe(cb: () => void) {
   return () => {
     listeners.delete(cb);
     window.removeEventListener("storage", cb);
+  };
+}
+
+export function useStore(): State {
