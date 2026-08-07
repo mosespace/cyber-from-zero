@@ -24,3 +24,6 @@ function load(): State {
     let state = EMPTY;
     if (raw) state = { ...EMPTY, ...JSON.parse(raw) };
     else {
+      // bring over progress saved by the first version of the site
+      const old = JSON.parse(localStorage.getItem("cfz-progress") ?? "[]");
+      if (Array.isArray(old) && old.length) state = { ...EMPTY, done: old, xp: old.length * 20 };
