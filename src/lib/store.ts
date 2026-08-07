@@ -44,3 +44,6 @@ function save(next: State) {
   listeners.forEach((l) => l());
 }
 
+function subscribe(cb: () => void) {
+  listeners.add(cb);
+  window.addEventListener("storage", cb);
