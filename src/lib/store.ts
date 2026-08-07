@@ -14,3 +14,7 @@ export type State = {
 const KEY = "cfz-v2";
 const EMPTY: State = { done: [], xp: 0, days: [], quiz: {}, cards: {}, awarded: [] };
 
+let cache: { raw: string | null; state: State } | null = null;
+const listeners = new Set<() => void>();
+
+function load(): State {
