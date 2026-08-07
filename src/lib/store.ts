@@ -33,3 +33,7 @@ function load(): State {
   } catch {
     return EMPTY;
   }
+}
+
+function save(next: State) {
+  try {
