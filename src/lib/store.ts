@@ -30,3 +30,6 @@ function load(): State {
     }
     cache = { raw, state };
     return state;
+  } catch {
+    return EMPTY;
+  }
