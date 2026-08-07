@@ -47,3 +47,6 @@ function save(next: State) {
 function subscribe(cb: () => void) {
   listeners.add(cb);
   window.addEventListener("storage", cb);
+  return () => {
+    listeners.delete(cb);
+    window.removeEventListener("storage", cb);
