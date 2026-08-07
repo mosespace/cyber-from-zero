@@ -9,3 +9,8 @@ export type State = {
   quiz: Record<string, number>;   // best score per quiz key
   cards: Record<string, number>;  // flashcard box 0-4 per term
   awarded: string[];              // one-time XP rewards already given
+};
+
+const KEY = "cfz-v2";
+const EMPTY: State = { done: [], xp: 0, days: [], quiz: {}, cards: {}, awarded: [] };
+
