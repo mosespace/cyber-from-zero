@@ -6,3 +6,6 @@ export type State = {
   done: string[];                 // lesson ids like "networking/the-osi-model"
   xp: number;
   days: string[];                 // dates (YYYY-MM-DD) with any activity
+  quiz: Record<string, number>;   // best score per quiz key
+  cards: Record<string, number>;  // flashcard box 0-4 per term
+  awarded: string[];              // one-time XP rewards already given
