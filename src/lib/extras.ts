@@ -47,3 +47,5 @@ function read(dir: "labs" | "cheatsheets"): Extra[] {
     });
 }
 
+export const getLabs = () => read("labs");
+export const getCheatsheets = () => read("cheatsheets");
