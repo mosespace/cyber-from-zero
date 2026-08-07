@@ -18,3 +18,6 @@ let cache: { raw: string | null; state: State } | null = null;
 const listeners = new Set<() => void>();
 
 function load(): State {
+  try {
+    const raw = localStorage.getItem(KEY);
+    if (cache && cache.raw === raw) return cache.state;
