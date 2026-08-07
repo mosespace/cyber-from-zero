@@ -54,3 +54,7 @@ function subscribe(cb: () => void) {
 }
 
 export function useStore(): State {
+  return useSyncExternalStore(subscribe, load, () => EMPTY);
+}
+
+export const todayKey = () => {
