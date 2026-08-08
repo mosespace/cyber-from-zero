@@ -65,3 +65,7 @@ export const todayKey = () => {
 function touch(s: State): State {
   const t = todayKey();
   return s.days.includes(t) ? s : { ...s, days: [...s.days, t] };
+}
+
+function award(s: State, key: string, xp: number): State {
+  return s.awarded.includes(key) ? s : { ...s, xp: s.xp + xp, awarded: [...s.awarded, key] };
