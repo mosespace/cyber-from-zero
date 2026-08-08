@@ -69,3 +69,7 @@ function touch(s: State): State {
 
 function award(s: State, key: string, xp: number): State {
   return s.awarded.includes(key) ? s : { ...s, xp: s.xp + xp, awarded: [...s.awarded, key] };
+}
+
+/** Returns true when this completion gave new XP. */
+export function completeLesson(id: string) {
