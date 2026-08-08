@@ -76,3 +76,7 @@ export function completeLesson(id: string) {
   const s = load();
   if (s.done.includes(id)) return false;
   const fresh = !s.awarded.includes(`lesson:${id}`);
+  save(touch(award({ ...s, done: [...s.done, id] }, `lesson:${id}`, 20)));
+  return fresh;
+}
+
