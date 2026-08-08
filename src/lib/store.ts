@@ -73,3 +73,6 @@ function award(s: State, key: string, xp: number): State {
 
 /** Returns true when this completion gave new XP. */
 export function completeLesson(id: string) {
+  const s = load();
+  if (s.done.includes(id)) return false;
+  const fresh = !s.awarded.includes(`lesson:${id}`);
