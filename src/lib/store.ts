@@ -118,3 +118,8 @@ export function streakOf(days: string[]) {
     d.setDate(d.getDate() - 1);
   }
   return n;
+}
+
+export type ModuleIds = { slug: string; title: string; color: string; ids: string[] };
+
+export function computeBadges(s: State, mods: ModuleIds[]) {
