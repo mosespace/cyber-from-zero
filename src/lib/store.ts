@@ -87,3 +87,6 @@ export function uncompleteLesson(id: string) {
 
 /** Gives 5 XP for each answer better than your previous best. Returns XP earned. */
 export function recordQuiz(key: string, score: number) {
+  const s = load();
+  const best = s.quiz[key] ?? 0;
+  const gain = Math.max(0, score - best) * 5;
