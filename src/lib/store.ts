@@ -94,3 +94,6 @@ export function recordQuiz(key: string, score: number) {
   return gain;
 }
 
+export function reviewCard(term: string, known: boolean) {
+  const s = load();
+  const box = known ? Math.min((s.cards[term] ?? 0) + 1, 4) : 0;
