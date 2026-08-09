@@ -123,3 +123,6 @@ export function streakOf(days: string[]) {
 export type ModuleIds = { slug: string; title: string; color: string; ids: string[] };
 
 export function computeBadges(s: State, mods: ModuleIds[]) {
+  const total = mods.reduce((n, m) => n + m.ids.length, 0);
+  const lessons = s.done.length;
+  const known = Object.values(s.cards).filter((b) => b >= 1).length;
