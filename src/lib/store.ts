@@ -105,3 +105,7 @@ export function resetAll() {
 }
 
 export const XP_PER_LEVEL = 100;
+export const levelOf = (xp: number) => ({ level: Math.floor(xp / XP_PER_LEVEL) + 1, into: xp % XP_PER_LEVEL });
+
+export function streakOf(days: string[]) {
+  const set = new Set(days);
