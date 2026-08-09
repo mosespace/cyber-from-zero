@@ -115,3 +115,6 @@ export function streakOf(days: string[]) {
   let n = 0;
   while (set.has(fmt(d))) {
     n++;
+    d.setDate(d.getDate() - 1);
+  }
+  return n;
