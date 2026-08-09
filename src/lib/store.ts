@@ -101,3 +101,7 @@ export function reviewCard(term: string, known: boolean) {
 }
 
 export function resetAll() {
+  save(EMPTY);
+}
+
+export const XP_PER_LEVEL = 100;
