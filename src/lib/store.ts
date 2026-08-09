@@ -90,3 +90,7 @@ export function recordQuiz(key: string, score: number) {
   const s = load();
   const best = s.quiz[key] ?? 0;
   const gain = Math.max(0, score - best) * 5;
+  save(touch({ ...s, xp: s.xp + gain, quiz: { ...s.quiz, [key]: Math.max(best, score) } }));
+  return gain;
+}
+
