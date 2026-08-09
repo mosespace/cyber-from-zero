@@ -83,3 +83,7 @@ export function completeLesson(id: string) {
 export function uncompleteLesson(id: string) {
   const s = load();
   save({ ...s, done: s.done.filter((x) => x !== id) });
+}
+
+/** Gives 5 XP for each answer better than your previous best. Returns XP earned. */
+export function recordQuiz(key: string, score: number) {
