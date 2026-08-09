@@ -80,3 +80,6 @@ export function completeLesson(id: string) {
   return fresh;
 }
 
+export function uncompleteLesson(id: string) {
+  const s = load();
+  save({ ...s, done: s.done.filter((x) => x !== id) });
