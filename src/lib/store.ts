@@ -97,3 +97,7 @@ export function recordQuiz(key: string, score: number) {
 export function reviewCard(term: string, known: boolean) {
   const s = load();
   const box = known ? Math.min((s.cards[term] ?? 0) + 1, 4) : 0;
+  save(touch(award({ ...s, cards: { ...s.cards, [term]: box } }, `card:${term}`, known ? 2 : 0)));
+}
+
+export function resetAll() {
