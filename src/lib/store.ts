@@ -109,3 +109,6 @@ export const levelOf = (xp: number) => ({ level: Math.floor(xp / XP_PER_LEVEL) +
 
 export function streakOf(days: string[]) {
   const set = new Set(days);
+  const d = new Date();
+  const fmt = (x: Date) => `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, "0")}-${String(x.getDate()).padStart(2, "0")}`;
+  if (!set.has(fmt(d))) d.setDate(d.getDate() - 1); // a streak is still alive until the day ends
