@@ -19,3 +19,6 @@
   --card: var(--white);
   --text: var(--ink);
   --line: #e6dcc4;
+  --accent: var(--blue);
+  --accent-2: var(--coral);
+  --good: #19b886;
