@@ -13,3 +13,6 @@
   --pop: 0 3px 0 var(--ink);
   --pop-lg: 0 3px 0 var(--ink);
   --r: 10px;
+  /* names used by charts and widgets */
+  --bg: var(--paper);
+  --bg-soft: #fff1d6;
