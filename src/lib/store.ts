@@ -132,3 +132,6 @@ export function computeBadges(s: State, mods: ModuleIds[]) {
   return [
     { id: "first", title: "First step", desc: "Finish your first lesson", color: "#7CCBFF", shape: "circle", earned: lessons >= 1 },
     { id: "five", title: "On a roll", desc: "Finish 5 lessons", color: "#FFC93C", shape: "star", earned: lessons >= 5 },
+    { id: "half", title: "Halfway there", desc: "Finish half of the course", color: "#B9A2FF", shape: "tri", earned: total > 0 && lessons >= total / 2 },
+    { id: "module", title: "Module master", desc: "Complete a whole module", color: "#27D3A2", shape: "square", earned: finished.length >= 1 },
+    { id: "ace", title: "Quiz ace", desc: "Get 5 out of 5 in a module quiz", color: "#FF9BC9", shape: "star", earned: perfect },
