@@ -10,3 +10,6 @@
   --lilac: #b9a2ff;
   --sky: #7ccbff;
   --pink: #ff9bc9;
+  --pop: 0 3px 0 var(--ink);
+  --pop-lg: 0 3px 0 var(--ink);
+  --r: 10px;
