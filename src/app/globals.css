@@ -16,3 +16,6 @@
   /* names used by charts and widgets */
   --bg: var(--paper);
   --bg-soft: #fff1d6;
+  --card: var(--white);
+  --text: var(--ink);
+  --line: #e6dcc4;
