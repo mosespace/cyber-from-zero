@@ -138,3 +138,5 @@ export function computeBadges(s: State, mods: ModuleIds[]) {
     { id: "cards", title: "Card shark", desc: "Learn 20 flashcards", color: "#FF8A6B", shape: "circle", earned: known >= 20 },
     { id: "streak", title: "Three in a row", desc: "Learn 3 days in a row", color: "#FFA23C", shape: "tri", earned: streak >= 3 },
     { id: "all", title: "Graduate", desc: "Finish every lesson", color: "#8BE04E", shape: "square", earned: total > 0 && lessons >= total },
+  ] as const;
+}
