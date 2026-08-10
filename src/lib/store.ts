@@ -129,3 +129,6 @@ export function computeBadges(s: State, mods: ModuleIds[]) {
   const perfect = Object.entries(s.quiz).some(([k, v]) => k.startsWith("quiz:") && v >= 5);
   const finished = mods.filter((m) => m.ids.every((id) => s.done.includes(id)));
   const streak = streakOf(s.days);
+  return [
+    { id: "first", title: "First step", desc: "Finish your first lesson", color: "#7CCBFF", shape: "circle", earned: lessons >= 1 },
+    { id: "five", title: "On a roll", desc: "Finish 5 lessons", color: "#FFC93C", shape: "star", earned: lessons >= 5 },
