@@ -126,3 +126,6 @@ export function computeBadges(s: State, mods: ModuleIds[]) {
   const total = mods.reduce((n, m) => n + m.ids.length, 0);
   const lessons = s.done.length;
   const known = Object.values(s.cards).filter((b) => b >= 1).length;
+  const perfect = Object.entries(s.quiz).some(([k, v]) => k.startsWith("quiz:") && v >= 5);
+  const finished = mods.filter((m) => m.ids.every((id) => s.done.includes(id)));
+  const streak = streakOf(s.days);
