@@ -22,3 +22,6 @@
   --accent: var(--blue);
   --accent-2: var(--coral);
   --good: #19b886;
+  --bad: #e5484d;
+  --font-display: var(--font-bricolage), system-ui, sans-serif;
+  --font-body: var(--font-dm), system-ui, sans-serif;
