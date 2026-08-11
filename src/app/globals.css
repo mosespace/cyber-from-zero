@@ -25,3 +25,6 @@
   --bad: #e5484d;
   --font-display: var(--font-bricolage), system-ui, sans-serif;
   --font-body: var(--font-dm), system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
