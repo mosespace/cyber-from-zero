@@ -41,3 +41,6 @@ img, svg { max-width: 100%; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 
 /* ---------- shared pieces ---------- */
+.pop { background: var(--white); border: 1.5px solid var(--ink); border-radius: var(--r); box-shadow: var(--pop); }
+.btn {
+  display: inline-flex; align-items: center; gap: 8px; font: 700 17px var(--font-display); text-decoration: none; cursor: pointer;
