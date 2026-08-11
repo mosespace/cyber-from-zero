@@ -37,3 +37,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.1; letter-spac
 a { color: inherit; }
 img, svg { max-width: 100%; }
 .container { max-width: 1160px; margin: 0 auto; padding: 0 22px; }
+.narrow { max-width: 780px; margin: 0 auto; padding: 0 22px; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
+/* ---------- shared pieces ---------- */
