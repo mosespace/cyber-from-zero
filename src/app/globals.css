@@ -28,3 +28,6 @@
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font-family: var(--font-body); font-size: 17px; line-height: 1.65;
