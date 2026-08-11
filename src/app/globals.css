@@ -44,3 +44,6 @@ img, svg { max-width: 100%; }
 .pop { background: var(--white); border: 1.5px solid var(--ink); border-radius: var(--r); box-shadow: var(--pop); }
 .btn {
   display: inline-flex; align-items: center; gap: 8px; font: 700 17px var(--font-display); text-decoration: none; cursor: pointer;
+  padding: 13px 24px; border-radius: 999px; border: 1.5px solid var(--ink); background: var(--white); color: var(--ink);
+  box-shadow: var(--pop); transition: transform .12s, box-shadow .12s;
+}
