@@ -59,3 +59,6 @@ img, svg { max-width: 100%; }
 .section-title { font-size: clamp(30px, 4.5vw, 46px); margin-bottom: 10px; }
 .lede { color: var(--muted); font-size: 19px; max-width: 620px; margin: 0; }
 .shape { position: absolute; pointer-events: none; }
+.float { animation: bob 6s ease-in-out infinite; }
+.spin { animation: spin 40s linear infinite; }
+@keyframes bob { 50% { transform: translateY(-14px) rotate(4deg); } }
