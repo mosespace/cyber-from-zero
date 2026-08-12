@@ -66,3 +66,6 @@ img, svg { max-width: 100%; }
 @media (prefers-reduced-motion: reduce) { .float, .spin, .marquee-track, .pulse { animation: none !important; } html { scroll-behavior: auto; } }
 
 /* ---------- header ---------- */
+.header { position: sticky; top: 0; z-index: 40; background: var(--paper); border-bottom: 1.5px solid var(--ink); }
+.header .container { display: flex; align-items: center; gap: 18px; height: 68px; }
+.logo { display: flex; align-items: center; gap: 10px; text-decoration: none; font: 800 21px var(--font-display); letter-spacing: -0.03em; }
