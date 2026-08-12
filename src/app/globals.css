@@ -62,3 +62,7 @@ img, svg { max-width: 100%; }
 .float { animation: bob 6s ease-in-out infinite; }
 .spin { animation: spin 40s linear infinite; }
 @keyframes bob { 50% { transform: translateY(-14px) rotate(4deg); } }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .float, .spin, .marquee-track, .pulse { animation: none !important; } html { scroll-behavior: auto; } }
+
+/* ---------- header ---------- */
