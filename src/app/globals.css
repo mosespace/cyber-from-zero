@@ -69,3 +69,6 @@ img, svg { max-width: 100%; }
 .header { position: sticky; top: 0; z-index: 40; background: var(--paper); border-bottom: 1.5px solid var(--ink); }
 .header .container { display: flex; align-items: center; gap: 18px; height: 68px; }
 .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; font: 800 21px var(--font-display); letter-spacing: -0.03em; }
+.nav { display: flex; gap: 4px; margin-left: 12px; }
+.nav a { text-decoration: none; padding: 7px 14px; border-radius: 999px; font-weight: 600; font-size: 16px; border: 1.5px solid transparent; }
+.nav a:hover { border-color: var(--ink); background: var(--white); }
