@@ -72,3 +72,6 @@ img, svg { max-width: 100%; }
 .nav { display: flex; gap: 4px; margin-left: 12px; }
 .nav a { text-decoration: none; padding: 7px 14px; border-radius: 999px; font-weight: 600; font-size: 16px; border: 1.5px solid transparent; }
 .nav a:hover { border-color: var(--ink); background: var(--white); }
+.nav a.on { background: var(--ink); color: #fff; }
+.hdr-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+.icon-btn { display: inline-flex; align-items: center; gap: 8px; border: 1.5px solid var(--ink); background: var(--white); border-radius: 999px; padding: 6px 14px; font: 600 15px var(--font-body); cursor: pointer; color: var(--ink); text-decoration: none; }
