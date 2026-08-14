@@ -75,3 +75,6 @@ img, svg { max-width: 100%; }
 .nav a.on { background: var(--ink); color: #fff; }
 .hdr-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
 .icon-btn { display: inline-flex; align-items: center; gap: 8px; border: 1.5px solid var(--ink); background: var(--white); border-radius: 999px; padding: 6px 14px; font: 600 15px var(--font-body); cursor: pointer; color: var(--ink); text-decoration: none; }
+.icon-btn:hover { background: var(--sun); }
+.icon-btn kbd { font: 600 12px var(--font-body); border: 1.5px solid var(--ink); border-radius: 6px; padding: 0 5px; background: var(--paper); }
+.stat-chip { display: flex; gap: 6px; text-decoration: none; }
