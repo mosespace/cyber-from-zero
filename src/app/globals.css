@@ -84,3 +84,7 @@ img, svg { max-width: 100%; }
   .nav { display: none; position: absolute; top: 68px; left: 0; right: 0; flex-direction: column; background: var(--paper); border-bottom: 1.5px solid var(--ink); padding: 12px 22px 18px; margin: 0; }
   .nav.open { display: flex; }
   .menu-btn { display: inline-flex; }
+  .icon-btn kbd, .icon-btn .t { display: none; }
+}
+
+/* ---------- hero ---------- */
