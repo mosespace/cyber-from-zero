@@ -78,3 +78,6 @@ img, svg { max-width: 100%; }
 .icon-btn:hover { background: var(--sun); }
 .icon-btn kbd { font: 600 12px var(--font-body); border: 1.5px solid var(--ink); border-radius: 6px; padding: 0 5px; background: var(--paper); }
 .stat-chip { display: flex; gap: 6px; text-decoration: none; }
+.stat-chip span { display: inline-flex; align-items: center; gap: 5px; border: 1.5px solid var(--ink); background: var(--white); border-radius: 999px; padding: 4px 11px; font-weight: 700; font-size: 15px; }
+.menu-btn { display: none; }
+@media (max-width: 900px) {
