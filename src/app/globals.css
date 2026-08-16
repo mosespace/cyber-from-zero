@@ -91,3 +91,6 @@ img, svg { max-width: 100%; }
 .hero { position: relative; padding: 56px 0 72px; }
 .hero .container { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 20px; align-items: center; }
 .hero h1 { font-size: clamp(44px, 7vw, 84px); margin: 22px 0 20px; }
+.hl { position: relative; display: inline-block; z-index: 0; white-space: nowrap; }
+.hl::after { content: ""; position: absolute; left: -6px; right: -6px; bottom: 4px; height: 38%; background: var(--sun); z-index: -1; border-radius: 6px; transform: rotate(-1.5deg); }
+.hero p.lede { margin-bottom: 30px; }
