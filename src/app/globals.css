@@ -97,3 +97,6 @@ img, svg { max-width: 100%; }
 .cta-row { display: flex; gap: 16px; flex-wrap: wrap; }
 .hero-facts { display: flex; gap: 26px; margin-top: 34px; flex-wrap: wrap; }
 .hero-facts b { font: 800 34px var(--font-display); display: block; line-height: 1; }
+.hero-facts span { font-size: 14px; color: var(--muted); }
+.hero-art { width: 100%; max-width: 520px; justify-self: center; }
+.hero-art svg { width: 100%; height: auto; display: block; overflow: visible; }
