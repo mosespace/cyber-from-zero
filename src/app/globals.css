@@ -100,3 +100,6 @@ img, svg { max-width: 100%; }
 .hero-facts span { font-size: 14px; color: var(--muted); }
 .hero-art { width: 100%; max-width: 520px; justify-self: center; }
 .hero-art svg { width: 100%; height: auto; display: block; overflow: visible; }
+@media (max-width: 900px) { .hero .container { grid-template-columns: 1fr; } .hero-art { max-width: 380px; margin: 0 auto; } }
+.continue { margin-top: 28px; display: flex; align-items: center; gap: 16px; padding: 14px 18px; text-decoration: none; max-width: 520px; }
+.continue .ico { width: 46px; height: 46px; border-radius: 6px; border: 1.5px solid var(--ink); display: grid; place-items: center; flex: none; background: var(--c); }
