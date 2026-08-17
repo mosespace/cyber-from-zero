@@ -103,3 +103,7 @@ img, svg { max-width: 100%; }
 @media (max-width: 900px) { .hero .container { grid-template-columns: 1fr; } .hero-art { max-width: 380px; margin: 0 auto; } }
 .continue { margin-top: 28px; display: flex; align-items: center; gap: 16px; padding: 14px 18px; text-decoration: none; max-width: 520px; }
 .continue .ico { width: 46px; height: 46px; border-radius: 6px; border: 1.5px solid var(--ink); display: grid; place-items: center; flex: none; background: var(--c); }
+.continue small { color: var(--muted); display: block; line-height: 1.2; }
+.continue b { font-family: var(--font-display); font-size: 18px; line-height: 1.2; }
+
+/* ---------- marquee ---------- */
