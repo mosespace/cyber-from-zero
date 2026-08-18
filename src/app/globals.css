@@ -127,3 +127,6 @@ img, svg { max-width: 100%; }
 .mod-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 26px; margin-top: 40px; }
 .mod-card { position: relative; display: block; text-decoration: none; padding: 22px; overflow: hidden; transition: transform .14s, box-shadow .14s; }
 .mod-card:hover { transform: translate(-3px, -3px) rotate(-.6deg); box-shadow: var(--pop-lg); }
+.mod-card .top { display: flex; justify-content: space-between; align-items: flex-start; }
+.mod-card .tile { width: 72px; height: 72px; border-radius: 9px; border: 1.5px solid var(--ink); background: var(--c); display: grid; place-items: center; }
+.mod-card .no { font: 800 54px var(--font-display); color: var(--c); -webkit-text-stroke: 2px var(--ink); line-height: .9; }
