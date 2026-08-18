@@ -114,3 +114,6 @@ img, svg { max-width: 100%; }
 
 /* ---------- sections ---------- */
 .section { padding: 84px 0 0; position: relative; }
+.how-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; margin-top: 40px; }
+.how { padding: 26px; position: relative; }
+.how:nth-child(1) { transform: rotate(-1.2deg); background: #e4f4ff; }
