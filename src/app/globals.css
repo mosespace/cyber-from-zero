@@ -136,3 +136,7 @@ img, svg { max-width: 100%; }
 .bar { height: 14px; border-radius: 12px; border: 1.5px solid var(--ink); background: var(--white); overflow: hidden; margin-top: 14px; }
 .bar > i { display: block; height: 100%; background: var(--c, var(--blue)); border-right: 2px solid var(--ink); transition: width .5s; min-width: 0; }
 .bar > i[style*="width: 0%"] { border-right: 0; }
+.bar-label { font-size: 14px; font-weight: 600; margin-top: 10px; color: var(--muted); }
+
+.band { background: var(--sun); border-block: 1.5px solid var(--ink); margin-top: 110px; padding: 80px 0 90px; position: relative; overflow: hidden; }
+.feat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 40px; }
