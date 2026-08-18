@@ -140,3 +140,6 @@ img, svg { max-width: 100%; }
 
 .band { background: var(--sun); border-block: 1.5px solid var(--ink); margin-top: 110px; padding: 80px 0 90px; position: relative; overflow: hidden; }
 .feat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 40px; }
+.feat { display: block; padding: 22px; text-decoration: none; transition: transform .14s; }
+.feat:hover { transform: translate(-3px, -3px); box-shadow: var(--pop-lg); }
+.feat h3 { font-size: 22px; margin: 14px 0 4px; }
