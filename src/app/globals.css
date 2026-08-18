@@ -146,3 +146,7 @@ img, svg { max-width: 100%; }
 .feat p { margin: 0; color: var(--muted); font-size: 16px; line-height: 1.5; }
 .feat .ft { width: 54px; height: 54px; border-radius: 7px; border: 1.5px solid var(--ink); display: grid; place-items: center; background: var(--c); }
 @media (max-width: 900px) { .feat-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .feat-grid { grid-template-columns: 1fr; } }
+
+.final { margin-top: 100px; background: var(--ink); color: var(--paper); border-radius: 12px 36px 0 0; padding: 80px 0; position: relative; overflow: hidden; text-align: center; }
+.final h2 { font-size: clamp(36px, 6vw, 68px); margin-bottom: 18px; }
