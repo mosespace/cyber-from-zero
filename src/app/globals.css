@@ -110,3 +110,7 @@ img, svg { max-width: 100%; }
 .marquee { background: var(--ink); color: var(--paper); overflow: hidden; border-block: 1.5px solid var(--ink); transform: rotate(-1.2deg); margin: 0 -20px; }
 .marquee-track { display: flex; width: max-content; animation: slide 36s linear infinite; padding: 14px 0; }
 .marquee-track span { display: inline-flex; align-items: center; gap: 26px; padding-right: 26px; font: 700 24px var(--font-display); white-space: nowrap; }
+@keyframes slide { to { transform: translateX(-50%); } }
+
+/* ---------- sections ---------- */
+.section { padding: 84px 0 0; position: relative; }
