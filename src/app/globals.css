@@ -117,3 +117,6 @@ img, svg { max-width: 100%; }
 .how-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; margin-top: 40px; }
 .how { padding: 26px; position: relative; }
 .how:nth-child(1) { transform: rotate(-1.2deg); background: #e4f4ff; }
+.how:nth-child(2) { transform: rotate(1deg); background: #ffe9ef; }
+.how:nth-child(3) { transform: rotate(-.6deg); background: #e2fbea; }
+.how .num { position: absolute; top: -18px; right: 18px; width: 44px; height: 44px; display: grid; place-items: center; font: 800 20px var(--font-display); background: var(--sun); border: 1.5px solid var(--ink); border-radius: 50%; }
