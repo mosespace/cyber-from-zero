@@ -133,3 +133,6 @@ img, svg { max-width: 100%; }
 .mod-card h3 { font-size: 24px; margin: 18px 0 6px; }
 .mod-card p { margin: 0 0 14px; color: var(--muted); font-size: 16px; line-height: 1.5; }
 .meta { display: flex; flex-wrap: wrap; gap: 8px; }
+.bar { height: 14px; border-radius: 12px; border: 1.5px solid var(--ink); background: var(--white); overflow: hidden; margin-top: 14px; }
+.bar > i { display: block; height: 100%; background: var(--c, var(--blue)); border-right: 2px solid var(--ink); transition: width .5s; min-width: 0; }
+.bar > i[style*="width: 0%"] { border-right: 0; }
