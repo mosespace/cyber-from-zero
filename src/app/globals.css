@@ -143,3 +143,6 @@ img, svg { max-width: 100%; }
 .feat { display: block; padding: 22px; text-decoration: none; transition: transform .14s; }
 .feat:hover { transform: translate(-3px, -3px); box-shadow: var(--pop-lg); }
 .feat h3 { font-size: 22px; margin: 14px 0 4px; }
+.feat p { margin: 0; color: var(--muted); font-size: 16px; line-height: 1.5; }
+.feat .ft { width: 54px; height: 54px; border-radius: 7px; border: 1.5px solid var(--ink); display: grid; place-items: center; background: var(--c); }
+@media (max-width: 900px) { .feat-grid { grid-template-columns: 1fr 1fr; } }
