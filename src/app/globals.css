@@ -166,3 +166,6 @@ img, svg { max-width: 100%; }
   position: relative; z-index: 1; transform: translateX(var(--dx)); width: 84px; height: 84px; border-radius: 50%; border: 1.5px solid var(--ink);
   background: var(--white); display: grid; place-items: center; font: 800 28px var(--font-display); text-decoration: none; box-shadow: 0 6px 0 var(--ink); transition: transform .12s, box-shadow .12s;
 }
+.t-node .btn-node:hover { transform: translateX(var(--dx)) translateY(-3px); box-shadow: 0 9px 0 var(--ink); }
+.t-node.done .btn-node { background: var(--c); }
+.t-node.star .btn-node { border-radius: 12px; background: var(--sun); }
