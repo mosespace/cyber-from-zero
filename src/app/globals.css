@@ -124,3 +124,6 @@ img, svg { max-width: 100%; }
 .how p { margin: 0; color: #3f3f5c; }
 @media (max-width: 800px) { .how-grid { grid-template-columns: 1fr; } }
 
+.mod-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 26px; margin-top: 40px; }
+.mod-card { position: relative; display: block; text-decoration: none; padding: 22px; overflow: hidden; transition: transform .14s, box-shadow .14s; }
+.mod-card:hover { transform: translate(-3px, -3px) rotate(-.6deg); box-shadow: var(--pop-lg); }
