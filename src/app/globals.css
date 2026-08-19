@@ -185,3 +185,6 @@ img, svg { max-width: 100%; }
 
 /* ---------- module page ---------- */
 .mod-hero { background: var(--c); border-bottom: 1.5px solid var(--ink); padding: 46px 0 60px; position: relative; overflow: hidden; }
+.mod-hero .container { display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items: center; position: relative; }
+.mod-hero h1 { font-size: clamp(36px, 6vw, 62px); margin: 14px 0; }
+.mod-hero p { font-size: 19px; max-width: 640px; margin: 0 0 18px; }
