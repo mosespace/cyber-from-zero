@@ -207,3 +207,6 @@ img, svg { max-width: 100%; }
 /* ---------- audio player ---------- */
 .audio { padding: 16px; background: var(--sky); }
 .audio .row { display: flex; align-items: center; gap: 14px; }
+.audio .play { width: 56px; height: 56px; border-radius: 50%; border: 1.5px solid var(--ink); background: var(--white); cursor: pointer; display: grid; place-items: center; flex: none; box-shadow: 0 4px 0 var(--ink); }
+.audio .play:active { transform: translateY(3px); box-shadow: none; }
+.audio b { font-family: var(--font-display); font-size: 17px; line-height: 1.2; display: block; }
