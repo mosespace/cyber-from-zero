@@ -213,3 +213,7 @@ img, svg { max-width: 100%; }
 .audio small { font-size: 13px; color: #24304f; }
 .audio input[type=range] { width: 100%; margin: 12px 0 2px; accent-color: var(--ink); }
 .audio .times { display: flex; justify-content: space-between; align-items: center; font-size: 13px; font-weight: 600; }
+.audio .speed { border: 1.5px solid var(--ink); background: var(--white); border-radius: 999px; padding: 0 10px; font-weight: 700; cursor: pointer; font-size: 13px; }
+
+/* ---------- lesson page ---------- */
+.read-bar { position: fixed; top: 0; left: 0; right: 0; height: 6px; z-index: 60; background: transparent; }
