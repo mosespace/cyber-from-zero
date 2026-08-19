@@ -178,3 +178,6 @@ img, svg { max-width: 100%; }
 @keyframes ring { 0% { box-shadow: 0 6px 0 var(--ink), 0 0 0 0 rgba(255,107,87,.7); } 100% { box-shadow: 0 6px 0 var(--ink), 0 0 0 22px rgba(255,107,87,0); } }
 @media (max-width: 640px) {
   .t-label { width: 150px; font-size: 15px; }
+  .t-node.right .t-label { left: calc(50% + 56px); }
+  .t-node.left .t-label { right: calc(50% + 56px); }
+  .t-node { --dx: 0px !important; } .t-node.right { --dx: 30px !important; } .t-node.left { --dx: -30px !important; }
