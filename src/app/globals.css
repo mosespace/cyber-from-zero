@@ -181,3 +181,7 @@ img, svg { max-width: 100%; }
   .t-node.right .t-label { left: calc(50% + 56px); }
   .t-node.left .t-label { right: calc(50% + 56px); }
   .t-node { --dx: 0px !important; } .t-node.right { --dx: 30px !important; } .t-node.left { --dx: -30px !important; }
+}
+
+/* ---------- module page ---------- */
+.mod-hero { background: var(--c); border-bottom: 1.5px solid var(--ink); padding: 46px 0 60px; position: relative; overflow: hidden; }
