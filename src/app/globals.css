@@ -175,3 +175,6 @@ img, svg { max-width: 100%; }
 .t-node.left .t-label { right: calc(50% + 62px); text-align: right; }
 .start-tag { position: absolute; top: -26px; left: 50%; transform: translateX(-50%); background: var(--coral); color: #fff; border: 1.5px solid var(--ink); border-radius: 5px; padding: 0 10px; font: 800 13px var(--font-display); letter-spacing: .06em; animation: bob 1.6s ease-in-out infinite; white-space: nowrap; }
 .pulse { animation: ring 1.8s ease-out infinite; }
+@keyframes ring { 0% { box-shadow: 0 6px 0 var(--ink), 0 0 0 0 rgba(255,107,87,.7); } 100% { box-shadow: 0 6px 0 var(--ink), 0 0 0 22px rgba(255,107,87,0); } }
+@media (max-width: 640px) {
+  .t-label { width: 150px; font-size: 15px; }
