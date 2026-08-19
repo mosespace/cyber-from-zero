@@ -223,3 +223,6 @@ img, svg { max-width: 100%; }
 .crumbs a { text-decoration: none; border-bottom: 2px solid var(--c); }
 .lesson-top h1 { font-size: clamp(36px, 5.5vw, 58px); margin: 16px 0 14px; max-width: 860px; }
 .lesson-layout { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 50px; align-items: start; margin-top: 18px; }
+.lesson-aside { position: sticky; top: 92px; display: grid; gap: 18px; }
+.toc { padding: 18px 20px; }
+.toc h4 { font-size: 16px; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 8px; }
