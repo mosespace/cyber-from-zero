@@ -200,3 +200,7 @@ img, svg { max-width: 100%; }
 .les-row small { color: var(--muted); font-size: 15px; }
 .side { padding: 20px; margin-bottom: 20px; }
 .side h3 { font-size: 20px; margin-bottom: 10px; }
+.vid { display: flex; gap: 12px; align-items: center; padding: 10px 0; text-decoration: none; border-top: 2px dashed var(--line); font-weight: 600; line-height: 1.3; }
+.vid:first-of-type { border-top: 0; }
+.vid i { width: 38px; height: 38px; flex: none; border-radius: 5px; background: var(--coral); border: 1.5px solid var(--ink); display: grid; place-items: center; }
+
