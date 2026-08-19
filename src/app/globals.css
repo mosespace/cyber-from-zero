@@ -194,3 +194,6 @@ img, svg { max-width: 100%; }
 @media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }
 .les-row { display: flex; align-items: center; gap: 16px; padding: 16px 18px; text-decoration: none; margin-bottom: 16px; transition: transform .12s, box-shadow .12s; }
 .les-row:hover { transform: translate(-2px, -2px); box-shadow: 0 3px 0 var(--ink); }
+.les-row .n { width: 46px; height: 46px; flex: none; border-radius: 50%; border: 1.5px solid var(--ink); display: grid; place-items: center; font: 800 20px var(--font-display); background: var(--paper); }
+.les-row .n.done { background: var(--mint); }
+.les-row b { font: 700 19px var(--font-display); display: block; line-height: 1.2; }
