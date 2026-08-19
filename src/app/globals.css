@@ -235,3 +235,6 @@ img, svg { max-width: 100%; }
 .prose p { margin: 0 0 16px; }
 .prose ul, .prose ol { padding-left: 26px; margin: 0 0 18px; }
 .prose li { margin: 6px 0; padding-left: 4px; }
+.prose li::marker { color: var(--coral); font-weight: 800; }
+.prose blockquote { margin: 26px 0; padding: 18px 22px; background: var(--sun); border: 1.5px solid var(--ink); border-radius: 8px; box-shadow: var(--pop); font: 700 22px/1.35 var(--font-display); }
+.prose blockquote p { margin: 0; }
