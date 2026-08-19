@@ -229,3 +229,6 @@ img, svg { max-width: 100%; }
 .toc a { display: block; text-decoration: none; padding: 5px 0 5px 12px; border-left: 4px solid var(--line); font-size: 15px; font-weight: 600; line-height: 1.3; }
 .toc a:hover, .toc a.on { border-color: var(--coral); }
 @media (max-width: 960px) { .lesson-layout { grid-template-columns: 1fr; } .lesson-aside { position: static; order: -1; } .toc { display: none; } }
+.prose { font-size: 18px; }
+.prose h2 { font-size: 32px; margin: 52px 0 12px; scroll-margin-top: 90px; display: flex; align-items: center; gap: 12px; }
+.prose h2::before { content: ""; width: 16px; height: 16px; background: var(--c, var(--coral)); border: 1.5px solid var(--ink); border-radius: 5px; transform: rotate(12deg); flex: none; }
