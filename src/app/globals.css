@@ -172,3 +172,6 @@ img, svg { max-width: 100%; }
 .t-label { position: absolute; z-index: 1; top: 50%; transform: translateY(-50%) translateX(var(--dx)); width: 230px; font-weight: 600; line-height: 1.25; }
 .t-label small { display: block; color: var(--muted); font-weight: 500; }
 .t-node.right .t-label { left: calc(50% + 62px); text-align: left; }
+.t-node.left .t-label { right: calc(50% + 62px); text-align: right; }
+.start-tag { position: absolute; top: -26px; left: 50%; transform: translateX(-50%); background: var(--coral); color: #fff; border: 1.5px solid var(--ink); border-radius: 5px; padding: 0 10px; font: 800 13px var(--font-display); letter-spacing: .06em; animation: bob 1.6s ease-in-out infinite; white-space: nowrap; }
+.pulse { animation: ring 1.8s ease-out infinite; }
