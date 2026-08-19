@@ -232,3 +232,6 @@ img, svg { max-width: 100%; }
 .prose { font-size: 18px; }
 .prose h2 { font-size: 32px; margin: 52px 0 12px; scroll-margin-top: 90px; display: flex; align-items: center; gap: 12px; }
 .prose h2::before { content: ""; width: 16px; height: 16px; background: var(--c, var(--coral)); border: 1.5px solid var(--ink); border-radius: 5px; transform: rotate(12deg); flex: none; }
+.prose p { margin: 0 0 16px; }
+.prose ul, .prose ol { padding-left: 26px; margin: 0 0 18px; }
+.prose li { margin: 6px 0; padding-left: 4px; }
