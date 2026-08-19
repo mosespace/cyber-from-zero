@@ -210,3 +210,6 @@ img, svg { max-width: 100%; }
 .audio .play { width: 56px; height: 56px; border-radius: 50%; border: 1.5px solid var(--ink); background: var(--white); cursor: pointer; display: grid; place-items: center; flex: none; box-shadow: 0 4px 0 var(--ink); }
 .audio .play:active { transform: translateY(3px); box-shadow: none; }
 .audio b { font-family: var(--font-display); font-size: 17px; line-height: 1.2; display: block; }
+.audio small { font-size: 13px; color: #24304f; }
+.audio input[type=range] { width: 100%; margin: 12px 0 2px; accent-color: var(--ink); }
+.audio .times { display: flex; justify-content: space-between; align-items: center; font-size: 13px; font-weight: 600; }
