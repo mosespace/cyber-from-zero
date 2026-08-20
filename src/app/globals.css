@@ -256,3 +256,6 @@ img, svg { max-width: 100%; }
 .chain li::marker { content: ""; }
 .chain li::before { content: counter(k); display: block; font: 800 24px var(--font-display); }
 .chain li b { display: block; font-family: var(--font-display); }
+.takeaways { margin-top: 48px; padding: 26px; background: var(--mint); position: relative; }
+.takeaways h2 { font-size: 28px; margin-bottom: 10px; }
+.takeaways ul { list-style: none; padding: 0; margin: 0; }
