@@ -244,3 +244,6 @@ img, svg { max-width: 100%; }
 .table-wrap { overflow-x: auto; margin: 22px 0; border: 1.5px solid var(--ink); border-radius: 7px; background: #fff; box-shadow: var(--pop); }
 .prose table { border-collapse: collapse; width: 100%; font-size: 16px; }
 .prose th { background: var(--ink); color: #fff; text-align: left; padding: 11px 16px; font: 700 14px var(--font-display); letter-spacing: .05em; text-transform: uppercase; }
+.prose td { padding: 11px 16px; border-top: 2px solid var(--line); vertical-align: top; }
+.prose tbody tr:nth-child(even) td { background: #fff9ec; }
+.figure { margin: 30px 0; padding: 18px; background: #fff; border: 1.5px solid var(--ink); border-radius: var(--r); box-shadow: var(--pop); }
