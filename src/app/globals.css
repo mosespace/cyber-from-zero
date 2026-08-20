@@ -241,3 +241,6 @@ img, svg { max-width: 100%; }
 .prose code { background: #fff; border: 1.5px solid var(--ink); padding: 0 6px; border-radius: 7px; font-size: .88em; }
 .prose pre.code { background: var(--ink); color: #f4f1e8; border-radius: 7px; padding: 18px 20px; overflow-x: auto; border: 1.5px solid var(--ink); box-shadow: 0 3px 0 var(--coral); }
 .prose pre.code code { background: none; border: 0; color: inherit; padding: 0; font-size: 15px; }
+.table-wrap { overflow-x: auto; margin: 22px 0; border: 1.5px solid var(--ink); border-radius: 7px; background: #fff; box-shadow: var(--pop); }
+.prose table { border-collapse: collapse; width: 100%; font-size: 16px; }
+.prose th { background: var(--ink); color: #fff; text-align: left; padding: 11px 16px; font: 700 14px var(--font-display); letter-spacing: .05em; text-transform: uppercase; }
