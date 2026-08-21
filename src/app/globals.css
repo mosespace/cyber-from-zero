@@ -259,3 +259,6 @@ img, svg { max-width: 100%; }
 .takeaways { margin-top: 48px; padding: 26px; background: var(--mint); position: relative; }
 .takeaways h2 { font-size: 28px; margin-bottom: 10px; }
 .takeaways ul { list-style: none; padding: 0; margin: 0; }
+.takeaways li { display: flex; gap: 12px; margin: 10px 0; font-weight: 600; line-height: 1.4; }
+.takeaways li::before { content: "★"; font-size: 20px; flex: none; }
+.finish { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; margin-top: 30px; position: relative; }
