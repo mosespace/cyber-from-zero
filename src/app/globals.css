@@ -272,3 +272,6 @@ img, svg { max-width: 100%; }
 @media (max-width: 560px) { .pager { grid-template-columns: 1fr; } }
 
 /* confetti burst */
+.burst { position: absolute; left: 60px; top: 20px; pointer-events: none; }
+.burst i { position: absolute; width: 14px; height: 14px; border: 1.5px solid var(--ink); background: var(--c); border-radius: var(--rad); animation: pop 0.9s ease-out forwards; }
+@keyframes pop { from { transform: translate(0, 0) rotate(0) scale(.4); opacity: 1; } to { transform: translate(var(--x), var(--y)) rotate(var(--rot)) scale(1); opacity: 0; } }
