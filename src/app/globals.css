@@ -279,3 +279,6 @@ img, svg { max-width: 100%; }
 @keyframes rise { from { transform: translate(-50%, 20px); opacity: 0; } }
 
 /* ---------- widgets ---------- */
+.widget { background: #fff; border: 1.5px solid var(--ink); border-radius: var(--r); padding: 20px; margin: 28px 0; box-shadow: 0 3px 0 var(--lilac); }
+.widget h4 { font-size: 20px; margin-bottom: 12px; }
+.widget input[type=text], .widget input[type=password] { width: 100%; padding: 12px 16px; border-radius: 6px; border: 1.5px solid var(--ink); background: var(--paper); font: 600 18px var(--font-body); color: var(--ink); }
