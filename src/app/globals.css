@@ -268,3 +268,7 @@ img, svg { max-width: 100%; }
 .pager a:hover { transform: translate(-2px, -2px); }
 .pager small { display: block; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; font-size: 12px; }
 .pager b { font: 700 20px var(--font-display); line-height: 1.2; }
+.pager .next { text-align: right; background: var(--sun); }
+@media (max-width: 560px) { .pager { grid-template-columns: 1fr; } }
+
+/* confetti burst */
