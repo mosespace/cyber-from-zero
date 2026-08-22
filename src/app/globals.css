@@ -289,3 +289,6 @@ img, svg { max-width: 100%; }
 /* ---------- quiz runner ---------- */
 .qr { padding: 24px; }
 .qr .head { display: flex; justify-content: space-between; font-weight: 700; font-size: 15px; margin-bottom: 10px; }
+.qr h3 { font-size: 26px; margin: 18px 0; }
+.qr .opts { display: grid; gap: 12px; }
+.opt { display: flex; align-items: center; gap: 14px; width: 100%; text-align: left; font: 600 17px var(--font-body); padding: 14px 16px; background: #fff; color: var(--ink); border: 1.5px solid var(--ink); border-radius: 7px; cursor: pointer; box-shadow: 0 4px 0 var(--ink); transition: transform .1s; }
