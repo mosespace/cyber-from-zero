@@ -301,3 +301,6 @@ img, svg { max-width: 100%; }
 .qr .foot { margin-top: 20px; display: flex; justify-content: flex-end; }
 .result { text-align: center; padding: 20px 10px; }
 .result h3 { font-size: 40px; margin: 10px 0; }
+.stars { display: flex; justify-content: center; gap: 10px; }
+.setup { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 16px; margin: 26px 0; }
+.setup button { text-align: left; padding: 16px; cursor: pointer; font: inherit; color: inherit; display: flex; gap: 12px; align-items: center; transition: transform .12s; }
