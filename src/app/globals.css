@@ -308,3 +308,6 @@ img, svg { max-width: 100%; }
 .setup b { font: 700 17px var(--font-display); line-height: 1.2; display: block; }
 .setup small { color: var(--muted); }
 
+/* ---------- flashcards ---------- */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 22px 0; }
+.chip { border: 1.5px solid var(--ink); background: #fff; border-radius: 999px; padding: 5px 14px; font: 600 15px var(--font-body); cursor: pointer; color: var(--ink); }
