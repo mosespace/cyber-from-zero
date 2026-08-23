@@ -324,3 +324,6 @@ img, svg { max-width: 100%; }
 .fc-meta { text-align: center; color: var(--muted); font-weight: 600; }
 
 /* ---------- glossary ---------- */
+.search-input { width: 100%; max-width: 520px; padding: 14px 20px; font: 600 18px var(--font-body); border: 1.5px solid var(--ink); border-radius: 999px; background: #fff; box-shadow: var(--pop); color: var(--ink); }
+.gl-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 18px; margin-top: 28px; }
+.gl { padding: 18px 20px; position: relative; }
