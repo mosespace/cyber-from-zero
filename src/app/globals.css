@@ -317,3 +317,6 @@ img, svg { max-width: 100%; }
 .card3d.flip { transform: rotateY(180deg); }
 .face { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; border: 1.5px solid var(--ink); border-radius: 12px; box-shadow: 0 3px 0 var(--ink); display: grid; place-items: center; padding: 30px; text-align: center; background: var(--c); overflow: hidden; }
 .face.back { transform: rotateY(180deg); background: #fff; }
+.face h3 { font-size: clamp(32px, 6vw, 46px); }
+.face p { font-size: 22px; font-weight: 500; margin: 0; line-height: 1.4; }
+.face small { position: absolute; bottom: 16px; left: 0; right: 0; font-weight: 600; color: #2a2a45; }
