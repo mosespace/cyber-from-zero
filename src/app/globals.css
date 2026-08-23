@@ -331,3 +331,6 @@ img, svg { max-width: 100%; }
 .gl p { margin: 0 0 12px; color: #3f3f5c; line-height: 1.5; }
 .gl .tag { font-size: 13px; font-weight: 700; border: 1.5px solid var(--ink); border-radius: 999px; padding: 1px 10px; background: var(--c); }
 
+/* ---------- dashboard ---------- */
+.dash-top { display: grid; grid-template-columns: 340px 1fr; gap: 26px; margin-top: 20px; }
+@media (max-width: 860px) { .dash-top { grid-template-columns: 1fr; } }
