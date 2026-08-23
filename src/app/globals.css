@@ -334,3 +334,6 @@ img, svg { max-width: 100%; }
 /* ---------- dashboard ---------- */
 .dash-top { display: grid; grid-template-columns: 340px 1fr; gap: 26px; margin-top: 20px; }
 @media (max-width: 860px) { .dash-top { grid-template-columns: 1fr; } }
+.level { padding: 26px; text-align: center; background: var(--lilac); }
+.level svg { width: 190px; height: 190px; }
+.level h2 { font-size: 30px; }
