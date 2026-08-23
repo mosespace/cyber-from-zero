@@ -320,3 +320,7 @@ img, svg { max-width: 100%; }
 .face h3 { font-size: clamp(32px, 6vw, 46px); }
 .face p { font-size: 22px; font-weight: 500; margin: 0; line-height: 1.4; }
 .face small { position: absolute; bottom: 16px; left: 0; right: 0; font-weight: 600; color: #2a2a45; }
+.fc-actions { display: flex; justify-content: center; gap: 16px; margin-top: 40px; flex-wrap: wrap; }
+.fc-meta { text-align: center; color: var(--muted); font-weight: 600; }
+
+/* ---------- glossary ---------- */
