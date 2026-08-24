@@ -337,3 +337,6 @@ img, svg { max-width: 100%; }
 .level { padding: 26px; text-align: center; background: var(--lilac); }
 .level svg { width: 190px; height: 190px; }
 .level h2 { font-size: 30px; }
+.tiles { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.tile-stat { padding: 20px; }
+.tile-stat b { font: 800 44px var(--font-display); display: block; line-height: 1; }
