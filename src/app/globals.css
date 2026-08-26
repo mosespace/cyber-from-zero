@@ -362,3 +362,7 @@ img, svg { max-width: 100%; }
 .results { overflow-y: auto; margin-top: 10px; }
 .results a { display: flex; gap: 12px; align-items: center; padding: 10px 12px; border-radius: 6px; text-decoration: none; }
 .results a:hover, .results a.sel { background: var(--sun); }
+.results .tile { width: 36px; height: 36px; border-radius: 5px; border: 1.5px solid var(--ink); background: var(--c); flex: none; }
+.results b { display: block; line-height: 1.2; font-family: var(--font-display); }
+.results small { color: var(--muted); }
+
