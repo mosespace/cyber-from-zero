@@ -366,3 +366,6 @@ img, svg { max-width: 100%; }
 .results b { display: block; line-height: 1.2; font-family: var(--font-display); }
 .results small { color: var(--muted); }
 
+/* ---------- resources ---------- */
+.res-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 22px; margin-top: 26px; }
+.res { display: block; text-decoration: none; padding: 20px; background: #fff; border-top: 12px solid var(--c); transition: transform .12s; }
