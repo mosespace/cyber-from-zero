@@ -416,3 +416,7 @@ html { overflow-x: hidden; }
   --accent-2: var(--coral);
 }
 body { background: var(--paper); font-size: 17px; line-height: 1.6; font-weight: 400; }
+h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
+
+.pop { background: var(--white); border-radius: 10px; }
+.header { background: var(--paper); border-bottom: 1px solid var(--ink); }
