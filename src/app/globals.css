@@ -395,3 +395,6 @@ html { overflow-x: hidden; }
 
 /* =====================================================================
    PostHog-inspired skin: flat greige paper, near-black ink, orange and
+   amber accents, thin borders, 3D-press buttons, app-window panels.
+   ===================================================================== */
+:root {
