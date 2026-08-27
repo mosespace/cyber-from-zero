@@ -372,3 +372,7 @@ img, svg { max-width: 100%; }
 .res:hover { transform: translate(-2px, -2px) rotate(-.5deg); box-shadow: var(--pop-lg); }
 .res h3 { font-size: 21px; margin-bottom: 4px; }
 .res p { margin: 0 0 10px; color: var(--muted); font-size: 16px; line-height: 1.5; }
+.res small { font-weight: 700; }
+.res-sec { margin-top: 56px; }
+
+/* ---------- small screens ---------- */
