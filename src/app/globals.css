@@ -385,3 +385,6 @@ html { overflow-x: hidden; }
   .logo { font-size: 17px; white-space: nowrap; }
   .stat-chip span:last-child { display: none; }
   .hero-facts { gap: 18px; }
+  .mod-grid, .res-grid, .gl-grid { grid-template-columns: 1fr; }
+  .how:nth-child(n) { transform: none; }
+  .marquee { margin: 0; transform: none; }
