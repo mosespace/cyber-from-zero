@@ -413,3 +413,6 @@ html { overflow-x: hidden; }
   --bg-soft: #e5e6dd;
   --card: var(--white);
   --accent: var(--blue);
+  --accent-2: var(--coral);
+}
+body { background: var(--paper); font-size: 17px; line-height: 1.6; font-weight: 400; }
