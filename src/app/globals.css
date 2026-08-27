@@ -430,3 +430,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 /* 3D-press buttons */
 .btn {
   border-radius: 8px; border: 1px solid var(--ink); border-bottom-width: 4px; padding: 11px 22px 9px;
+  font-family: var(--font-display); font-weight: 800; font-size: 17px; box-shadow: none; background: var(--white);
+  transition: transform .08s, border-bottom-width .08s;
+}
