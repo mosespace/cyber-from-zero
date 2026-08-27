@@ -420,3 +420,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 
 .pop { background: var(--white); border-radius: 10px; }
 .header { background: var(--paper); border-bottom: 1px solid var(--ink); }
+.nav a { border-radius: 6px; font-weight: 600; }
+.nav a:hover { background: #e0e1d7; border-color: transparent; }
+.nav a.on { background: var(--ink); color: var(--paper); border-radius: 6px; }
