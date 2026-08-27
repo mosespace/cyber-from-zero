@@ -436,3 +436,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .btn:hover { transform: translateY(-2px); border-bottom-width: 6px; box-shadow: none; }
 .btn:active { transform: translateY(3px); border-bottom-width: 1px; box-shadow: none; }
 .btn.blue { background: var(--sun); color: var(--ink); }
+.btn.sun { background: var(--sun); }
+.btn.ink { background: var(--ink); color: var(--paper); box-shadow: none; }
+.btn.done { background: var(--mint); }
