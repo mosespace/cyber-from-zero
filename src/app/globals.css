@@ -443,3 +443,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 
 /* hero: product-window illustration */
 .hero { padding: 64px 0 80px; }
+.hero h1 { font-size: clamp(44px, 6.6vw, 80px); letter-spacing: -0.045em; line-height: 1; }
+.hl::after { background: var(--sun); border-radius: 2px; height: 34%; bottom: 3px; transform: none; opacity: .9; }
+.hero-art { position: relative; max-width: 560px; justify-self: center; width: 100%; padding: 10px 24px 40px 0; }
