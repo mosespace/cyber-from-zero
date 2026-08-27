@@ -446,3 +446,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .hero h1 { font-size: clamp(44px, 6.6vw, 80px); letter-spacing: -0.045em; line-height: 1; }
 .hl::after { background: var(--sun); border-radius: 2px; height: 34%; bottom: 3px; transform: none; opacity: .9; }
 .hero-art { position: relative; max-width: 560px; justify-self: center; width: 100%; padding: 10px 24px 40px 0; }
+.win { background: var(--white); border: 1px solid var(--ink); border-radius: 10px; box-shadow: 0 6px 0 var(--ink); overflow: hidden; transform: rotate(1.2deg); }
+.win-top { display: flex; align-items: center; gap: 7px; padding: 9px 12px; background: #e0e1d7; border-bottom: 1px solid var(--ink); font-size: 13px; font-weight: 600; }
+.win-top i { width: 11px; height: 11px; border-radius: 50%; border: 1px solid var(--ink); background: var(--white); }
