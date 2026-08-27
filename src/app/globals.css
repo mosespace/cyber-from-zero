@@ -376,3 +376,6 @@ img, svg { max-width: 100%; }
 .res-sec { margin-top: 56px; }
 
 /* ---------- small screens ---------- */
+html { overflow-x: hidden; }
+@media (max-width: 640px) {
+  body { font-size: 16px; }
