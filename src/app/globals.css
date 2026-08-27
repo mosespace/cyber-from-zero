@@ -439,3 +439,7 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .btn.sun { background: var(--sun); }
 .btn.ink { background: var(--ink); color: var(--paper); box-shadow: none; }
 .btn.done { background: var(--mint); }
+.btn.small { padding: 6px 14px 4px; font-size: 15px; border-bottom-width: 3px; }
+
+/* hero: product-window illustration */
+.hero { padding: 64px 0 80px; }
