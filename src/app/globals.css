@@ -391,3 +391,7 @@ html { overflow-x: hidden; }
   .face { padding: 18px; }
   .prose { font-size: 17px; }
   .prose h2 { font-size: 26px; }
+}
+
+/* =====================================================================
+   PostHog-inspired skin: flat greige paper, near-black ink, orange and
