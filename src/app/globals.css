@@ -423,3 +423,7 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .nav a { border-radius: 6px; font-weight: 600; }
 .nav a:hover { background: #e0e1d7; border-color: transparent; }
 .nav a.on { background: var(--ink); color: var(--paper); border-radius: 6px; }
+.icon-btn, .stat-chip span, .pill, .eyebrow, .chip { border-width: 1px; border-radius: 6px; background: var(--white); }
+.eyebrow i { border-width: 1px; background: var(--coral); border-radius: 2px; transform: rotate(45deg); width: 12px; height: 12px; }
+.pill { font-weight: 500; font-size: 13.5px; padding: 1px 9px; }
+
