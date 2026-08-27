@@ -410,3 +410,6 @@ html { overflow-x: hidden; }
   --sky: #a9d1ff;
   --pink: #f4a6c0;
   --line: #d0d1c6;
+  --bg-soft: #e5e6dd;
+  --card: var(--white);
+  --accent: var(--blue);
