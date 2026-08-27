@@ -449,3 +449,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .win { background: var(--white); border: 1px solid var(--ink); border-radius: 10px; box-shadow: 0 6px 0 var(--ink); overflow: hidden; transform: rotate(1.2deg); }
 .win-top { display: flex; align-items: center; gap: 7px; padding: 9px 12px; background: #e0e1d7; border-bottom: 1px solid var(--ink); font-size: 13px; font-weight: 600; }
 .win-top i { width: 11px; height: 11px; border-radius: 50%; border: 1px solid var(--ink); background: var(--white); }
+.win-top i:nth-child(1) { background: #f54e00; } .win-top i:nth-child(2) { background: #f7a501; } .win-top i:nth-child(3) { background: #6cc59b; }
+.win-top span { margin-left: 8px; color: var(--muted); font-weight: 500; }
+.win-body { padding: 18px; display: grid; gap: 16px; }
