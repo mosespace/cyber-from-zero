@@ -427,3 +427,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .eyebrow i { border-width: 1px; background: var(--coral); border-radius: 2px; transform: rotate(45deg); width: 12px; height: 12px; }
 .pill { font-weight: 500; font-size: 13.5px; padding: 1px 9px; }
 
+/* 3D-press buttons */
+.btn {
+  border-radius: 8px; border: 1px solid var(--ink); border-bottom-width: 4px; padding: 11px 22px 9px;
