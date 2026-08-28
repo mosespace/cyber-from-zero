@@ -455,3 +455,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .win-row { display: flex; justify-content: space-between; align-items: baseline; }
 .win-row b { font: 800 22px var(--font-display); }
 .win-row span { font-size: 14px; color: var(--muted); font-weight: 500; }
+.win-xp { height: 12px; border: 1px solid var(--ink); border-radius: 4px; background: #eeefe9; overflow: hidden; }
+.win-xp i { display: block; height: 100%; width: 62%; background: var(--coral); }
+.win-chart { display: flex; align-items: flex-end; gap: 8px; height: 92px; padding: 10px 12px 0; border: 1px solid var(--line); border-radius: 6px; background: repeating-linear-gradient(#fff 0 22px, #eeefe9 22px 23px); }
