@@ -492,3 +492,7 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .feat:hover { transform: translateY(-3px); box-shadow: 0 6px 0 var(--ink); }
 .feat .ft { border-radius: 8px; border-width: 1px; }
 .final { border-radius: 0; background: var(--ink); }
+.final .btn.sun { border-color: var(--paper); }
+.footer { border-top: 1px solid #333; }
+
+/* paths, modules, lessons */
