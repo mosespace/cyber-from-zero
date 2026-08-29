@@ -480,3 +480,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .how:nth-child(1) { border-top: 8px solid var(--sky); } .how:nth-child(2) { border-top: 8px solid var(--pink); } .how:nth-child(3) { border-top: 8px solid var(--mint); }
 .how .num { background: var(--sun); border-radius: 6px; width: 34px; height: 34px; top: 14px; right: 14px; font-size: 17px; }
 .how p { color: var(--muted); }
+.mod-card { border-radius: 10px; }
+.mod-card:hover { transform: translateY(-3px); box-shadow: 0 6px 0 var(--ink); }
+.mod-card .tile { border-radius: 8px; width: 60px; height: 60px; }
