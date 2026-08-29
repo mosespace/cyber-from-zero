@@ -489,3 +489,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .band { background: var(--sun); border-block: 1px solid var(--ink); }
 .band .lede { color: #3a2a00 !important; }
 .feat { border-radius: 10px; }
+.feat:hover { transform: translateY(-3px); box-shadow: 0 6px 0 var(--ink); }
+.feat .ft { border-radius: 8px; border-width: 1px; }
+.final { border-radius: 0; background: var(--ink); }
