@@ -467,3 +467,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .win-list li.now { border-color: var(--ink); background: #fff4d6; font-weight: 700; }
 .win-list li.now::before { background: var(--coral); }
 .sticker { position: absolute; z-index: 2; border: 1px solid var(--ink); border-radius: 8px; padding: 6px 12px; font: 800 17px var(--font-display); box-shadow: 0 3px 0 var(--ink); }
+.sticker.xp { right: -6px; top: -4px; background: var(--sun); transform: rotate(7deg); }
+.sticker.listen { left: -18px; bottom: 6px; background: var(--white); display: flex; align-items: center; gap: 9px; transform: rotate(-4deg); padding: 8px 12px; }
+.sticker.listen em { display: flex; align-items: center; gap: 3px; height: 22px; font-style: normal; }
