@@ -474,3 +474,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .sticker.shield { right: 10px; bottom: 0; background: var(--lilac); padding: 6px 8px; transform: rotate(-6deg); display: grid; place-items: center; }
 
 /* sections */
+.marquee { background: var(--ink); color: var(--paper); transform: rotate(-.8deg); border: 0; }
+.marquee-track span { font-family: var(--font-display); font-weight: 800; font-size: 22px; }
+.how:nth-child(1), .how:nth-child(2), .how:nth-child(3) { background: var(--white); transform: none; }
