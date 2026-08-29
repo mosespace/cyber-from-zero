@@ -477,3 +477,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .marquee { background: var(--ink); color: var(--paper); transform: rotate(-.8deg); border: 0; }
 .marquee-track span { font-family: var(--font-display); font-weight: 800; font-size: 22px; }
 .how:nth-child(1), .how:nth-child(2), .how:nth-child(3) { background: var(--white); transform: none; }
+.how:nth-child(1) { border-top: 8px solid var(--sky); } .how:nth-child(2) { border-top: 8px solid var(--pink); } .how:nth-child(3) { border-top: 8px solid var(--mint); }
+.how .num { background: var(--sun); border-radius: 6px; width: 34px; height: 34px; top: 14px; right: 14px; font-size: 17px; }
+.how p { color: var(--muted); }
