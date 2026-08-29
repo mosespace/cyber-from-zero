@@ -483,3 +483,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .mod-card { border-radius: 10px; }
 .mod-card:hover { transform: translateY(-3px); box-shadow: 0 6px 0 var(--ink); }
 .mod-card .tile { border-radius: 8px; width: 60px; height: 60px; }
+.mod-card .no { -webkit-text-stroke: 1px var(--ink); font-size: 46px; }
+.bar { border-radius: 4px; height: 12px; border-width: 1px; }
+.bar > i { border-right-width: 1px; }
