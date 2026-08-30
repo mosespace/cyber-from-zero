@@ -496,3 +496,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .footer { border-top: 1px solid #333; }
 
 /* paths, modules, lessons */
+.t-banner { border-radius: 10px; }
+.t-banner .tile, .les-row .n, .t-node .btn-node { border-width: 1.5px; }
+.t-node .btn-node { box-shadow: 0 5px 0 var(--ink); border-radius: 50%; background: var(--white); }
