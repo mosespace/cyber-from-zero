@@ -499,3 +499,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .t-banner { border-radius: 10px; }
 .t-banner .tile, .les-row .n, .t-node .btn-node { border-width: 1.5px; }
 .t-node .btn-node { box-shadow: 0 5px 0 var(--ink); border-radius: 50%; background: var(--white); }
+.t-node.star .btn-node { border-radius: 14px; background: var(--sun); }
+.start-tag { background: var(--coral); border-radius: 6px; border-width: 1px; }
+.mod-hero { border-bottom: 1px solid var(--ink); }
