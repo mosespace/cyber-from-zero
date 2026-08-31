@@ -44,3 +44,6 @@ export function Ring({ color = "#27D3A2", ...p }: P) {
 export function Triangle({ color = "#B9A2FF", ...p }: P) {
   return <svg {...svgProps(p)}><path d="M50 10 L92 86 L8 86 Z" fill={color} {...stroke(p)} /></svg>;
 }
+export function Square({ color = "#7CCBFF", ...p }: P) {
+  return <svg {...svgProps(p)}><rect x="12" y="12" width="76" height="76" rx="18" fill={color} {...stroke(p)} /></svg>;
+}
