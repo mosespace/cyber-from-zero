@@ -511,3 +511,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .prose blockquote { background: #fff4d6; border-radius: 8px; box-shadow: none; border-width: 1px; border-left: 6px solid var(--sun); font-size: 20px; }
 .prose code { border-width: 1px; border-radius: 4px; background: #e5e6dd; }
 .prose pre.code { border-radius: 8px; box-shadow: none; border-width: 1px; background: #1b1b1b; }
+.table-wrap, .figure, .widget { border-width: 1px; border-radius: 10px; box-shadow: 0 3px 0 var(--ink); }
+.prose th { background: #e0e1d7; color: var(--ink); border-bottom: 1px solid var(--ink); }
+.prose tbody tr:nth-child(even) td { background: #f6f6f0; }
