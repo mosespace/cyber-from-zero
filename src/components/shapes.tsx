@@ -32,3 +32,6 @@ const BLOBS = [
   [46, 42, 36, 44, 47, 39, 43, 46],
 ];
 
+export function Blob({ color = "#FFC93C", variant = 0, ...p }: P & { variant?: number }) {
+  return <svg {...svgProps(p)}><path d={blobPath(BLOBS[variant % 3])} fill={color} {...stroke(p)} /></svg>;
+}
