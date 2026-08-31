@@ -35,3 +35,6 @@ const BLOBS = [
 export function Blob({ color = "#FFC93C", variant = 0, ...p }: P & { variant?: number }) {
   return <svg {...svgProps(p)}><path d={blobPath(BLOBS[variant % 3])} fill={color} {...stroke(p)} /></svg>;
 }
+export function Circle({ color = "#FF6B57", ...p }: P) {
+  return <svg {...svgProps(p)}><circle cx="50" cy="50" r="42" fill={color} {...stroke(p)} /></svg>;
+}
