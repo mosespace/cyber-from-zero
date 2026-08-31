@@ -22,3 +22,6 @@ export function blobPath(radii: number[], cx = 50, cy = 50) {
   let d = `M${mid(pts[n - 1], pts[0]).map((v) => v.toFixed(1)).join(",")}`;
   for (let i = 0; i < n; i++) {
     const m = mid(pts[i], pts[(i + 1) % n]);
+    d += ` Q${pts[i][0].toFixed(1)},${pts[i][1].toFixed(1)} ${m[0].toFixed(1)},${m[1].toFixed(1)}`;
+  }
+  return d + "Z";
