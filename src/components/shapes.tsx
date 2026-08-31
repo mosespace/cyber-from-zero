@@ -53,3 +53,6 @@ export function Star({ color = "#FFC93C", points = 8, ...p }: P & { points?: num
     const a = (i / (points * 2)) * Math.PI * 2 - Math.PI / 2;
     return `${(50 + Math.cos(a) * r).toFixed(1)},${(50 + Math.sin(a) * r).toFixed(1)}`;
   }).join(" ");
+  return <svg {...svgProps(p)}><polygon points={pts} fill={color} {...stroke(p)} /></svg>;
+}
+export function Plus({ color = "#FF9BC9", ...p }: P) {
