@@ -520,3 +520,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .opt .k { border-width: 1px; border-radius: 5px; }
 .face { border-width: 1.5px; border-radius: 14px; box-shadow: 0 8px 0 var(--ink); }
 .search-input { border-radius: 8px; border-width: 1px; box-shadow: 0 3px 0 var(--ink); }
+.level { background: var(--lilac); }
+.badge.locked { box-shadow: none; }
+.res { border-top-width: 8px; border-radius: 10px; }
