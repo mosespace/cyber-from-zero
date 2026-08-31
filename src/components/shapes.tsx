@@ -9,3 +9,7 @@ function svgProps(p: P, w = 100, h = 100) {
     className: `${p.size ? "" : "shape"} ${p.className ?? ""}`, style: p.style, "aria-hidden": true as const,
   };
 }
+const stroke = (p: P) => (p.outline === false ? {} : { stroke: INK, strokeWidth: 2.5, strokeLinejoin: "round" as const });
+
+/** Smooth closed blob built from radii around a circle. */
+export function blobPath(radii: number[], cx = 50, cy = 50) {
