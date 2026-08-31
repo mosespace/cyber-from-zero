@@ -514,3 +514,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .table-wrap, .figure, .widget { border-width: 1px; border-radius: 10px; box-shadow: 0 3px 0 var(--ink); }
 .prose th { background: #e0e1d7; color: var(--ink); border-bottom: 1px solid var(--ink); }
 .prose tbody tr:nth-child(even) td { background: #f6f6f0; }
+.takeaways { background: #fff4d6; border-left: 8px solid var(--sun); }
+.takeaways li::before { content: ""; width: 10px; height: 10px; margin-top: 8px; background: var(--coral); border-radius: 2px; transform: rotate(45deg); }
+.opt { border-width: 1px; border-radius: 8px; box-shadow: 0 3px 0 var(--ink); }
