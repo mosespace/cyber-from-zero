@@ -47,3 +47,6 @@ export function Triangle({ color = "#B9A2FF", ...p }: P) {
 export function Square({ color = "#7CCBFF", ...p }: P) {
   return <svg {...svgProps(p)}><rect x="12" y="12" width="76" height="76" rx="18" fill={color} {...stroke(p)} /></svg>;
 }
+export function Star({ color = "#FFC93C", points = 8, ...p }: P & { points?: number }) {
+  const pts = Array.from({ length: points * 2 }, (_, i) => {
+    const r = i % 2 ? 26 : 44;
