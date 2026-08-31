@@ -25,3 +25,6 @@ export function blobPath(radii: number[], cx = 50, cy = 50) {
     d += ` Q${pts[i][0].toFixed(1)},${pts[i][1].toFixed(1)} ${m[0].toFixed(1)},${m[1].toFixed(1)}`;
   }
   return d + "Z";
+}
+const BLOBS = [
+  [44, 38, 46, 40, 47, 36, 45, 41],
