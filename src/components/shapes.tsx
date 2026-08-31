@@ -16,3 +16,6 @@ export function blobPath(radii: number[], cx = 50, cy = 50) {
   const n = radii.length;
   const pts = radii.map((r, i) => {
     const a = (i / n) * Math.PI * 2;
+    return [cx + Math.cos(a) * r, cy + Math.sin(a) * r];
+  });
+  const mid = (a: number[], b: number[]) => [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
