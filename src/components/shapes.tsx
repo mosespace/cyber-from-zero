@@ -19,3 +19,6 @@ export function blobPath(radii: number[], cx = 50, cy = 50) {
     return [cx + Math.cos(a) * r, cy + Math.sin(a) * r];
   });
   const mid = (a: number[], b: number[]) => [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
+  let d = `M${mid(pts[n - 1], pts[0]).map((v) => v.toFixed(1)).join(",")}`;
+  for (let i = 0; i < n; i++) {
+    const m = mid(pts[i], pts[(i + 1) % n]);
