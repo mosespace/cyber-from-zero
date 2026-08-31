@@ -13,3 +13,6 @@ const stroke = (p: P) => (p.outline === false ? {} : { stroke: INK, strokeWidth:
 
 /** Smooth closed blob built from radii around a circle. */
 export function blobPath(radii: number[], cx = 50, cy = 50) {
+  const n = radii.length;
+  const pts = radii.map((r, i) => {
+    const a = (i / n) * Math.PI * 2;
