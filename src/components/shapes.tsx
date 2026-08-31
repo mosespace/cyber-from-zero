@@ -50,3 +50,6 @@ export function Square({ color = "#7CCBFF", ...p }: P) {
 export function Star({ color = "#FFC93C", points = 8, ...p }: P & { points?: number }) {
   const pts = Array.from({ length: points * 2 }, (_, i) => {
     const r = i % 2 ? 26 : 44;
+    const a = (i / (points * 2)) * Math.PI * 2 - Math.PI / 2;
+    return `${(50 + Math.cos(a) * r).toFixed(1)},${(50 + Math.sin(a) * r).toFixed(1)}`;
+  }).join(" ");
