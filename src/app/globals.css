@@ -523,3 +523,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; font-weight: 800; }
 .level { background: var(--lilac); }
 .badge.locked { box-shadow: none; }
 .res { border-top-width: 8px; border-radius: 10px; }
+.modal { border-radius: 12px; }
+.widget input[type=text], .widget input[type=password] { border-width: 1px; border-radius: 6px; }
+.widget .out { border-radius: 6px; color: var(--sun); }
