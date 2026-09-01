@@ -59,3 +59,6 @@ export function Plus({ color = "#FF9BC9", ...p }: P) {
   return <svg {...svgProps(p)}><path d="M38 10h24v28h28v24H62v28H38V62H10V38h28z" fill={color} {...stroke(p)} /></svg>;
 }
 export function Squiggle({ color = "#16162b", ...p }: P) {
+  return <svg {...svgProps(p, 160, 40)}><path d="M6 20 Q 26 -4 46 20 T 86 20 T 126 20 T 156 20" fill="none" stroke={color} strokeWidth="7" strokeLinecap="round" /></svg>;
+}
+export function Dots({ color = "#16162b", ...p }: P) {
