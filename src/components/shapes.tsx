@@ -56,3 +56,6 @@ export function Star({ color = "#FFC93C", points = 8, ...p }: P & { points?: num
   return <svg {...svgProps(p)}><polygon points={pts} fill={color} {...stroke(p)} /></svg>;
 }
 export function Plus({ color = "#FF9BC9", ...p }: P) {
+  return <svg {...svgProps(p)}><path d="M38 10h24v28h28v24H62v28H38V62H10V38h28z" fill={color} {...stroke(p)} /></svg>;
+}
+export function Squiggle({ color = "#16162b", ...p }: P) {
