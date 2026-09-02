@@ -72,3 +72,6 @@ export function Half({ color = "#FF6B57", ...p }: P) {
 export function Wave({ color, flip }: { color: string; flip?: boolean }) {
   return (
     <svg viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden style={{ display: "block", width: "100%", height: 34, transform: flip ? "scaleY(-1)" : undefined }}>
+      <path d="M0 40V20Q75 0 150 20T300 20T450 20T600 20T750 20T900 20T1050 20T1200 20V40Z" fill={color} stroke="#16162b" strokeWidth="2.5" vectorEffect="non-scaling-stroke" />
+    </svg>
+  );
