@@ -65,3 +65,7 @@ export function Dots({ color = "#16162b", ...p }: P) {
   return <svg {...svgProps(p)}>{Array.from({ length: 25 }, (_, i) => <circle key={i} cx={10 + (i % 5) * 20} cy={10 + Math.floor(i / 5) * 20} r="4" fill={color} />)}</svg>;
 }
 export function Half({ color = "#FF6B57", ...p }: P) {
+  return <svg {...svgProps(p, 100, 55)}><path d="M6 50a44 44 0 0 1 88 0z" fill={color} {...stroke(p)} /></svg>;
+}
+
+/** Wavy edge between sections. */
