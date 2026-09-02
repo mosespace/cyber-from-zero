@@ -75,3 +75,7 @@ export function Wave({ color, flip }: { color: string; flip?: boolean }) {
       <path d="M0 40V20Q75 0 150 20T300 20T450 20T600 20T750 20T900 20T1050 20T1200 20V40Z" fill={color} stroke="#16162b" strokeWidth="2.5" vectorEffect="non-scaling-stroke" />
     </svg>
   );
+}
+
+/** The site logo mark: a shield built from simple shapes. */
+export function LogoMark({ size = 36 }: { size?: number }) {
