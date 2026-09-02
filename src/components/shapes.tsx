@@ -69,3 +69,6 @@ export function Half({ color = "#FF6B57", ...p }: P) {
 }
 
 /** Wavy edge between sections. */
+export function Wave({ color, flip }: { color: string; flip?: boolean }) {
+  return (
+    <svg viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden style={{ display: "block", width: "100%", height: 34, transform: flip ? "scaleY(-1)" : undefined }}>
