@@ -62,3 +62,6 @@ export function Squiggle({ color = "#16162b", ...p }: P) {
   return <svg {...svgProps(p, 160, 40)}><path d="M6 20 Q 26 -4 46 20 T 86 20 T 126 20 T 156 20" fill="none" stroke={color} strokeWidth="7" strokeLinecap="round" /></svg>;
 }
 export function Dots({ color = "#16162b", ...p }: P) {
+  return <svg {...svgProps(p)}>{Array.from({ length: 25 }, (_, i) => <circle key={i} cx={10 + (i % 5) * 20} cy={10 + Math.floor(i / 5) * 20} r="4" fill={color} />)}</svg>;
+}
+export function Half({ color = "#FF6B57", ...p }: P) {
