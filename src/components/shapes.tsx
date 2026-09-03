@@ -79,3 +79,6 @@ export function Wave({ color, flip }: { color: string; flip?: boolean }) {
 
 /** The site logo mark: a shield built from simple shapes. */
 export function LogoMark({ size = 36 }: { size?: number }) {
+  return (
+    <svg viewBox="0 0 48 48" width={size} height={size} aria-hidden>
+      <path d="M24 4 L41 10 V24 C41 34 34 41 24 45 C14 41 7 34 7 24 V10 Z" fill="#3B5BFF" stroke={INK} strokeWidth="3" strokeLinejoin="round" />
