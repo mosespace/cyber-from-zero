@@ -89,3 +89,6 @@ export function LogoMark({ size = 36 }: { size?: number }) {
 }
 
 export function Flame({ size = 18 }: { size?: number }) {
+  return (
+    <svg viewBox="0 0 24 24" width={size} height={size} aria-hidden>
+      <path d="M12 2c1 4 6 6 6 12a6 6 0 0 1-12 0c0-3 2-4 3-6 1 1 1 2 2 2 1-3 0-5 1-8z" fill="#FF8A3C" stroke={INK} strokeWidth="2" strokeLinejoin="round" />
