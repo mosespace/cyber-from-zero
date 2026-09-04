@@ -108,3 +108,6 @@ export function HeroArt() {
   const bars = [30, 46, 38, 62, 52, 78, 70];
   return (
     <div className="hero-art" aria-hidden>
+      <div className="win">
+        <div className="win-top"><i /><i /><i /><span>my-progress</span></div>
+        <div className="win-body">
