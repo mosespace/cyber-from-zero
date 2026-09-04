@@ -129,3 +129,6 @@ export function HeroArt() {
         Listen
       </span>
       <span className="sticker shield"><LogoMark size={44} /></span>
+    </div>
+  );
+}
