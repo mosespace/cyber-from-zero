@@ -114,3 +114,6 @@ export function HeroArt() {
           <div className="win-row"><b>Level 3</b><span>240 XP · 5 day streak</span></div>
           <div className="win-xp"><i /></div>
           <div className="win-chart">{bars.map((h, i) => <i key={i} style={{ height: `${h}%` }} />)}</div>
+          <ul className="win-list">
+            <li className="ok">What is a computer, really?</li>
+            <li className="ok">Bits, bytes and data</li>
