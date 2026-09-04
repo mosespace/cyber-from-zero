@@ -123,3 +123,6 @@ export function HeroArt() {
         </div>
       </div>
       <span className="sticker xp">+20 XP</span>
+      <span className="sticker listen">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M6 3 20 12 6 21Z" fill="#151515" /></svg>
+        <em>{[8, 16, 11, 20, 13, 7, 17, 10].map((h, i) => <i key={i} style={{ height: h }} />)}</em>
