@@ -117,3 +117,6 @@ export function HeroArt() {
           <ul className="win-list">
             <li className="ok">What is a computer, really?</li>
             <li className="ok">Bits, bytes and data</li>
+            <li className="now">How the internet works</li>
+            <li>The CIA triad</li>
+          </ul>
