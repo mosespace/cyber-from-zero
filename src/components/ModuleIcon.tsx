@@ -14,3 +14,6 @@ export default function ModuleIcon({ slug, size = 44 }: { slug: string; size?: n
       break;
     case "networking":
       g = <><path d="M32 14 14 48M32 14 50 48M14 48H50" fill="none" {...sw} /><circle cx="32" cy="14" r="8" fill="#FFC93C" {...sw} /><circle cx="14" cy="48" r="8" fill="#FF6B57" {...sw} /><circle cx="50" cy="48" r="8" fill="#7CCBFF" {...sw} /></>;
+      break;
+    case "operating-systems":
+      g = <><rect x="6" y="10" width="52" height="44" rx="8" fill={W} {...sw} /><path d="M6 22h52" {...sw} /><path d="M17 31l8 6-8 6" fill="none" {...sw} /><path d="M30 44h14" {...sw} /></>;
