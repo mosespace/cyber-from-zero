@@ -29,3 +29,6 @@ export default function ModuleIcon({ slug, size = 44 }: { slug: string; size?: n
       break;
     case "defense":
       g = <><path d="M32 6 54 14V30C54 44 44 54 32 58 20 54 10 44 10 30V14Z" fill="#fff" {...sw} /><path d="M32 16 44 21V30C44 38 39 44 32 48Z" fill="#27D3A2" {...sw} /></>;
+      break;
+    case "ethical-hacking":
+      g = <><circle cx="27" cy="27" r="17" fill={W} {...sw} /><path d="M40 40 56 56" {...sw} strokeWidth={6} /><path d="M27 17l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill="#FF6B57" stroke={INK} strokeWidth="2" strokeLinejoin="round" /></>;
