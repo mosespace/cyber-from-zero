@@ -20,3 +20,6 @@ export default function ModuleIcon({ slug, size = 44 }: { slug: string; size?: n
       break;
     case "cryptography":
       g = <><circle cx="20" cy="32" r="13" fill="#FFC93C" {...sw} /><circle cx="20" cy="32" r="4" fill={W} {...sw} /><path d="M33 32h24M48 32v10M56 32v8" fill="none" {...sw} /></>;
+      break;
+    case "threats":
+      g = <><path d="M32 8 58 54H6Z" fill="#FFC93C" {...sw} /><path d="M32 24v14" {...sw} strokeWidth={5} /><circle cx="32" cy="46" r="2.5" fill={INK} /></>;
