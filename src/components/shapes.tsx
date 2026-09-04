@@ -111,3 +111,6 @@ export function HeroArt() {
       <div className="win">
         <div className="win-top"><i /><i /><i /><span>my-progress</span></div>
         <div className="win-body">
+          <div className="win-row"><b>Level 3</b><span>240 XP · 5 day streak</span></div>
+          <div className="win-xp"><i /></div>
+          <div className="win-chart">{bars.map((h, i) => <i key={i} style={{ height: `${h}%` }} />)}</div>
