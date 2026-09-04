@@ -11,3 +11,6 @@ export default function ModuleIcon({ slug, size = 44 }: { slug: string; size?: n
       break;
     case "security-mindset":
       g = <><path d="M32 8 56 52H8Z" fill={W} {...sw} /><circle cx="32" cy="14" r="6" fill="#FFC93C" {...sw} /><circle cx="13" cy="50" r="6" fill="#FF6B57" {...sw} /><circle cx="51" cy="50" r="6" fill="#27D3A2" {...sw} /></>;
+      break;
+    case "networking":
+      g = <><path d="M32 14 14 48M32 14 50 48M14 48H50" fill="none" {...sw} /><circle cx="32" cy="14" r="8" fill="#FFC93C" {...sw} /><circle cx="14" cy="48" r="8" fill="#FF6B57" {...sw} /><circle cx="50" cy="48" r="8" fill="#7CCBFF" {...sw} /></>;
