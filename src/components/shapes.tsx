@@ -101,3 +101,7 @@ export function Bolt({ size = 18 }: { size?: number }) {
       <path d="M13 2 4 14h6l-1 8 9-12h-6z" fill="#FFC93C" stroke={INK} strokeWidth="2" strokeLinejoin="round" />
     </svg>
   );
+}
+
+/** Hero illustration: a mock "app window" that previews what learning here feels like. */
+export function HeroArt() {
