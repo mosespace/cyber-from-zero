@@ -98,3 +98,6 @@ export function Flame({ size = 18 }: { size?: number }) {
 export function Bolt({ size = 18 }: { size?: number }) {
   return (
     <svg viewBox="0 0 24 24" width={size} height={size} aria-hidden>
+      <path d="M13 2 4 14h6l-1 8 9-12h-6z" fill="#FFC93C" stroke={INK} strokeWidth="2" strokeLinejoin="round" />
+    </svg>
+  );
