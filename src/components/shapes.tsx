@@ -105,3 +105,6 @@ export function Bolt({ size = 18 }: { size?: number }) {
 
 /** Hero illustration: a mock "app window" that previews what learning here feels like. */
 export function HeroArt() {
+  const bars = [30, 46, 38, 62, 52, 78, 70];
+  return (
+    <div className="hero-art" aria-hidden>
