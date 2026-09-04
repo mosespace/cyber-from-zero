@@ -23,3 +23,6 @@ export default function ModuleIcon({ slug, size = 44 }: { slug: string; size?: n
       break;
     case "threats":
       g = <><path d="M32 8 58 54H6Z" fill="#FFC93C" {...sw} /><path d="M32 24v14" {...sw} strokeWidth={5} /><circle cx="32" cy="46" r="2.5" fill={INK} /></>;
+      break;
+    case "web-security":
+      g = <><rect x="6" y="10" width="52" height="44" rx="8" fill={W} {...sw} /><path d="M6 22h52" {...sw} /><circle cx="14" cy="16" r="1.8" fill={INK} /><circle cx="21" cy="16" r="1.8" fill={INK} /><rect x="22" y="33" width="20" height="15" rx="4" fill="#27D3A2" {...sw} /><path d="M26 33v-4a6 6 0 0 1 12 0v4" fill="none" {...sw} /></>;
