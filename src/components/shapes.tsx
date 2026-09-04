@@ -120,3 +120,6 @@ export function HeroArt() {
             <li className="now">How the internet works</li>
             <li>The CIA triad</li>
           </ul>
+        </div>
+      </div>
+      <span className="sticker xp">+20 XP</span>
