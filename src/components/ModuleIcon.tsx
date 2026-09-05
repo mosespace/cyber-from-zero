@@ -35,3 +35,6 @@ export default function ModuleIcon({ slug, size = 44 }: { slug: string; size?: n
       break;
     default:
       g = <><path d="M4 56 26 18 40 40 46 30 60 56Z" fill={W} {...sw} /><path d="M26 18V4M26 4l14 5-14 5" fill="#FF6B57" {...sw} /></>;
+  }
+  return <svg viewBox="0 0 64 64" width={size} height={size} aria-hidden>{g}</svg>;
+}
