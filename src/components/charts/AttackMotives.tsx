@@ -5,3 +5,6 @@ const data = [
   ["Fun or fame", 7, "#f472b6"],
 ] as const;
 
+export default function AttackMotives() {
+  return (
+    <figure className="figure">
