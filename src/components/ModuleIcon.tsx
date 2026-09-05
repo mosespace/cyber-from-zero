@@ -32,3 +32,6 @@ export default function ModuleIcon({ slug, size = 44 }: { slug: string; size?: n
       break;
     case "ethical-hacking":
       g = <><circle cx="27" cy="27" r="17" fill={W} {...sw} /><path d="M40 40 56 56" {...sw} strokeWidth={6} /><path d="M27 17l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill="#FF6B57" stroke={INK} strokeWidth="2" strokeLinejoin="round" /></>;
+      break;
+    default:
+      g = <><path d="M4 56 26 18 40 40 46 30 60 56Z" fill={W} {...sw} /><path d="M26 18V4M26 4l14 5-14 5" fill="#FF6B57" {...sw} /></>;
