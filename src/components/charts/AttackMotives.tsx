@@ -17,3 +17,6 @@ export default function AttackMotives() {
             <text x={184 + (v / 100) * 420 - 10} y="27" textAnchor="end" style={{ fontWeight: 800, fontSize: 14, fill: "#07101f" }}>{v}%</text>
           </g>
         ))}
+      </svg>
+      <figcaption>Illustrative numbers to show the idea (not exact statistics). Money is the main motive.</figcaption>
+    </figure>
