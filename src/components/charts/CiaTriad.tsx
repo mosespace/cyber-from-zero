@@ -7,3 +7,6 @@ export default function CiaTriad() {
   return (
     <figure className="figure">
       <svg viewBox="0 0 640 430" role="img" aria-label="The CIA triad: confidentiality, integrity and availability">
+        <polygon points="320,118 110,318 530,318" fill="#fff4d6" stroke="#151515" strokeWidth="2" strokeLinejoin="round" />
+        <text x="320" y="268" textAnchor="middle" className="chart-text" style={{ fontSize: 24, fontWeight: 800 }}>SECURITY</text>
+        {nodes.map((n) => (
