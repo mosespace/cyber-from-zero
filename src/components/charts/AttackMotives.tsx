@@ -20,3 +20,5 @@ export default function AttackMotives() {
       </svg>
       <figcaption>Illustrative numbers to show the idea (not exact statistics). Money is the main motive.</figcaption>
     </figure>
+  );
+}
