@@ -13,3 +13,6 @@ export default function CiaTriad() {
           <g key={n.t}>
             <circle cx={n.x} cy={n.y} r="46" fill={n.c} stroke="#151515" strokeWidth="2" />
             <text x={n.x} y={n.y + 11} textAnchor="middle" className="chart-text" style={{ fontWeight: 800, fontSize: 32 }}>{n.t[0]}</text>
+            <text x={n.x} y={n.ly} textAnchor="middle" className="chart-text" style={{ fontWeight: 800, fontSize: 18 }}>{n.t}</text>
+            <text x={n.x} y={n.ly + 18} textAnchor="middle" className="chart-muted" style={{ fontSize: 13 }}>{n.s}</text>
+          </g>
