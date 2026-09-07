@@ -8,3 +8,6 @@ const rings = [
 
 export default function DefenseInDepth() {
   return (
+    <figure className="figure">
+      <svg viewBox="0 0 640 340" role="img" aria-label="Concentric rings of defence with data in the middle">
+        {rings.map(([name, r, c]) => (
