@@ -4,3 +4,7 @@ const rings = [
   ["Network", 108, "#60a5fa"],
   ["Host", 82, "#38bdf8"],
   ["Application", 56, "#34d399"],
+] as const;
+
+export default function DefenseInDepth() {
+  return (
