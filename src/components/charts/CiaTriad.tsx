@@ -19,3 +19,6 @@ export default function CiaTriad() {
         ))}
       </svg>
       <figcaption>The three goals of security.</figcaption>
+    </figure>
+  );
+}
