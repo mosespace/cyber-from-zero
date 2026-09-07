@@ -16,3 +16,6 @@ export default function CiaTriad() {
             <text x={n.x} y={n.ly} textAnchor="middle" className="chart-text" style={{ fontWeight: 800, fontSize: 18 }}>{n.t}</text>
             <text x={n.x} y={n.ly + 18} textAnchor="middle" className="chart-muted" style={{ fontSize: 13 }}>{n.s}</text>
           </g>
+        ))}
+      </svg>
+      <figcaption>The three goals of security.</figcaption>
