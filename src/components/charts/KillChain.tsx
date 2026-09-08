@@ -14,3 +14,6 @@ export default function KillChain() {
       <ol className="chain" style={{ listStyle: "none", paddingLeft: 0 }}>
         {steps.map(([t, s, c]) => (
           <li key={t} style={{ ["--c" as string]: c }}>
+            <b>{t}</b>
+            <span>{s}</span>
+          </li>
