@@ -7,3 +7,7 @@ const steps = [
   { n: 1, from: 0, to: 1, y: 112, label: "Where is example.com?" },
   { n: 2, from: 1, to: 0, y: 160, label: "It is at 93.184.216.34" },
   { n: 3, from: 0, to: 2, y: 226, label: "Please send me the page" },
+  { n: 4, from: 2, to: 0, y: 274, label: "Here is the web page" },
+];
+
+export default function HttpFlow() {
