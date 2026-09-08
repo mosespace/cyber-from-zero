@@ -41,3 +41,6 @@ export default function HttpFlow() {
         })}
       </svg>
       <figcaption>What happens in a fraction of a second when you open a website.</figcaption>
+    </figure>
+  );
+}
