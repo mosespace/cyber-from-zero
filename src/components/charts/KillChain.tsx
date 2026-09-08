@@ -8,3 +8,6 @@ const steps = [
   ["Hide", "Cover tracks", "#fbbf24"],
 ] as const;
 
+export default function KillChain() {
+  return (
+    <figure className="figure">
