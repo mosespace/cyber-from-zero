@@ -14,3 +14,6 @@ export default function HttpFlow() {
   return (
     <figure className="figure">
       <svg viewBox="0 0 640 310" role="img" aria-label="Sequence diagram: browser asks DNS for an address, then asks the web server for the page">
+        <defs>
+          <marker id="arr" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+            <path d="M0,0 L10,5 L0,10 z" fill="#151515" />
