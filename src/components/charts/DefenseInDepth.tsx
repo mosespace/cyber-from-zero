@@ -17,3 +17,6 @@ export default function DefenseInDepth() {
           </g>
         ))}
         <circle cx="320" cy="180" r="30" fill="#fbbf24" />
+        <text x="320" y="185" textAnchor="middle" style={{ fontWeight: 800, fontSize: 14, fill: "#07101f" }}>DATA</text>
+      </svg>
+      <figcaption>An attacker must get through every ring to reach the data.</figcaption>
