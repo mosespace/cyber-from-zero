@@ -26,3 +26,6 @@ export default function HttpFlow() {
             <text x={c.x} y="36" textAnchor="middle" className="chart-text" style={{ fontWeight: 800, fontSize: 15 }}>{c.t}</text>
           </g>
         ))}
+        {steps.map((s) => {
+          const x1 = cols[s.from].x + (s.to > s.from ? 6 : -6);
+          const x2 = cols[s.to].x + (s.to > s.from ? -8 : 8);
