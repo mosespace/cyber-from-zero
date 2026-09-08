@@ -20,3 +20,6 @@ export default function HttpFlow() {
           </marker>
         </defs>
         {cols.map((c) => (
+          <g key={c.t}>
+            <line x1={c.x} y1="56" x2={c.x} y2="300" stroke="#bfbfbc" strokeDasharray="5 5" strokeWidth="2" />
+            <rect x={c.x - 66} y="8" width="132" height="44" rx="8" fill={c.c} stroke="#151515" strokeWidth="1.5" />
