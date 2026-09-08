@@ -17,3 +17,6 @@ export default function KillChain() {
             <b>{t}</b>
             <span>{s}</span>
           </li>
+        ))}
+      </ol>
+      <figcaption>The steps of a typical attack. Defenders try to break any link.</figcaption>
