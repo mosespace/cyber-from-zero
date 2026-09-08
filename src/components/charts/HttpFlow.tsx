@@ -11,3 +11,6 @@ const steps = [
 ];
 
 export default function HttpFlow() {
+  return (
+    <figure className="figure">
+      <svg viewBox="0 0 640 310" role="img" aria-label="Sequence diagram: browser asks DNS for an address, then asks the web server for the page">
