@@ -20,3 +20,6 @@ export default function KillChain() {
         ))}
       </ol>
       <figcaption>The steps of a typical attack. Defenders try to break any link.</figcaption>
+    </figure>
+  );
+}
