@@ -17,3 +17,6 @@ export default function HttpFlow() {
         <defs>
           <marker id="arr" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
             <path d="M0,0 L10,5 L0,10 z" fill="#151515" />
+          </marker>
+        </defs>
+        {cols.map((c) => (
