@@ -4,3 +4,7 @@ const steps = [
   ["Break in", "Use a weakness", "#a78bfa"],
   ["Stay in", "Hidden way back", "#c084fc"],
   ["Spread", "Move computer to computer", "#f472b6"],
+  ["Goal", "Steal or damage data", "#fb7185"],
+  ["Hide", "Cover tracks", "#fbbf24"],
+] as const;
+
