@@ -29,3 +29,6 @@ export default function HttpFlow() {
         {steps.map((s) => {
           const x1 = cols[s.from].x + (s.to > s.from ? 6 : -6);
           const x2 = cols[s.to].x + (s.to > s.from ? -8 : 8);
+          const mid = (cols[s.from].x + cols[s.to].x) / 2;
+          return (
+            <g key={s.n}>
