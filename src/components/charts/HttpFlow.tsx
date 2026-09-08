@@ -32,3 +32,6 @@ export default function HttpFlow() {
           const mid = (cols[s.from].x + cols[s.to].x) / 2;
           return (
             <g key={s.n}>
+              <line x1={x1} y1={s.y} x2={x2} y2={s.y} stroke="#151515" strokeWidth="2" markerEnd="url(#arr)" />
+              <circle cx={Math.min(x1, x2) + 20} cy={s.y - 24} r="11" fill="#f7a501" stroke="#151515" strokeWidth="1.5" />
+              <text x={Math.min(x1, x2) + 20} y={s.y - 20} textAnchor="middle" style={{ fontSize: 12, fontWeight: 800, fill: "#151515" }}>{s.n}</text>
