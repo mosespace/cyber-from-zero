@@ -38,3 +38,6 @@ export default function HttpFlow() {
               <text x={mid + 14} y={s.y - 12} textAnchor="middle" className="chart-text" style={{ fontSize: 14 }}>{s.label}</text>
             </g>
           );
+        })}
+      </svg>
+      <figcaption>What happens in a fraction of a second when you open a website.</figcaption>
