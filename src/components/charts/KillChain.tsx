@@ -11,3 +11,6 @@ const steps = [
 export default function KillChain() {
   return (
     <figure className="figure">
+      <ol className="chain" style={{ listStyle: "none", paddingLeft: 0 }}>
+        {steps.map(([t, s, c]) => (
+          <li key={t} style={{ ["--c" as string]: c }}>
