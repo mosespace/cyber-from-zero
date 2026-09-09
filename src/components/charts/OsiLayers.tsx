@@ -20,3 +20,6 @@ export default function OsiLayers() {
             <text x="600" y="34" textAnchor="end" className="chart-muted" style={{ fontSize: 14 }}>{ex}</text>
           </g>
         ))}
+      </svg>
+      <figcaption>Data goes down the layers when you send, and up the layers when you receive.</figcaption>
+    </figure>
