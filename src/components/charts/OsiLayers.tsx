@@ -8,3 +8,6 @@ const layers = [
   [1, "Physical", "Cables and radio waves", "#4ade80"],
 ] as const;
 
+export default function OsiLayers() {
+  return (
+    <figure className="figure">
