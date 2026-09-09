@@ -11,3 +11,6 @@ const layers = [
 export default function OsiLayers() {
   return (
     <figure className="figure">
+      <svg viewBox="0 0 640 400" role="img" aria-label="The seven layers of the OSI model">
+        {layers.map(([n, name, ex, c], i) => (
+          <g key={n} transform={`translate(0 ${i * 56})`}>
