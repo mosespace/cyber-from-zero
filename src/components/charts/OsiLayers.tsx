@@ -23,3 +23,5 @@ export default function OsiLayers() {
       </svg>
       <figcaption>Data goes down the layers when you send, and up the layers when you receive.</figcaption>
     </figure>
+  );
+}
