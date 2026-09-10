@@ -24,3 +24,6 @@ const y = (log: number) => {
 const logSeconds = (n: number, len: number) => len * Math.log10(n) - Math.log10(GUESSES_PER_SECOND);
 
 export default function PasswordTime() {
+  return (
+    <figure className="figure">
+      <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Line chart: time to crack a password by length and character set">
