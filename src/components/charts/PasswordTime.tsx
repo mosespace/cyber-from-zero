@@ -36,3 +36,6 @@ export default function PasswordTime() {
         {lengths.map((len) => (
           <text key={len} x={x(len)} y={H - B + 20} textAnchor="middle" className="chart-muted">{len}</text>
         ))}
+        <text x={(L + W - R) / 2} y={H - 10} textAnchor="middle" className="chart-text">Password length (characters)</text>
+        {series.map((s) => (
+          <g key={s.name}>
