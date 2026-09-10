@@ -27,3 +27,6 @@ export default function PasswordTime() {
   return (
     <figure className="figure">
       <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Line chart: time to crack a password by length and character set">
+        {refs.map(([label, s]) => (
+          <g key={label}>
+            <line x1={L} x2={W - R} y1={y(Math.log10(s))} y2={y(Math.log10(s))} stroke="var(--line)" strokeDasharray="4 4" />
