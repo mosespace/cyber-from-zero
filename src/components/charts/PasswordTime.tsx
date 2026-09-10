@@ -20,3 +20,7 @@ const x = (len: number) => L + ((len - 4) / 12) * (W - L - R);
 const y = (log: number) => {
   const c = Math.min(yMax, Math.max(yMin, log));
   return T + (1 - (c - yMin) / (yMax - yMin)) * (H - T - B);
+};
+const logSeconds = (n: number, len: number) => len * Math.log10(n) - Math.log10(GUESSES_PER_SECOND);
+
+export default function PasswordTime() {
