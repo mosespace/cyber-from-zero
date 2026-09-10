@@ -30,3 +30,6 @@ export default function PasswordTime() {
         {refs.map(([label, s]) => (
           <g key={label}>
             <line x1={L} x2={W - R} y1={y(Math.log10(s))} y2={y(Math.log10(s))} stroke="var(--line)" strokeDasharray="4 4" />
+            <text x={L - 8} y={y(Math.log10(s)) + 4} textAnchor="end" className="chart-muted" style={{ fontSize: 11 }}>{label}</text>
+          </g>
+        ))}
