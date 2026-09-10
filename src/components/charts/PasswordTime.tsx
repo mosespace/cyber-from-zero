@@ -10,3 +10,7 @@ const refs: [string, number][] = [
   ["1 second", 1],
   ["1 hour", 3600],
   ["1 year", 31_557_600],
+  ["1,000 years", 3.15576e10],
+  ["Age of the universe", 4.35e17],
+];
+
