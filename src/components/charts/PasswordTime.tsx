@@ -17,3 +17,6 @@ const refs: [string, number][] = [
 const W = 640, H = 360, L = 130, R = 24, T = 20, B = 52;
 const yMin = -3, yMax = 22;
 const x = (len: number) => L + ((len - 4) / 12) * (W - L - R);
+const y = (log: number) => {
+  const c = Math.min(yMax, Math.max(yMin, log));
+  return T + (1 - (c - yMin) / (yMax - yMin)) * (H - T - B);
