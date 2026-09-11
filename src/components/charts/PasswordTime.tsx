@@ -45,3 +45,6 @@ export default function PasswordTime() {
             />
             {lengths.map((len) => (
               <circle key={len} cx={x(len)} cy={y(logSeconds(s.n, len))} r="3" fill={s.c} />
+            ))}
+          </g>
+        ))}
