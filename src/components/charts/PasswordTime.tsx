@@ -42,3 +42,6 @@ export default function PasswordTime() {
             <polyline
               fill="none" stroke={s.c} strokeWidth="3" strokeLinejoin="round"
               points={lengths.map((len) => `${x(len)},${y(logSeconds(s.n, len))}`).join(" ")}
+            />
+            {lengths.map((len) => (
+              <circle key={len} cx={x(len)} cy={y(logSeconds(s.n, len))} r="3" fill={s.c} />
