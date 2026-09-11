@@ -39,3 +39,6 @@ export default function PasswordTime() {
         <text x={(L + W - R) / 2} y={H - 10} textAnchor="middle" className="chart-text">Password length (characters)</text>
         {series.map((s) => (
           <g key={s.name}>
+            <polyline
+              fill="none" stroke={s.c} strokeWidth="3" strokeLinejoin="round"
+              points={lengths.map((len) => `${x(len)},${y(logSeconds(s.n, len))}`).join(" ")}
