@@ -54,3 +54,6 @@ export default function PasswordTime() {
             <text x="18" y="11" className="chart-text" style={{ fontSize: 12 }}>{s.name}</text>
           </g>
         ))}
+      </svg>
+      <figcaption>
+        Time to try every combination at 10 billion guesses a second (log scale). Each extra character helps a lot.
