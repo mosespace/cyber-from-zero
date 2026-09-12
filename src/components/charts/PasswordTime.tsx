@@ -57,3 +57,6 @@ export default function PasswordTime() {
       </svg>
       <figcaption>
         Time to try every combination at 10 billion guesses a second (log scale). Each extra character helps a lot.
+      </figcaption>
+    </figure>
+  );
