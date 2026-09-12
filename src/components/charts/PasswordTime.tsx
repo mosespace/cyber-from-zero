@@ -51,3 +51,6 @@ export default function PasswordTime() {
         {series.map((s, i) => (
           <g key={s.name} transform={`translate(${L + 12} ${T + 8 + i * 18})`}>
             <rect width="12" height="12" rx="3" fill={s.c} />
+            <text x="18" y="11" className="chart-text" style={{ fontSize: 12 }}>{s.name}</text>
+          </g>
+        ))}
