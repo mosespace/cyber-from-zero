@@ -11,3 +11,6 @@ import PasswordTime from "./PasswordTime";
 export const charts: Record<string, ComponentType> = {
   "cia-triad": CiaTriad,
   "osi-layers": OsiLayers,
+  "http-flow": HttpFlow,
+  "attack-motives": AttackMotives,
+  "password-time": PasswordTime,
