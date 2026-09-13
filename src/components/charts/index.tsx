@@ -4,3 +4,7 @@ import CiaTriad from "./CiaTriad";
 import DefenseInDepth from "./DefenseInDepth";
 import HttpFlow from "./HttpFlow";
 import KillChain from "./KillChain";
+import OsiLayers from "./OsiLayers";
+import PasswordTime from "./PasswordTime";
+
+/** Lessons use ```chart:name to place one of these. */
