@@ -8,3 +8,6 @@ import OsiLayers from "./OsiLayers";
 import PasswordTime from "./PasswordTime";
 
 /** Lessons use ```chart:name to place one of these. */
+export const charts: Record<string, ComponentType> = {
+  "cia-triad": CiaTriad,
+  "osi-layers": OsiLayers,
