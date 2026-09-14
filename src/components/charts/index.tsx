@@ -14,3 +14,6 @@ export const charts: Record<string, ComponentType> = {
   "http-flow": HttpFlow,
   "attack-motives": AttackMotives,
   "password-time": PasswordTime,
+  "defense-in-depth": DefenseInDepth,
+  "kill-chain": KillChain,
+};
