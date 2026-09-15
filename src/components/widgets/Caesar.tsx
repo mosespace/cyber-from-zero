@@ -13,3 +13,6 @@ export default function Caesar() {
   const [text, setText] = useState("Meet me at noon");
   const [shift, setShift] = useState(3);
   return (
+    <div className="widget">
+      <h4>Caesar cipher playground</h4>
+      <input type="text" value={text} onChange={(e) => setText(e.target.value)} aria-label="Message" />
