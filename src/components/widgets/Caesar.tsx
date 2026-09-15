@@ -10,3 +10,6 @@ function shiftText(text: string, shift: number) {
 }
 
 export default function Caesar() {
+  const [text, setText] = useState("Meet me at noon");
+  const [shift, setShift] = useState(3);
+  return (
