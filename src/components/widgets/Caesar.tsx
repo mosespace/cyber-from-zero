@@ -16,3 +16,6 @@ export default function Caesar() {
     <div className="widget">
       <h4>Caesar cipher playground</h4>
       <input type="text" value={text} onChange={(e) => setText(e.target.value)} aria-label="Message" />
+      <label>
+        Shift: <b>{shift}</b>
+        <input type="range" min={1} max={25} value={shift} onChange={(e) => setShift(+e.target.value)} />
