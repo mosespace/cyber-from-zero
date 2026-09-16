@@ -16,3 +16,6 @@ function human(s: number) {
   if (s < 1) return "instantly";
   const units: [string, number][] = [
     ["years", 31_557_600], ["days", 86_400], ["hours", 3600], ["minutes", 60], ["seconds", 1],
+  ];
+  if (s > 31_557_600 * 1e9) return "longer than the age of the universe";
+  for (const [name, size] of units) {
