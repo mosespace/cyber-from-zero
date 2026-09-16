@@ -32,3 +32,6 @@ export default function PasswordMeter() {
   const colors = ["#fb7185", "#fb923c", "#fbbf24", "#a3e635", "#4ade80"];
   return (
     <div className="widget">
+      <h4>Password strength meter</h4>
+      <input type="password" value={pw} onChange={(e) => setPw(e.target.value)} placeholder="Type a made-up password" aria-label="Password" autoComplete="off" />
+      <div className="bar" style={{ ["--c" as string]: colors[score] }}>
