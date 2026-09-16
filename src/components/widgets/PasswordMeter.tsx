@@ -26,3 +26,6 @@ function human(s: number) {
 
 export default function PasswordMeter() {
   const [pw, setPw] = useState("");
+  const s = estimate(pw);
+  const score = s < 1 ? 0 : s < 3600 ? 1 : s < 31_557_600 ? 2 : s < 31_557_600 * 1e3 ? 3 : 4;
+  const labels = ["Very weak", "Weak", "OK", "Strong", "Excellent"];
