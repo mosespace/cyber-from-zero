@@ -19,3 +19,6 @@ export default function Caesar() {
       <label>
         Shift: <b>{shift}</b>
         <input type="range" min={1} max={25} value={shift} onChange={(e) => setShift(+e.target.value)} />
+      </label>
+      <div className="out">{shiftText(text, shift)}</div>
+      <p className="why">To decode, shift the other way by the same amount ({26 - shift}).</p>
