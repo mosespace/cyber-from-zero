@@ -22,3 +22,6 @@ export default function Caesar() {
       </label>
       <div className="out">{shiftText(text, shift)}</div>
       <p className="why">To decode, shift the other way by the same amount ({26 - shift}).</p>
+    </div>
+  );
+}
