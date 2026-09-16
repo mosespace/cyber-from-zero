@@ -29,3 +29,6 @@ export default function PasswordMeter() {
   const s = estimate(pw);
   const score = s < 1 ? 0 : s < 3600 ? 1 : s < 31_557_600 ? 2 : s < 31_557_600 * 1e3 ? 3 : 4;
   const labels = ["Very weak", "Weak", "OK", "Strong", "Excellent"];
+  const colors = ["#fb7185", "#fb923c", "#fbbf24", "#a3e635", "#4ade80"];
+  return (
+    <div className="widget">
