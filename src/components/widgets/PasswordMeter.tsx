@@ -13,3 +13,6 @@ function estimate(pw: string) {
 }
 
 function human(s: number) {
+  if (s < 1) return "instantly";
+  const units: [string, number][] = [
+    ["years", 31_557_600], ["days", 86_400], ["hours", 3600], ["minutes", 60], ["seconds", 1],
