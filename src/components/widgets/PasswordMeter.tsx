@@ -35,3 +35,6 @@ export default function PasswordMeter() {
       <h4>Password strength meter</h4>
       <input type="password" value={pw} onChange={(e) => setPw(e.target.value)} placeholder="Type a made-up password" aria-label="Password" autoComplete="off" />
       <div className="bar" style={{ ["--c" as string]: colors[score] }}>
+        <i style={{ width: pw ? `${(score + 1) * 20}%` : "0%" }} />
+      </div>
+      {pw && (
