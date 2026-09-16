@@ -22,3 +22,7 @@ function human(s: number) {
     if (s >= size) return `about ${Math.round(s / size).toLocaleString()} ${name}`;
   }
   return "instantly";
+}
+
+export default function PasswordMeter() {
+  const [pw, setPw] = useState("");
