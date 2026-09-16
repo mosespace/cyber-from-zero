@@ -19,3 +19,6 @@ function human(s: number) {
   ];
   if (s > 31_557_600 * 1e9) return "longer than the age of the universe";
   for (const [name, size] of units) {
+    if (s >= size) return `about ${Math.round(s / size).toLocaleString()} ${name}`;
+  }
+  return "instantly";
