@@ -7,3 +7,6 @@ const SPEEDS = [1, 1.25, 1.5, 0.85];
 
 export default function AudioPlayer({ src, title, note }: { src: string; title: string; note?: string }) {
   const ref = useRef<HTMLAudioElement>(null);
+  const [playing, setPlaying] = useState(false);
+  const [t, setT] = useState(0);
+  const [dur, setDur] = useState(0);
