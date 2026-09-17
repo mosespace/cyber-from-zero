@@ -27,3 +27,6 @@ export default function AudioPlayer({ src, title, note }: { src: string; title: 
     <div className="audio pop">
       <audio
         ref={ref} src={src} preload="none"
+        onPlay={() => setPlaying(true)} onPause={() => setPlaying(false)} onEnded={() => setPlaying(false)}
+        onLoadedMetadata={(e) => setDur(e.currentTarget.duration)}
+        onTimeUpdate={(e) => setT(e.currentTarget.currentTime)}
