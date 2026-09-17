@@ -30,3 +30,6 @@ export default function AudioPlayer({ src, title, note }: { src: string; title: 
         onPlay={() => setPlaying(true)} onPause={() => setPlaying(false)} onEnded={() => setPlaying(false)}
         onLoadedMetadata={(e) => setDur(e.currentTarget.duration)}
         onTimeUpdate={(e) => setT(e.currentTarget.currentTime)}
+      />
+      <div className="row">
+        <button className="play" onClick={toggle} aria-label={playing ? "Pause" : "Play"}>
