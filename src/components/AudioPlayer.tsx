@@ -20,3 +20,7 @@ export default function AudioPlayer({ src, title, note }: { src: string; title: 
   function cycle() {
     const next = (speed + 1) % SPEEDS.length;
     setSpeed(next);
+    if (ref.current) ref.current.playbackRate = SPEEDS[next];
+  }
+
+  return (
