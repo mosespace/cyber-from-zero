@@ -14,3 +14,6 @@ export default function AudioPlayer({ src, title, note }: { src: string; title: 
 
   function toggle() {
     const a = ref.current;
+    if (!a) return;
+    if (a.paused) a.play(); else a.pause();
+  }
