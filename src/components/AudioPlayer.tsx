@@ -17,3 +17,6 @@ export default function AudioPlayer({ src, title, note }: { src: string; title: 
     if (!a) return;
     if (a.paused) a.play(); else a.pause();
   }
+  function cycle() {
+    const next = (speed + 1) % SPEEDS.length;
+    setSpeed(next);
