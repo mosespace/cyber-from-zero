@@ -24,3 +24,6 @@ export default function AudioPlayer({ src, title, note }: { src: string; title: 
   }
 
   return (
+    <div className="audio pop">
+      <audio
+        ref={ref} src={src} preload="none"
