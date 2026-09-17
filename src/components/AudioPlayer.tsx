@@ -39,3 +39,6 @@ export default function AudioPlayer({ src, title, note }: { src: string; title: 
             <svg width="22" height="22" viewBox="0 0 24 24"><path d="M7 4 20 12 7 20Z" fill="#16162b" stroke="#16162b" strokeWidth="2" strokeLinejoin="round" /></svg>
           )}
         </button>
+        <div>
+          <b>{title}</b>
+          <small>{note ?? "Narrated by a natural voice"}</small>
