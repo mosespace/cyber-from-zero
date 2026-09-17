@@ -41,3 +41,6 @@ export default function PasswordMeter() {
         <p>
           <b style={{ color: colors[score] }}>{labels[score]}</b>. At 10 billion guesses a second, a brute-force attack would need{" "}
           <b>{human(s)}</b>.
+        </p>
+      )}
+      <p className="why">This runs only in your browser. Never type your real passwords into websites you do not trust.</p>
