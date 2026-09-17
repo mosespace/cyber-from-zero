@@ -33,3 +33,6 @@ export default function AudioPlayer({ src, title, note }: { src: string; title: 
       />
       <div className="row">
         <button className="play" onClick={toggle} aria-label={playing ? "Pause" : "Play"}>
+          {playing ? (
+            <svg width="22" height="22" viewBox="0 0 24 24"><rect x="5" y="4" width="5" height="16" rx="1.5" fill="#16162b" /><rect x="14" y="4" width="5" height="16" rx="1.5" fill="#16162b" /></svg>
+          ) : (
