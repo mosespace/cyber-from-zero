@@ -10,3 +10,7 @@ export default function AudioPlayer({ src, title, note }: { src: string; title: 
   const [playing, setPlaying] = useState(false);
   const [t, setT] = useState(0);
   const [dur, setDur] = useState(0);
+  const [speed, setSpeed] = useState(0);
+
+  function toggle() {
+    const a = ref.current;
