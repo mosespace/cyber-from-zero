@@ -54,3 +54,4 @@ export default function AudioPlayer({ src, title, note }: { src: string; title: 
       </div>
     </div>
   );
+}
