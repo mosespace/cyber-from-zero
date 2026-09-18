@@ -48,3 +48,6 @@ export default function AudioPlayer({ src, title, note }: { src: string; title: 
         type="range" min={0} max={dur || 1} step={0.1} value={t} aria-label="Seek"
         onChange={(e) => { if (ref.current) ref.current.currentTime = +e.target.value; }}
       />
+      <div className="times">
+        <span>{fmt(t)} / {fmt(dur)}</span>
+        <button className="speed" onClick={cycle} aria-label="Playback speed">{SPEEDS[speed]}x</button>
