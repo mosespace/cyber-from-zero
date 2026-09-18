@@ -33,3 +33,6 @@ export default function CompleteButton({ id }: { id: string }) {
             const d = 70 + (i % 3) * 28;
             return (
               <i
+                key={i}
+                style={{
+                  ["--c" as string]: COLORS[i % COLORS.length],
