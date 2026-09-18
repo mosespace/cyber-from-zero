@@ -51,3 +51,6 @@ export default function AudioPlayer({ src, title, note }: { src: string; title: 
       <div className="times">
         <span>{fmt(t)} / {fmt(dur)}</span>
         <button className="speed" onClick={cycle} aria-label="Playback speed">{SPEEDS[speed]}x</button>
+      </div>
+    </div>
+  );
