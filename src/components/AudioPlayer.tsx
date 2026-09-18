@@ -45,3 +45,6 @@ export default function AudioPlayer({ src, title, note }: { src: string; title: 
         </div>
       </div>
       <input
+        type="range" min={0} max={dur || 1} step={0.1} value={t} aria-label="Seek"
+        onChange={(e) => { if (ref.current) ref.current.currentTime = +e.target.value; }}
+      />
