@@ -42,3 +42,6 @@ export default function CompleteButton({ id }: { id: string }) {
                   ["--rad" as string]: i % 2 ? "50%" : "3px",
                 }}
               />
+            );
+          })}
+        </span>
