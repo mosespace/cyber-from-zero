@@ -21,3 +21,6 @@ export default function CompleteButton({ id }: { id: string }) {
     }
   }
 
+  return (
+    <span style={{ position: "relative", display: "inline-block" }}>
+      <button className={`btn ${isDone ? "done" : "blue"}`} onClick={click}>
