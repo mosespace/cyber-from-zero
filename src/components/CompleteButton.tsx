@@ -11,3 +11,6 @@ export default function CompleteButton({ id }: { id: string }) {
   const [burst, setBurst] = useState(0);
   const [toast, setToast] = useState(false);
 
+  function click() {
+    if (isDone) return uncompleteLesson(id);
+    const gained = completeLesson(id);
