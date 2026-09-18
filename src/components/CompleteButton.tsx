@@ -17,3 +17,7 @@ export default function CompleteButton({ id }: { id: string }) {
     setBurst((b) => b + 1);
     if (gained) {
       setToast(true);
+      setTimeout(() => setToast(false), 2200);
+    }
+  }
+
