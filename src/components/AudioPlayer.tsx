@@ -42,3 +42,6 @@ export default function AudioPlayer({ src, title, note }: { src: string; title: 
         <div>
           <b>{title}</b>
           <small>{note ?? "Narrated by a natural voice"}</small>
+        </div>
+      </div>
+      <input
