@@ -36,3 +36,6 @@ export default function CompleteButton({ id }: { id: string }) {
                 key={i}
                 style={{
                   ["--c" as string]: COLORS[i % COLORS.length],
+                  ["--x" as string]: `${Math.cos(a) * d}px`,
+                  ["--y" as string]: `${Math.sin(a) * d}px`,
+                  ["--rot" as string]: `${i * 47}deg`,
