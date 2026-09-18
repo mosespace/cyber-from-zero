@@ -39,3 +39,6 @@ export default function CompleteButton({ id }: { id: string }) {
                   ["--x" as string]: `${Math.cos(a) * d}px`,
                   ["--y" as string]: `${Math.sin(a) * d}px`,
                   ["--rot" as string]: `${i * 47}deg`,
+                  ["--rad" as string]: i % 2 ? "50%" : "3px",
+                }}
+              />
