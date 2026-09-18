@@ -30,3 +30,6 @@ export default function CompleteButton({ id }: { id: string }) {
         <span className="burst" key={burst} aria-hidden>
           {Array.from({ length: 16 }, (_, i) => {
             const a = (i / 16) * Math.PI * 2;
+            const d = 70 + (i % 3) * 28;
+            return (
+              <i
