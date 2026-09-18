@@ -14,3 +14,6 @@ export default function CompleteButton({ id }: { id: string }) {
   function click() {
     if (isDone) return uncompleteLesson(id);
     const gained = completeLesson(id);
+    setBurst((b) => b + 1);
+    if (gained) {
+      setToast(true);
