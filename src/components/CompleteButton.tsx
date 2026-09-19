@@ -48,3 +48,5 @@ export default function CompleteButton({ id }: { id: string }) {
       )}
       {toast && <div className="toast" role="status">+20 XP — nice work!</div>}
     </span>
+  );
+}
