@@ -19,3 +19,6 @@ export default function ContinueCard({ lessons }: { lessons: FlatLesson[] }) {
         <b>{next.title}</b>
       </span>
       <span style={{ marginLeft: "auto", fontSize: 24 }}>→</span>
+    </Link>
+  );
+}
