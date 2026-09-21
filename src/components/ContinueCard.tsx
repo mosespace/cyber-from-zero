@@ -10,3 +10,6 @@ export default function ContinueCard({ lessons }: { lessons: FlatLesson[] }) {
   const { done } = useStore();
   const next = lessons.find((l) => !done.includes(l.id));
   const started = done.length > 0;
+  if (!next) return done.length ? <p className="pop continue">You finished every lesson. Amazing work!</p> : null;
+  return (
+    <Link href={next.href} className="continue pop" style={{ ["--c" as string]: next.color }}>
