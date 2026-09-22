@@ -10,3 +10,6 @@ import ProgressBar from "./ProgressBar";
 const SHAPES = { circle: Circle, star: Star, tri: Triangle, square: Square };
 
 export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
+  const s = useStore();
+  const [confirm, setConfirm] = useState(false);
+  const { level, into } = levelOf(s.xp);
