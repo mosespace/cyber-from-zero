@@ -13,3 +13,7 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
   const s = useStore();
   const [confirm, setConfirm] = useState(false);
   const { level, into } = levelOf(s.xp);
+  const streak = streakOf(s.days);
+  const badges = computeBadges(s, modules);
+  const known = Object.values(s.cards).filter((b) => b >= 1).length;
+
