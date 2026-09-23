@@ -30,3 +30,6 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
       <div className="dash-top">
         <div className="level pop">
           <svg viewBox="0 0 190 190" aria-label={`Level ${level}`}>
+            <circle cx="95" cy="95" r={R} fill="#fff" stroke="#16162b" strokeWidth="3" />
+            <circle cx="95" cy="95" r={R - 2} fill="none" stroke="#e6dcc4" strokeWidth="16" />
+            <circle cx="95" cy="95" r={R - 2} fill="none" stroke="#FF6B57" strokeWidth="16" strokeLinecap="round" strokeDasharray={`${(into / XP_PER_LEVEL) * (C - 12)} ${C}`} transform="rotate(-90 95 95)" />
