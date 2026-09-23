@@ -17,3 +17,6 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
   const badges = computeBadges(s, modules);
   const known = Object.values(s.cards).filter((b) => b >= 1).length;
 
+  const R = 74, C = 2 * Math.PI * R;
+  const week = Array.from({ length: 7 }, (_, i) => {
+    const d = new Date();
