@@ -23,3 +23,7 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
     d.setDate(d.getDate() - (6 - i));
     const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
     return { key, label: d.toLocaleDateString("en", { weekday: "short" }).slice(0, 2), on: s.days.includes(key) };
+  });
+
+  return (
+    <>
