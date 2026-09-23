@@ -20,3 +20,6 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
   const R = 74, C = 2 * Math.PI * R;
   const week = Array.from({ length: 7 }, (_, i) => {
     const d = new Date();
+    d.setDate(d.getDate() - (6 - i));
+    const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+    return { key, label: d.toLocaleDateString("en", { weekday: "short" }).slice(0, 2), on: s.days.includes(key) };
