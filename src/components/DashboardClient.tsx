@@ -27,3 +27,6 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
 
   return (
     <>
+      <div className="dash-top">
+        <div className="level pop">
+          <svg viewBox="0 0 190 190" aria-label={`Level ${level}`}>
