@@ -36,3 +36,6 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
             <text x="95" y="92" textAnchor="middle" style={{ font: "800 48px var(--font-display)", fill: "#16162b" }}>{level}</text>
             <text x="95" y="118" textAnchor="middle" style={{ font: "700 14px var(--font-body)", fill: "#5b5b78", letterSpacing: ".1em" }}>LEVEL</text>
           </svg>
+          <h2>{s.xp} XP</h2>
+          <p style={{ margin: "4px 0 0" }}>{XP_PER_LEVEL - into} XP to level {level + 1}</p>
+        </div>
