@@ -39,3 +39,6 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
           <h2>{s.xp} XP</h2>
           <p style={{ margin: "4px 0 0" }}>{XP_PER_LEVEL - into} XP to level {level + 1}</p>
         </div>
+        <div>
+          <div className="tiles">
+            <div className="tile-stat pop"><b>{streak}<Flame size={30} /></b><span>day streak</span></div>
