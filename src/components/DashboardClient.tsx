@@ -33,3 +33,6 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
             <circle cx="95" cy="95" r={R} fill="#fff" stroke="#16162b" strokeWidth="3" />
             <circle cx="95" cy="95" r={R - 2} fill="none" stroke="#e6dcc4" strokeWidth="16" />
             <circle cx="95" cy="95" r={R - 2} fill="none" stroke="#FF6B57" strokeWidth="16" strokeLinecap="round" strokeDasharray={`${(into / XP_PER_LEVEL) * (C - 12)} ${C}`} transform="rotate(-90 95 95)" />
+            <text x="95" y="92" textAnchor="middle" style={{ font: "800 48px var(--font-display)", fill: "#16162b" }}>{level}</text>
+            <text x="95" y="118" textAnchor="middle" style={{ font: "700 14px var(--font-body)", fill: "#5b5b78", letterSpacing: ".1em" }}>LEVEL</text>
+          </svg>
