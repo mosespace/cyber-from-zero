@@ -51,3 +51,6 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
                   <div key={d.key} className={d.on ? "on" : ""} title={d.key === todayKey() ? "Today" : d.key}><i />{d.label}</div>
                 ))}
               </div>
+            </div>
+          </div>
+        </div>
