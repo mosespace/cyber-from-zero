@@ -58,3 +58,6 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
 
       <h2 className="section-title" style={{ marginTop: 56 }}>Badges</h2>
       <div className="badges">
+        {badges.map((b) => {
+          const Shape = SHAPES[b.shape];
+          return (
