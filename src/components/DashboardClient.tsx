@@ -64,3 +64,6 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
             <div key={b.id} className={`badge pop ${b.earned ? "" : "locked"}`}>
               <Shape size={64} color={b.color} />
               <b>{b.title}</b>
+              <small>{b.desc}</small>
+            </div>
+          );
