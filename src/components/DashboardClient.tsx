@@ -61,3 +61,6 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
         {badges.map((b) => {
           const Shape = SHAPES[b.shape];
           return (
+            <div key={b.id} className={`badge pop ${b.earned ? "" : "locked"}`}>
+              <Shape size={64} color={b.color} />
+              <b>{b.title}</b>
