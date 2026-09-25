@@ -54,3 +54,7 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
             </div>
           </div>
         </div>
+      </div>
+
+      <h2 className="section-title" style={{ marginTop: 56 }}>Badges</h2>
+      <div className="badges">
