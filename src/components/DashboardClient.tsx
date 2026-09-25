@@ -45,3 +45,6 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
             <div className="tile-stat pop"><b>{s.done.length}</b><span>lessons done</span></div>
             <div className="tile-stat pop"><b>{known}</b><span>flashcards learned</span></div>
             <div className="tile-stat pop">
+              <span>This week</span>
+              <div className="week">
+                {week.map((d) => (
