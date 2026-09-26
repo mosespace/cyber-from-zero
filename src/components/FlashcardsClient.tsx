@@ -21,3 +21,7 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mod, seed, terms]);
 
+  const card = deck[pos % Math.max(deck.length, 1)];
+  const color = modules.find((m) => m.slug === card?.module)?.color ?? "#FFC93C";
+  const known = deck.filter((t) => (store.cards[t.term] ?? 0) >= 1).length;
+
