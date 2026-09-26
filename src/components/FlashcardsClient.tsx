@@ -17,3 +17,7 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
   const deck = useMemo(() => {
     const list = terms.filter((t) => mod === "all" || t.module === mod);
     const rnd = (s: string) => { let h = seed + 7; for (const c of s) h = (h * 31 + c.charCodeAt(0)) % 9973; return h; };
+    return [...list].sort((a, b) => (store.cards[a.term] ?? 0) - (store.cards[b.term] ?? 0) || rnd(a.term) - rnd(b.term));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [mod, seed, terms]);
+
