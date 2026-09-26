@@ -14,3 +14,6 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
   const [seed, setSeed] = useState(0);
 
   // cards you do not know yet come first; each group is shuffled
+  const deck = useMemo(() => {
+    const list = terms.filter((t) => mod === "all" || t.module === mod);
+    const rnd = (s: string) => { let h = seed + 7; for (const c of s) h = (h * 31 + c.charCodeAt(0)) % 9973; return h; };
