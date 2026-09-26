@@ -93,3 +93,6 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
         ) : (
           <button className="btn small" onClick={() => setConfirm(true)}>Reset my progress</button>
         )}
+        <p style={{ color: "var(--muted)", fontSize: 14 }}>Your progress is saved only in this browser. There are no accounts.</p>
+      </div>
+    </>
