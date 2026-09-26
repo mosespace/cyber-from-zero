@@ -71,3 +71,6 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
       </div>
 
       <h2 className="section-title" style={{ marginTop: 56 }}>Module progress</h2>
+      <div className="prog-list">
+        {modules.map((m) => (
+          <Link key={m.slug} href={`/modules/${m.slug}`} className="prog-row pop" style={{ ["--c" as string]: m.color }}>
