@@ -25,3 +25,6 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
   const color = modules.find((m) => m.slug === card?.module)?.color ?? "#FFC93C";
   const known = deck.filter((t) => (store.cards[t.term] ?? 0) >= 1).length;
 
+  function answer(ok: boolean) {
+    if (!card) return;
+    reviewCard(card.term, ok);
