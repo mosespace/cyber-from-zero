@@ -10,3 +10,7 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
   const store = useStore();
   const [mod, setMod] = useState<string>("all");
   const [flip, setFlip] = useState(false);
+  const [pos, setPos] = useState(0);
+  const [seed, setSeed] = useState(0);
+
+  // cards you do not know yet come first; each group is shuffled
