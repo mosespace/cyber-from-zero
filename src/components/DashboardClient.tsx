@@ -90,3 +90,6 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
             <button className="btn small" onClick={() => { resetAll(); setConfirm(false); }}>Yes, reset</button>{" "}
             <button className="btn small" onClick={() => setConfirm(false)}>Cancel</button>
           </>
+        ) : (
+          <button className="btn small" onClick={() => setConfirm(true)}>Reset my progress</button>
+        )}
