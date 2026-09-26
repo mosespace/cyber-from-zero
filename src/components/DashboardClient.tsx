@@ -80,3 +80,7 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
               <ProgressBar ids={m.ids} color={m.color} label />
             </span>
           </Link>
+        ))}
+      </div>
+
+      <div style={{ marginTop: 56 }}>
