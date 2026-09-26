@@ -67,3 +67,7 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
               <small>{b.desc}</small>
             </div>
           );
+        })}
+      </div>
+
+      <h2 className="section-title" style={{ marginTop: 56 }}>Module progress</h2>
