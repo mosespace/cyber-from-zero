@@ -96,3 +96,5 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
         <p style={{ color: "var(--muted)", fontSize: 14 }}>Your progress is saved only in this browser. There are no accounts.</p>
       </div>
     </>
+  );
+}
