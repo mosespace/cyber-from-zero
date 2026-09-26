@@ -77,3 +77,6 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
             <span className="tile"><ModuleIcon slug={m.slug} size={34} /></span>
             <span>
               <b style={{ fontFamily: "var(--font-display)", fontSize: 18 }}>{m.title}</b>
+              <ProgressBar ids={m.ids} color={m.color} label />
+            </span>
+          </Link>
