@@ -74,3 +74,6 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
       <div className="prog-list">
         {modules.map((m) => (
           <Link key={m.slug} href={`/modules/${m.slug}`} className="prog-row pop" style={{ ["--c" as string]: m.color }}>
+            <span className="tile"><ModuleIcon slug={m.slug} size={34} /></span>
+            <span>
+              <b style={{ fontFamily: "var(--font-display)", fontSize: 18 }}>{m.title}</b>
