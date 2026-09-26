@@ -84,3 +84,6 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
       </div>
 
       <div style={{ marginTop: 56 }}>
+        {confirm ? (
+          <>
+            <b>Delete all progress in this browser? </b>
