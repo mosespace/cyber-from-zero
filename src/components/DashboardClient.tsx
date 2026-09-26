@@ -87,3 +87,6 @@ export default function DashboardClient({ modules }: { modules: ModuleIds[] }) {
         {confirm ? (
           <>
             <b>Delete all progress in this browser? </b>
+            <button className="btn small" onClick={() => { resetAll(); setConfirm(false); }}>Yes, reset</button>{" "}
+            <button className="btn small" onClick={() => setConfirm(false)}>Cancel</button>
+          </>
