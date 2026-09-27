@@ -28,3 +28,7 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
   function answer(ok: boolean) {
     if (!card) return;
     reviewCard(card.term, ok);
+    setFlip(false);
+    setTimeout(() => setPos((p) => p + 1), 150);
+  }
+
