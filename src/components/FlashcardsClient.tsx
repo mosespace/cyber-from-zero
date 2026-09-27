@@ -51,3 +51,6 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
         ))}
       </div>
       <p className="fc-meta">{known} of {deck.length} learned · card {deck.length ? (pos % deck.length) + 1 : 0} of {deck.length}</p>
+      {card && (
+        <div className="deck">
+          <div className={`card3d ${flip ? "flip" : ""}`} onClick={() => setFlip((f) => !f)} role="button" tabIndex={0} aria-label="Flip card">
