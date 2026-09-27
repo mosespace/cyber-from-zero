@@ -63,3 +63,6 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
             </div>
           </div>
         </div>
+      )}
+      <div className="fc-actions">
+        <button className="btn" onClick={() => answer(false)} disabled={!flip} style={{ opacity: flip ? 1 : 0.4 }}>↺ Again</button>
