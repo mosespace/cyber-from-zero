@@ -38,3 +38,7 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
       if (flip && e.key === "ArrowRight") answer(true);
       if (flip && e.key === "ArrowLeft") answer(false);
     };
+    window.addEventListener("keydown", h);
+    return () => window.removeEventListener("keydown", h);
+  });
+
