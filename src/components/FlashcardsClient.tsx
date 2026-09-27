@@ -42,3 +42,6 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
     return () => window.removeEventListener("keydown", h);
   });
 
+  return (
+    <>
+      <div className="chips">
