@@ -57,3 +57,6 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
             <div className="face" style={{ ["--c" as string]: color }}>
               <h3>{card.term}</h3>
               <small>Tap or press space to flip</small>
+            </div>
+            <div className="face back">
+              <p>{card.def}</p>
