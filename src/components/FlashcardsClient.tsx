@@ -32,3 +32,6 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
     setTimeout(() => setPos((p) => p + 1), 150);
   }
 
+  useEffect(() => {
+    const h = (e: KeyboardEvent) => {
+      if (e.key === " ") { e.preventDefault(); setFlip((f) => !f); }
