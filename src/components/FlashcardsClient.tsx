@@ -54,3 +54,6 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
       {card && (
         <div className="deck">
           <div className={`card3d ${flip ? "flip" : ""}`} onClick={() => setFlip((f) => !f)} role="button" tabIndex={0} aria-label="Flip card">
+            <div className="face" style={{ ["--c" as string]: color }}>
+              <h3>{card.term}</h3>
+              <small>Tap or press space to flip</small>
