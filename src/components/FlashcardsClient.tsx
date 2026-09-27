@@ -66,3 +66,6 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
       )}
       <div className="fc-actions">
         <button className="btn" onClick={() => answer(false)} disabled={!flip} style={{ opacity: flip ? 1 : 0.4 }}>↺ Again</button>
+        <button className="btn blue" onClick={() => answer(true)} disabled={!flip} style={{ opacity: flip ? 1 : 0.4 }}>I knew it ✓</button>
+        <button className="btn small" onClick={() => { setSeed((s) => s + 1); setPos(0); }}>Shuffle</button>
+      </div>
