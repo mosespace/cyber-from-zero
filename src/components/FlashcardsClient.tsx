@@ -60,3 +60,6 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
             </div>
             <div className="face back">
               <p>{card.def}</p>
+            </div>
+          </div>
+        </div>
