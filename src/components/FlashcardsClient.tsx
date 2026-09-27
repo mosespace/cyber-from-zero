@@ -45,3 +45,6 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
   return (
     <>
       <div className="chips">
+        <button className={`chip ${mod === "all" ? "on" : ""}`} onClick={() => { setMod("all"); setPos(0); }}>All terms</button>
+        {modules.map((m) => (
+          <button key={m.slug} className={`chip ${mod === m.slug ? "on" : ""}`} onClick={() => { setMod(m.slug); setPos(0); }}>{m.title}</button>
