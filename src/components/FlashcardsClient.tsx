@@ -35,3 +35,6 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
   useEffect(() => {
     const h = (e: KeyboardEvent) => {
       if (e.key === " ") { e.preventDefault(); setFlip((f) => !f); }
+      if (flip && e.key === "ArrowRight") answer(true);
+      if (flip && e.key === "ArrowLeft") answer(false);
+    };
