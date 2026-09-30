@@ -13,3 +13,6 @@ export default function GlossaryClient({ terms, modules }: { terms: Term[]; modu
     .sort((a, b) => a.term.localeCompare(b.term))
     .filter((x) => !t || x.term.toLowerCase().includes(t) || x.def.toLowerCase().includes(t));
   return (
+    <>
+      <input className="search-input" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search 50+ security words..." aria-label="Search the glossary" />
+      <p style={{ color: "var(--muted)", fontWeight: 600, marginTop: 18 }}>{list.length} terms</p>
