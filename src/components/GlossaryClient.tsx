@@ -16,3 +16,6 @@ export default function GlossaryClient({ terms, modules }: { terms: Term[]; modu
     <>
       <input className="search-input" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search 50+ security words..." aria-label="Search the glossary" />
       <p style={{ color: "var(--muted)", fontWeight: 600, marginTop: 18 }}>{list.length} terms</p>
+      <div className="gl-grid">
+        {list.map((x) => {
+          const m = modules.find((mm) => mm.slug === x.module);
