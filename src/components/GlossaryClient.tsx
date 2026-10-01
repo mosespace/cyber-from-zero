@@ -19,3 +19,6 @@ export default function GlossaryClient({ terms, modules }: { terms: Term[]; modu
       <div className="gl-grid">
         {list.map((x) => {
           const m = modules.find((mm) => mm.slug === x.module);
+          return (
+            <div key={x.term} className="gl pop">
+              <h3>{x.term}</h3>
