@@ -16,3 +16,6 @@ const links = [
   ["/resources", "Resources"],
 ];
 
+export default function Header({ items }: { items: SearchItem[] }) {
+  const path = usePathname();
+  const [open, setOpen] = useState(false);
