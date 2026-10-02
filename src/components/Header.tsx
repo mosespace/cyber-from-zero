@@ -9,3 +9,6 @@ import { streakOf, useStore } from "@/lib/store";
 
 const links = [
   ["/path", "Path"],
+  ["/practice", "Practice"],
+  ["/flashcards", "Flashcards"],
+  ["/glossary", "Glossary"],
