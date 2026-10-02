@@ -28,3 +28,6 @@ export default function GlossaryClient({ terms, modules }: { terms: Term[]; modu
           );
         })}
       </div>
+    </>
+  );
+}
