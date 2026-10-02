@@ -19,3 +19,7 @@ const links = [
 export default function Header({ items }: { items: SearchItem[] }) {
   const path = usePathname();
   const [open, setOpen] = useState(false);
+  const [search, setSearch] = useState(false);
+  const s = useStore();
+
+  useEffect(() => {
