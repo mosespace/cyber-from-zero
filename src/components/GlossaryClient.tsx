@@ -25,3 +25,6 @@ export default function GlossaryClient({ terms, modules }: { terms: Term[]; modu
               <p>{x.def}</p>
               <Link href={`/modules/${x.module}`} className="tag" style={{ ["--c" as string]: m?.color, textDecoration: "none" }}>{m?.title}</Link>
             </div>
+          );
+        })}
+      </div>
