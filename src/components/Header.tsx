@@ -12,3 +12,7 @@ const links = [
   ["/practice", "Practice"],
   ["/flashcards", "Flashcards"],
   ["/glossary", "Glossary"],
+  ["/labs", "Labs"],
+  ["/resources", "Resources"],
+];
+
