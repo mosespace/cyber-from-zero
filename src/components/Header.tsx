@@ -23,3 +23,6 @@ export default function Header({ items }: { items: SearchItem[] }) {
   const s = useStore();
 
   useEffect(() => {
+    const h = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
+        e.preventDefault();
