@@ -29,3 +29,7 @@ export default function Header({ items }: { items: SearchItem[] }) {
         setSearch(true);
       }
     };
+    window.addEventListener("keydown", h);
+    return () => window.removeEventListener("keydown", h);
+  }, []);
+
