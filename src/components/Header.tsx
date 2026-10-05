@@ -33,3 +33,6 @@ export default function Header({ items }: { items: SearchItem[] }) {
     return () => window.removeEventListener("keydown", h);
   }, []);
 
+  return (
+    <header className="header">
+      <div className="container">
