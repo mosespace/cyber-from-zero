@@ -36,3 +36,6 @@ export default function Header({ items }: { items: SearchItem[] }) {
   return (
     <header className="header">
       <div className="container">
+        <Link href="/" className="logo" onClick={() => setOpen(false)}>
+          <LogoMark /> Cyber From Zero
+        </Link>
