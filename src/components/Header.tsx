@@ -42,3 +42,6 @@ export default function Header({ items }: { items: SearchItem[] }) {
         <nav className={`nav ${open ? "open" : ""}`} aria-label="Main">
           {links.map(([href, label]) => (
             <Link key={href} href={href} className={path.startsWith(href) ? "on" : ""} onClick={() => setOpen(false)}>
+              {label}
+            </Link>
+          ))}
