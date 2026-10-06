@@ -48,3 +48,6 @@ export default function Header({ items }: { items: SearchItem[] }) {
         </nav>
         <div className="hdr-right">
           <button className="icon-btn" onClick={() => setSearch(true)} aria-label="Search">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round"><circle cx="10" cy="10" r="7" /><path d="m16 16 5 5" /></svg>
+            <span className="t">Search</span> <kbd>⌘K</kbd>
+          </button>
