@@ -39,3 +39,6 @@ export default function Header({ items }: { items: SearchItem[] }) {
         <Link href="/" className="logo" onClick={() => setOpen(false)}>
           <LogoMark /> Cyber From Zero
         </Link>
+        <nav className={`nav ${open ? "open" : ""}`} aria-label="Main">
+          {links.map(([href, label]) => (
+            <Link key={href} href={href} className={path.startsWith(href) ? "on" : ""} onClick={() => setOpen(false)}>
