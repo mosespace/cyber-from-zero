@@ -57,3 +57,6 @@ export default function Header({ items }: { items: SearchItem[] }) {
           </Link>
           <button className="icon-btn menu-btn" onClick={() => setOpen((o) => !o)} aria-label="Menu" aria-expanded={open}>
             ☰
+          </button>
+        </div>
+      </div>
