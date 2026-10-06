@@ -54,3 +54,6 @@ export default function Header({ items }: { items: SearchItem[] }) {
           <Link href="/me" className="stat-chip" aria-label="Your progress">
             <span><Flame /> {streakOf(s.days)}</span>
             <span><Bolt /> {s.xp}</span>
+          </Link>
+          <button className="icon-btn menu-btn" onClick={() => setOpen((o) => !o)} aria-label="Menu" aria-expanded={open}>
+            ☰
