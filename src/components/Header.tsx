@@ -45,3 +45,6 @@ export default function Header({ items }: { items: SearchItem[] }) {
               {label}
             </Link>
           ))}
+        </nav>
+        <div className="hdr-right">
+          <button className="icon-btn" onClick={() => setSearch(true)} aria-label="Search">
