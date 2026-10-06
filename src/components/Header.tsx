@@ -60,3 +60,6 @@ export default function Header({ items }: { items: SearchItem[] }) {
           </button>
         </div>
       </div>
+      {search && <SearchModal items={items} onClose={() => setSearch(false)} />}
+    </header>
+  );
