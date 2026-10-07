@@ -21,3 +21,7 @@ export default function Markdown({ children }: { children: string }) {
             </div>
           ),
           code({ className, children }) {
+            const text = String(children);
+            const lang = /language-(\S+)/.exec(className ?? "")?.[1];
+
+            if (lang?.startsWith("chart:")) {
