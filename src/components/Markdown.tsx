@@ -12,3 +12,6 @@ export default function Markdown({ children }: { children: string }) {
     <div className="prose">
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
+        components={{
+          pre: ({ children }) => <>{children}</>,
+          h2: ({ children }) => <h2 id={slugify([children].flat().join(""))}>{children}</h2>,
