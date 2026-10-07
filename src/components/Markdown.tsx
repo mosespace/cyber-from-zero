@@ -15,3 +15,6 @@ export default function Markdown({ children }: { children: string }) {
         components={{
           pre: ({ children }) => <>{children}</>,
           h2: ({ children }) => <h2 id={slugify([children].flat().join(""))}>{children}</h2>,
+          table: ({ children }) => (
+            <div className="table-wrap">
+              <table>{children}</table>
