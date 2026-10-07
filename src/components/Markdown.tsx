@@ -37,3 +37,6 @@ export default function Markdown({ children }: { children: string }) {
                 <pre className="code">
                   <code>{text.replace(/\n$/, "")}</code>
                 </pre>
+              );
+            }
+            return <code>{children}</code>;
