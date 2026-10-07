@@ -25,3 +25,6 @@ export default function Markdown({ children }: { children: string }) {
             const lang = /language-(\S+)/.exec(className ?? "")?.[1];
 
             if (lang?.startsWith("chart:")) {
+              const Chart = charts[lang.slice(6)];
+              return Chart ? <Chart /> : null;
+            }
