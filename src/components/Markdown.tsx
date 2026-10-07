@@ -18,3 +18,6 @@ export default function Markdown({ children }: { children: string }) {
           table: ({ children }) => (
             <div className="table-wrap">
               <table>{children}</table>
+            </div>
+          ),
+          code({ className, children }) {
