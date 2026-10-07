@@ -28,3 +28,6 @@ export default function Markdown({ children }: { children: string }) {
               const Chart = charts[lang.slice(6)];
               return Chart ? <Chart /> : null;
             }
+            if (lang?.startsWith("widget:")) {
+              const Widget = widgets[lang.slice(7) as keyof typeof widgets];
+              return Widget ? <Widget /> : null;
