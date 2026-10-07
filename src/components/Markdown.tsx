@@ -31,3 +31,6 @@ export default function Markdown({ children }: { children: string }) {
             if (lang?.startsWith("widget:")) {
               const Widget = widgets[lang.slice(7) as keyof typeof widgets];
               return Widget ? <Widget /> : null;
+            }
+            if (lang || text.includes("\n")) {
+              return (
