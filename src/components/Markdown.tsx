@@ -34,3 +34,6 @@ export default function Markdown({ children }: { children: string }) {
             }
             if (lang || text.includes("\n")) {
               return (
+                <pre className="code">
+                  <code>{text.replace(/\n$/, "")}</code>
+                </pre>
