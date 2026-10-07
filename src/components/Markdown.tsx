@@ -9,3 +9,6 @@ const widgets = { caesar: Caesar, "password-meter": PasswordMeter } as const;
 
 export default function Markdown({ children }: { children: string }) {
   return (
+    <div className="prose">
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
