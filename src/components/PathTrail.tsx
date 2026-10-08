@@ -10,3 +10,7 @@ export type TrailModule = {
   lessons: { slug: string; title: string; minutes: number }[];
 };
 
+const DX = [0, 74, 112, 74, 0, -74, -112, -74];
+
+export default function PathTrail({ modules }: { modules: TrailModule[] }) {
+  const { done } = useStore();
