@@ -54,3 +54,6 @@ export default function PathTrail({ modules }: { modules: TrailModule[] }) {
               <span className="t-label">Module quiz<small>5 questions</small></span>
             </div>
           </div>
+        );
+      })}
+    </div>
