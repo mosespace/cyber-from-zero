@@ -20,3 +20,4 @@ export default function ModuleCard({ mod }: { mod: Module }) {
       <ProgressBar ids={mod.lessons.map((l) => `${mod.slug}/${l.slug}`)} color={mod.color} />
     </Link>
   );
+}
