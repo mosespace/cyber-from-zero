@@ -11,3 +11,6 @@ export default function ModuleCard({ mod }: { mod: Module }) {
         <span className="no">{String(mod.order).padStart(2, "0")}</span>
       </div>
       <h3>{mod.title}</h3>
+      <p>{mod.blurb}</p>
+      <div className="meta">
+        <span className="pill">{mod.level}</span>
