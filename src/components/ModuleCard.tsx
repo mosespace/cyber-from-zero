@@ -17,3 +17,6 @@ export default function ModuleCard({ mod }: { mod: Module }) {
         <span className="pill">{mod.lessons.length} lessons</span>
         <span className="pill">~{mod.hours} h</span>
       </div>
+      <ProgressBar ids={mod.lessons.map((l) => `${mod.slug}/${l.slug}`)} color={mod.color} />
+    </Link>
+  );
