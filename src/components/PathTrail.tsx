@@ -18,3 +18,6 @@ export default function PathTrail({ modules }: { modules: TrailModule[] }) {
   const current = all.find((id) => !done.includes(id));
   let n = 0;
 
+  return (
+    <div className="trail">
+      {modules.map((m) => {
