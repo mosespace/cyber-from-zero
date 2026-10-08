@@ -21,3 +21,6 @@ export default function PathTrail({ modules }: { modules: TrailModule[] }) {
   return (
     <div className="trail">
       {modules.map((m) => {
+        const finished = m.lessons.filter((l) => done.includes(`${m.slug}/${l.slug}`)).length;
+        return (
+          <div key={m.slug} style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center", ["--c" as string]: m.color }}>
