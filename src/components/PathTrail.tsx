@@ -42,3 +42,6 @@ export default function PathTrail({ modules }: { modules: TrailModule[] }) {
                   {isNow && <span className="start-tag" style={{ transform: `translateX(calc(-50% + ${dx}px))` }}>START</span>}
                   <Link href={`/learn/${m.slug}/${l.slug}`} className={`btn-node ${isNow ? "pulse" : ""}`} aria-label={l.title}>
                     {isDone ? "✓" : m.lessons.indexOf(l) + 1}
+                  </Link>
+                  <span className="t-label">{l.title}<small>{l.minutes} min</small></span>
+                </div>
