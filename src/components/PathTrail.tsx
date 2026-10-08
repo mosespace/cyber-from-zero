@@ -48,3 +48,6 @@ export default function PathTrail({ modules }: { modules: TrailModule[] }) {
               );
             })}
             <div className="t-node star right" style={{ ["--dx" as string]: "0px" }}>
+              <Link href={`/modules/${m.slug}#quiz`} className="btn-node" aria-label={`${m.title} quiz`}>
+                <Star size={46} color="#fff" />
+              </Link>
