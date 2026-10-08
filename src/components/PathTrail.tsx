@@ -45,3 +45,6 @@ export default function PathTrail({ modules }: { modules: TrailModule[] }) {
                   </Link>
                   <span className="t-label">{l.title}<small>{l.minutes} min</small></span>
                 </div>
+              );
+            })}
+            <div className="t-node star right" style={{ ["--dx" as string]: "0px" }}>
