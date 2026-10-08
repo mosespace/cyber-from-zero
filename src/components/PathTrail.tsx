@@ -51,3 +51,6 @@ export default function PathTrail({ modules }: { modules: TrailModule[] }) {
               <Link href={`/modules/${m.slug}#quiz`} className="btn-node" aria-label={`${m.title} quiz`}>
                 <Star size={46} color="#fff" />
               </Link>
+              <span className="t-label">Module quiz<small>5 questions</small></span>
+            </div>
+          </div>
