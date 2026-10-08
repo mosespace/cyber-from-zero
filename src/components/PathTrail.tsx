@@ -36,3 +36,6 @@ export default function PathTrail({ modules }: { modules: TrailModule[] }) {
               const id = `${m.slug}/${l.slug}`;
               const dx = DX[n++ % DX.length];
               const isDone = done.includes(id);
+              const isNow = id === current;
+              return (
+                <div key={id} className={`t-node ${isDone ? "done" : ""} ${dx > 0 ? "left" : "right"}`} style={{ ["--dx" as string]: `${dx}px` }}>
