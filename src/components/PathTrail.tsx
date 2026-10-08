@@ -14,3 +14,7 @@ const DX = [0, 74, 112, 74, 0, -74, -112, -74];
 
 export default function PathTrail({ modules }: { modules: TrailModule[] }) {
   const { done } = useStore();
+  const all = modules.flatMap((m) => m.lessons.map((l) => `${m.slug}/${l.slug}`));
+  const current = all.find((id) => !done.includes(id));
+  let n = 0;
+
