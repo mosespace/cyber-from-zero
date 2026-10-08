@@ -30,3 +30,6 @@ export default function PathTrail({ modules }: { modules: TrailModule[] }) {
                 <small>Module {m.order} · {m.level}</small>
                 <h2>{m.title}</h2>
                 <small>{finished}/{m.lessons.length} lessons</small>
+              </span>
+            </Link>
+            {m.lessons.map((l) => {
