@@ -27,3 +27,6 @@ export default function PathTrail({ modules }: { modules: TrailModule[] }) {
             <Link href={`/modules/${m.slug}`} className="t-banner pop">
               <span className="tile"><ModuleIcon slug={m.slug} size={40} /></span>
               <span>
+                <small>Module {m.order} · {m.level}</small>
+                <h2>{m.title}</h2>
+                <small>{finished}/{m.lessons.length} lessons</small>
