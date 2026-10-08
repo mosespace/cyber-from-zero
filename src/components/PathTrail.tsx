@@ -24,3 +24,6 @@ export default function PathTrail({ modules }: { modules: TrailModule[] }) {
         const finished = m.lessons.filter((l) => done.includes(`${m.slug}/${l.slug}`)).length;
         return (
           <div key={m.slug} style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center", ["--c" as string]: m.color }}>
+            <Link href={`/modules/${m.slug}`} className="t-banner pop">
+              <span className="tile"><ModuleIcon slug={m.slug} size={40} /></span>
+              <span>
