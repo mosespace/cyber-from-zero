@@ -33,3 +33,6 @@ export default function PathTrail({ modules }: { modules: TrailModule[] }) {
               </span>
             </Link>
             {m.lessons.map((l) => {
+              const id = `${m.slug}/${l.slug}`;
+              const dx = DX[n++ % DX.length];
+              const isDone = done.includes(id);
