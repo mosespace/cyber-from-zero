@@ -14,3 +14,6 @@ export default function ModuleCard({ mod }: { mod: Module }) {
       <p>{mod.blurb}</p>
       <div className="meta">
         <span className="pill">{mod.level}</span>
+        <span className="pill">{mod.lessons.length} lessons</span>
+        <span className="pill">~{mod.hours} h</span>
+      </div>
