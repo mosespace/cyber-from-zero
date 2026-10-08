@@ -46,3 +46,5 @@ export default function Markdown({ children }: { children: string }) {
         {children}
       </ReactMarkdown>
     </div>
+  );
+}
