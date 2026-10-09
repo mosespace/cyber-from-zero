@@ -10,3 +10,6 @@ type Mod = { slug: string; title: string; color: string; count: number };
 function shuffle<T>(a: T[]) {
   const b = [...a];
   for (let i = b.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [b[i], b[j]] = [b[j], b[i]];
+  }
