@@ -57,3 +57,5 @@ export default function PathTrail({ modules }: { modules: TrailModule[] }) {
         );
       })}
     </div>
+  );
+}
