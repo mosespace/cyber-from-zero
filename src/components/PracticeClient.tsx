@@ -13,3 +13,7 @@ function shuffle<T>(a: T[]) {
     const j = Math.floor(Math.random() * (i + 1));
     [b[i], b[j]] = [b[j], b[i]];
   }
+  return b;
+}
+
+export default function PracticeClient({ pool, modules }: { pool: (PoolQuestion & { moduleSlug: string })[]; modules: Mod[] }) {
