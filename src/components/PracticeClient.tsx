@@ -38,3 +38,6 @@ export default function PracticeClient({ pool, modules }: { pool: (PoolQuestion 
           <button key={m.slug} className="pop" onClick={() => start(m.slug)}>
             <span className="tile" style={{ width: 52, height: 52, borderRadius: 14, border: "1.5px solid #16162b", background: m.color, display: "grid", placeItems: "center", flex: "none" }}>
               <ModuleIcon slug={m.slug} size={34} />
+            </span>
+            <span><b>{m.title}</b><small>{m.count} questions</small></span>
+          </button>
