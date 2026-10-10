@@ -17,3 +17,7 @@ function shuffle<T>(a: T[]) {
 }
 
 export default function PracticeClient({ pool, modules }: { pool: (PoolQuestion & { moduleSlug: string })[]; modules: Mod[] }) {
+  const [session, setSession] = useState<{ key: string; qs: PoolQuestion[]; id: number } | null>(null);
+
+  function start(slug: string | null) {
+    const src = slug ? pool.filter((p) => p.moduleSlug === slug) : pool;
