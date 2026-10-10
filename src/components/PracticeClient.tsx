@@ -21,3 +21,7 @@ export default function PracticeClient({ pool, modules }: { pool: (PoolQuestion 
 
   function start(slug: string | null) {
     const src = slug ? pool.filter((p) => p.moduleSlug === slug) : pool;
+    const qs = shuffle(src).slice(0, slug ? src.length : 10).map((q) => ({ ...q, options: q.options }));
+    setSession({ key: slug ? `practice:${slug}` : "practice:mixed", qs, id: Date.now() });
+  }
+
