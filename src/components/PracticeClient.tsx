@@ -25,3 +25,7 @@ export default function PracticeClient({ pool, modules }: { pool: (PoolQuestion 
     setSession({ key: slug ? `practice:${slug}` : "practice:mixed", qs, id: Date.now() });
   }
 
+  if (session) return <QuizRunner key={session.id} questions={session.qs} storeKey={session.key} onExit={() => setSession(null)} />;
+
+  return (
+    <>
