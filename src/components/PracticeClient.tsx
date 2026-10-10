@@ -29,3 +29,6 @@ export default function PracticeClient({ pool, modules }: { pool: (PoolQuestion 
 
   return (
     <>
+      <div className="setup">
+        <button className="pop" style={{ background: "var(--sun)" }} onClick={() => start(null)}>
+          <Star size={52} color="#FF6B57" />
