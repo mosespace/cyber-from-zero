@@ -32,3 +32,6 @@ export default function PracticeClient({ pool, modules }: { pool: (PoolQuestion 
       <div className="setup">
         <button className="pop" style={{ background: "var(--sun)" }} onClick={() => start(null)}>
           <Star size={52} color="#FF6B57" />
+          <span><b>Mixed challenge</b><small>10 random questions</small></span>
+        </button>
+        {modules.map((m) => (
