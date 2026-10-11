@@ -40,3 +40,6 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
     const stars = score === questions.length ? 3 : score >= questions.length * 0.6 ? 2 : 1;
     return (
       <div className="qr pop result">
+        <div className="stars">
+          {[1, 2, 3].map((n) => (
+            <Star key={n} size={64} color={n <= stars ? "#FFC93C" : "#e6dcc4"} />
