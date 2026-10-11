@@ -27,3 +27,6 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
     if (i + 1 < questions.length) {
       setI(i + 1);
       setPicked(null);
+    } else {
+      setGain(recordQuiz(storeKey, score));
+      setFinished(true);
