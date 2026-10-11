@@ -13,3 +13,8 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
   const [picked, setPicked] = useState<number | null>(null);
   const [score, setScore] = useState(0);
   const [finished, setFinished] = useState(false);
+  const [gain, setGain] = useState(0);
+  const [run, setRun] = useState(0);
+
+  const q = questions[i];
+
