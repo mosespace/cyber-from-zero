@@ -30,3 +30,6 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
     } else {
       setGain(recordQuiz(storeKey, score));
       setFinished(true);
+    }
+  }
+  function again() {
