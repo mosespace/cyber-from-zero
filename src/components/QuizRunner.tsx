@@ -37,3 +37,6 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
   }
 
   if (finished) {
+    const stars = score === questions.length ? 3 : score >= questions.length * 0.6 ? 2 : 1;
+    return (
+      <div className="qr pop result">
