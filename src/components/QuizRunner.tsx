@@ -18,3 +18,6 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
 
   const q = questions[i];
 
+  function pick(n: number) {
+    if (picked !== null) return;
+    setPicked(n);
