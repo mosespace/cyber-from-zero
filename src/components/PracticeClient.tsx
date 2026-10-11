@@ -44,3 +44,5 @@ export default function PracticeClient({ pool, modules }: { pool: (PoolQuestion 
         ))}
       </div>
     </>
+  );
+}
