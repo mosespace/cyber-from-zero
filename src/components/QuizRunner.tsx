@@ -33,3 +33,7 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
     }
   }
   function again() {
+    setI(0); setPicked(null); setScore(0); setFinished(false); setRun((r) => r + 1);
+  }
+
+  if (finished) {
