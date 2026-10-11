@@ -24,3 +24,6 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
     if (n === q.answer) setScore((s) => s + 1);
   }
   function next() {
+    if (i + 1 < questions.length) {
+      setI(i + 1);
+      setPicked(null);
