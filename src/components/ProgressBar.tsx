@@ -12,3 +12,6 @@ export default function ProgressBar({ ids, color, label }: { ids: string[]; colo
         <i style={{ width: `${pct}%` }} />
       </div>
       {label && <div className="bar-label">{n} of {ids.length} lessons done</div>}
+    </div>
+  );
+}
