@@ -41,3 +41,6 @@ export default function PracticeClient({ pool, modules }: { pool: (PoolQuestion 
             </span>
             <span><b>{m.title}</b><small>{m.count} questions</small></span>
           </button>
+        ))}
+      </div>
+    </>
