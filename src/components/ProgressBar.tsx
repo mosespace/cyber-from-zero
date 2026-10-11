@@ -9,3 +9,6 @@ export default function ProgressBar({ ids, color, label }: { ids: string[]; colo
   return (
     <div style={{ ["--c" as string]: color }}>
       <div className="bar" role="progressbar" aria-valuenow={pct} aria-valuemin={0} aria-valuemax={100}>
+        <i style={{ width: `${pct}%` }} />
+      </div>
+      {label && <div className="bar-label">{n} of {ids.length} lessons done</div>}
