@@ -56,3 +56,6 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
     );
   }
 
+  return (
+    <div className="qr pop" key={run}>
+      <div className="head">
