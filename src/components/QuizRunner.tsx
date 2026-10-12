@@ -71,3 +71,6 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
             <button key={o} className={`opt ${state}`} disabled={picked !== null} onClick={() => pick(n)}>
               <span className="k">{"ABCD"[n]}</span>{o}
             </button>
+          );
+        })}
+      </div>
