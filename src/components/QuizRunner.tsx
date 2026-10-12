@@ -80,3 +80,6 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
           <div className="foot">
             <button className="btn blue" onClick={next}>{i + 1 < questions.length ? "Next question →" : "See my score"}</button>
           </div>
+        </>
+      )}
+    </div>
