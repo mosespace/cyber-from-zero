@@ -43,3 +43,6 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
         <div className="stars">
           {[1, 2, 3].map((n) => (
             <Star key={n} size={64} color={n <= stars ? "#FFC93C" : "#e6dcc4"} />
+          ))}
+        </div>
+        <h3>{score} / {questions.length} correct</h3>
