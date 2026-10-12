@@ -83,3 +83,5 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
         </>
       )}
     </div>
+  );
+}
