@@ -59,3 +59,6 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
   return (
     <div className="qr pop" key={run}>
       <div className="head">
+        <span>Question {i + 1} of {questions.length}</span>
+        <span>{q.moduleTitle ?? ""}</span>
+      </div>
