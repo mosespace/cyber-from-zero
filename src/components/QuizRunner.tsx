@@ -74,3 +74,6 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
           );
         })}
       </div>
+      {picked !== null && (
+        <>
+          <div className="explain"><b>{picked === q.answer ? "Correct! " : "Not quite. "}</b>{q.why}</div>
