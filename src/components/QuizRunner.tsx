@@ -52,3 +52,7 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
           <button className="btn blue" onClick={again}>Try again</button>
           {onExit && <button className="btn" onClick={onExit}>Back</button>}
         </div>
+      </div>
+    );
+  }
+
