@@ -46,3 +46,6 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
           ))}
         </div>
         <h3>{score} / {questions.length} correct</h3>
+        <p>{score === questions.length ? "Perfect score!" : stars === 2 ? "Great job. A little more practice and you will ace it." : "Good start. Read the lessons again and retry."}</p>
+        {gain > 0 && <p><b>+{gain} XP</b> for beating your best.</p>}
+        <div className="cta-row" style={{ justifyContent: "center", marginTop: 18 }}>
