@@ -62,3 +62,6 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
         <span>Question {i + 1} of {questions.length}</span>
         <span>{q.moduleTitle ?? ""}</span>
       </div>
+      <div className="bar" style={{ marginTop: 0 }}><i style={{ width: `${(i / questions.length) * 100}%` }} /></div>
+      <h3>{q.q}</h3>
+      <div className="opts">
