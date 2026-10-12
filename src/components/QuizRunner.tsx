@@ -49,3 +49,6 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
         <p>{score === questions.length ? "Perfect score!" : stars === 2 ? "Great job. A little more practice and you will ace it." : "Good start. Read the lessons again and retry."}</p>
         {gain > 0 && <p><b>+{gain} XP</b> for beating your best.</p>}
         <div className="cta-row" style={{ justifyContent: "center", marginTop: 18 }}>
+          <button className="btn blue" onClick={again}>Try again</button>
+          {onExit && <button className="btn" onClick={onExit}>Back</button>}
+        </div>
