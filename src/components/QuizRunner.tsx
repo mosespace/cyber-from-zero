@@ -65,3 +65,6 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
       <div className="bar" style={{ marginTop: 0 }}><i style={{ width: `${(i / questions.length) * 100}%` }} /></div>
       <h3>{q.q}</h3>
       <div className="opts">
+        {q.options.map((o, n) => {
+          const state = picked === null ? "" : n === q.answer ? "right" : n === picked ? "wrong" : "";
+          return (
