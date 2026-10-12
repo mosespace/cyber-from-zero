@@ -77,3 +77,6 @@ export default function QuizRunner({ questions, storeKey, onExit }: { questions:
       {picked !== null && (
         <>
           <div className="explain"><b>{picked === q.answer ? "Correct! " : "Not quite. "}</b>{q.why}</div>
+          <div className="foot">
+            <button className="btn blue" onClick={next}>{i + 1 < questions.length ? "Next question →" : "See my score"}</button>
+          </div>
