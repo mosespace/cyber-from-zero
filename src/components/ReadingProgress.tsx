@@ -9,3 +9,6 @@ export default function ReadingProgress() {
       const max = document.documentElement.scrollHeight - window.innerHeight;
       if (bar.current) bar.current.style.width = `${max > 0 ? Math.min(100, (window.scrollY / max) * 100) : 0}%`;
     };
+    h();
+    window.addEventListener("scroll", h, { passive: true });
+    return () => window.removeEventListener("scroll", h);
