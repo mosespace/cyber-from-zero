@@ -12,3 +12,6 @@ export default function ReadingProgress() {
     h();
     window.addEventListener("scroll", h, { passive: true });
     return () => window.removeEventListener("scroll", h);
+  }, []);
+  return <div className="read-bar" aria-hidden><i ref={bar} /></div>;
+}
