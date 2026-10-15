@@ -10,3 +10,7 @@ export default function SearchModal({ items, onClose }: { items: SearchItem[]; o
   const [q, setQ] = useState("");
   const [sel, setSel] = useState(0);
   const input = useRef<HTMLInputElement>(null);
+  const router = useRouter();
+
+  useEffect(() => {
+    input.current?.focus();
