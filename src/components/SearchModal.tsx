@@ -17,3 +17,7 @@ export default function SearchModal({ items, onClose }: { items: SearchItem[]; o
     const esc = (e: KeyboardEvent) => e.key === "Escape" && onClose();
     window.addEventListener("keydown", esc);
     return () => window.removeEventListener("keydown", esc);
+  }, [onClose]);
+
+  const results = useMemo(() => {
+    const t = q.trim().toLowerCase();
