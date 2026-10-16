@@ -14,3 +14,6 @@ export default function SearchModal({ items, onClose }: { items: SearchItem[]; o
 
   useEffect(() => {
     input.current?.focus();
+    const esc = (e: KeyboardEvent) => e.key === "Escape" && onClose();
+    window.addEventListener("keydown", esc);
+    return () => window.removeEventListener("keydown", esc);
