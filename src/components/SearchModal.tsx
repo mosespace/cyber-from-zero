@@ -44,3 +44,6 @@ export default function SearchModal({ items, onClose }: { items: SearchItem[]; o
           {results.map((r, i) => (
             <Link key={r.href} href={r.href} className={i === sel ? "sel" : ""} onClick={onClose}>
               <span className="tile" style={{ ["--c" as string]: r.color }} />
+              <span><b>{r.title}</b><small>{r.kind} · {r.sub}</small></span>
+            </Link>
+          ))}
