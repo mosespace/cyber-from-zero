@@ -50,3 +50,6 @@ export default function SearchModal({ items, onClose }: { items: SearchItem[]; o
           {results.length === 0 && <p style={{ padding: 12 }}>Nothing found. Try another word.</p>}
         </div>
       </div>
+    </div>
+  );
+}
