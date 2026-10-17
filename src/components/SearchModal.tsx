@@ -27,3 +27,7 @@ export default function SearchModal({ items, onClose }: { items: SearchItem[]; o
       .filter((r) => r.score)
       .sort((a, b) => b.score - a.score)
       .slice(0, 12)
+      .map((r) => r.i);
+  }, [q, items]);
+
+  function onKey(e: React.KeyboardEvent) {
