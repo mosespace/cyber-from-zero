@@ -41,3 +41,6 @@ export default function SearchModal({ items, onClose }: { items: SearchItem[]; o
       <div className="modal pop" role="dialog" aria-label="Search" onMouseDown={(e) => e.stopPropagation()}>
         <input ref={input} value={q} onChange={(e) => { setQ(e.target.value); setSel(0); }} onKeyDown={onKey} placeholder="Search lessons and modules..." />
         <div className="results">
+          {results.map((r, i) => (
+            <Link key={r.href} href={r.href} className={i === sel ? "sel" : ""} onClick={onClose}>
+              <span className="tile" style={{ ["--c" as string]: r.color }} />
