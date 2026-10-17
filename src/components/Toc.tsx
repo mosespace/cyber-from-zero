@@ -6,3 +6,6 @@ export default function Toc({ items }: { items: { id: string; text: string }[] }
   const [active, setActive] = useState(items[0]?.id);
   useEffect(() => {
     const obs = new IntersectionObserver(
+      (entries) => entries.forEach((e) => e.isIntersecting && setActive(e.target.id)),
+      { rootMargin: "-90px 0px -65% 0px" },
+    );
