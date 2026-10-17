@@ -38,3 +38,6 @@ export default function SearchModal({ items, onClose }: { items: SearchItem[]; o
 
   return (
     <div className="overlay" onMouseDown={onClose}>
+      <div className="modal pop" role="dialog" aria-label="Search" onMouseDown={(e) => e.stopPropagation()}>
+        <input ref={input} value={q} onChange={(e) => { setQ(e.target.value); setSel(0); }} onKeyDown={onKey} placeholder="Search lessons and modules..." />
+        <div className="results">
