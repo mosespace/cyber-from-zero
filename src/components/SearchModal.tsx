@@ -21,3 +21,6 @@ export default function SearchModal({ items, onClose }: { items: SearchItem[]; o
 
   const results = useMemo(() => {
     const t = q.trim().toLowerCase();
+    if (!t) return items.slice(0, 8);
+    return items
+      .map((i) => ({ i, score: (i.title.toLowerCase().includes(t) ? 2 : 0) + (i.sub.toLowerCase().includes(t) ? 1 : 0) }))
