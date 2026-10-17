@@ -47,3 +47,6 @@ export default function SearchModal({ items, onClose }: { items: SearchItem[]; o
               <span><b>{r.title}</b><small>{r.kind} · {r.sub}</small></span>
             </Link>
           ))}
+          {results.length === 0 && <p style={{ padding: 12 }}>Nothing found. Try another word.</p>}
+        </div>
+      </div>
