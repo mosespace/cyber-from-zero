@@ -31,3 +31,6 @@ export default function SearchModal({ items, onClose }: { items: SearchItem[]; o
   }, [q, items]);
 
   function onKey(e: React.KeyboardEvent) {
+    if (e.key === "ArrowDown") { e.preventDefault(); setSel((s) => Math.min(s + 1, results.length - 1)); }
+    if (e.key === "ArrowUp") { e.preventDefault(); setSel((s) => Math.max(s - 1, 0)); }
+    if (e.key === "Enter" && results[sel]) { router.push(results[sel].href); onClose(); }
