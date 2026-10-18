@@ -12,3 +12,6 @@ export default function Toc({ items }: { items: { id: string; text: string }[] }
     items.forEach((i) => { const el = document.getElementById(i.id); if (el) obs.observe(el); });
     return () => obs.disconnect();
   }, [items]);
+  if (!items.length) return null;
+  return (
+    <nav className="toc pop" aria-label="On this page">
