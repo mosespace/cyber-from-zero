@@ -18,3 +18,6 @@ export default function Toc({ items }: { items: { id: string; text: string }[] }
       <h4>In this lesson</h4>
       {items.map((i) => (
         <a key={i.id} href={`#${i.id}`} className={active === i.id ? "on" : ""}>{i.text}</a>
+      ))}
+    </nav>
+  );
