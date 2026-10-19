@@ -28,3 +28,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${display.variable} ${body.variable}`}>
       <body>
         <Header items={items} />
+        <main>{children}</main>
+      </body>
+    </html>
