@@ -41,3 +41,6 @@ export default function Home() {
             <div className="hero-facts">
               <div><b>{t.modules}</b><span>modules</span></div>
               <div><b>{t.lessons}</b><span>lessons</span></div>
+              <div><b>{t.lessons + t.modules}</b><span>audio narrations</span></div>
+              <div><b>{glossary.length}</b><span>flashcards</span></div>
+            </div>
