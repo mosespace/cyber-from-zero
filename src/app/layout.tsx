@@ -12,3 +12,7 @@ const body = IBM_Plex_Sans({ subsets: ["latin"], variable: "--font-dm", weight: 
 export const metadata: Metadata = {
   title: { default: "Cyber From Zero", template: "%s · Cyber From Zero" },
   description: "Learn cybersecurity from zero. Free lessons in simple English with audio, quizzes, flashcards and a learning path.",
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const mods = getModules();
