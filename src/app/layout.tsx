@@ -22,3 +22,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   ]);
   items.push(
     ...getLabs().map((l) => ({ title: l.title, sub: l.summary, href: `/labs/${l.slug}`, color: l.color, kind: "Lab" })),
+    ...getCheatsheets().map((c) => ({ title: c.title, sub: c.summary, href: `/cheatsheets/${c.slug}`, color: c.color, kind: "Cheat sheet" })),
+  );
+  return (
