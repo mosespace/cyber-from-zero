@@ -19,3 +19,7 @@ const topics = ["Networking", "Linux", "Encryption", "Phishing", "Malware", "Web
 export default function Home() {
   const mods = getModules();
   const t = totals();
+  const flat = mods.flatMap((m) =>
+    m.lessons.map((l) => ({ id: `${m.slug}/${l.slug}`, href: `/learn/${m.slug}/${l.slug}`, title: l.title, moduleSlug: m.slug, moduleTitle: m.title, color: m.color })),
+  );
+
