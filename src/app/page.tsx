@@ -16,3 +16,6 @@ const features = [
 
 const topics = ["Networking", "Linux", "Encryption", "Phishing", "Malware", "Web security", "Firewalls", "Ethical hacking", "Incident response", "Careers"];
 
+export default function Home() {
+  const mods = getModules();
+  const t = totals();
