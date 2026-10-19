@@ -25,3 +25,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     ...getCheatsheets().map((c) => ({ title: c.title, sub: c.summary, href: `/cheatsheets/${c.slug}`, color: c.color, kind: "Cheat sheet" })),
   );
   return (
+    <html lang="en" className={`${display.variable} ${body.variable}`}>
+      <body>
+        <Header items={items} />
