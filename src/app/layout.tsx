@@ -16,3 +16,6 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const mods = getModules();
+  const items: SearchItem[] = mods.flatMap((m) => [
+    { title: m.title, sub: m.blurb, href: `/modules/${m.slug}`, color: m.color, kind: "Module" },
+    ...m.lessons.map((l) => ({ title: l.title, sub: l.summary, href: `/learn/${m.slug}/${l.slug}`, color: m.color, kind: `Lesson · ${m.title}` })),
