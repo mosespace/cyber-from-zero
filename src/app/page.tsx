@@ -23,3 +23,6 @@ export default function Home() {
     m.lessons.map((l) => ({ id: `${m.slug}/${l.slug}`, href: `/learn/${m.slug}/${l.slug}`, title: l.title, moduleSlug: m.slug, moduleTitle: m.title, color: m.color })),
   );
 
+  return (
+    <>
+      <section className="hero">
