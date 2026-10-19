@@ -35,3 +35,6 @@ export default function Home() {
               ethical hacking, one small step a day.
             </p>
             <div className="cta-row">
+              <Link href="/path" className="btn blue">Start learning →</Link>
+              <Link href="/practice" className="btn">Try a quiz</Link>
+            </div>
