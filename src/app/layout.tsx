@@ -4,3 +4,8 @@ import "./globals.css";
 import Header from "@/components/Header";
 import { getModules } from "@/lib/content";
 import { getCheatsheets, getLabs } from "@/lib/extras";
+import type { SearchItem } from "@/components/SearchModal";
+
+const display = Schibsted_Grotesk({ subsets: ["latin"], variable: "--font-bricolage", weight: ["600", "700", "800"] });
+const body = IBM_Plex_Sans({ subsets: ["latin"], variable: "--font-dm", weight: ["400", "500", "600", "700"] });
+
