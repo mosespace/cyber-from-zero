@@ -44,3 +44,6 @@ export default function Home() {
               <div><b>{t.lessons + t.modules}</b><span>audio narrations</span></div>
               <div><b>{glossary.length}</b><span>flashcards</span></div>
             </div>
+            <ContinueCard lessons={flat} />
+          </div>
+          <HeroArt />
