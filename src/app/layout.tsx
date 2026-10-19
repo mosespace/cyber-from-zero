@@ -19,3 +19,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const items: SearchItem[] = mods.flatMap((m) => [
     { title: m.title, sub: m.blurb, href: `/modules/${m.slug}`, color: m.color, kind: "Module" },
     ...m.lessons.map((l) => ({ title: l.title, sub: l.summary, href: `/learn/${m.slug}/${l.slug}`, color: m.color, kind: `Lesson · ${m.title}` })),
+  ]);
+  items.push(
+    ...getLabs().map((l) => ({ title: l.title, sub: l.summary, href: `/labs/${l.slug}`, color: l.color, kind: "Lab" })),
