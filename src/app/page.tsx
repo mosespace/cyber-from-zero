@@ -11,3 +11,8 @@ const features = [
   { t: "Quizzes", d: "Short quizzes after every module. Earn XP for each win.", href: "/practice", c: "#27D3A2", s: <Star size={36} color="#fff" /> },
   { t: "Flashcards", d: "50+ key words to flip, learn and remember.", href: "/flashcards", c: "#B9A2FF", s: <Square size={34} color="#fff" /> },
   { t: "Streaks and badges", d: "Come back each day, grow your streak, collect badges.", href: "/me", c: "#FF8A6B", s: <Triangle size={34} color="#fff" /> },
+  { t: "Glossary", d: "Look up any security word in plain English.", href: "/glossary", c: "#8BE04E", s: <Plus size={34} color="#fff" /> },
+];
+
+const topics = ["Networking", "Linux", "Encryption", "Phishing", "Malware", "Web security", "Firewalls", "Ethical hacking", "Incident response", "Careers"];
+
