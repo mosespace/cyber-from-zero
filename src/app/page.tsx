@@ -38,3 +38,6 @@ export default function Home() {
               <Link href="/path" className="btn blue">Start learning →</Link>
               <Link href="/practice" className="btn">Try a quiz</Link>
             </div>
+            <div className="hero-facts">
+              <div><b>{t.modules}</b><span>modules</span></div>
+              <div><b>{t.lessons}</b><span>lessons</span></div>
