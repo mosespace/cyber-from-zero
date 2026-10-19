@@ -26,3 +26,6 @@ export default function Home() {
   return (
     <>
       <section className="hero">
+        <div className="container">
+          <div>
+            <span className="eyebrow"><i /> Free · No experience needed</span>
