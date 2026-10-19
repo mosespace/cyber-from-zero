@@ -47,3 +47,7 @@ export default function Home() {
             <ContinueCard lessons={flat} />
           </div>
           <HeroArt />
+        </div>
+      </section>
+
+      <div style={{ overflow: "hidden", padding: "6px 0 10px" }}>
