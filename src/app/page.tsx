@@ -32,3 +32,6 @@ export default function Home() {
             <h1>Learn cyber&shy;security <span className="hl">from zero.</span></h1>
             <p className="lede">
               Short lessons in simple English, read-aloud audio, quizzes and flashcards. Go from “what is a computer?” to
+              ethical hacking, one small step a day.
+            </p>
+            <div className="cta-row">
