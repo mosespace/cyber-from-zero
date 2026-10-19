@@ -29,3 +29,6 @@ export default function Home() {
         <div className="container">
           <div>
             <span className="eyebrow"><i /> Free · No experience needed</span>
+            <h1>Learn cyber&shy;security <span className="hl">from zero.</span></h1>
+            <p className="lede">
+              Short lessons in simple English, read-aloud audio, quizzes and flashcards. Go from “what is a computer?” to
