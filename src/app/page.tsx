@@ -54,3 +54,6 @@ export default function Home() {
         <div className="marquee" aria-hidden>
           <div className="marquee-track">
             {[0, 1].map((k) => (
+              <span key={k}>
+                {topics.map((x) => (
+                  <span key={x} style={{ gap: 26 }}>{x}<Star size={22} points={6} color="#FFC93C" outline={false} /></span>
