@@ -70,3 +70,7 @@ export default function Home() {
         <div className="how-grid">
           <div className="how pop"><span className="num">1</span><Square size={46} color="#7CCBFF" /><h3>Read or listen</h3><p>Each lesson takes 5 to 9 minutes. Read it, or press play and listen like a podcast.</p></div>
           <div className="how pop"><span className="num">2</span><Triangle size={46} color="#FF9BC9" /><h3>Play with it</h3><p>Try the little widgets, flip flashcards and answer quick questions. Doing beats reading.</p></div>
+          <div className="how pop"><span className="num">3</span><Circle size={46} color="#27D3A2" /><h3>Level up</h3><p>Earn XP, keep your streak and collect badges as you climb the path.</p></div>
+        </div>
+      </section>
+
