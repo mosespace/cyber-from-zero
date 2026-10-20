@@ -64,3 +64,6 @@ export default function Home() {
         </div>
       </div>
 
+      <section className="section container">
+        <h2 className="section-title">How it works</h2>
+        <p className="lede">Three simple habits. Do them for ten minutes a day and you will be surprised how fast you grow.</p>
