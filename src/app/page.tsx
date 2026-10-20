@@ -51,3 +51,6 @@ export default function Home() {
       </section>
 
       <div style={{ overflow: "hidden", padding: "6px 0 10px" }}>
+        <div className="marquee" aria-hidden>
+          <div className="marquee-track">
+            {[0, 1].map((k) => (
