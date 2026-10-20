@@ -57,3 +57,6 @@ export default function Home() {
               <span key={k}>
                 {topics.map((x) => (
                   <span key={x} style={{ gap: 26 }}>{x}<Star size={22} points={6} color="#FFC93C" outline={false} /></span>
+                ))}
+              </span>
+            ))}
