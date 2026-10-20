@@ -67,3 +67,6 @@ export default function Home() {
       <section className="section container">
         <h2 className="section-title">How it works</h2>
         <p className="lede">Three simple habits. Do them for ten minutes a day and you will be surprised how fast you grow.</p>
+        <div className="how-grid">
+          <div className="how pop"><span className="num">1</span><Square size={46} color="#7CCBFF" /><h3>Read or listen</h3><p>Each lesson takes 5 to 9 minutes. Read it, or press play and listen like a podcast.</p></div>
+          <div className="how pop"><span className="num">2</span><Triangle size={46} color="#FF9BC9" /><h3>Play with it</h3><p>Try the little widgets, flip flashcards and answer quick questions. Doing beats reading.</p></div>
