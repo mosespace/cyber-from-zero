@@ -74,3 +74,6 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="section container" id="modules">
+        <h2 className="section-title">10 modules, basics to pro</h2>
+        <p className="lede">Follow them in order, or jump to what you are curious about.</p>
