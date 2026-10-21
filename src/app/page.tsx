@@ -96,3 +96,6 @@ export default function Home() {
                 <h3>{f.t}</h3>
                 <p>{f.d}</p>
               </Link>
+            ))}
+          </div>
+        </div>
