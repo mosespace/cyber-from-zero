@@ -87,3 +87,6 @@ export default function Home() {
         <Half color="#27D3A2" style={{ right: 40, bottom: -4, width: 160 }} />
         <Dots style={{ right: "8%", top: 30, width: 80, opacity: 0.5 }} />
         <div className="container" style={{ position: "relative" }}>
+          <h2 className="section-title">More than just reading</h2>
+          <p className="lede" style={{ color: "#3d3200" }}>Everything you need to actually remember what you learn.</p>
+          <div className="feat-grid">
