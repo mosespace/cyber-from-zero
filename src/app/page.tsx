@@ -80,3 +80,7 @@ export default function Home() {
         <div className="mod-grid">
           {mods.map((m) => <ModuleCard key={m.slug} mod={m} />)}
         </div>
+      </section>
+
+      <section className="band">
+        <Blob className="float" color="#FF9BC9" variant={2} style={{ left: -60, top: 30, width: 190 }} />
