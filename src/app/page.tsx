@@ -90,3 +90,6 @@ export default function Home() {
           <h2 className="section-title">More than just reading</h2>
           <p className="lede" style={{ color: "#3d3200" }}>Everything you need to actually remember what you learn.</p>
           <div className="feat-grid">
+            {features.map((f) => (
+              <Link key={f.t} href={f.href} className="feat pop">
+                <span className="ft" style={{ ["--c" as string]: f.c }}>{f.s}</span>
