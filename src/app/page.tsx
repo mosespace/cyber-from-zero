@@ -93,3 +93,6 @@ export default function Home() {
             {features.map((f) => (
               <Link key={f.t} href={f.href} className="feat pop">
                 <span className="ft" style={{ ["--c" as string]: f.c }}>{f.s}</span>
+                <h3>{f.t}</h3>
+                <p>{f.d}</p>
+              </Link>
