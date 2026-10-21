@@ -84,3 +84,6 @@ export default function Home() {
 
       <section className="band">
         <Blob className="float" color="#FF9BC9" variant={2} style={{ left: -60, top: 30, width: 190 }} />
+        <Half color="#27D3A2" style={{ right: 40, bottom: -4, width: 160 }} />
+        <Dots style={{ right: "8%", top: 30, width: 80, opacity: 0.5 }} />
+        <div className="container" style={{ position: "relative" }}>
