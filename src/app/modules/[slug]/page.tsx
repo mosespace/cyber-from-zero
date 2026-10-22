@@ -25,3 +25,7 @@ export default async function ModulePage({ params }: Props) {
   const mod = getModule(slug);
   if (!mod) notFound();
   const all = getModules();
+  const next = all[all.findIndex((m) => m.slug === slug) + 1];
+  const videos = moduleVideos[mod.slug] ?? [];
+  const words = glossary.filter((g) => g.module === mod.slug).length;
+
