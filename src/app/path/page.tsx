@@ -12,3 +12,6 @@ export default function PathPage() {
   }));
   return (
     <div className="container">
+      <div className="page-head">
+        <Blob color="#B9A2FF" variant={0} className="float" style={{ right: 10, top: 30, width: 130 }} />
+        <Plus color="#F7A501" style={{ right: 170, top: 90, width: 44 }} />
