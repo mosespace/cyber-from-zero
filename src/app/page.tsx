@@ -112,3 +112,6 @@ export default function Home() {
           <Link href="/path" className="btn sun">Open the learning path →</Link>
         </div>
       </section>
+      <footer className="footer">Learn to defend. Only test systems you own or have written permission to test.</footer>
+    </>
+  );
