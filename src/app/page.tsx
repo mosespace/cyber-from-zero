@@ -103,3 +103,6 @@ export default function Home() {
 
       <section className="final">
         <Squiggle color="#FFC93C" style={{ left: "6%", top: 40, width: 160 }} />
+        <Triangle className="float" color="#FF6B57" style={{ right: "8%", top: 50, width: 90 }} />
+        <Circle className="float" color="#27D3A2" style={{ left: "12%", bottom: 40, width: 70, animationDelay: "-2s" }} />
+        <Plus color="#7CCBFF" style={{ right: "18%", bottom: 50, width: 56 }} />
