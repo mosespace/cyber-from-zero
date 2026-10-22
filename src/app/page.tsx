@@ -99,3 +99,7 @@ export default function Home() {
             ))}
           </div>
         </div>
+      </section>
+
+      <section className="final">
+        <Squiggle color="#FFC93C" style={{ left: "6%", top: 40, width: 160 }} />
