@@ -38,3 +38,6 @@ export default async function ModulePage({ params }: Props) {
         <Dots style={{ right: "3%", top: 14, width: 70, opacity: 0.35 }} />
         <div className="container">
           <div>
+            <span className="eyebrow"><i /> <Link href="/path" style={{ textDecoration: "none" }}>Module {mod.order}</Link> · {mod.level}</span>
+            <h1>{mod.title}</h1>
+            <p>{mod.overview}</p>
