@@ -22,3 +22,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ModulePage({ params }: Props) {
   const { slug } = await params;
+  const mod = getModule(slug);
+  if (!mod) notFound();
+  const all = getModules();
