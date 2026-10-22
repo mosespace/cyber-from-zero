@@ -115,3 +115,4 @@ export default function Home() {
       <footer className="footer">Learn to defend. Only test systems you own or have written permission to test.</footer>
     </>
   );
+}
