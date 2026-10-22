@@ -32,3 +32,6 @@ export default async function ModulePage({ params }: Props) {
   return (
     <>
       <section className="mod-hero" style={{ ["--c" as string]: mod.color }}>
+        <Triangle color="#fff" className="float" style={{ right: "26%", top: 20, width: 70 }} />
+        <Circle color="#fff" style={{ left: "46%", bottom: -30, width: 90, opacity: 0.6 }} />
+        <Plus color="#fff" className="float" style={{ left: "58%", top: 40, width: 46, animationDelay: "-2s" }} />
