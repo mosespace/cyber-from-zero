@@ -18,3 +18,6 @@ export default function PathPage() {
         <span className="eyebrow"><i /> Your journey</span>
         <h1>The learning path</h1>
         <p className="lede">Follow the trail from the top. Tap a circle to open a lesson. The star at the end of each module is its quiz.</p>
+        <Squiggle size={120} style={{ marginTop: 14 }} />
+      </div>
+      <PathTrail modules={mods} />
