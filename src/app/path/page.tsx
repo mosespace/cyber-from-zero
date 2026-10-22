@@ -21,3 +21,6 @@ export default function PathPage() {
         <Squiggle size={120} style={{ marginTop: 14 }} />
       </div>
       <PathTrail modules={mods} />
+    </div>
+  );
+}
