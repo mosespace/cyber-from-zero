@@ -106,3 +106,6 @@ export default function Home() {
         <Triangle className="float" color="#FF6B57" style={{ right: "8%", top: 50, width: 90 }} />
         <Circle className="float" color="#27D3A2" style={{ left: "12%", bottom: 40, width: 70, animationDelay: "-2s" }} />
         <Plus color="#7CCBFF" style={{ right: "18%", bottom: 50, width: 56 }} />
+        <div className="container" style={{ position: "relative" }}>
+          <h2>Your first lesson takes 6 minutes.</h2>
+          <p>No sign-up. No cost. Your progress stays in your browser.</p>
