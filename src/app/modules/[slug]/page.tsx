@@ -7,3 +7,7 @@ import { glossary } from "@/data/glossary";
 import AudioPlayer from "@/components/AudioPlayer";
 import LessonStatus from "@/components/LessonStatus";
 import ModuleIcon from "@/components/ModuleIcon";
+import ProgressBar from "@/components/ProgressBar";
+import QuizRunner from "@/components/QuizRunner";
+import { Circle, Dots, Plus, Star, Triangle } from "@/components/shapes";
+
