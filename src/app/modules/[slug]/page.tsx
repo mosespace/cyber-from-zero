@@ -18,3 +18,7 @@ export function generateStaticParams() {
 }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return { title: getModule((await params).slug)?.title ?? "Module" };
+}
+
+export default async function ModulePage({ params }: Props) {
+  const { slug } = await params;
