@@ -29,3 +29,6 @@ export default async function ModulePage({ params }: Props) {
   const videos = moduleVideos[mod.slug] ?? [];
   const words = glossary.filter((g) => g.module === mod.slug).length;
 
+  return (
+    <>
+      <section className="mod-hero" style={{ ["--c" as string]: mod.color }}>
