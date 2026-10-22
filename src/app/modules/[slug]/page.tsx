@@ -15,3 +15,6 @@ type Props = { params: Promise<{ slug: string }> };
 
 export function generateStaticParams() {
   return getModules().map((m) => ({ slug: m.slug }));
+}
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  return { title: getModule((await params).slug)?.title ?? "Module" };
