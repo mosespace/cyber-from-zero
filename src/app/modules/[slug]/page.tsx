@@ -11,3 +11,7 @@ import ProgressBar from "@/components/ProgressBar";
 import QuizRunner from "@/components/QuizRunner";
 import { Circle, Dots, Plus, Star, Triangle } from "@/components/shapes";
 
+type Props = { params: Promise<{ slug: string }> };
+
+export function generateStaticParams() {
+  return getModules().map((m) => ({ slug: m.slug }));
