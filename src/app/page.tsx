@@ -109,3 +109,6 @@ export default function Home() {
         <div className="container" style={{ position: "relative" }}>
           <h2>Your first lesson takes 6 minutes.</h2>
           <p>No sign-up. No cost. Your progress stays in your browser.</p>
+          <Link href="/path" className="btn sun">Open the learning path →</Link>
+        </div>
+      </section>
