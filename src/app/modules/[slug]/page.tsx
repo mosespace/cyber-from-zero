@@ -44,3 +44,6 @@ export default async function ModulePage({ params }: Props) {
             <div className="meta">
               <span className="pill">{mod.lessons.length} lessons</span>
               <span className="pill">~{mod.hours} hours</span>
+              <span className="pill">{mod.quiz.length} quiz questions</span>
+              {words > 0 && <span className="pill">{words} flashcards</span>}
+            </div>
