@@ -47,3 +47,6 @@ export default async function ModulePage({ params }: Props) {
               <span className="pill">{mod.quiz.length} quiz questions</span>
               {words > 0 && <span className="pill">{words} flashcards</span>}
             </div>
+          </div>
+          <div className="big"><ModuleIcon slug={mod.slug} size={120} /></div>
+        </div>
