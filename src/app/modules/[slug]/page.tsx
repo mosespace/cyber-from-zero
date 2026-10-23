@@ -66,3 +66,6 @@ export default async function ModulePage({ params }: Props) {
                     <small>{l.summary} · {l.minutes} min</small>
                   </span>
                 </Link>
+              ))}
+            </div>
+          </div>
