@@ -50,3 +50,7 @@ export default async function ModulePage({ params }: Props) {
           </div>
           <div className="big"><ModuleIcon slug={mod.slug} size={120} /></div>
         </div>
+      </section>
+
+      <div className="container">
+        <div className="two-col">
