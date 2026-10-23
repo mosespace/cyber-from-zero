@@ -54,3 +54,6 @@ export default async function ModulePage({ params }: Props) {
 
       <div className="container">
         <div className="two-col">
+          <div>
+            <h2 className="section-title" style={{ fontSize: 34 }}>Lessons</h2>
+            <ProgressBar ids={mod.lessons.map((l) => `${mod.slug}/${l.slug}`)} color={mod.color} label />
