@@ -60,3 +60,6 @@ export default async function ModulePage({ params }: Props) {
             <div style={{ marginTop: 24 }}>
               {mod.lessons.map((l) => (
                 <Link key={l.slug} href={`/learn/${mod.slug}/${l.slug}`} className="les-row pop">
+                  <LessonStatus id={`${mod.slug}/${l.slug}`} n={l.order} />
+                  <span>
+                    <b>{l.title}</b>
