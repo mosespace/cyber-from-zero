@@ -63,3 +63,6 @@ export default async function ModulePage({ params }: Props) {
                   <LessonStatus id={`${mod.slug}/${l.slug}`} n={l.order} />
                   <span>
                     <b>{l.title}</b>
+                    <small>{l.summary} · {l.minutes} min</small>
+                  </span>
+                </Link>
