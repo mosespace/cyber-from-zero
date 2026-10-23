@@ -41,3 +41,6 @@ export default async function ModulePage({ params }: Props) {
             <span className="eyebrow"><i /> <Link href="/path" style={{ textDecoration: "none" }}>Module {mod.order}</Link> · {mod.level}</span>
             <h1>{mod.title}</h1>
             <p>{mod.overview}</p>
+            <div className="meta">
+              <span className="pill">{mod.lessons.length} lessons</span>
+              <span className="pill">~{mod.hours} hours</span>
