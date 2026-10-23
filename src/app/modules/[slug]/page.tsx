@@ -72,3 +72,6 @@ export default async function ModulePage({ params }: Props) {
           <aside>
             <AudioPlayer src={`/audio/modules/${mod.slug}.mp3`} title="Module overview" note="2 minute audio intro" />
             {videos.length > 0 && (
+              <div className="side pop" style={{ marginTop: 20 }}>
+                <h3>Watch next</h3>
+                {videos.map((v) => (
