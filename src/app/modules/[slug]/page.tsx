@@ -69,3 +69,6 @@ export default async function ModulePage({ params }: Props) {
               ))}
             </div>
           </div>
+          <aside>
+            <AudioPlayer src={`/audio/modules/${mod.slug}.mp3`} title="Module overview" note="2 minute audio intro" />
+            {videos.length > 0 && (
