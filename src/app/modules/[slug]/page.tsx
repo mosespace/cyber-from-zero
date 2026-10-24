@@ -81,3 +81,7 @@ export default async function ModulePage({ params }: Props) {
                   </a>
                 ))}
               </div>
+            )}
+          </aside>
+        </div>
+
