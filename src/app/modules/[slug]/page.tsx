@@ -78,3 +78,6 @@ export default async function ModulePage({ params }: Props) {
                   <a key={v.url} href={v.url} target="_blank" rel="noopener noreferrer" className="vid">
                     <i><svg width="14" height="14" viewBox="0 0 24 24"><path d="M6 3 21 12 6 21Z" fill="#fff" /></svg></i>
                     <span>{v.title}<br /><small style={{ color: "var(--muted)", fontWeight: 500 }}>Opens YouTube ↗</small></span>
+                  </a>
+                ))}
+              </div>
