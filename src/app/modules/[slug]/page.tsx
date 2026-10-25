@@ -101,3 +101,6 @@ export default async function ModulePage({ params }: Props) {
             <span><small style={{ fontWeight: 700, textTransform: "uppercase", letterSpacing: ".08em" }}>Next module</small><br /><b style={{ fontFamily: "var(--font-display)", fontSize: 24 }}>{next.title}</b></span>
             <span style={{ marginLeft: "auto", fontSize: 28 }}>→</span>
           </Link>
+        )}
+        <div style={{ height: 80 }} />
+      </div>
