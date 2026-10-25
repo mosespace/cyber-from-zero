@@ -98,3 +98,6 @@ export default async function ModulePage({ params }: Props) {
         {next && (
           <Link href={`/modules/${next.slug}`} className="pop" style={{ display: "flex", alignItems: "center", gap: 16, padding: 20, marginTop: 50, textDecoration: "none", background: next.color }}>
             <span style={{ width: 64, height: 64, borderRadius: 18, border: "1.5px solid #16162b", background: "#fff", display: "grid", placeItems: "center" }}><ModuleIcon slug={next.slug} size={40} /></span>
+            <span><small style={{ fontWeight: 700, textTransform: "uppercase", letterSpacing: ".08em" }}>Next module</small><br /><b style={{ fontFamily: "var(--font-display)", fontSize: 24 }}>{next.title}</b></span>
+            <span style={{ marginLeft: "auto", fontSize: 28 }}>→</span>
+          </Link>
