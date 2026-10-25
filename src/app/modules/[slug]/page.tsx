@@ -91,3 +91,7 @@ export default async function ModulePage({ params }: Props) {
               <Star size={40} color="#FFC93C" /> Module quiz
             </h2>
             <p className="lede" style={{ marginBottom: 20 }}>Five questions. You earn 5 XP for each answer that beats your best score.</p>
+            <QuizRunner questions={mod.quiz} storeKey={`quiz:${mod.slug}`} />
+          </section>
+        )}
+
