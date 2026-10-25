@@ -85,3 +85,6 @@ export default async function ModulePage({ params }: Props) {
           </aside>
         </div>
 
+        {mod.quiz.length > 0 && (
+          <section id="quiz" style={{ marginTop: 70, scrollMarginTop: 90 }}>
+            <h2 className="section-title" style={{ fontSize: 34, display: "flex", gap: 12, alignItems: "center" }}>
