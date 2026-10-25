@@ -104,3 +104,6 @@ export default async function ModulePage({ params }: Props) {
         )}
         <div style={{ height: 80 }} />
       </div>
+    </>
+  );
+}
