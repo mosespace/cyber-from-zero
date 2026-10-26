@@ -12,3 +12,6 @@ import { Dots, Squiggle } from "@/components/shapes";
 type Props = { params: Promise<{ module: string; lesson: string }> };
 
 export function generateStaticParams() {
+  return getModules().flatMap((m) => m.lessons.map((l) => ({ module: m.slug, lesson: l.slug })));
+}
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
