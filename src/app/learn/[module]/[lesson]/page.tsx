@@ -7,3 +7,8 @@ import CompleteButton from "@/components/CompleteButton";
 import Markdown from "@/components/Markdown";
 import ReadingProgress from "@/components/ReadingProgress";
 import Toc from "@/components/Toc";
+import { Dots, Squiggle } from "@/components/shapes";
+
+type Props = { params: Promise<{ module: string; lesson: string }> };
+
+export function generateStaticParams() {
