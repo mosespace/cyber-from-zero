@@ -25,3 +25,7 @@ export default async function LessonPage({ params }: Props) {
   const found = getLesson(p.module, p.lesson);
   if (!found) notFound();
   const { mod, lesson } = found;
+  const { prev, next } = getNeighbours(mod.slug, lesson.slug);
+  const id = `${mod.slug}/${lesson.slug}`;
+
+  return (
