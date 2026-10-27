@@ -41,3 +41,6 @@ export default async function LessonPage({ params }: Props) {
             <span className="pill" style={{ background: mod.color }}>Module {mod.order}</span>
             <span className="pill">{lesson.minutes} min</span>
             <span className="pill">+20 XP</span>
+          </div>
+          <p className="lede" style={{ marginTop: 16 }}>{lesson.summary}</p>
+          <Squiggle size={110} style={{ marginTop: 14 }} />
