@@ -38,3 +38,6 @@ export default async function LessonPage({ params }: Props) {
           </div>
           <h1>{lesson.title}</h1>
           <div className="meta">
+            <span className="pill" style={{ background: mod.color }}>Module {mod.order}</span>
+            <span className="pill">{lesson.minutes} min</span>
+            <span className="pill">+20 XP</span>
