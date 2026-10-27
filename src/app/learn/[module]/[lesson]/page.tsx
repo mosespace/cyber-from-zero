@@ -18,3 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const p = await params;
   const f = getLesson(p.module, p.lesson);
   return { title: f?.lesson.title ?? "Lesson", description: f?.lesson.summary };
+}
+
+export default async function LessonPage({ params }: Props) {
+  const p = await params;
