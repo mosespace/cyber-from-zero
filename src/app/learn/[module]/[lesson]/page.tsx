@@ -29,3 +29,6 @@ export default async function LessonPage({ params }: Props) {
   const id = `${mod.slug}/${lesson.slug}`;
 
   return (
+    <div style={{ ["--c" as string]: mod.color }}>
+      <ReadingProgress />
+      <div className="container">
