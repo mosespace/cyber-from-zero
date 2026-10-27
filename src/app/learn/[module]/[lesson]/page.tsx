@@ -35,3 +35,6 @@ export default async function LessonPage({ params }: Props) {
         <header className="lesson-top">
           <div className="crumbs">
             <Link href="/path">Path</Link> / <Link href={`/modules/${mod.slug}`}>{mod.title}</Link>
+          </div>
+          <h1>{lesson.title}</h1>
+          <div className="meta">
