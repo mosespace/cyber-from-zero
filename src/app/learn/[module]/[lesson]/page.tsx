@@ -32,3 +32,6 @@ export default async function LessonPage({ params }: Props) {
     <div style={{ ["--c" as string]: mod.color }}>
       <ReadingProgress />
       <div className="container">
+        <header className="lesson-top">
+          <div className="crumbs">
+            <Link href="/path">Path</Link> / <Link href={`/modules/${mod.slug}`}>{mod.title}</Link>
