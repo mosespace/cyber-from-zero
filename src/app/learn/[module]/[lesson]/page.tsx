@@ -15,3 +15,6 @@ export function generateStaticParams() {
   return getModules().flatMap((m) => m.lessons.map((l) => ({ module: m.slug, lesson: l.slug })));
 }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const p = await params;
+  const f = getLesson(p.module, p.lesson);
+  return { title: f?.lesson.title ?? "Lesson", description: f?.lesson.summary };
