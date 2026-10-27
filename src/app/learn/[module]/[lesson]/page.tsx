@@ -22,3 +22,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function LessonPage({ params }: Props) {
   const p = await params;
+  const found = getLesson(p.module, p.lesson);
+  if (!found) notFound();
+  const { mod, lesson } = found;
