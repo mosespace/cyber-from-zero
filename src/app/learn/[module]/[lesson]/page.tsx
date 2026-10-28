@@ -48,3 +48,7 @@ export default async function LessonPage({ params }: Props) {
 
         <div className="lesson-layout">
           <article>
+            <Markdown>{lesson.body}</Markdown>
+
+            {lesson.remember.length > 0 && (
+              <section className="takeaways pop">
