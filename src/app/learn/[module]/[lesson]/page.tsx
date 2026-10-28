@@ -44,3 +44,7 @@ export default async function LessonPage({ params }: Props) {
           </div>
           <p className="lede" style={{ marginTop: 16 }}>{lesson.summary}</p>
           <Squiggle size={110} style={{ marginTop: 14 }} />
+        </header>
+
+        <div className="lesson-layout">
+          <article>
