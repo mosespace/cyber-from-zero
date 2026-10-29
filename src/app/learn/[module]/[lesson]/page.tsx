@@ -66,3 +66,6 @@ export default async function LessonPage({ params }: Props) {
             <nav className="pager">
               {prev ? (
                 <Link href={`/learn/${prev.moduleSlug}/${prev.slug}`} className="pop"><small>← Previous</small><b>{prev.title}</b></Link>
+              ) : <span />}
+              {next && (
+                <Link href={`/learn/${next.moduleSlug}/${next.slug}`} className="pop next"><small>Next →</small><b>{next.title}</b></Link>
