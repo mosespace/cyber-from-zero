@@ -69,3 +69,7 @@ export default async function LessonPage({ params }: Props) {
               ) : <span />}
               {next && (
                 <Link href={`/learn/${next.moduleSlug}/${next.slug}`} className="pop next"><small>Next →</small><b>{next.title}</b></Link>
+              )}
+            </nav>
+          </article>
+
