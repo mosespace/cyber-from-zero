@@ -76,3 +76,6 @@ export default async function LessonPage({ params }: Props) {
           <aside className="lesson-aside">
             <AudioPlayer src={`/audio/lessons/${mod.slug}/${lesson.slug}.mp3`} title="Listen to this lesson" note={`About ${lesson.minutes} minutes`} />
             <Toc items={lesson.headings} />
+          </aside>
+        </div>
+        <div style={{ height: 90 }} />
