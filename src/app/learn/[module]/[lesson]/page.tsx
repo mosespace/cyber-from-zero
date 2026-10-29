@@ -55,3 +55,7 @@ export default async function LessonPage({ params }: Props) {
                 <Dots style={{ position: "absolute", right: 16, top: 14, width: 54, opacity: 0.35 }} />
                 <h2>Remember</h2>
                 <ul>{lesson.remember.map((r) => <li key={r}>{r}</li>)}</ul>
+              </section>
+            )}
+
+            <div className="finish">
