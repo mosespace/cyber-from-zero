@@ -59,3 +59,7 @@ export default async function LessonPage({ params }: Props) {
             )}
 
             <div className="finish">
+              <CompleteButton id={id} />
+              <Link href={`/modules/${mod.slug}#quiz`} className="btn">Take the module quiz</Link>
+            </div>
+
