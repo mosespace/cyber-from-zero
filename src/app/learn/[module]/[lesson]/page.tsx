@@ -52,3 +52,6 @@ export default async function LessonPage({ params }: Props) {
 
             {lesson.remember.length > 0 && (
               <section className="takeaways pop">
+                <Dots style={{ position: "absolute", right: 16, top: 14, width: 54, opacity: 0.35 }} />
+                <h2>Remember</h2>
+                <ul>{lesson.remember.map((r) => <li key={r}>{r}</li>)}</ul>
