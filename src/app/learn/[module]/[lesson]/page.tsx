@@ -63,3 +63,6 @@ export default async function LessonPage({ params }: Props) {
               <Link href={`/modules/${mod.slug}#quiz`} className="btn">Take the module quiz</Link>
             </div>
 
+            <nav className="pager">
+              {prev ? (
+                <Link href={`/learn/${prev.moduleSlug}/${prev.slug}`} className="pop"><small>← Previous</small><b>{prev.title}</b></Link>
