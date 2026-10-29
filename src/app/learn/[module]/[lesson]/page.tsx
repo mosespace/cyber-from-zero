@@ -79,3 +79,6 @@ export default async function LessonPage({ params }: Props) {
           </aside>
         </div>
         <div style={{ height: 90 }} />
+      </div>
+    </div>
+  );
