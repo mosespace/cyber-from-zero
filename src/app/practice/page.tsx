@@ -9,3 +9,6 @@ export default function Practice() {
   const mods = getModules();
   const pool = mods.flatMap((m) => m.quiz.map((q) => ({ ...q, moduleSlug: m.slug, moduleTitle: m.title })));
   return (
+    <div className="narrow" style={{ maxWidth: 960 }}>
+      <div className="page-head">
+        <Blob color="#27D3A2" variant={1} className="float" style={{ right: 0, top: 24, width: 120 }} />
