@@ -12,3 +12,6 @@ export default function Practice() {
     <div className="narrow" style={{ maxWidth: 960 }}>
       <div className="page-head">
         <Blob color="#27D3A2" variant={1} className="float" style={{ right: 0, top: 24, width: 120 }} />
+        <Star color="#FFC93C" className="float" style={{ right: 130, top: 100, width: 48 }} />
+        <span className="eyebrow"><i /> Practice mode</span>
+        <h1>Test yourself</h1>
