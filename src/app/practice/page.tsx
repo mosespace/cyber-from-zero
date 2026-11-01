@@ -15,3 +15,6 @@ export default function Practice() {
         <Star color="#FFC93C" className="float" style={{ right: 130, top: 100, width: 48 }} />
         <span className="eyebrow"><i /> Practice mode</span>
         <h1>Test yourself</h1>
+        <p className="lede">Pick a mixed challenge or choose one module. Every answer you improve earns XP.</p>
+      </div>
+      <PracticeClient pool={pool} modules={mods.map((m) => ({ slug: m.slug, title: m.title, color: m.color, count: m.quiz.length }))} />
