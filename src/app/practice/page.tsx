@@ -18,3 +18,6 @@ export default function Practice() {
         <p className="lede">Pick a mixed challenge or choose one module. Every answer you improve earns XP.</p>
       </div>
       <PracticeClient pool={pool} modules={mods.map((m) => ({ slug: m.slug, title: m.title, color: m.color, count: m.quiz.length }))} />
+    </div>
+  );
+}
