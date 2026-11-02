@@ -9,3 +9,6 @@ export const metadata: Metadata = { title: "Flashcards" };
 export default function Flashcards() {
   const mods = getModules().map((m) => ({ slug: m.slug, title: m.title, color: m.color }));
   return (
+    <div className="narrow" style={{ maxWidth: 900 }}>
+      <div className="page-head">
+        <Square color="#B9A2FF" className="float" style={{ right: 0, top: 24, width: 100 }} />
