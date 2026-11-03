@@ -12,3 +12,6 @@ export default function Flashcards() {
     <div className="narrow" style={{ maxWidth: 900 }}>
       <div className="page-head">
         <Square color="#B9A2FF" className="float" style={{ right: 0, top: 24, width: 100 }} />
+        <Plus color="#FF9BC9" style={{ right: 120, top: 90, width: 40 }} />
+        <span className="eyebrow"><i /> Memory trainer</span>
+        <h1>Flashcards</h1>
