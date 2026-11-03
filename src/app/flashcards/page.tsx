@@ -15,3 +15,6 @@ export default function Flashcards() {
         <Plus color="#FF9BC9" style={{ right: 120, top: 90, width: 40 }} />
         <span className="eyebrow"><i /> Memory trainer</span>
         <h1>Flashcards</h1>
+        <p className="lede">Flip the card, then say if you knew it. Words you miss come back first. Space flips, arrow keys answer.</p>
+      </div>
+      <FlashcardsClient terms={glossary} modules={mods} />
