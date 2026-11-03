@@ -18,3 +18,6 @@ export default function Flashcards() {
         <p className="lede">Flip the card, then say if you knew it. Words you miss come back first. Space flips, arrow keys answer.</p>
       </div>
       <FlashcardsClient terms={glossary} modules={mods} />
+      <div style={{ height: 90 }} />
+    </div>
+  );
