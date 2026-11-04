@@ -15,3 +15,6 @@ export default function Glossary() {
         <p className="lede" style={{ marginBottom: 24 }}>Every important word, explained in one or two simple sentences.</p>
       </div>
       <GlossaryClient terms={glossary} modules={mods} />
+      <div style={{ height: 90 }} />
+    </div>
+  );
