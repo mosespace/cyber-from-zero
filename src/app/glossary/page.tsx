@@ -18,3 +18,4 @@ export default function Glossary() {
       <div style={{ height: 90 }} />
     </div>
   );
+}
