@@ -9,3 +9,6 @@ export default function Glossary() {
   const mods = getModules().map((m) => ({ slug: m.slug, title: m.title, color: m.color }));
   return (
     <div className="container">
+      <div className="page-head">
+        <span className="eyebrow"><i /> Plain English</span>
+        <h1>Security glossary</h1>
