@@ -15,3 +15,5 @@ export default function Me() {
       <DashboardClient modules={mods} />
       <div style={{ height: 90 }} />
     </div>
+  );
+}
