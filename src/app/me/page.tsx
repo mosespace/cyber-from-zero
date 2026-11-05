@@ -6,3 +6,6 @@ export const metadata: Metadata = { title: "Your progress" };
 
 export default function Me() {
   const mods = getModules().map((m) => ({ slug: m.slug, title: m.title, color: m.color, ids: m.lessons.map((l) => `${m.slug}/${l.slug}`) }));
+  return (
+    <div className="container">
+      <div className="page-head">
