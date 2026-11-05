@@ -9,3 +9,6 @@ export default function Me() {
   return (
     <div className="container">
       <div className="page-head">
+        <span className="eyebrow"><i /> Dashboard</span>
+        <h1>Your progress</h1>
+      </div>
