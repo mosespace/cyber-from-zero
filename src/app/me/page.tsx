@@ -12,3 +12,6 @@ export default function Me() {
         <span className="eyebrow"><i /> Dashboard</span>
         <h1>Your progress</h1>
       </div>
+      <DashboardClient modules={mods} />
+      <div style={{ height: 90 }} />
+    </div>
