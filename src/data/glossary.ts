@@ -44,3 +44,6 @@ export const glossary: Term[] = [
   { term: "Phishing", def: "A fake message that tricks you into giving up secrets.", module: "threats" },
   { term: "Social engineering", def: "Tricking people instead of breaking computers.", module: "threats" },
   { term: "Cookie", def: "A small note a website asks your browser to keep, like a festival wristband.", module: "web-security" },
+  { term: "SQL injection", def: "Sneaking database commands into a form. Fix it with prepared statements.", module: "web-security" },
+  { term: "XSS", def: "Cross-site scripting. Running an attacker's script in other people's browsers.", module: "web-security" },
+  { term: "OWASP", def: "A non-profit that publishes the list of top web risks.", module: "web-security" },
