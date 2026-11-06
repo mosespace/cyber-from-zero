@@ -35,3 +35,6 @@ export const glossary: Term[] = [
   { term: "Encryption", def: "Scrambling data with a key so only the right person can read it.", module: "cryptography" },
   { term: "Symmetric key", def: "One key that both locks and unlocks.", module: "cryptography" },
   { term: "Public key", def: "A key anyone can use to lock a message for you.", module: "cryptography" },
+  { term: "Brute force", def: "Trying every possible answer until one works.", module: "cryptography" },
+  { term: "MFA", def: "Multi-factor authentication. A second proof of who you are.", module: "cryptography" },
+  { term: "Malware", def: "Software made to cause harm.", module: "threats" },
