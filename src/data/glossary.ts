@@ -20,3 +20,6 @@ export const glossary: Term[] = [
   { term: "White hat", def: "An ethical hacker who finds weaknesses with permission.", module: "security-mindset" },
   { term: "Port", def: "A numbered door on a computer where a program listens.", module: "networking" },
   { term: "TCP", def: "A careful protocol that checks every piece of data arrives.", module: "networking" },
+  { term: "UDP", def: "A fast protocol that does not check delivery. Used for calls and games.", module: "networking" },
+  { term: "HTTPS", def: "Web traffic wrapped in encryption. Look for the padlock.", module: "networking" },
+  { term: "Protocol", def: "A set of rules computers follow to talk to each other.", module: "networking" },
