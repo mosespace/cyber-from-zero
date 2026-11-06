@@ -17,3 +17,6 @@ export const glossary: Term[] = [
   { term: "Vulnerability", def: "A weakness that could be used to cause harm.", module: "security-mindset" },
   { term: "Threat", def: "Someone or something that could use a weakness.", module: "security-mindset" },
   { term: "Risk", def: "How likely a bad thing is, times how much it would hurt.", module: "security-mindset" },
+  { term: "White hat", def: "An ethical hacker who finds weaknesses with permission.", module: "security-mindset" },
+  { term: "Port", def: "A numbered door on a computer where a program listens.", module: "networking" },
+  { term: "TCP", def: "A careful protocol that checks every piece of data arrives.", module: "networking" },
