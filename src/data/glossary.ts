@@ -50,3 +50,6 @@ export const glossary: Term[] = [
   { term: "Firewall", def: "A guard that allows or blocks traffic using rules.", module: "defense" },
   { term: "VPN", def: "An encrypted tunnel between you and another network.", module: "defense" },
   { term: "Defence in depth", def: "Many layers of protection, so one failure is not the end.", module: "defense" },
+  { term: "Patching", def: "Installing updates that fix known weaknesses.", module: "defense" },
+  { term: "SIEM", def: "A tool that gathers logs from everywhere and spots trouble.", module: "defense" },
+  { term: "Zero trust", def: "Never trust, always verify, even inside the network.", module: "defense" },
