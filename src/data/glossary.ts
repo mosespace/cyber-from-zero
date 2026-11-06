@@ -26,3 +26,6 @@ export const glossary: Term[] = [
   { term: "OSI model", def: "Seven layers that describe how data travels from cable to app.", module: "networking" },
   { term: "Attack surface", def: "All the places an attacker could try to get in.", module: "networking" },
   { term: "Operating system", def: "The boss program that runs a computer, such as Windows or Linux.", module: "operating-systems" },
+  { term: "Root", def: "The all-powerful admin account on Linux.", module: "operating-systems" },
+  { term: "Least privilege", def: "Give people and programs only the power they need.", module: "operating-systems" },
+  { term: "Terminal", def: "A text window where you type commands to the computer.", module: "operating-systems" },
