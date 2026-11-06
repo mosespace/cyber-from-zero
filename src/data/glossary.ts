@@ -32,3 +32,6 @@ export const glossary: Term[] = [
   { term: "Permission", def: "A rule about who can read, write or run a file.", module: "operating-systems" },
   { term: "Hash", def: "A one-way fingerprint of data. You cannot turn it back.", module: "cryptography" },
   { term: "Salt", def: "Random extra data added before hashing, so the same password gives different hashes.", module: "cryptography" },
+  { term: "Encryption", def: "Scrambling data with a key so only the right person can read it.", module: "cryptography" },
+  { term: "Symmetric key", def: "One key that both locks and unlocks.", module: "cryptography" },
+  { term: "Public key", def: "A key anyone can use to lock a message for you.", module: "cryptography" },
