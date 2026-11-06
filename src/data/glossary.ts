@@ -38,3 +38,6 @@ export const glossary: Term[] = [
   { term: "Brute force", def: "Trying every possible answer until one works.", module: "cryptography" },
   { term: "MFA", def: "Multi-factor authentication. A second proof of who you are.", module: "cryptography" },
   { term: "Malware", def: "Software made to cause harm.", module: "threats" },
+  { term: "Ransomware", def: "Malware that locks your files and demands money.", module: "threats" },
+  { term: "Trojan", def: "Bad software pretending to be something useful.", module: "threats" },
+  { term: "Botnet", def: "Many infected computers controlled together.", module: "threats" },
