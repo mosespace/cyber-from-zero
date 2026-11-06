@@ -11,3 +11,6 @@ export const glossary: Term[] = [
   { term: "DNS", def: "The internet phone book. It turns names into IP addresses.", module: "digital-world" },
   { term: "Packet", def: "A small piece of data sent over a network.", module: "digital-world" },
   { term: "Server", def: "A computer that gives things (pages, files) to other computers.", module: "digital-world" },
+  { term: "Confidentiality", def: "Only the right people can see the data.", module: "security-mindset" },
+  { term: "Integrity", def: "Data is correct and has not been secretly changed.", module: "security-mindset" },
+  { term: "Availability", def: "Systems and data work when you need them.", module: "security-mindset" },
