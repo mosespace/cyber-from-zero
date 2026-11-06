@@ -41,3 +41,6 @@ export const glossary: Term[] = [
   { term: "Ransomware", def: "Malware that locks your files and demands money.", module: "threats" },
   { term: "Trojan", def: "Bad software pretending to be something useful.", module: "threats" },
   { term: "Botnet", def: "Many infected computers controlled together.", module: "threats" },
+  { term: "Phishing", def: "A fake message that tricks you into giving up secrets.", module: "threats" },
+  { term: "Social engineering", def: "Tricking people instead of breaking computers.", module: "threats" },
+  { term: "Cookie", def: "A small note a website asks your browser to keep, like a festival wristband.", module: "web-security" },
