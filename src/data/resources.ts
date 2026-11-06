@@ -16,3 +16,6 @@ export const videoChannels: Resource[] = [
 /** One video search per module, so you can watch a topic right after reading it. */
 export const moduleVideos: Record<string, { title: string; url: string }[]> = {
   "digital-world": [
+    { title: "How the internet works, for beginners", url: yt("how the internet works explained for beginners") },
+    { title: "Binary and data explained", url: yt("binary numbers explained simply") },
+  ],
