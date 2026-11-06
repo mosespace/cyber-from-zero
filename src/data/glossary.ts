@@ -8,3 +8,6 @@ export const glossary: Term[] = [
   { term: "RAM", def: "Short-term memory that holds what you are using right now.", module: "digital-world" },
   { term: "Bug", def: "A mistake in software. Some bugs become vulnerabilities.", module: "digital-world" },
   { term: "IP address", def: "The home address of a computer on a network.", module: "digital-world" },
+  { term: "DNS", def: "The internet phone book. It turns names into IP addresses.", module: "digital-world" },
+  { term: "Packet", def: "A small piece of data sent over a network.", module: "digital-world" },
+  { term: "Server", def: "A computer that gives things (pages, files) to other computers.", module: "digital-world" },
