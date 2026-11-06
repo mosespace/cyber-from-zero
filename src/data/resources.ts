@@ -13,3 +13,6 @@ export const videoChannels: Resource[] = [
   { name: "IppSec", url: "https://www.youtube.com/@ippsec", blurb: "Step-by-step Hack The Box machine solutions." },
 ];
 
+/** One video search per module, so you can watch a topic right after reading it. */
+export const moduleVideos: Record<string, { title: string; url: string }[]> = {
+  "digital-world": [
