@@ -29,3 +29,6 @@ export const glossary: Term[] = [
   { term: "Root", def: "The all-powerful admin account on Linux.", module: "operating-systems" },
   { term: "Least privilege", def: "Give people and programs only the power they need.", module: "operating-systems" },
   { term: "Terminal", def: "A text window where you type commands to the computer.", module: "operating-systems" },
+  { term: "Permission", def: "A rule about who can read, write or run a file.", module: "operating-systems" },
+  { term: "Hash", def: "A one-way fingerprint of data. You cannot turn it back.", module: "cryptography" },
+  { term: "Salt", def: "Random extra data added before hashing, so the same password gives different hashes.", module: "cryptography" },
