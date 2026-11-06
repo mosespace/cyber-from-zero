@@ -23,3 +23,6 @@ export const glossary: Term[] = [
   { term: "UDP", def: "A fast protocol that does not check delivery. Used for calls and games.", module: "networking" },
   { term: "HTTPS", def: "Web traffic wrapped in encryption. Look for the padlock.", module: "networking" },
   { term: "Protocol", def: "A set of rules computers follow to talk to each other.", module: "networking" },
+  { term: "OSI model", def: "Seven layers that describe how data travels from cable to app.", module: "networking" },
+  { term: "Attack surface", def: "All the places an attacker could try to get in.", module: "networking" },
+  { term: "Operating system", def: "The boss program that runs a computer, such as Windows or Linux.", module: "operating-systems" },
