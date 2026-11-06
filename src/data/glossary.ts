@@ -59,3 +59,5 @@ export const glossary: Term[] = [
   { term: "Incident", def: "A security event that causes harm, or could.", module: "response-and-careers" },
   { term: "Containment", def: "Stopping an incident from spreading.", module: "response-and-careers" },
   { term: "Bug bounty", def: "A reward for reporting a security bug responsibly.", module: "response-and-careers" },
+  { term: "GDPR", def: "European privacy law that protects personal data.", module: "response-and-careers" },
+];
