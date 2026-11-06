@@ -53,3 +53,6 @@ export const glossary: Term[] = [
   { term: "Patching", def: "Installing updates that fix known weaknesses.", module: "defense" },
   { term: "SIEM", def: "A tool that gathers logs from everywhere and spots trouble.", module: "defense" },
   { term: "Zero trust", def: "Never trust, always verify, even inside the network.", module: "defense" },
+  { term: "Penetration test", def: "A permitted attack on a system to find weaknesses.", module: "ethical-hacking" },
+  { term: "CTF", def: "Capture The Flag. A puzzle game where you find a hidden flag.", module: "ethical-hacking" },
+  { term: "Reconnaissance", def: "Collecting information about a target before an attack.", module: "ethical-hacking" },
