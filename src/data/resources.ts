@@ -9,3 +9,7 @@ export const videoChannels: Resource[] = [
   { name: "The Cyber Mentor", url: "https://www.youtube.com/@TheCyberMentor", blurb: "Beginner ethical hacking courses and career advice." },
   { name: "John Hammond", url: "https://www.youtube.com/@_JohnHammond", blurb: "CTF walkthroughs and malware analysis." },
   { name: "LiveOverflow", url: "https://www.youtube.com/@LiveOverflow", blurb: "Deep dives into how hacking really works." },
+  { name: "Computerphile", url: "https://www.youtube.com/@Computerphile", blurb: "Friendly university-level explanations of computing ideas." },
+  { name: "IppSec", url: "https://www.youtube.com/@ippsec", blurb: "Step-by-step Hack The Box machine solutions." },
+];
+
