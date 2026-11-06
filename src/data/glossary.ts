@@ -47,3 +47,6 @@ export const glossary: Term[] = [
   { term: "SQL injection", def: "Sneaking database commands into a form. Fix it with prepared statements.", module: "web-security" },
   { term: "XSS", def: "Cross-site scripting. Running an attacker's script in other people's browsers.", module: "web-security" },
   { term: "OWASP", def: "A non-profit that publishes the list of top web risks.", module: "web-security" },
+  { term: "Firewall", def: "A guard that allows or blocks traffic using rules.", module: "defense" },
+  { term: "VPN", def: "An encrypted tunnel between you and another network.", module: "defense" },
+  { term: "Defence in depth", def: "Many layers of protection, so one failure is not the end.", module: "defense" },
