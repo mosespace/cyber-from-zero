@@ -14,3 +14,6 @@ export const glossary: Term[] = [
   { term: "Confidentiality", def: "Only the right people can see the data.", module: "security-mindset" },
   { term: "Integrity", def: "Data is correct and has not been secretly changed.", module: "security-mindset" },
   { term: "Availability", def: "Systems and data work when you need them.", module: "security-mindset" },
+  { term: "Vulnerability", def: "A weakness that could be used to cause harm.", module: "security-mindset" },
+  { term: "Threat", def: "Someone or something that could use a weakness.", module: "security-mindset" },
+  { term: "Risk", def: "How likely a bad thing is, times how much it would hurt.", module: "security-mindset" },
