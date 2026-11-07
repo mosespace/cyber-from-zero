@@ -19,3 +19,6 @@ export const moduleVideos: Record<string, { title: string; url: string }[]> = {
     { title: "How the internet works, for beginners", url: yt("how the internet works explained for beginners") },
     { title: "Binary and data explained", url: yt("binary numbers explained simply") },
   ],
+  "security-mindset": [
+    { title: "The CIA triad explained", url: yt("CIA triad confidentiality integrity availability explained") },
+  ],
