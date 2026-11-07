@@ -25,3 +25,6 @@ export const moduleVideos: Record<string, { title: string; url: string }[]> = {
   networking: [
     { title: "Networking basics full course", url: yt("networking basics for beginners IP ports OSI model") },
     { title: "The OSI model explained", url: yt("OSI model explained simply") },
+  ],
+  "operating-systems": [
+    { title: "Linux for beginners", url: yt("linux command line for beginners") },
