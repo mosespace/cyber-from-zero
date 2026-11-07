@@ -22,3 +22,6 @@ export const moduleVideos: Record<string, { title: string; url: string }[]> = {
   "security-mindset": [
     { title: "The CIA triad explained", url: yt("CIA triad confidentiality integrity availability explained") },
   ],
+  networking: [
+    { title: "Networking basics full course", url: yt("networking basics for beginners IP ports OSI model") },
+    { title: "The OSI model explained", url: yt("OSI model explained simply") },
