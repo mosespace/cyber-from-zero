@@ -34,3 +34,6 @@ export const moduleVideos: Record<string, { title: string; url: string }[]> = {
     { title: "Hashing vs encryption", url: yt("hashing vs encryption explained") },
     { title: "How password cracking works", url: yt("how password cracking works explained") },
   ],
+  threats: [
+    { title: "How to spot phishing", url: yt("how to spot phishing emails") },
+    { title: "Types of malware", url: yt("types of malware explained") },
