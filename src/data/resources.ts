@@ -31,3 +31,6 @@ export const moduleVideos: Record<string, { title: string; url: string }[]> = {
     { title: "Linux file permissions", url: yt("linux file permissions chmod explained") },
   ],
   cryptography: [
+    { title: "Hashing vs encryption", url: yt("hashing vs encryption explained") },
+    { title: "How password cracking works", url: yt("how password cracking works explained") },
+  ],
