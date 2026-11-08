@@ -28,3 +28,6 @@ export const moduleVideos: Record<string, { title: string; url: string }[]> = {
   ],
   "operating-systems": [
     { title: "Linux for beginners", url: yt("linux command line for beginners") },
+    { title: "Linux file permissions", url: yt("linux file permissions chmod explained") },
+  ],
+  cryptography: [
