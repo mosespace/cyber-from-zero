@@ -37,3 +37,6 @@ export const moduleVideos: Record<string, { title: string; url: string }[]> = {
   threats: [
     { title: "How to spot phishing", url: yt("how to spot phishing emails") },
     { title: "Types of malware", url: yt("types of malware explained") },
+  ],
+  "web-security": [
+    { title: "OWASP Top 10 for beginners", url: yt("OWASP top 10 explained for beginners") },
