@@ -79,3 +79,5 @@ export const podcasts: Resource[] = [
   { name: "Malicious Life", url: "https://malicious.life/", blurb: "The history behind famous cyber events." },
   { name: "Security Now", url: "https://www.grc.com/securitynow.htm", blurb: "Weekly deep dives, explained for the curious." },
   { name: "Risky Business", url: "https://risky.biz/", blurb: "Weekly industry news and interviews." },
+  { name: "The CyberWire Daily", url: "https://thecyberwire.com/podcasts/daily-podcast", blurb: "A short daily news briefing." },
+];
