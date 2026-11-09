@@ -69,3 +69,6 @@ export const labs: Resource[] = [
   { name: "TryHackMe", url: "https://tryhackme.com/", blurb: "Guided rooms in your browser. Best first lab." },
   { name: "OverTheWire", url: "https://overthewire.org/wargames/", blurb: "Command-line games, start with Bandit." },
   { name: "picoCTF", url: "https://picoctf.org/", blurb: "Beginner-friendly capture-the-flag challenges." },
+  { name: "PortSwigger Web Security Academy", url: "https://portswigger.net/web-security", blurb: "Free, excellent web hacking labs." },
+  { name: "OWASP Juice Shop", url: "https://owasp.org/www-project-juice-shop/", blurb: "A deliberately insecure shop to practise on." },
+  { name: "Hack The Box", url: "https://www.hackthebox.com/", blurb: "Harder machines when you are ready." },
