@@ -22,3 +22,6 @@ function Section({ title, sub, items, color }: { title: string; sub: string; ite
 }
 
 export default function Resources() {
+  return (
+    <div className="container">
+      <div className="page-head">
