@@ -18,3 +18,7 @@ function Section({ title, sub, items, color }: { title: string; sub: string; ite
         ))}
       </div>
     </section>
+  );
+}
+
+export default function Resources() {
