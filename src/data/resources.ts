@@ -49,3 +49,6 @@ export const moduleVideos: Record<string, { title: string; url: string }[]> = {
   "ethical-hacking": [
     { title: "Ethical hacking for beginners", url: yt("ethical hacking for beginners full course") },
     { title: "Nmap and Wireshark basics", url: yt("nmap wireshark tutorial for beginners") },
+  ],
+  "response-and-careers": [
+    { title: "Incident response explained", url: yt("incident response process explained") },
