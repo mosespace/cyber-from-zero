@@ -72,3 +72,7 @@ export const labs: Resource[] = [
   { name: "PortSwigger Web Security Academy", url: "https://portswigger.net/web-security", blurb: "Free, excellent web hacking labs." },
   { name: "OWASP Juice Shop", url: "https://owasp.org/www-project-juice-shop/", blurb: "A deliberately insecure shop to practise on." },
   { name: "Hack The Box", url: "https://www.hackthebox.com/", blurb: "Harder machines when you are ready." },
+];
+
+export const podcasts: Resource[] = [
+  { name: "Darknet Diaries", url: "https://darknetdiaries.com/", blurb: "True stories of hackers and breaches. Great storytelling." },
