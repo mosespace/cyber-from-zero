@@ -12,3 +12,6 @@ function Section({ title, sub, items, color }: { title: string; sub: string; ite
         {items.map((r) => (
           <a key={r.url} href={r.url} target="_blank" rel="noopener noreferrer" className="res pop" style={{ ["--c" as string]: color }}>
             <h3>{r.name}</h3>
+            <p>{r.blurb}</p>
+            <small>Open ↗</small>
+          </a>
