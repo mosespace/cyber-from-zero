@@ -62,3 +62,7 @@ export const courses: Resource[] = [
   { name: "Cisco Networking Academy", url: "https://www.netacad.com/", blurb: "Free intro courses in cybersecurity and networking." },
   { name: "freeCodeCamp", url: "https://www.freecodecamp.org/", blurb: "Free long-form courses, including security topics." },
   { name: "NIST Cybersecurity Framework", url: "https://www.nist.gov/cyberframework", blurb: "How organisations organise their defences." },
+  { name: "CISA Resources", url: "https://www.cisa.gov/resources-tools", blurb: "Practical guides from the US cyber defence agency." },
+];
+
+export const labs: Resource[] = [
