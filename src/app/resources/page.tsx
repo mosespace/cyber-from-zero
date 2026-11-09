@@ -34,3 +34,6 @@ export default function Resources() {
       <Section title="Free courses and guides" sub="Go deeper, or prepare for a certificate." items={courses} color="#7CCBFF" />
       <Section title="Practice labs" sub="Hands-on and legal. This is where skills grow." items={labs} color="#27D3A2" />
       <div style={{ height: 90 }} />
+    </div>
+  );
+}
