@@ -66,3 +66,6 @@ export const courses: Resource[] = [
 ];
 
 export const labs: Resource[] = [
+  { name: "TryHackMe", url: "https://tryhackme.com/", blurb: "Guided rooms in your browser. Best first lab." },
+  { name: "OverTheWire", url: "https://overthewire.org/wargames/", blurb: "Command-line games, start with Bandit." },
+  { name: "picoCTF", url: "https://picoctf.org/", blurb: "Beginner-friendly capture-the-flag challenges." },
