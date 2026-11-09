@@ -43,3 +43,6 @@ export const moduleVideos: Record<string, { title: string; url: string }[]> = {
     { title: "SQL injection explained", url: yt("SQL injection explained") },
   ],
   defense: [
+    { title: "Firewalls explained", url: yt("how firewalls work explained") },
+    { title: "Defence in depth", url: yt("defense in depth cybersecurity explained") },
+  ],
