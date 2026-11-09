@@ -52,3 +52,7 @@ export const moduleVideos: Record<string, { title: string; url: string }[]> = {
   ],
   "response-and-careers": [
     { title: "Incident response explained", url: yt("incident response process explained") },
+    { title: "How to start a cybersecurity career", url: yt("how to start a cybersecurity career with no experience") },
+  ],
+};
+
