@@ -76,3 +76,6 @@ export const labs: Resource[] = [
 
 export const podcasts: Resource[] = [
   { name: "Darknet Diaries", url: "https://darknetdiaries.com/", blurb: "True stories of hackers and breaches. Great storytelling." },
+  { name: "Malicious Life", url: "https://malicious.life/", blurb: "The history behind famous cyber events." },
+  { name: "Security Now", url: "https://www.grc.com/securitynow.htm", blurb: "Weekly deep dives, explained for the curious." },
+  { name: "Risky Business", url: "https://risky.biz/", blurb: "Weekly industry news and interviews." },
