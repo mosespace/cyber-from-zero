@@ -6,3 +6,6 @@ export const metadata: Metadata = { title: "Resources" };
 function Section({ title, sub, items, color }: { title: string; sub: string; items: Resource[]; color: string }) {
   return (
     <section className="res-sec">
+      <h2 className="section-title" style={{ fontSize: 36 }}>{title}</h2>
+      <p className="lede">{sub}</p>
+      <div className="res-grid">
