@@ -25,3 +25,6 @@ export default function Resources() {
   return (
     <div className="container">
       <div className="page-head">
+        <span className="eyebrow"><i /> Keep going</span>
+        <h1>Resources</h1>
+        <p className="lede">Free videos, podcasts, courses and practice labs to go beyond this course.</p>
