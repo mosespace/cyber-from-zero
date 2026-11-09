@@ -15,3 +15,6 @@ function Section({ title, sub, items, color }: { title: string; sub: string; ite
             <p>{r.blurb}</p>
             <small>Open ↗</small>
           </a>
+        ))}
+      </div>
+    </section>
