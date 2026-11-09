@@ -40,3 +40,6 @@ export const moduleVideos: Record<string, { title: string; url: string }[]> = {
   ],
   "web-security": [
     { title: "OWASP Top 10 for beginners", url: yt("OWASP top 10 explained for beginners") },
+    { title: "SQL injection explained", url: yt("SQL injection explained") },
+  ],
+  defense: [
