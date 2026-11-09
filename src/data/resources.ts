@@ -56,3 +56,6 @@ export const moduleVideos: Record<string, { title: string; url: string }[]> = {
   ],
 };
 
+export const courses: Resource[] = [
+  { name: "Professor Messer: Security+", url: "https://www.professormesser.com/", blurb: "Free video training for the CompTIA Security+ exam." },
+  { name: "Google Cybersecurity Certificate", url: "https://grow.google/certificates/cybersecurity/", blurb: "Beginner-friendly, no experience needed." },
