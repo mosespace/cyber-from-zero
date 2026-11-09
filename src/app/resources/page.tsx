@@ -28,3 +28,6 @@ export default function Resources() {
         <span className="eyebrow"><i /> Keep going</span>
         <h1>Resources</h1>
         <p className="lede">Free videos, podcasts, courses and practice labs to go beyond this course.</p>
+      </div>
+      <Section title="Video channels" sub="Watch and learn from experts on YouTube." items={videoChannels} color="#FF8A6B" />
+      <Section title="Podcasts" sub="Great for walks, bus rides and washing up." items={podcasts} color="#B9A2FF" />
