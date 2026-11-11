@@ -13,3 +13,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return { title: l ? `Lab: ${l.title}` : "Lab" };
 }
 
+export default async function LabPage({ params }: Props) {
+  const { slug } = await params;
+  const labs = getLabs();
