@@ -16,3 +16,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function LabPage({ params }: Props) {
   const { slug } = await params;
   const labs = getLabs();
+  const i = labs.findIndex((x) => x.slug === slug);
+  if (i < 0) notFound();
+  const lab = labs[i];
