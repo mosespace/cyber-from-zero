@@ -31,3 +31,6 @@ export default async function LabPage({ params }: Props) {
           <span className="pill">{lab.minutes} min</span>
         </div>
         <p className="lede" style={{ marginTop: 16 }}>{lab.summary}</p>
+      </header>
+      <Markdown>{lab.body}</Markdown>
+      <nav className="pager">
