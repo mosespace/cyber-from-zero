@@ -34,3 +34,6 @@ export default async function LabPage({ params }: Props) {
       </header>
       <Markdown>{lab.body}</Markdown>
       <nav className="pager">
+        <Link href="/labs" className="pop"><small>← All labs</small><b>Back to the list</b></Link>
+        {next && <Link href={`/labs/${next.slug}`} className="pop next"><small>Next lab →</small><b>{next.title}</b></Link>}
+      </nav>
