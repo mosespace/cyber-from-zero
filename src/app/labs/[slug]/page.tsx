@@ -25,3 +25,6 @@ export default async function LabPage({ params }: Props) {
       <header className="lesson-top">
         <div className="crumbs"><Link href="/labs">Labs</Link> / Lab {i + 1}</div>
         <h1>{lab.title}</h1>
+        <div className="meta">
+          <span className="pill" style={{ background: lab.color }}>{lab.moduleTitle}</span>
+          <span className="pill">{lab.level}</span>
