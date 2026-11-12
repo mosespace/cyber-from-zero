@@ -28,3 +28,6 @@ export default async function LabPage({ params }: Props) {
         <div className="meta">
           <span className="pill" style={{ background: lab.color }}>{lab.moduleTitle}</span>
           <span className="pill">{lab.level}</span>
+          <span className="pill">{lab.minutes} min</span>
+        </div>
+        <p className="lede" style={{ marginTop: 16 }}>{lab.summary}</p>
