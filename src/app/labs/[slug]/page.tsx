@@ -40,3 +40,4 @@ export default async function LabPage({ params }: Props) {
       <div style={{ height: 90 }} />
     </div>
   );
+}
