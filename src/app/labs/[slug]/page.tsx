@@ -37,3 +37,6 @@ export default async function LabPage({ params }: Props) {
         <Link href="/labs" className="pop"><small>← All labs</small><b>Back to the list</b></Link>
         {next && <Link href={`/labs/${next.slug}`} className="pop next"><small>Next lab →</small><b>{next.title}</b></Link>}
       </nav>
+      <div style={{ height: 90 }} />
+    </div>
+  );
