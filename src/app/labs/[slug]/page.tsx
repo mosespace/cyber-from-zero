@@ -22,3 +22,6 @@ export default async function LabPage({ params }: Props) {
   const next = labs[i + 1];
   return (
     <div className="narrow" style={{ ["--c" as string]: lab.color }}>
+      <header className="lesson-top">
+        <div className="crumbs"><Link href="/labs">Labs</Link> / Lab {i + 1}</div>
+        <h1>{lab.title}</h1>
