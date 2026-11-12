@@ -19,3 +19,6 @@ export default async function LabPage({ params }: Props) {
   const i = labs.findIndex((x) => x.slug === slug);
   if (i < 0) notFound();
   const lab = labs[i];
+  const next = labs[i + 1];
+  return (
+    <div className="narrow" style={{ ["--c" as string]: lab.color }}>
