@@ -6,3 +6,6 @@ import { Plus, Square } from "@/components/shapes";
 
 export const metadata: Metadata = { title: "Labs and cheat sheets" };
 
+export default function Labs() {
+  const labs = getLabs();
+  const sheets = getCheatsheets();
