@@ -12,3 +12,6 @@ export default function Labs() {
   return (
     <div className="container">
       <div className="page-head">
+        <Square color="#F7A501" className="float" style={{ right: 20, top: 30, width: 90 }} />
+        <Plus color="#C9B6FF" style={{ right: 140, top: 100, width: 40 }} />
+        <span className="eyebrow"><i /> Learn by doing</span>
