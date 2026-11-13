@@ -9,3 +9,6 @@ export const metadata: Metadata = { title: "Labs and cheat sheets" };
 export default function Labs() {
   const labs = getLabs();
   const sheets = getCheatsheets();
+  return (
+    <div className="container">
+      <div className="page-head">
