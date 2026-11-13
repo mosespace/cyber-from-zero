@@ -15,3 +15,7 @@ export default function Labs() {
         <Square color="#F7A501" className="float" style={{ right: 20, top: 30, width: 90 }} />
         <Plus color="#C9B6FF" style={{ right: 140, top: 100, width: 40 }} />
         <span className="eyebrow"><i /> Learn by doing</span>
+        <h1>Labs and cheat sheets</h1>
+        <p className="lede">Ten hands-on labs, one for every module, plus quick reference sheets you can keep open while you work.</p>
+      </div>
+
