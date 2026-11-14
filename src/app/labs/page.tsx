@@ -34,3 +34,7 @@ export default function Labs() {
               <span className="pill">{l.minutes} min</span>
             </div>
           </Link>
+        ))}
+      </div>
+
+      <h2 className="section-title" style={{ fontSize: 34, marginTop: 64 }}>Cheat sheets</h2>
