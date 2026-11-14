@@ -31,3 +31,6 @@ export default function Labs() {
             <p>{l.summary}</p>
             <div className="meta">
               <span className="pill">{l.level}</span>
+              <span className="pill">{l.minutes} min</span>
+            </div>
+          </Link>
