@@ -28,3 +28,6 @@ export default function Labs() {
               <span className="no">{String(i + 1).padStart(2, "0")}</span>
             </div>
             <h3>{l.title}</h3>
+            <p>{l.summary}</p>
+            <div className="meta">
+              <span className="pill">{l.level}</span>
