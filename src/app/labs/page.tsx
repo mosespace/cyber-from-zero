@@ -44,3 +44,6 @@ export default function Labs() {
             <h3>{s.title}</h3>
             <p>{s.summary}</p>
             <small>Open →</small>
+          </Link>
+        ))}
+      </div>
