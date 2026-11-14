@@ -22,3 +22,6 @@ export default function Labs() {
       <h2 className="section-title" style={{ fontSize: 34 }}>Hands-on labs</h2>
       <div className="mod-grid">
         {labs.map((l, i) => (
+          <Link key={l.slug} href={`/labs/${l.slug}`} className="mod-card pop" style={{ ["--c" as string]: l.color }}>
+            <div className="top">
+              <span className="tile"><ModuleIcon slug={l.moduleSlug ?? ""} size={40} /></span>
