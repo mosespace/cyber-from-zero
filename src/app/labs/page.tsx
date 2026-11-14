@@ -41,3 +41,6 @@ export default function Labs() {
       <div className="res-grid">
         {sheets.map((s) => (
           <Link key={s.slug} href={`/cheatsheets/${s.slug}`} className="res pop" style={{ ["--c" as string]: s.color }}>
+            <h3>{s.title}</h3>
+            <p>{s.summary}</p>
+            <small>Open →</small>
