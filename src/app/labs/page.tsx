@@ -38,3 +38,6 @@ export default function Labs() {
       </div>
 
       <h2 className="section-title" style={{ fontSize: 34, marginTop: 64 }}>Cheat sheets</h2>
+      <div className="res-grid">
+        {sheets.map((s) => (
+          <Link key={s.slug} href={`/cheatsheets/${s.slug}`} className="res pop" style={{ ["--c" as string]: s.color }}>
