@@ -19,3 +19,6 @@ export default function Labs() {
         <p className="lede">Ten hands-on labs, one for every module, plus quick reference sheets you can keep open while you work.</p>
       </div>
 
+      <h2 className="section-title" style={{ fontSize: 34 }}>Hands-on labs</h2>
+      <div className="mod-grid">
+        {labs.map((l, i) => (
