@@ -25,3 +25,6 @@ export default function Labs() {
           <Link key={l.slug} href={`/labs/${l.slug}`} className="mod-card pop" style={{ ["--c" as string]: l.color }}>
             <div className="top">
               <span className="tile"><ModuleIcon slug={l.moduleSlug ?? ""} size={40} /></span>
+              <span className="no">{String(i + 1).padStart(2, "0")}</span>
+            </div>
+            <h3>{l.title}</h3>
