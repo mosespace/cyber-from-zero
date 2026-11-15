@@ -47,3 +47,6 @@ export default function Labs() {
           </Link>
         ))}
       </div>
+      <div style={{ height: 90 }} />
+    </div>
+  );
