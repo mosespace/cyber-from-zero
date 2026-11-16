@@ -50,3 +50,4 @@ export default function Labs() {
       <div style={{ height: 90 }} />
     </div>
   );
+}
