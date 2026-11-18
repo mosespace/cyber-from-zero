@@ -13,3 +13,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return { title: s?.title ?? "Cheat sheet" };
 }
 
+export default async function SheetPage({ params }: Props) {
+  const { slug } = await params;
+  const sheet = getCheatsheets().find((x) => x.slug === slug);
