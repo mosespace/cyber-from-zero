@@ -16,3 +16,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function SheetPage({ params }: Props) {
   const { slug } = await params;
   const sheet = getCheatsheets().find((x) => x.slug === slug);
+  if (!sheet) notFound();
+  return (
+    <div className="narrow" style={{ ["--c" as string]: sheet.color }}>
