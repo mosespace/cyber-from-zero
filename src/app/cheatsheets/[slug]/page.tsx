@@ -19,3 +19,6 @@ export default async function SheetPage({ params }: Props) {
   if (!sheet) notFound();
   return (
     <div className="narrow" style={{ ["--c" as string]: sheet.color }}>
+      <header className="lesson-top">
+        <div className="crumbs"><Link href="/labs">Labs and cheat sheets</Link> / Cheat sheet</div>
+        <h1>{sheet.title}</h1>
