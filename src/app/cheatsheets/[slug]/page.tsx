@@ -25,3 +25,6 @@ export default async function SheetPage({ params }: Props) {
         <p className="lede" style={{ marginTop: 12 }}>{sheet.summary}</p>
       </header>
       <Markdown>{sheet.body}</Markdown>
+      <div className="finish"><Link href="/labs" className="btn">← All cheat sheets</Link></div>
+      <div style={{ height: 90 }} />
+    </div>
