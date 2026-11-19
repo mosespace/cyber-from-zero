@@ -28,3 +28,5 @@ export default async function SheetPage({ params }: Props) {
       <div className="finish"><Link href="/labs" className="btn">← All cheat sheets</Link></div>
       <div style={{ height: 90 }} />
     </div>
+  );
+}
