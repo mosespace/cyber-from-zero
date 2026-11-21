@@ -17,3 +17,8 @@ const VOICE = process.env.VOICE ?? "en-US-AvaNeural";
 const RATE = process.env.RATE ?? "-4%";
 const BIN = process.env.EDGE_TTS ?? "edge-tts";
 const FORCE = !!process.env.FORCE;
+const JOBS = 4;
+
+const out = path.join(process.cwd(), "public", "audio");
+const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "cfz-tts-"));
+
