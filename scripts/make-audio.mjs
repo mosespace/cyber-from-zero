@@ -10,3 +10,7 @@
 import { spawn } from "node:child_process";
 import fs from "node:fs";
 import os from "node:os";
+import path from "node:path";
+import { getModules } from "../src/lib/content.ts";
+
+const VOICE = process.env.VOICE ?? "en-US-AvaNeural";
