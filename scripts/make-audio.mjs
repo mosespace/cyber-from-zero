@@ -14,3 +14,6 @@ import path from "node:path";
 import { getModules } from "../src/lib/content.ts";
 
 const VOICE = process.env.VOICE ?? "en-US-AvaNeural";
+const RATE = process.env.RATE ?? "-4%";
+const BIN = process.env.EDGE_TTS ?? "edge-tts";
+const FORCE = !!process.env.FORCE;
