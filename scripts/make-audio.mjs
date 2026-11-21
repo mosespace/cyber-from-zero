@@ -7,3 +7,6 @@
 //   VOICE=en-US-AndrewNeural npm run audio
 //
 // Only the public course text is sent to the speech service.
+import { spawn } from "node:child_process";
+import fs from "node:fs";
+import os from "node:os";
