@@ -22,3 +22,6 @@ const JOBS = 4;
 const out = path.join(process.cwd(), "public", "audio");
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "cfz-tts-"));
 
+const tasks = [];
+for (const m of getModules()) {
+  tasks.push({
