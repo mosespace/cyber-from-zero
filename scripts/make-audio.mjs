@@ -25,3 +25,6 @@ const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "cfz-tts-"));
 const tasks = [];
 for (const m of getModules()) {
   tasks.push({
+    file: path.join(out, "modules", `${m.slug}.mp3`),
+    text: `Module ${m.order}. ${m.title}. ${m.overview}`,
+  });
