@@ -31,3 +31,7 @@ for (const m of getModules()) {
   for (const l of m.lessons) {
     tasks.push({ file: path.join(out, "lessons", m.slug, `${l.slug}.mp3`), text: l.plain });
   }
+}
+
+function record(t, i) {
+  return new Promise((resolve, reject) => {
