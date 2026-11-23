@@ -28,3 +28,6 @@ for (const m of getModules()) {
     file: path.join(out, "modules", `${m.slug}.mp3`),
     text: `Module ${m.order}. ${m.title}. ${m.overview}`,
   });
+  for (const l of m.lessons) {
+    tasks.push({ file: path.join(out, "lessons", m.slug, `${l.slug}.mp3`), text: l.plain });
+  }
