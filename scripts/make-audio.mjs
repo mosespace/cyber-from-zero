@@ -35,3 +35,6 @@ for (const m of getModules()) {
 
 function record(t, i) {
   return new Promise((resolve, reject) => {
+    if (!FORCE && fs.existsSync(t.file)) return resolve();
+    fs.mkdirSync(path.dirname(t.file), { recursive: true });
+    const txt = path.join(tmp, `${i}.txt`);
