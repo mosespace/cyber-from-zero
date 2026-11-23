@@ -41,3 +41,6 @@ function record(t, i) {
     fs.writeFileSync(txt, t.text);
     const p = spawn(BIN, ["--file", txt, "--voice", VOICE, `--rate=${RATE}`, "--write-media", t.file], { stdio: "inherit" });
     p.on("exit", (code) => {
+      if (code === 0) { console.log("recorded", path.relative(process.cwd(), t.file)); resolve(); }
+      else reject(new Error(`edge-tts failed for ${t.file}`));
+    });
