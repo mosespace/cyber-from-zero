@@ -51,3 +51,5 @@ let next = 0;
 async function worker() {
   while (next < tasks.length) { const i = next++; await record(tasks[i], i); }
 }
+await Promise.all(Array.from({ length: JOBS }, worker));
+console.log(`done: ${tasks.length} files, voice ${VOICE}`);
