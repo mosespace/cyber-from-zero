@@ -38,3 +38,6 @@ function record(t, i) {
     if (!FORCE && fs.existsSync(t.file)) return resolve();
     fs.mkdirSync(path.dirname(t.file), { recursive: true });
     const txt = path.join(tmp, `${i}.txt`);
+    fs.writeFileSync(txt, t.text);
+    const p = spawn(BIN, ["--file", txt, "--voice", VOICE, `--rate=${RATE}`, "--write-media", t.file], { stdio: "inherit" });
+    p.on("exit", (code) => {
