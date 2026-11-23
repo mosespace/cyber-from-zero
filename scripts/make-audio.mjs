@@ -44,3 +44,7 @@ function record(t, i) {
       if (code === 0) { console.log("recorded", path.relative(process.cwd(), t.file)); resolve(); }
       else reject(new Error(`edge-tts failed for ${t.file}`));
     });
+  });
+}
+
+let next = 0;
