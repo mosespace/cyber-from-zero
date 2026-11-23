@@ -48,3 +48,6 @@ function record(t, i) {
 }
 
 let next = 0;
+async function worker() {
+  while (next < tasks.length) { const i = next++; await record(tasks[i], i); }
+}
