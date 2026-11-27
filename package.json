@@ -7,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "audio": "node scripts/make-audio.mjs"
+    "audio": "node scripts/make-audio.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "next": "^16.4.6",
@@ -20,6 +22,7 @@
     "@types/node": "^26.6.11",
     "@types/react": "^19.3.3",
     "@types/react-dom": "^19.3.0",
+    "prettier": "^3.10.1",
     "typescript": "^7.0.2"
   }
 }

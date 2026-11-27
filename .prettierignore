@@ -1,0 +1,12 @@
+# dependencies and build output
+node_modules
+.next
+out
+coverage
+
+# generated or binary files
+package-lock.json
+public/audio
+docs/screenshots
+next-env.d.ts
+*.tsbuildinfo
