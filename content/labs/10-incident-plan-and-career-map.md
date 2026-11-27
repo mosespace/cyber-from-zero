@@ -5,19 +5,20 @@ minutes: 40
 module: response-and-careers
 level: Advanced
 ---
+
 This final lab has two parts. One protects you. The other plans your future.
 
 ## Part A: A one-page incident plan
 
 Copy this and fill it in with real names and numbers.
 
-| Question | My answer |
-|----------|-----------|
-| Which accounts matter most? | |
-| Who do I call if my phone is stolen? | |
-| Where are my recovery codes? | |
-| Where is my newest backup? | |
-| Who can help me check my accounts? | |
+| Question                             | My answer |
+| ------------------------------------ | --------- |
+| Which accounts matter most?          |           |
+| Who do I call if my phone is stolen? |           |
+| Where are my recovery codes?         |           |
+| Where is my newest backup?           |           |
+| Who can help me check my accounts?   |           |
 
 Then practise the six steps: prepare, identify, contain, eradicate, recover, learn.
 
@@ -29,13 +30,13 @@ Then practise the six steps: prepare, identify, contain, eradicate, recover, lea
 4. Choose one certificate and one practice site.
 5. Fill in a monthly plan.
 
-| Months | Focus | Proof of work |
-|--------|-------|---------------|
-| 1-2 | Modules 1 to 4 | Notes and Lab 4 |
-| 3-4 | Modules 5 to 7 | A TryHackMe path |
-| 5-6 | Modules 8 and 9 | Home lab write-up |
-| 7-9 | Certificate study | Practice exam score |
-| 10-12 | Apply for jobs | Blog posts, CV |
+| Months | Focus             | Proof of work       |
+| ------ | ----------------- | ------------------- |
+| 1-2    | Modules 1 to 4    | Notes and Lab 4     |
+| 3-4    | Modules 5 to 7    | A TryHackMe path    |
+| 5-6    | Modules 8 and 9   | Home lab write-up   |
+| 7-9    | Certificate study | Practice exam score |
+| 10-12  | Apply for jobs    | Blog posts, CV      |
 
 ## Part C: Write it up
 

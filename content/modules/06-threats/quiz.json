@@ -1,57 +1,32 @@
 [
- {
-  "q": "Which malware locks files and asks for money?",
-  "options": [
-   "Spyware",
-   "Worm",
-   "Ransomware",
-   "Adware"
-  ],
-  "answer": 2,
-  "why": "Ransomware holds data hostage."
- },
- {
-  "q": "Phishing by text message is called...",
-  "options": [
-   "Smishing",
-   "Vishing",
-   "Whaling",
-   "Sniffing"
-  ],
-  "answer": 0,
-  "why": "SMS phishing is smishing."
- },
- {
-  "q": "What is the best defence against social engineering?",
-  "options": [
-   "A bigger firewall",
-   "Verifying who is asking",
-   "Deleting email",
-   "Faster Wi-Fi"
-  ],
-  "answer": 1,
-  "why": "Checking identity stops most tricks."
- },
- {
-  "q": "What is the best protection against ransomware?",
-  "options": [
-   "A bigger screen",
-   "Offline backups",
-   "A new mouse",
-   "Turning off Wi-Fi forever"
-  ],
-  "answer": 1,
-  "why": "With a good backup you can restore your files without paying."
- },
- {
-  "q": "Someone follows you through a locked door. This is...",
-  "options": [
-   "Tailgating",
-   "Phishing",
-   "Baiting",
-   "Spoofing"
-  ],
-  "answer": 0,
-  "why": "Tailgating means slipping in behind an authorised person."
- }
+  {
+    "q": "Which malware locks files and asks for money?",
+    "options": ["Spyware", "Worm", "Ransomware", "Adware"],
+    "answer": 2,
+    "why": "Ransomware holds data hostage."
+  },
+  {
+    "q": "Phishing by text message is called...",
+    "options": ["Smishing", "Vishing", "Whaling", "Sniffing"],
+    "answer": 0,
+    "why": "SMS phishing is smishing."
+  },
+  {
+    "q": "What is the best defence against social engineering?",
+    "options": ["A bigger firewall", "Verifying who is asking", "Deleting email", "Faster Wi-Fi"],
+    "answer": 1,
+    "why": "Checking identity stops most tricks."
+  },
+  {
+    "q": "What is the best protection against ransomware?",
+    "options": ["A bigger screen", "Offline backups", "A new mouse", "Turning off Wi-Fi forever"],
+    "answer": 1,
+    "why": "With a good backup you can restore your files without paying."
+  },
+  {
+    "q": "Someone follows you through a locked door. This is...",
+    "options": ["Tailgating", "Phishing", "Baiting", "Spoofing"],
+    "answer": 0,
+    "why": "Tailgating means slipping in behind an authorised person."
+  }
 ]

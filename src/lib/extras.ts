@@ -30,7 +30,11 @@ function read(dir: "labs" | "cheatsheets"): Extra[] {
       const data: Record<string, string> = {};
       for (const line of (m?.[1] ?? "").split("\n")) {
         const i = line.indexOf(":");
-        if (i > 0) data[line.slice(0, i).trim()] = line.slice(i + 1).trim().replace(/^["']|["']$/g, "");
+        if (i > 0)
+          data[line.slice(0, i).trim()] = line
+            .slice(i + 1)
+            .trim()
+            .replace(/^["']|["']$/g, "");
       }
       const mod = modules.find((x) => x.slug === data.module);
       return {

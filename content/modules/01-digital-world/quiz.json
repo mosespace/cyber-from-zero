@@ -1,57 +1,42 @@
 [
- {
-  "q": "Which part of a computer does the thinking?",
-  "options": [
-   "RAM",
-   "CPU",
-   "Screen",
-   "Network card"
-  ],
-  "answer": 1,
-  "why": "The CPU is the processor. It does the calculations."
- },
- {
-  "q": "How many bits are in one byte?",
-  "options": [
-   "2",
-   "4",
-   "8",
-   "16"
-  ],
-  "answer": 2,
-  "why": "A byte is a group of eight bits."
- },
- {
-  "q": "What does DNS do?",
-  "options": [
-   "Cleans viruses",
-   "Turns names into IP addresses",
-   "Stores your passwords",
-   "Makes Wi-Fi faster"
-  ],
-  "answer": 1,
-  "why": "DNS is the internet phone book."
- },
- {
-  "q": "What is a packet?",
-  "options": [
-   "A small piece of data sent over a network",
-   "A type of virus",
-   "A password",
-   "A cable"
-  ],
-  "answer": 0,
-  "why": "Big files are cut into packets and put back together at the end."
- },
- {
-  "q": "Which one is software?",
-  "options": [
-   "Keyboard",
-   "Screen",
-   "A mobile app",
-   "Hard drive"
-  ],
-  "answer": 2,
-  "why": "Software is instructions. Hardware is the parts you can touch."
- }
+  {
+    "q": "Which part of a computer does the thinking?",
+    "options": ["RAM", "CPU", "Screen", "Network card"],
+    "answer": 1,
+    "why": "The CPU is the processor. It does the calculations."
+  },
+  {
+    "q": "How many bits are in one byte?",
+    "options": ["2", "4", "8", "16"],
+    "answer": 2,
+    "why": "A byte is a group of eight bits."
+  },
+  {
+    "q": "What does DNS do?",
+    "options": [
+      "Cleans viruses",
+      "Turns names into IP addresses",
+      "Stores your passwords",
+      "Makes Wi-Fi faster"
+    ],
+    "answer": 1,
+    "why": "DNS is the internet phone book."
+  },
+  {
+    "q": "What is a packet?",
+    "options": [
+      "A small piece of data sent over a network",
+      "A type of virus",
+      "A password",
+      "A cable"
+    ],
+    "answer": 0,
+    "why": "Big files are cut into packets and put back together at the end."
+  },
+  {
+    "q": "Which one is software?",
+    "options": ["Keyboard", "Screen", "A mobile app", "Hard drive"],
+    "answer": 2,
+    "why": "Software is instructions. Hardware is the parts you can touch."
+  }
 ]

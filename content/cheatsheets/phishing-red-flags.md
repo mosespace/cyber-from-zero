@@ -3,6 +3,7 @@ title: Phishing Red Flags
 summary: Ten quick checks before you click anything.
 color: "#F5A3B8"
 ---
+
 ## The ten-second check
 
 1. **Sender**: is the address exactly right?
@@ -18,13 +19,13 @@ color: "#F5A3B8"
 
 ## Types
 
-| Name | Channel |
-|------|---------|
-| Phishing | Email |
-| Smishing | Text message |
-| Vishing | Phone call |
+| Name           | Channel                |
+| -------------- | ---------------------- |
+| Phishing       | Email                  |
+| Smishing       | Text message           |
+| Vishing        | Phone call             |
 | Spear phishing | Targeted at one person |
-| Quishing | Fake QR codes |
+| Quishing       | Fake QR codes          |
 
 ## If you clicked
 

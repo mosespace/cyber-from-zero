@@ -1,57 +1,37 @@
 [
- {
-  "q": "Which port is normally used for secure websites?",
-  "options": [
-   "21",
-   "80",
-   "443",
-   "25"
-  ],
-  "answer": 2,
-  "why": "HTTPS uses port 443."
- },
- {
-  "q": "Which protocol is faster but does not check delivery?",
-  "options": [
-   "TCP",
-   "UDP",
-   "HTTPS",
-   "SSH"
-  ],
-  "answer": 1,
-  "why": "UDP skips the checks, so it is quick."
- },
- {
-  "q": "How many layers does the OSI model have?",
-  "options": [
-   "3",
-   "5",
-   "7",
-   "10"
-  ],
-  "answer": 2,
-  "why": "OSI has seven layers."
- },
- {
-  "q": "What is an open port?",
-  "options": [
-   "A broken cable",
-   "A program listening for connections",
-   "A free Wi-Fi",
-   "A firewall rule"
-  ],
-  "answer": 1,
-  "why": "Every open port is a possible door, so close the ones you do not need."
- },
- {
-  "q": "Which layer of OSI do Wi-Fi and MAC addresses belong to?",
-  "options": [
-   "Layer 7",
-   "Layer 4",
-   "Layer 2",
-   "Layer 1"
-  ],
-  "answer": 2,
-  "why": "Layer 2 is the data link layer."
- }
+  {
+    "q": "Which port is normally used for secure websites?",
+    "options": ["21", "80", "443", "25"],
+    "answer": 2,
+    "why": "HTTPS uses port 443."
+  },
+  {
+    "q": "Which protocol is faster but does not check delivery?",
+    "options": ["TCP", "UDP", "HTTPS", "SSH"],
+    "answer": 1,
+    "why": "UDP skips the checks, so it is quick."
+  },
+  {
+    "q": "How many layers does the OSI model have?",
+    "options": ["3", "5", "7", "10"],
+    "answer": 2,
+    "why": "OSI has seven layers."
+  },
+  {
+    "q": "What is an open port?",
+    "options": [
+      "A broken cable",
+      "A program listening for connections",
+      "A free Wi-Fi",
+      "A firewall rule"
+    ],
+    "answer": 1,
+    "why": "Every open port is a possible door, so close the ones you do not need."
+  },
+  {
+    "q": "Which layer of OSI do Wi-Fi and MAC addresses belong to?",
+    "options": ["Layer 7", "Layer 4", "Layer 2", "Layer 1"],
+    "answer": 2,
+    "why": "Layer 2 is the data link layer."
+  }
 ]

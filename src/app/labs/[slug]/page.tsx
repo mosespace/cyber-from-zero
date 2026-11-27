@@ -23,19 +23,33 @@ export default async function LabPage({ params }: Props) {
   return (
     <div className="narrow" style={{ ["--c" as string]: lab.color }}>
       <header className="lesson-top">
-        <div className="crumbs"><Link href="/labs">Labs</Link> / Lab {i + 1}</div>
+        <div className="crumbs">
+          <Link href="/labs">Labs</Link> / Lab {i + 1}
+        </div>
         <h1>{lab.title}</h1>
         <div className="meta">
-          <span className="pill" style={{ background: lab.color }}>{lab.moduleTitle}</span>
+          <span className="pill" style={{ background: lab.color }}>
+            {lab.moduleTitle}
+          </span>
           <span className="pill">{lab.level}</span>
           <span className="pill">{lab.minutes} min</span>
         </div>
-        <p className="lede" style={{ marginTop: 16 }}>{lab.summary}</p>
+        <p className="lede" style={{ marginTop: 16 }}>
+          {lab.summary}
+        </p>
       </header>
       <Markdown>{lab.body}</Markdown>
       <nav className="pager">
-        <Link href="/labs" className="pop"><small>← All labs</small><b>Back to the list</b></Link>
-        {next && <Link href={`/labs/${next.slug}`} className="pop next"><small>Next lab →</small><b>{next.title}</b></Link>}
+        <Link href="/labs" className="pop">
+          <small>← All labs</small>
+          <b>Back to the list</b>
+        </Link>
+        {next && (
+          <Link href={`/labs/${next.slug}`} className="pop next">
+            <small>Next lab →</small>
+            <b>{next.title}</b>
+          </Link>
+        )}
       </nav>
       <div style={{ height: 90 }} />
     </div>

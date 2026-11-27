@@ -41,21 +41,46 @@ export default function Header({ items }: { items: SearchItem[] }) {
         </Link>
         <nav className={`nav ${open ? "open" : ""}`} aria-label="Main">
           {links.map(([href, label]) => (
-            <Link key={href} href={href} className={path.startsWith(href) ? "on" : ""} onClick={() => setOpen(false)}>
+            <Link
+              key={href}
+              href={href}
+              className={path.startsWith(href) ? "on" : ""}
+              onClick={() => setOpen(false)}
+            >
               {label}
             </Link>
           ))}
         </nav>
         <div className="hdr-right">
           <button className="icon-btn" onClick={() => setSearch(true)} aria-label="Search">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round"><circle cx="10" cy="10" r="7" /><path d="m16 16 5 5" /></svg>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="3"
+              strokeLinecap="round"
+            >
+              <circle cx="10" cy="10" r="7" />
+              <path d="m16 16 5 5" />
+            </svg>
             <span className="t">Search</span> <kbd>⌘K</kbd>
           </button>
           <Link href="/me" className="stat-chip" aria-label="Your progress">
-            <span><Flame /> {streakOf(s.days)}</span>
-            <span><Bolt /> {s.xp}</span>
+            <span>
+              <Flame /> {streakOf(s.days)}
+            </span>
+            <span>
+              <Bolt /> {s.xp}
+            </span>
           </Link>
-          <button className="icon-btn menu-btn" onClick={() => setOpen((o) => !o)} aria-label="Menu" aria-expanded={open}>
+          <button
+            className="icon-btn menu-btn"
+            onClick={() => setOpen((o) => !o)}
+            aria-label="Menu"
+            aria-expanded={open}
+          >
             ☰
           </button>
         </div>

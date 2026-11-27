@@ -1,57 +1,37 @@
 [
- {
-  "q": "What helps a password most?",
-  "options": [
-   "Replacing a with @",
-   "Being longer",
-   "Using your pet's name",
-   "Adding 123"
-  ],
-  "answer": 1,
-  "why": "Length multiplies the guesses needed."
- },
- {
-  "q": "Which one cannot be reversed?",
-  "options": [
-   "Hashing",
-   "Encryption",
-   "Both",
-   "Neither"
-  ],
-  "answer": 0,
-  "why": "A hash is one way."
- },
- {
-  "q": "How many shifts can a Caesar cipher have?",
-  "options": [
-   "5",
-   "25",
-   "1000",
-   "Millions"
-  ],
-  "answer": 1,
-  "why": "Only 25 useful shifts, so it is easy to break."
- },
- {
-  "q": "Why do good websites add a salt to password hashes?",
-  "options": [
-   "To make them taste better",
-   "So identical passwords get different hashes",
-   "To make them shorter",
-   "To encrypt email"
-  ],
-  "answer": 1,
-  "why": "A salt stops attackers reusing pre-made hash tables."
- },
- {
-  "q": "Which key lets strangers send you a secret safely?",
-  "options": [
-   "Your private key",
-   "Your public key",
-   "Your Wi-Fi key",
-   "Your house key"
-  ],
-  "answer": 1,
-  "why": "Anyone can lock with your public key, only your private key unlocks."
- }
+  {
+    "q": "What helps a password most?",
+    "options": ["Replacing a with @", "Being longer", "Using your pet's name", "Adding 123"],
+    "answer": 1,
+    "why": "Length multiplies the guesses needed."
+  },
+  {
+    "q": "Which one cannot be reversed?",
+    "options": ["Hashing", "Encryption", "Both", "Neither"],
+    "answer": 0,
+    "why": "A hash is one way."
+  },
+  {
+    "q": "How many shifts can a Caesar cipher have?",
+    "options": ["5", "25", "1000", "Millions"],
+    "answer": 1,
+    "why": "Only 25 useful shifts, so it is easy to break."
+  },
+  {
+    "q": "Why do good websites add a salt to password hashes?",
+    "options": [
+      "To make them taste better",
+      "So identical passwords get different hashes",
+      "To make them shorter",
+      "To encrypt email"
+    ],
+    "answer": 1,
+    "why": "A salt stops attackers reusing pre-made hash tables."
+  },
+  {
+    "q": "Which key lets strangers send you a secret safely?",
+    "options": ["Your private key", "Your public key", "Your Wi-Fi key", "Your house key"],
+    "answer": 1,
+    "why": "Anyone can lock with your public key, only your private key unlocks."
+  }
 ]

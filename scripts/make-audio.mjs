@@ -39,17 +39,26 @@ function record(t, i) {
     fs.mkdirSync(path.dirname(t.file), { recursive: true });
     const txt = path.join(tmp, `${i}.txt`);
     fs.writeFileSync(txt, t.text);
-    const p = spawn(BIN, ["--file", txt, "--voice", VOICE, `--rate=${RATE}`, "--write-media", t.file], { stdio: "inherit" });
+    const p = spawn(
+      BIN,
+      ["--file", txt, "--voice", VOICE, `--rate=${RATE}`, "--write-media", t.file],
+      { stdio: "inherit" },
+    );
     p.on("exit", (code) => {
-      if (code === 0) { console.log("recorded", path.relative(process.cwd(), t.file)); resolve(); }
-      else reject(new Error(`edge-tts failed for ${t.file}`));
+      if (code === 0) {
+        console.log("recorded", path.relative(process.cwd(), t.file));
+        resolve();
+      } else reject(new Error(`edge-tts failed for ${t.file}`));
     });
   });
 }
 
 let next = 0;
 async function worker() {
-  while (next < tasks.length) { const i = next++; await record(tasks[i], i); }
+  while (next < tasks.length) {
+    const i = next++;
+    await record(tasks[i], i);
+  }
 }
 await Promise.all(Array.from({ length: JOBS }, worker));
 console.log(`done: ${tasks.length} files, voice ${VOICE}`);

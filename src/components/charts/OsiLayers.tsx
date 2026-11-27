@@ -14,14 +14,37 @@ export default function OsiLayers() {
       <svg viewBox="0 0 640 400" role="img" aria-label="The seven layers of the OSI model">
         {layers.map(([n, name, ex, c], i) => (
           <g key={n} transform={`translate(0 ${i * 56})`}>
-            <rect x="20" y="4" width="600" height="48" rx="12" fill={c} opacity="0.16" stroke={c} strokeWidth="2" />
-            <text x="48" y="36" className="chart-text" style={{ fontWeight: 800, fontSize: 22, fill: c }}>{n}</text>
-            <text x="90" y="34" className="chart-text" style={{ fontWeight: 700, fontSize: 17 }}>{name}</text>
-            <text x="600" y="34" textAnchor="end" className="chart-muted" style={{ fontSize: 14 }}>{ex}</text>
+            <rect
+              x="20"
+              y="4"
+              width="600"
+              height="48"
+              rx="12"
+              fill={c}
+              opacity="0.16"
+              stroke={c}
+              strokeWidth="2"
+            />
+            <text
+              x="48"
+              y="36"
+              className="chart-text"
+              style={{ fontWeight: 800, fontSize: 22, fill: c }}
+            >
+              {n}
+            </text>
+            <text x="90" y="34" className="chart-text" style={{ fontWeight: 700, fontSize: 17 }}>
+              {name}
+            </text>
+            <text x="600" y="34" textAnchor="end" className="chart-muted" style={{ fontSize: 14 }}>
+              {ex}
+            </text>
           </g>
         ))}
       </svg>
-      <figcaption>Data goes down the layers when you send, and up the layers when you receive.</figcaption>
+      <figcaption>
+        Data goes down the layers when you send, and up the layers when you receive.
+      </figcaption>
     </figure>
   );
 }

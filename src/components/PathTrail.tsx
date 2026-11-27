@@ -6,7 +6,11 @@ import ModuleIcon from "./ModuleIcon";
 import { Star } from "./shapes";
 
 export type TrailModule = {
-  slug: string; title: string; color: string; order: number; level: string;
+  slug: string;
+  title: string;
+  color: string;
+  order: number;
+  level: string;
   lessons: { slug: string; title: string; minutes: number }[];
 };
 
@@ -23,13 +27,28 @@ export default function PathTrail({ modules }: { modules: TrailModule[] }) {
       {modules.map((m) => {
         const finished = m.lessons.filter((l) => done.includes(`${m.slug}/${l.slug}`)).length;
         return (
-          <div key={m.slug} style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center", ["--c" as string]: m.color }}>
+          <div
+            key={m.slug}
+            style={{
+              width: "100%",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              ["--c" as string]: m.color,
+            }}
+          >
             <Link href={`/modules/${m.slug}`} className="t-banner pop">
-              <span className="tile"><ModuleIcon slug={m.slug} size={40} /></span>
+              <span className="tile">
+                <ModuleIcon slug={m.slug} size={40} />
+              </span>
               <span>
-                <small>Module {m.order} · {m.level}</small>
+                <small>
+                  Module {m.order} · {m.level}
+                </small>
                 <h2>{m.title}</h2>
-                <small>{finished}/{m.lessons.length} lessons</small>
+                <small>
+                  {finished}/{m.lessons.length} lessons
+                </small>
               </span>
             </Link>
             {m.lessons.map((l) => {
@@ -38,20 +57,44 @@ export default function PathTrail({ modules }: { modules: TrailModule[] }) {
               const isDone = done.includes(id);
               const isNow = id === current;
               return (
-                <div key={id} className={`t-node ${isDone ? "done" : ""} ${dx > 0 ? "left" : "right"}`} style={{ ["--dx" as string]: `${dx}px` }}>
-                  {isNow && <span className="start-tag" style={{ transform: `translateX(calc(-50% + ${dx}px))` }}>START</span>}
-                  <Link href={`/learn/${m.slug}/${l.slug}`} className={`btn-node ${isNow ? "pulse" : ""}`} aria-label={l.title}>
+                <div
+                  key={id}
+                  className={`t-node ${isDone ? "done" : ""} ${dx > 0 ? "left" : "right"}`}
+                  style={{ ["--dx" as string]: `${dx}px` }}
+                >
+                  {isNow && (
+                    <span
+                      className="start-tag"
+                      style={{ transform: `translateX(calc(-50% + ${dx}px))` }}
+                    >
+                      START
+                    </span>
+                  )}
+                  <Link
+                    href={`/learn/${m.slug}/${l.slug}`}
+                    className={`btn-node ${isNow ? "pulse" : ""}`}
+                    aria-label={l.title}
+                  >
                     {isDone ? "✓" : m.lessons.indexOf(l) + 1}
                   </Link>
-                  <span className="t-label">{l.title}<small>{l.minutes} min</small></span>
+                  <span className="t-label">
+                    {l.title}
+                    <small>{l.minutes} min</small>
+                  </span>
                 </div>
               );
             })}
             <div className="t-node star right" style={{ ["--dx" as string]: "0px" }}>
-              <Link href={`/modules/${m.slug}#quiz`} className="btn-node" aria-label={`${m.title} quiz`}>
+              <Link
+                href={`/modules/${m.slug}#quiz`}
+                className="btn-node"
+                aria-label={`${m.title} quiz`}
+              >
                 <Star size={46} color="#fff" />
               </Link>
-              <span className="t-label">Module quiz<small>5 questions</small></span>
+              <span className="t-label">
+                Module quiz<small>5 questions</small>
+              </span>
             </div>
           </div>
         );

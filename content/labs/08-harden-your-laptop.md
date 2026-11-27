@@ -5,17 +5,18 @@ minutes: 30
 module: defense
 level: Intermediate
 ---
+
 Hardening means making something tougher. Work through this list on your own computer.
 
 ## Checklist
 
-| Step | Mac | Windows | Linux |
-|------|-----|---------|-------|
-| Install updates | System Settings, Software Update | Settings, Windows Update | `sudo apt update && sudo apt upgrade` |
-| Turn on the firewall | Settings, Network, Firewall | Windows Security, Firewall | `sudo ufw enable` |
-| Encrypt the disk | FileVault | BitLocker | LUKS at install |
-| Lock screen after a short time | Settings, Lock Screen | Settings, Accounts | Settings, Privacy |
-| Use a normal account daily | Create an admin and a user | Same | Same |
+| Step                           | Mac                              | Windows                    | Linux                                 |
+| ------------------------------ | -------------------------------- | -------------------------- | ------------------------------------- |
+| Install updates                | System Settings, Software Update | Settings, Windows Update   | `sudo apt update && sudo apt upgrade` |
+| Turn on the firewall           | Settings, Network, Firewall      | Windows Security, Firewall | `sudo ufw enable`                     |
+| Encrypt the disk               | FileVault                        | BitLocker                  | LUKS at install                       |
+| Lock screen after a short time | Settings, Lock Screen            | Settings, Accounts         | Settings, Privacy                     |
+| Use a normal account daily     | Create an admin and a user       | Same                       | Same                                  |
 
 ## Step 1: Backups with the 3-2-1 rule
 

@@ -5,6 +5,7 @@ minutes: 30
 module: ethical-hacking
 level: Intermediate
 ---
+
 Nmap shows which ports are open on a computer. **Only scan machines you own or have written permission to scan.** The Nmap project provides `scanme.nmap.org` for people to practise on. Be polite: scan it lightly and not repeatedly.
 
 ## Step 1: Install Nmap
@@ -43,10 +44,10 @@ nmap -F scanme.nmap.org
 
 ## Step 5: Write a mini report
 
-| Port | Service | Is it needed? | What I would do |
-|------|---------|---------------|-----------------|
-| 22 | SSH | Yes | Use keys, disable passwords |
-| 80 | HTTP | Maybe | Redirect to HTTPS |
+| Port | Service | Is it needed? | What I would do             |
+| ---- | ------- | ------------- | --------------------------- |
+| 22   | SSH     | Yes           | Use keys, disable passwords |
+| 80   | HTTP    | Maybe         | Redirect to HTTPS           |
 
 ## Checkpoint
 

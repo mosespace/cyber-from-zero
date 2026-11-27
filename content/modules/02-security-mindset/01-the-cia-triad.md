@@ -3,9 +3,11 @@ title: The CIA Triad
 summary: The three goals every security person protects.
 minutes: 6
 ---
+
 Nearly everything in cybersecurity serves three goals. We call them the **CIA triad**. (It has nothing to do with the spy agency.)
 
 ```chart:cia-triad
+
 ```
 
 ## The three goals
@@ -16,12 +18,12 @@ Nearly everything in cybersecurity serves three goals. We call them the **CIA tr
 
 ## Match the attack to the goal
 
-| Attack | Goal that is broken |
-|--------|---------------------|
-| Someone steals a database of emails | Confidentiality |
-| A criminal edits a bank transfer amount | Integrity |
-| Attackers flood a website until it crashes | Availability |
-| Ransomware locks your files | Availability |
+| Attack                                     | Goal that is broken |
+| ------------------------------------------ | ------------------- |
+| Someone steals a database of emails        | Confidentiality     |
+| A criminal edits a bank transfer amount    | Integrity           |
+| Attackers flood a website until it crashes | Availability        |
+| Ransomware locks your files                | Availability        |
 
 ## Try it yourself
 

@@ -3,6 +3,7 @@ title: Spotting Phishing
 summary: Fake messages that fish for your password.
 minutes: 6
 ---
+
 **Phishing** is a fake email, text or website that pretends to be someone you trust, to trick you into giving away a password or money.
 
 ## Red flags
@@ -16,11 +17,11 @@ minutes: 6
 
 ## Types
 
-| Name | Channel |
-|------|---------|
-| Phishing | Email |
-| Smishing | Text message (SMS) |
-| Vishing | Phone call (voice) |
+| Name           | Channel                      |
+| -------------- | ---------------------------- |
+| Phishing       | Email                        |
+| Smishing       | Text message (SMS)           |
+| Vishing        | Phone call (voice)           |
 | Spear phishing | Aimed at one specific person |
 
 ## What to do

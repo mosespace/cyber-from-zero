@@ -1,57 +1,37 @@
 [
- {
-  "q": "What must an ethical hacker have first?",
-  "options": [
-   "A fast laptop",
-   "Written permission",
-   "A VPN",
-   "Many followers"
-  ],
-  "answer": 1,
-  "why": "Permission is what makes it legal and ethical."
- },
- {
-  "q": "Which tool looks inside network packets?",
-  "options": [
-   "Wireshark",
-   "Photoshop",
-   "Excel",
-   "Notepad"
-  ],
-  "answer": 0,
-  "why": "Wireshark captures and shows packets."
- },
- {
-  "q": "What does CTF stand for?",
-  "options": [
-   "Catch The File",
-   "Capture The Flag",
-   "Copy The Folder",
-   "Check The Firewall"
-  ],
-  "answer": 1,
-  "why": "Capture The Flag."
- },
- {
-  "q": "Which phase comes right after reconnaissance?",
-  "options": [
-   "Scanning",
-   "Cover tracks",
-   "Reach the goal",
-   "Recover"
-  ],
-  "answer": 0,
-  "why": "After collecting info, the attacker scans for open doors."
- },
- {
-  "q": "Where is it legal to practise hacking?",
-  "options": [
-   "Your neighbour's Wi-Fi",
-   "Deliberately vulnerable labs like Juice Shop",
-   "A bank website",
-   "Any website"
-  ],
-  "answer": 1,
-  "why": "Practise only where you have permission."
- }
+  {
+    "q": "What must an ethical hacker have first?",
+    "options": ["A fast laptop", "Written permission", "A VPN", "Many followers"],
+    "answer": 1,
+    "why": "Permission is what makes it legal and ethical."
+  },
+  {
+    "q": "Which tool looks inside network packets?",
+    "options": ["Wireshark", "Photoshop", "Excel", "Notepad"],
+    "answer": 0,
+    "why": "Wireshark captures and shows packets."
+  },
+  {
+    "q": "What does CTF stand for?",
+    "options": ["Catch The File", "Capture The Flag", "Copy The Folder", "Check The Firewall"],
+    "answer": 1,
+    "why": "Capture The Flag."
+  },
+  {
+    "q": "Which phase comes right after reconnaissance?",
+    "options": ["Scanning", "Cover tracks", "Reach the goal", "Recover"],
+    "answer": 0,
+    "why": "After collecting info, the attacker scans for open doors."
+  },
+  {
+    "q": "Where is it legal to practise hacking?",
+    "options": [
+      "Your neighbour's Wi-Fi",
+      "Deliberately vulnerable labs like Juice Shop",
+      "A bank website",
+      "Any website"
+    ],
+    "answer": 1,
+    "why": "Practise only where you have permission."
+  }
 ]

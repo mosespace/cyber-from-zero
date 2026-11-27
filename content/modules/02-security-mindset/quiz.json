@@ -1,57 +1,32 @@
 [
- {
-  "q": "What does the 'I' in CIA stand for?",
-  "options": [
-   "Internet",
-   "Integrity",
-   "Identity",
-   "Intelligence"
-  ],
-  "answer": 1,
-  "why": "Integrity means data stays correct and unchanged."
- },
- {
-  "q": "An unlocked window in a house is an example of a...",
-  "options": [
-   "Threat",
-   "Risk",
-   "Vulnerability",
-   "Firewall"
-  ],
-  "answer": 2,
-  "why": "It is a weakness that could be used."
- },
- {
-  "q": "Which hacker has permission to test systems?",
-  "options": [
-   "Black hat",
-   "White hat",
-   "Script kiddie",
-   "Hacktivist"
-  ],
-  "answer": 1,
-  "why": "White hat hackers are ethical and work with permission."
- },
- {
-  "q": "A website crashes because attackers flood it. Which goal is broken?",
-  "options": [
-   "Confidentiality",
-   "Integrity",
-   "Availability",
-   "None"
-  ],
-  "answer": 2,
-  "why": "Availability means things work when you need them."
- },
- {
-  "q": "Which risk choice is buying insurance?",
-  "options": [
-   "Reduce",
-   "Avoid",
-   "Transfer",
-   "Accept"
-  ],
-  "answer": 2,
-  "why": "You transfer the cost to someone else."
- }
+  {
+    "q": "What does the 'I' in CIA stand for?",
+    "options": ["Internet", "Integrity", "Identity", "Intelligence"],
+    "answer": 1,
+    "why": "Integrity means data stays correct and unchanged."
+  },
+  {
+    "q": "An unlocked window in a house is an example of a...",
+    "options": ["Threat", "Risk", "Vulnerability", "Firewall"],
+    "answer": 2,
+    "why": "It is a weakness that could be used."
+  },
+  {
+    "q": "Which hacker has permission to test systems?",
+    "options": ["Black hat", "White hat", "Script kiddie", "Hacktivist"],
+    "answer": 1,
+    "why": "White hat hackers are ethical and work with permission."
+  },
+  {
+    "q": "A website crashes because attackers flood it. Which goal is broken?",
+    "options": ["Confidentiality", "Integrity", "Availability", "None"],
+    "answer": 2,
+    "why": "Availability means things work when you need them."
+  },
+  {
+    "q": "Which risk choice is buying insurance?",
+    "options": ["Reduce", "Avoid", "Transfer", "Accept"],
+    "answer": 2,
+    "why": "You transfer the cost to someone else."
+  }
 ]

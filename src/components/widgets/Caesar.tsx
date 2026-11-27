@@ -15,10 +15,21 @@ export default function Caesar() {
   return (
     <div className="widget">
       <h4>Caesar cipher playground</h4>
-      <input type="text" value={text} onChange={(e) => setText(e.target.value)} aria-label="Message" />
+      <input
+        type="text"
+        value={text}
+        onChange={(e) => setText(e.target.value)}
+        aria-label="Message"
+      />
       <label>
         Shift: <b>{shift}</b>
-        <input type="range" min={1} max={25} value={shift} onChange={(e) => setShift(+e.target.value)} />
+        <input
+          type="range"
+          min={1}
+          max={25}
+          value={shift}
+          onChange={(e) => setShift(+e.target.value)}
+        />
       </label>
       <div className="out">{shiftText(text, shift)}</div>
       <p className="why">To decode, shift the other way by the same amount ({26 - shift}).</p>

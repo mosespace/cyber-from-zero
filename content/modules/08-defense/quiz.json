@@ -1,57 +1,42 @@
 [
- {
-  "q": "What does 'default deny' mean?",
-  "options": [
-   "Block everything, allow only needed",
-   "Allow everything",
-   "Delete logs",
-   "Reboot daily"
-  ],
-  "answer": 0,
-  "why": "Start closed and open only what is needed."
- },
- {
-  "q": "What does an IPS do that an IDS does not?",
-  "options": [
-   "Sends emails",
-   "Blocks the attack",
-   "Stores backups",
-   "Encrypts files"
-  ],
-  "answer": 1,
-  "why": "Prevention systems act, detection systems alert."
- },
- {
-  "q": "The 3-2-1 rule is about...",
-  "options": [
-   "Passwords",
-   "Backups",
-   "Firewalls",
-   "Cables"
-  ],
-  "answer": 1,
-  "why": "3 copies, 2 media, 1 off-site."
- },
- {
-  "q": "Zero trust means...",
-  "options": [
-   "Trust everything inside the network",
-   "Never trust, always verify",
-   "Trust only admins",
-   "Block all internet"
-  ],
-  "answer": 1,
-  "why": "Every user and device must prove who they are every time."
- },
- {
-  "q": "What is a SIEM used for?",
-  "options": [
-   "Gathering and analysing logs",
-   "Making coffee",
-   "Cracking passwords",
-   "Printing"
-  ],
-  "answer": 0,
-  "why": "A SIEM collects logs in one place to spot trouble."
- }
+  {
+    "q": "What does 'default deny' mean?",
+    "options": [
+      "Block everything, allow only needed",
+      "Allow everything",
+      "Delete logs",
+      "Reboot daily"
+    ],
+    "answer": 0,
+    "why": "Start closed and open only what is needed."
+  },
+  {
+    "q": "What does an IPS do that an IDS does not?",
+    "options": ["Sends emails", "Blocks the attack", "Stores backups", "Encrypts files"],
+    "answer": 1,
+    "why": "Prevention systems act, detection systems alert."
+  },
+  {
+    "q": "The 3-2-1 rule is about...",
+    "options": ["Passwords", "Backups", "Firewalls", "Cables"],
+    "answer": 1,
+    "why": "3 copies, 2 media, 1 off-site."
+  },
+  {
+    "q": "Zero trust means...",
+    "options": [
+      "Trust everything inside the network",
+      "Never trust, always verify",
+      "Trust only admins",
+      "Block all internet"
+    ],
+    "answer": 1,
+    "why": "Every user and device must prove who they are every time."
+  },
+  {
+    "q": "What is a SIEM used for?",
+    "options": ["Gathering and analysing logs", "Making coffee", "Cracking passwords", "Printing"],
+    "answer": 0,
+    "why": "A SIEM collects logs in one place to spot trouble."
+  }
 ]

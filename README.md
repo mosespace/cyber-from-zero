@@ -9,18 +9,18 @@ The repository has two parts:
 
 ## The course map
 
-| # | Module | Level |
-|---|--------|-------|
-| 1 | How the Digital World Works | Beginner |
-| 2 | The Security Mindset | Beginner |
-| 3 | Networking Basics | Beginner |
-| 4 | Operating Systems and Linux | Beginner |
-| 5 | Passwords and Cryptography | Beginner |
-| 6 | Malware, Phishing and Social Engineering | Beginner |
-| 7 | Web Security Essentials | Intermediate |
-| 8 | Defending Systems | Intermediate |
-| 9 | Ethical Hacking and Pentesting | Intermediate |
-| 10 | Incident Response and Your Career | Advanced |
+| #   | Module                                   | Level        |
+| --- | ---------------------------------------- | ------------ |
+| 1   | How the Digital World Works              | Beginner     |
+| 2   | The Security Mindset                     | Beginner     |
+| 3   | Networking Basics                        | Beginner     |
+| 4   | Operating Systems and Linux              | Beginner     |
+| 5   | Passwords and Cryptography               | Beginner     |
+| 6   | Malware, Phishing and Social Engineering | Beginner     |
+| 7   | Web Security Essentials                  | Intermediate |
+| 8   | Defending Systems                        | Intermediate |
+| 9   | Ethical Hacking and Pentesting           | Intermediate |
+| 10  | Incident Response and Your Career        | Advanced     |
 
 ## Features of the site
 

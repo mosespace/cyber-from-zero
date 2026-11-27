@@ -10,9 +10,13 @@ export default function Glossary() {
   return (
     <div className="container">
       <div className="page-head">
-        <span className="eyebrow"><i /> Plain English</span>
+        <span className="eyebrow">
+          <i /> Plain English
+        </span>
         <h1>Security glossary</h1>
-        <p className="lede" style={{ marginBottom: 24 }}>Every important word, explained in one or two simple sentences.</p>
+        <p className="lede" style={{ marginBottom: 24 }}>
+          Every important word, explained in one or two simple sentences.
+        </p>
       </div>
       <GlossaryClient terms={glossary} modules={mods} />
       <div style={{ height: 90 }} />

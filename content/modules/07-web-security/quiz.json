@@ -1,57 +1,42 @@
 [
- {
-  "q": "What is the best fix for SQL injection?",
-  "options": [
-   "Bigger passwords",
-   "Prepared statements",
-   "A faster server",
-   "Hiding the login page"
-  ],
-  "answer": 1,
-  "why": "They keep user data separate from SQL commands."
- },
- {
-  "q": "A cookie is used to...",
-  "options": [
-   "Speed up Wi-Fi",
-   "Remember who you are",
-   "Block ads",
-   "Store videos"
-  ],
-  "answer": 1,
-  "why": "Cookies keep you logged in."
- },
- {
-  "q": "OWASP is a...",
-  "options": [
-   "Antivirus brand",
-   "Non-profit security community",
-   "Hacker group",
-   "Government spy agency"
-  ],
-  "answer": 1,
-  "why": "OWASP shares free security knowledge."
- },
- {
-  "q": "Which status code means 'not found'?",
-  "options": [
-   "200",
-   "301",
-   "404",
-   "500"
-  ],
-  "answer": 2,
-  "why": "404 means the page does not exist."
- },
- {
-  "q": "What is the fix for XSS?",
-  "options": [
-   "Escape output",
-   "Use longer passwords",
-   "Turn off cookies",
-   "Use a VPN"
-  ],
-  "answer": 0,
-  "why": "Escaping turns dangerous characters into harmless text."
- }
+  {
+    "q": "What is the best fix for SQL injection?",
+    "options": [
+      "Bigger passwords",
+      "Prepared statements",
+      "A faster server",
+      "Hiding the login page"
+    ],
+    "answer": 1,
+    "why": "They keep user data separate from SQL commands."
+  },
+  {
+    "q": "A cookie is used to...",
+    "options": ["Speed up Wi-Fi", "Remember who you are", "Block ads", "Store videos"],
+    "answer": 1,
+    "why": "Cookies keep you logged in."
+  },
+  {
+    "q": "OWASP is a...",
+    "options": [
+      "Antivirus brand",
+      "Non-profit security community",
+      "Hacker group",
+      "Government spy agency"
+    ],
+    "answer": 1,
+    "why": "OWASP shares free security knowledge."
+  },
+  {
+    "q": "Which status code means 'not found'?",
+    "options": ["200", "301", "404", "500"],
+    "answer": 2,
+    "why": "404 means the page does not exist."
+  },
+  {
+    "q": "What is the fix for XSS?",
+    "options": ["Escape output", "Use longer passwords", "Turn off cookies", "Use a VPN"],
+    "answer": 0,
+    "why": "Escaping turns dangerous characters into harmless text."
+  }
 ]

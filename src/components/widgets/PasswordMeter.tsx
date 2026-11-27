@@ -15,7 +15,11 @@ function estimate(pw: string) {
 function human(s: number) {
   if (s < 1) return "instantly";
   const units: [string, number][] = [
-    ["years", 31_557_600], ["days", 86_400], ["hours", 3600], ["minutes", 60], ["seconds", 1],
+    ["years", 31_557_600],
+    ["days", 86_400],
+    ["hours", 3600],
+    ["minutes", 60],
+    ["seconds", 1],
   ];
   if (s > 31_557_600 * 1e9) return "longer than the age of the universe";
   for (const [name, size] of units) {
@@ -33,17 +37,27 @@ export default function PasswordMeter() {
   return (
     <div className="widget">
       <h4>Password strength meter</h4>
-      <input type="password" value={pw} onChange={(e) => setPw(e.target.value)} placeholder="Type a made-up password" aria-label="Password" autoComplete="off" />
+      <input
+        type="password"
+        value={pw}
+        onChange={(e) => setPw(e.target.value)}
+        placeholder="Type a made-up password"
+        aria-label="Password"
+        autoComplete="off"
+      />
       <div className="bar" style={{ ["--c" as string]: colors[score] }}>
         <i style={{ width: pw ? `${(score + 1) * 20}%` : "0%" }} />
       </div>
       {pw && (
         <p>
-          <b style={{ color: colors[score] }}>{labels[score]}</b>. At 10 billion guesses a second, a brute-force attack would need{" "}
-          <b>{human(s)}</b>.
+          <b style={{ color: colors[score] }}>{labels[score]}</b>. At 10 billion guesses a second, a
+          brute-force attack would need <b>{human(s)}</b>.
         </p>
       )}
-      <p className="why">This runs only in your browser. Never type your real passwords into websites you do not trust.</p>
+      <p className="why">
+        This runs only in your browser. Never type your real passwords into websites you do not
+        trust.
+      </p>
     </div>
   );
 }

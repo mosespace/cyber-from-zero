@@ -1,57 +1,37 @@
 [
- {
-  "q": "Which command lists files?",
-  "options": [
-   "pwd",
-   "ls",
-   "cd",
-   "mv"
-  ],
-  "answer": 1,
-  "why": "ls lists the files in a folder."
- },
- {
-  "q": "What number is rwx?",
-  "options": [
-   "4",
-   "5",
-   "6",
-   "7"
-  ],
-  "answer": 3,
-  "why": "4 + 2 + 1 = 7."
- },
- {
-  "q": "The principle of least privilege means...",
-  "options": [
-   "Give everyone admin",
-   "Give only the power that is needed",
-   "Never use passwords",
-   "Delete old files"
-  ],
-  "answer": 1,
-  "why": "Less power means less damage if something goes wrong."
- },
- {
-  "q": "Which command shows the folder you are in?",
-  "options": [
-   "pwd",
-   "rm",
-   "cat",
-   "mv"
-  ],
-  "answer": 0,
-  "why": "pwd means print working directory."
- },
- {
-  "q": "What does chmod 754 give 'everyone else'?",
-  "options": [
-   "Read only",
-   "Read and write",
-   "Nothing",
-   "Everything"
-  ],
-  "answer": 0,
-  "why": "The last digit 4 means read only."
- }
+  {
+    "q": "Which command lists files?",
+    "options": ["pwd", "ls", "cd", "mv"],
+    "answer": 1,
+    "why": "ls lists the files in a folder."
+  },
+  {
+    "q": "What number is rwx?",
+    "options": ["4", "5", "6", "7"],
+    "answer": 3,
+    "why": "4 + 2 + 1 = 7."
+  },
+  {
+    "q": "The principle of least privilege means...",
+    "options": [
+      "Give everyone admin",
+      "Give only the power that is needed",
+      "Never use passwords",
+      "Delete old files"
+    ],
+    "answer": 1,
+    "why": "Less power means less damage if something goes wrong."
+  },
+  {
+    "q": "Which command shows the folder you are in?",
+    "options": ["pwd", "rm", "cat", "mv"],
+    "answer": 0,
+    "why": "pwd means print working directory."
+  },
+  {
+    "q": "What does chmod 754 give 'everyone else'?",
+    "options": ["Read only", "Read and write", "Nothing", "Everything"],
+    "answer": 0,
+    "why": "The last digit 4 means read only."
+  }
 ]

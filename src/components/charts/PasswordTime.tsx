@@ -14,8 +14,14 @@ const refs: [string, number][] = [
   ["Age of the universe", 4.35e17],
 ];
 
-const W = 640, H = 360, L = 130, R = 24, T = 20, B = 52;
-const yMin = -3, yMax = 22;
+const W = 640,
+  H = 360,
+  L = 130,
+  R = 24,
+  T = 20,
+  B = 52;
+const yMin = -3,
+  yMax = 22;
 const x = (len: number) => L + ((len - 4) / 12) * (W - L - R);
 const y = (log: number) => {
   const c = Math.min(yMax, Math.max(yMin, log));
@@ -26,21 +32,47 @@ const logSeconds = (n: number, len: number) => len * Math.log10(n) - Math.log10(
 export default function PasswordTime() {
   return (
     <figure className="figure">
-      <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Line chart: time to crack a password by length and character set">
+      <svg
+        viewBox={`0 0 ${W} ${H}`}
+        role="img"
+        aria-label="Line chart: time to crack a password by length and character set"
+      >
         {refs.map(([label, s]) => (
           <g key={label}>
-            <line x1={L} x2={W - R} y1={y(Math.log10(s))} y2={y(Math.log10(s))} stroke="var(--line)" strokeDasharray="4 4" />
-            <text x={L - 8} y={y(Math.log10(s)) + 4} textAnchor="end" className="chart-muted" style={{ fontSize: 11 }}>{label}</text>
+            <line
+              x1={L}
+              x2={W - R}
+              y1={y(Math.log10(s))}
+              y2={y(Math.log10(s))}
+              stroke="var(--line)"
+              strokeDasharray="4 4"
+            />
+            <text
+              x={L - 8}
+              y={y(Math.log10(s)) + 4}
+              textAnchor="end"
+              className="chart-muted"
+              style={{ fontSize: 11 }}
+            >
+              {label}
+            </text>
           </g>
         ))}
         {lengths.map((len) => (
-          <text key={len} x={x(len)} y={H - B + 20} textAnchor="middle" className="chart-muted">{len}</text>
+          <text key={len} x={x(len)} y={H - B + 20} textAnchor="middle" className="chart-muted">
+            {len}
+          </text>
         ))}
-        <text x={(L + W - R) / 2} y={H - 10} textAnchor="middle" className="chart-text">Password length (characters)</text>
+        <text x={(L + W - R) / 2} y={H - 10} textAnchor="middle" className="chart-text">
+          Password length (characters)
+        </text>
         {series.map((s) => (
           <g key={s.name}>
             <polyline
-              fill="none" stroke={s.c} strokeWidth="3" strokeLinejoin="round"
+              fill="none"
+              stroke={s.c}
+              strokeWidth="3"
+              strokeLinejoin="round"
               points={lengths.map((len) => `${x(len)},${y(logSeconds(s.n, len))}`).join(" ")}
             />
             {lengths.map((len) => (
@@ -51,12 +83,15 @@ export default function PasswordTime() {
         {series.map((s, i) => (
           <g key={s.name} transform={`translate(${L + 12} ${T + 8 + i * 18})`}>
             <rect width="12" height="12" rx="3" fill={s.c} />
-            <text x="18" y="11" className="chart-text" style={{ fontSize: 12 }}>{s.name}</text>
+            <text x="18" y="11" className="chart-text" style={{ fontSize: 12 }}>
+              {s.name}
+            </text>
           </g>
         ))}
       </svg>
       <figcaption>
-        Time to try every combination at 10 billion guesses a second (log scale). Each extra character helps a lot.
+        Time to try every combination at 10 billion guesses a second (log scale). Each extra
+        character helps a lot.
       </figcaption>
     </figure>
   );

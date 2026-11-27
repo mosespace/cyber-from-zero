@@ -3,12 +3,12 @@
 import { useSyncExternalStore } from "react";
 
 export type State = {
-  done: string[];                 // lesson ids like "networking/the-osi-model"
+  done: string[]; // lesson ids like "networking/the-osi-model"
   xp: number;
-  days: string[];                 // dates (YYYY-MM-DD) with any activity
-  quiz: Record<string, number>;   // best score per quiz key
-  cards: Record<string, number>;  // flashcard box 0-4 per term
-  awarded: string[];              // one-time XP rewards already given
+  days: string[]; // dates (YYYY-MM-DD) with any activity
+  quiz: Record<string, number>; // best score per quiz key
+  cards: Record<string, number>; // flashcard box 0-4 per term
+  awarded: string[]; // one-time XP rewards already given
 };
 
 const KEY = "cfz-v2";
@@ -105,12 +105,16 @@ export function resetAll() {
 }
 
 export const XP_PER_LEVEL = 100;
-export const levelOf = (xp: number) => ({ level: Math.floor(xp / XP_PER_LEVEL) + 1, into: xp % XP_PER_LEVEL });
+export const levelOf = (xp: number) => ({
+  level: Math.floor(xp / XP_PER_LEVEL) + 1,
+  into: xp % XP_PER_LEVEL,
+});
 
 export function streakOf(days: string[]) {
   const set = new Set(days);
   const d = new Date();
-  const fmt = (x: Date) => `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, "0")}-${String(x.getDate()).padStart(2, "0")}`;
+  const fmt = (x: Date) =>
+    `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, "0")}-${String(x.getDate()).padStart(2, "0")}`;
   if (!set.has(fmt(d))) d.setDate(d.getDate() - 1); // a streak is still alive until the day ends
   let n = 0;
   while (set.has(fmt(d))) {
@@ -130,13 +134,69 @@ export function computeBadges(s: State, mods: ModuleIds[]) {
   const finished = mods.filter((m) => m.ids.every((id) => s.done.includes(id)));
   const streak = streakOf(s.days);
   return [
-    { id: "first", title: "First step", desc: "Finish your first lesson", color: "#7CCBFF", shape: "circle", earned: lessons >= 1 },
-    { id: "five", title: "On a roll", desc: "Finish 5 lessons", color: "#FFC93C", shape: "star", earned: lessons >= 5 },
-    { id: "half", title: "Halfway there", desc: "Finish half of the course", color: "#B9A2FF", shape: "tri", earned: total > 0 && lessons >= total / 2 },
-    { id: "module", title: "Module master", desc: "Complete a whole module", color: "#27D3A2", shape: "square", earned: finished.length >= 1 },
-    { id: "ace", title: "Quiz ace", desc: "Get 5 out of 5 in a module quiz", color: "#FF9BC9", shape: "star", earned: perfect },
-    { id: "cards", title: "Card shark", desc: "Learn 20 flashcards", color: "#FF8A6B", shape: "circle", earned: known >= 20 },
-    { id: "streak", title: "Three in a row", desc: "Learn 3 days in a row", color: "#FFA23C", shape: "tri", earned: streak >= 3 },
-    { id: "all", title: "Graduate", desc: "Finish every lesson", color: "#8BE04E", shape: "square", earned: total > 0 && lessons >= total },
+    {
+      id: "first",
+      title: "First step",
+      desc: "Finish your first lesson",
+      color: "#7CCBFF",
+      shape: "circle",
+      earned: lessons >= 1,
+    },
+    {
+      id: "five",
+      title: "On a roll",
+      desc: "Finish 5 lessons",
+      color: "#FFC93C",
+      shape: "star",
+      earned: lessons >= 5,
+    },
+    {
+      id: "half",
+      title: "Halfway there",
+      desc: "Finish half of the course",
+      color: "#B9A2FF",
+      shape: "tri",
+      earned: total > 0 && lessons >= total / 2,
+    },
+    {
+      id: "module",
+      title: "Module master",
+      desc: "Complete a whole module",
+      color: "#27D3A2",
+      shape: "square",
+      earned: finished.length >= 1,
+    },
+    {
+      id: "ace",
+      title: "Quiz ace",
+      desc: "Get 5 out of 5 in a module quiz",
+      color: "#FF9BC9",
+      shape: "star",
+      earned: perfect,
+    },
+    {
+      id: "cards",
+      title: "Card shark",
+      desc: "Learn 20 flashcards",
+      color: "#FF8A6B",
+      shape: "circle",
+      earned: known >= 20,
+    },
+    {
+      id: "streak",
+      title: "Three in a row",
+      desc: "Learn 3 days in a row",
+      color: "#FFA23C",
+      shape: "tri",
+      earned: streak >= 3,
+    },
+    {
+      id: "all",
+      title: "Graduate",
+      desc: "Finish every lesson",
+      color: "#8BE04E",
+      shape: "square",
+      earned: total > 0 && lessons >= total,
+    },
   ] as const;
 }

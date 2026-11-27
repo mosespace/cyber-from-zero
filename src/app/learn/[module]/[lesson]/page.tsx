@@ -38,11 +38,15 @@ export default async function LessonPage({ params }: Props) {
           </div>
           <h1>{lesson.title}</h1>
           <div className="meta">
-            <span className="pill" style={{ background: mod.color }}>Module {mod.order}</span>
+            <span className="pill" style={{ background: mod.color }}>
+              Module {mod.order}
+            </span>
             <span className="pill">{lesson.minutes} min</span>
             <span className="pill">+20 XP</span>
           </div>
-          <p className="lede" style={{ marginTop: 16 }}>{lesson.summary}</p>
+          <p className="lede" style={{ marginTop: 16 }}>
+            {lesson.summary}
+          </p>
           <Squiggle size={110} style={{ marginTop: 14 }} />
         </header>
 
@@ -52,29 +56,49 @@ export default async function LessonPage({ params }: Props) {
 
             {lesson.remember.length > 0 && (
               <section className="takeaways pop">
-                <Dots style={{ position: "absolute", right: 16, top: 14, width: 54, opacity: 0.35 }} />
+                <Dots
+                  style={{ position: "absolute", right: 16, top: 14, width: 54, opacity: 0.35 }}
+                />
                 <h2>Remember</h2>
-                <ul>{lesson.remember.map((r) => <li key={r}>{r}</li>)}</ul>
+                <ul>
+                  {lesson.remember.map((r) => (
+                    <li key={r}>{r}</li>
+                  ))}
+                </ul>
               </section>
             )}
 
             <div className="finish">
               <CompleteButton id={id} />
-              <Link href={`/modules/${mod.slug}#quiz`} className="btn">Take the module quiz</Link>
+              <Link href={`/modules/${mod.slug}#quiz`} className="btn">
+                Take the module quiz
+              </Link>
             </div>
 
             <nav className="pager">
               {prev ? (
-                <Link href={`/learn/${prev.moduleSlug}/${prev.slug}`} className="pop"><small>← Previous</small><b>{prev.title}</b></Link>
-              ) : <span />}
+                <Link href={`/learn/${prev.moduleSlug}/${prev.slug}`} className="pop">
+                  <small>← Previous</small>
+                  <b>{prev.title}</b>
+                </Link>
+              ) : (
+                <span />
+              )}
               {next && (
-                <Link href={`/learn/${next.moduleSlug}/${next.slug}`} className="pop next"><small>Next →</small><b>{next.title}</b></Link>
+                <Link href={`/learn/${next.moduleSlug}/${next.slug}`} className="pop next">
+                  <small>Next →</small>
+                  <b>{next.title}</b>
+                </Link>
               )}
             </nav>
           </article>
 
           <aside className="lesson-aside">
-            <AudioPlayer src={`/audio/lessons/${mod.slug}/${lesson.slug}.mp3`} title="Listen to this lesson" note={`About ${lesson.minutes} minutes`} />
+            <AudioPlayer
+              src={`/audio/lessons/${mod.slug}/${lesson.slug}.mp3`}
+              title="Listen to this lesson"
+              note={`About ${lesson.minutes} minutes`}
+            />
             <Toc items={lesson.headings} />
           </aside>
         </div>

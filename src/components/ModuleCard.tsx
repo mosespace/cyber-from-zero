@@ -5,9 +5,15 @@ import ProgressBar from "./ProgressBar";
 
 export default function ModuleCard({ mod }: { mod: Module }) {
   return (
-    <Link href={`/modules/${mod.slug}`} className="mod-card pop" style={{ ["--c" as string]: mod.color }}>
+    <Link
+      href={`/modules/${mod.slug}`}
+      className="mod-card pop"
+      style={{ ["--c" as string]: mod.color }}
+    >
       <div className="top">
-        <span className="tile"><ModuleIcon slug={mod.slug} size={46} /></span>
+        <span className="tile">
+          <ModuleIcon slug={mod.slug} size={46} />
+        </span>
         <span className="no">{String(mod.order).padStart(2, "0")}</span>
       </div>
       <h3>{mod.title}</h3>

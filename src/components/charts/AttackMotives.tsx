@@ -11,14 +11,25 @@ export default function AttackMotives() {
       <svg viewBox="0 0 640 230" role="img" aria-label="Bar chart of why attackers attack">
         {data.map(([label, v, c], i) => (
           <g key={label} transform={`translate(0 ${i * 52 + 14})`}>
-            <text x="170" y="26" textAnchor="end" className="chart-text">{label}</text>
+            <text x="170" y="26" textAnchor="end" className="chart-text">
+              {label}
+            </text>
             <rect x="184" y="6" width="420" height="30" rx="8" fill="var(--line)" opacity="0.5" />
             <rect x="184" y="6" width={(v / 100) * 420} height="30" rx="8" fill={c} />
-            <text x={184 + (v / 100) * 420 - 10} y="27" textAnchor="end" style={{ fontWeight: 800, fontSize: 14, fill: "#07101f" }}>{v}%</text>
+            <text
+              x={184 + (v / 100) * 420 - 10}
+              y="27"
+              textAnchor="end"
+              style={{ fontWeight: 800, fontSize: 14, fill: "#07101f" }}
+            >
+              {v}%
+            </text>
           </g>
         ))}
       </svg>
-      <figcaption>Illustrative numbers to show the idea (not exact statistics). Money is the main motive.</figcaption>
+      <figcaption>
+        Illustrative numbers to show the idea (not exact statistics). Money is the main motive.
+      </figcaption>
     </figure>
   );
 }

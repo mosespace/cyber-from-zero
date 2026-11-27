@@ -34,11 +34,21 @@ export default async function ModulePage({ params }: Props) {
       <section className="mod-hero" style={{ ["--c" as string]: mod.color }}>
         <Triangle color="#fff" className="float" style={{ right: "26%", top: 20, width: 70 }} />
         <Circle color="#fff" style={{ left: "46%", bottom: -30, width: 90, opacity: 0.6 }} />
-        <Plus color="#fff" className="float" style={{ left: "58%", top: 40, width: 46, animationDelay: "-2s" }} />
+        <Plus
+          color="#fff"
+          className="float"
+          style={{ left: "58%", top: 40, width: 46, animationDelay: "-2s" }}
+        />
         <Dots style={{ right: "3%", top: 14, width: 70, opacity: 0.35 }} />
         <div className="container">
           <div>
-            <span className="eyebrow"><i /> <Link href="/path" style={{ textDecoration: "none" }}>Module {mod.order}</Link> · {mod.level}</span>
+            <span className="eyebrow">
+              <i />{" "}
+              <Link href="/path" style={{ textDecoration: "none" }}>
+                Module {mod.order}
+              </Link>{" "}
+              · {mod.level}
+            </span>
             <h1>{mod.title}</h1>
             <p>{mod.overview}</p>
             <div className="meta">
@@ -48,36 +58,66 @@ export default async function ModulePage({ params }: Props) {
               {words > 0 && <span className="pill">{words} flashcards</span>}
             </div>
           </div>
-          <div className="big"><ModuleIcon slug={mod.slug} size={120} /></div>
+          <div className="big">
+            <ModuleIcon slug={mod.slug} size={120} />
+          </div>
         </div>
       </section>
 
       <div className="container">
         <div className="two-col">
           <div>
-            <h2 className="section-title" style={{ fontSize: 34 }}>Lessons</h2>
-            <ProgressBar ids={mod.lessons.map((l) => `${mod.slug}/${l.slug}`)} color={mod.color} label />
+            <h2 className="section-title" style={{ fontSize: 34 }}>
+              Lessons
+            </h2>
+            <ProgressBar
+              ids={mod.lessons.map((l) => `${mod.slug}/${l.slug}`)}
+              color={mod.color}
+              label
+            />
             <div style={{ marginTop: 24 }}>
               {mod.lessons.map((l) => (
                 <Link key={l.slug} href={`/learn/${mod.slug}/${l.slug}`} className="les-row pop">
                   <LessonStatus id={`${mod.slug}/${l.slug}`} n={l.order} />
                   <span>
                     <b>{l.title}</b>
-                    <small>{l.summary} · {l.minutes} min</small>
+                    <small>
+                      {l.summary} · {l.minutes} min
+                    </small>
                   </span>
                 </Link>
               ))}
             </div>
           </div>
           <aside>
-            <AudioPlayer src={`/audio/modules/${mod.slug}.mp3`} title="Module overview" note="2 minute audio intro" />
+            <AudioPlayer
+              src={`/audio/modules/${mod.slug}.mp3`}
+              title="Module overview"
+              note="2 minute audio intro"
+            />
             {videos.length > 0 && (
               <div className="side pop" style={{ marginTop: 20 }}>
                 <h3>Watch next</h3>
                 {videos.map((v) => (
-                  <a key={v.url} href={v.url} target="_blank" rel="noopener noreferrer" className="vid">
-                    <i><svg width="14" height="14" viewBox="0 0 24 24"><path d="M6 3 21 12 6 21Z" fill="#fff" /></svg></i>
-                    <span>{v.title}<br /><small style={{ color: "var(--muted)", fontWeight: 500 }}>Opens YouTube ↗</small></span>
+                  <a
+                    key={v.url}
+                    href={v.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="vid"
+                  >
+                    <i>
+                      <svg width="14" height="14" viewBox="0 0 24 24">
+                        <path d="M6 3 21 12 6 21Z" fill="#fff" />
+                      </svg>
+                    </i>
+                    <span>
+                      {v.title}
+                      <br />
+                      <small style={{ color: "var(--muted)", fontWeight: 500 }}>
+                        Opens YouTube ↗
+                      </small>
+                    </span>
                   </a>
                 ))}
               </div>
@@ -87,18 +127,55 @@ export default async function ModulePage({ params }: Props) {
 
         {mod.quiz.length > 0 && (
           <section id="quiz" style={{ marginTop: 70, scrollMarginTop: 90 }}>
-            <h2 className="section-title" style={{ fontSize: 34, display: "flex", gap: 12, alignItems: "center" }}>
+            <h2
+              className="section-title"
+              style={{ fontSize: 34, display: "flex", gap: 12, alignItems: "center" }}
+            >
               <Star size={40} color="#FFC93C" /> Module quiz
             </h2>
-            <p className="lede" style={{ marginBottom: 20 }}>Five questions. You earn 5 XP for each answer that beats your best score.</p>
+            <p className="lede" style={{ marginBottom: 20 }}>
+              Five questions. You earn 5 XP for each answer that beats your best score.
+            </p>
             <QuizRunner questions={mod.quiz} storeKey={`quiz:${mod.slug}`} />
           </section>
         )}
 
         {next && (
-          <Link href={`/modules/${next.slug}`} className="pop" style={{ display: "flex", alignItems: "center", gap: 16, padding: 20, marginTop: 50, textDecoration: "none", background: next.color }}>
-            <span style={{ width: 64, height: 64, borderRadius: 18, border: "1.5px solid #16162b", background: "#fff", display: "grid", placeItems: "center" }}><ModuleIcon slug={next.slug} size={40} /></span>
-            <span><small style={{ fontWeight: 700, textTransform: "uppercase", letterSpacing: ".08em" }}>Next module</small><br /><b style={{ fontFamily: "var(--font-display)", fontSize: 24 }}>{next.title}</b></span>
+          <Link
+            href={`/modules/${next.slug}`}
+            className="pop"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: 16,
+              padding: 20,
+              marginTop: 50,
+              textDecoration: "none",
+              background: next.color,
+            }}
+          >
+            <span
+              style={{
+                width: 64,
+                height: 64,
+                borderRadius: 18,
+                border: "1.5px solid #16162b",
+                background: "#fff",
+                display: "grid",
+                placeItems: "center",
+              }}
+            >
+              <ModuleIcon slug={next.slug} size={40} />
+            </span>
+            <span>
+              <small
+                style={{ fontWeight: 700, textTransform: "uppercase", letterSpacing: ".08em" }}
+              >
+                Next module
+              </small>
+              <br />
+              <b style={{ fontFamily: "var(--font-display)", fontSize: 24 }}>{next.title}</b>
+            </span>
             <span style={{ marginLeft: "auto", fontSize: 28 }}>→</span>
           </Link>
         )}

@@ -3,6 +3,7 @@ title: What an Operating System Does
 summary: The manager between your apps and the hardware.
 minutes: 6
 ---
+
 The **operating system (OS)** sits between the apps you use and the hardware. Examples: Windows, macOS, Linux, Android, iOS.
 
 ## Its main jobs
@@ -15,9 +16,9 @@ The **operating system (OS)** sits between the apps you use and the hardware. Ex
 
 ## Users and the all-powerful admin
 
-| Account | Power |
-|---------|-------|
-| Normal user | Can use apps and their own files |
+| Account              | Power                              |
+| -------------------- | ---------------------------------- |
+| Normal user          | Can use apps and their own files   |
 | Administrator / root | Can change anything on the machine |
 
 If an attacker gets admin or root, the game is almost over. So we follow the **principle of least privilege**: give every person and program only the power they need.

@@ -5,6 +5,7 @@ minutes: 20
 module: security-mindset
 level: Beginner
 ---
+
 Companies keep a **risk register**: a table of the things that could go wrong. You will make a small one for your own life. No tools are needed, only a pen or a notes app.
 
 ## Step 1: List what matters
@@ -25,11 +26,11 @@ Think about what could go wrong. A stolen phone? A phishing email? A broken hard
 
 Give **likelihood** and **impact** a score from 1 (low) to 5 (high). Multiply them.
 
-| Asset | Threat | Likelihood | Impact | Risk |
-|-------|--------|-----------:|-------:|-----:|
-| Email | Phishing | 4 | 5 | 20 |
-| Photos | Phone lost | 3 | 4 | 12 |
-| Bank app | Weak PIN | 2 | 5 | 10 |
+| Asset    | Threat     | Likelihood | Impact | Risk |
+| -------- | ---------- | ---------: | -----: | ---: |
+| Email    | Phishing   |          4 |      5 |   20 |
+| Photos   | Phone lost |          3 |      4 |   12 |
+| Bank app | Weak PIN   |          2 |      5 |   10 |
 
 ## Step 4: Choose a response
 

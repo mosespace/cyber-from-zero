@@ -1,57 +1,37 @@
 [
- {
-  "q": "What is the first thing to do when containing an incident?",
-  "options": [
-   "Stop it spreading",
-   "Write the report",
-   "Buy new servers",
-   "Tweet about it"
-  ],
-  "answer": 0,
-  "why": "Contain first, then investigate."
- },
- {
-  "q": "Responsible disclosure means...",
-  "options": [
-   "Selling the bug",
-   "Telling the owner privately",
-   "Posting it online",
-   "Ignoring it"
-  ],
-  "answer": 1,
-  "why": "The owner gets time to fix it."
- },
- {
-  "q": "Which is a beginner-friendly certificate?",
-  "options": [
-   "CISSP",
-   "CompTIA Security+",
-   "None exist",
-   "Only degrees count"
-  ],
-  "answer": 1,
-  "why": "Security+ is a common first certificate."
- },
- {
-  "q": "What is the last step of incident response?",
-  "options": [
-   "Learn from it",
-   "Contain",
-   "Identify",
-   "Prepare"
-  ],
-  "answer": 0,
-  "why": "Writing down lessons makes you stronger next time."
- },
- {
-  "q": "What does a SOC analyst do?",
-  "options": [
-   "Watch alerts and respond",
-   "Build bridges",
-   "Design logos",
-   "Sell laptops"
-  ],
-  "answer": 0,
-  "why": "SOC analysts watch for threats around the clock."
- }
+  {
+    "q": "What is the first thing to do when containing an incident?",
+    "options": ["Stop it spreading", "Write the report", "Buy new servers", "Tweet about it"],
+    "answer": 0,
+    "why": "Contain first, then investigate."
+  },
+  {
+    "q": "Responsible disclosure means...",
+    "options": [
+      "Selling the bug",
+      "Telling the owner privately",
+      "Posting it online",
+      "Ignoring it"
+    ],
+    "answer": 1,
+    "why": "The owner gets time to fix it."
+  },
+  {
+    "q": "Which is a beginner-friendly certificate?",
+    "options": ["CISSP", "CompTIA Security+", "None exist", "Only degrees count"],
+    "answer": 1,
+    "why": "Security+ is a common first certificate."
+  },
+  {
+    "q": "What is the last step of incident response?",
+    "options": ["Learn from it", "Contain", "Identify", "Prepare"],
+    "answer": 0,
+    "why": "Writing down lessons makes you stronger next time."
+  },
+  {
+    "q": "What does a SOC analyst do?",
+    "options": ["Watch alerts and respond", "Build bridges", "Design logos", "Sell laptops"],
+    "answer": 0,
+    "why": "SOC analysts watch for threats around the clock."
+  }
 ]

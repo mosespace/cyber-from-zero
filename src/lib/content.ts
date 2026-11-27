@@ -45,7 +45,10 @@ function parseFrontmatter(raw: string) {
     const i = line.indexOf(":");
     if (i === -1) continue;
     const key = line.slice(0, i).trim();
-    const value = line.slice(i + 1).trim().replace(/^["']|["']$/g, "");
+    const value = line
+      .slice(i + 1)
+      .trim()
+      .replace(/^["']|["']$/g, "");
     data[key] = value;
   }
   return { data, body: m[2].trim() };
@@ -59,7 +62,11 @@ export function toPlainText(md: string): string {
     .filter((l) => !/^\s*\|?\s*[-:| ]+\|?\s*$/.test(l) || !l.includes("|"))
     .map((l) =>
       l.includes("|")
-        ? l.split("|").map((c) => c.trim()).filter(Boolean).join(": ") + "."
+        ? l
+            .split("|")
+            .map((c) => c.trim())
+            .filter(Boolean)
+            .join(": ") + "."
         : l,
     )
     .join("\n")
@@ -81,8 +88,14 @@ function splitRemember(body: string) {
   const i = body.search(/^## Remember\s*$/m);
   const main = i === -1 ? body : body.slice(0, i).trimEnd();
   const tail = i === -1 ? "" : body.slice(i);
-  const remember = tail.split("\n").filter((l) => /^\s*[-*]\s+/.test(l)).map((l) => l.replace(/^\s*[-*]\s+/, "").replace(/\*\*/g, ""));
-  const headings = [...main.matchAll(/^## (.+)$/gm)].map((m) => ({ text: m[1].trim(), id: slugify(m[1]) }));
+  const remember = tail
+    .split("\n")
+    .filter((l) => /^\s*[-*]\s+/.test(l))
+    .map((l) => l.replace(/^\s*[-*]\s+/, "").replace(/\*\*/g, ""));
+  const headings = [...main.matchAll(/^## (.+)$/gm)].map((m) => ({
+    text: m[1].trim(),
+    id: slugify(m[1]),
+  }));
   return { body: main, headings, remember };
 }
 

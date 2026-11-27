@@ -7,11 +7,16 @@ export default function ReadingProgress() {
   useEffect(() => {
     const h = () => {
       const max = document.documentElement.scrollHeight - window.innerHeight;
-      if (bar.current) bar.current.style.width = `${max > 0 ? Math.min(100, (window.scrollY / max) * 100) : 0}%`;
+      if (bar.current)
+        bar.current.style.width = `${max > 0 ? Math.min(100, (window.scrollY / max) * 100) : 0}%`;
     };
     h();
     window.addEventListener("scroll", h, { passive: true });
     return () => window.removeEventListener("scroll", h);
   }, []);
-  return <div className="read-bar" aria-hidden><i ref={bar} /></div>;
+  return (
+    <div className="read-bar" aria-hidden>
+      <i ref={bar} />
+    </div>
+  );
 }

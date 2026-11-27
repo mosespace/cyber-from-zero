@@ -16,8 +16,15 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
   // cards you do not know yet come first; each group is shuffled
   const deck = useMemo(() => {
     const list = terms.filter((t) => mod === "all" || t.module === mod);
-    const rnd = (s: string) => { let h = seed + 7; for (const c of s) h = (h * 31 + c.charCodeAt(0)) % 9973; return h; };
-    return [...list].sort((a, b) => (store.cards[a.term] ?? 0) - (store.cards[b.term] ?? 0) || rnd(a.term) - rnd(b.term));
+    const rnd = (s: string) => {
+      let h = seed + 7;
+      for (const c of s) h = (h * 31 + c.charCodeAt(0)) % 9973;
+      return h;
+    };
+    return [...list].sort(
+      (a, b) =>
+        (store.cards[a.term] ?? 0) - (store.cards[b.term] ?? 0) || rnd(a.term) - rnd(b.term),
+    );
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mod, seed, terms]);
 
@@ -34,7 +41,10 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
 
   useEffect(() => {
     const h = (e: KeyboardEvent) => {
-      if (e.key === " ") { e.preventDefault(); setFlip((f) => !f); }
+      if (e.key === " ") {
+        e.preventDefault();
+        setFlip((f) => !f);
+      }
       if (flip && e.key === "ArrowRight") answer(true);
       if (flip && e.key === "ArrowLeft") answer(false);
     };
@@ -45,15 +55,41 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
   return (
     <>
       <div className="chips">
-        <button className={`chip ${mod === "all" ? "on" : ""}`} onClick={() => { setMod("all"); setPos(0); }}>All terms</button>
+        <button
+          className={`chip ${mod === "all" ? "on" : ""}`}
+          onClick={() => {
+            setMod("all");
+            setPos(0);
+          }}
+        >
+          All terms
+        </button>
         {modules.map((m) => (
-          <button key={m.slug} className={`chip ${mod === m.slug ? "on" : ""}`} onClick={() => { setMod(m.slug); setPos(0); }}>{m.title}</button>
+          <button
+            key={m.slug}
+            className={`chip ${mod === m.slug ? "on" : ""}`}
+            onClick={() => {
+              setMod(m.slug);
+              setPos(0);
+            }}
+          >
+            {m.title}
+          </button>
         ))}
       </div>
-      <p className="fc-meta">{known} of {deck.length} learned · card {deck.length ? (pos % deck.length) + 1 : 0} of {deck.length}</p>
+      <p className="fc-meta">
+        {known} of {deck.length} learned · card {deck.length ? (pos % deck.length) + 1 : 0} of{" "}
+        {deck.length}
+      </p>
       {card && (
         <div className="deck">
-          <div className={`card3d ${flip ? "flip" : ""}`} onClick={() => setFlip((f) => !f)} role="button" tabIndex={0} aria-label="Flip card">
+          <div
+            className={`card3d ${flip ? "flip" : ""}`}
+            onClick={() => setFlip((f) => !f)}
+            role="button"
+            tabIndex={0}
+            aria-label="Flip card"
+          >
             <div className="face" style={{ ["--c" as string]: color }}>
               <h3>{card.term}</h3>
               <small>Tap or press space to flip</small>
@@ -65,9 +101,31 @@ export default function FlashcardsClient({ terms, modules }: { terms: Term[]; mo
         </div>
       )}
       <div className="fc-actions">
-        <button className="btn" onClick={() => answer(false)} disabled={!flip} style={{ opacity: flip ? 1 : 0.4 }}>↺ Again</button>
-        <button className="btn blue" onClick={() => answer(true)} disabled={!flip} style={{ opacity: flip ? 1 : 0.4 }}>I knew it ✓</button>
-        <button className="btn small" onClick={() => { setSeed((s) => s + 1); setPos(0); }}>Shuffle</button>
+        <button
+          className="btn"
+          onClick={() => answer(false)}
+          disabled={!flip}
+          style={{ opacity: flip ? 1 : 0.4 }}
+        >
+          ↺ Again
+        </button>
+        <button
+          className="btn blue"
+          onClick={() => answer(true)}
+          disabled={!flip}
+          style={{ opacity: flip ? 1 : 0.4 }}
+        >
+          I knew it ✓
+        </button>
+        <button
+          className="btn small"
+          onClick={() => {
+            setSeed((s) => s + 1);
+            setPos(0);
+          }}
+        >
+          Shuffle
+        </button>
       </div>
     </>
   );

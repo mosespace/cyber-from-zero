@@ -3,6 +3,7 @@ title: How the Internet Works
 summary: Packets, addresses, servers and what happens when you open a website.
 minutes: 8
 ---
+
 The internet is not a cloud. It is millions of real computers connected by real cables (many of them under the sea) and radio waves.
 
 ## What happens when you open a website
@@ -14,6 +15,7 @@ The internet is not a cloud. It is millions of real computers connected by real 
 5. Your browser draws the page on your screen.
 
 ```chart:http-flow
+
 ```
 
 ## Packets: sending a letter in pieces
@@ -22,13 +24,13 @@ Big files are cut into small pieces called **packets**. Each packet has the send
 
 ## Key words
 
-| Term | Simple meaning |
-|------|----------------|
-| IP address | The home address of a computer on a network |
-| DNS | The internet phone book |
-| Server | A computer that gives things to other computers |
-| Client | The computer that asks (your phone or laptop) |
-| ISP | The company that connects you to the internet |
+| Term       | Simple meaning                                  |
+| ---------- | ----------------------------------------------- |
+| IP address | The home address of a computer on a network     |
+| DNS        | The internet phone book                         |
+| Server     | A computer that gives things to other computers |
+| Client     | The computer that asks (your phone or laptop)   |
+| ISP        | The company that connects you to the internet   |
 
 ## Why this matters for security
 

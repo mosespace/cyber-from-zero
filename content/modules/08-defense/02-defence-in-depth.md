@@ -3,21 +3,23 @@ title: Defence in Depth
 summary: Many layers, so one failure is not the end.
 minutes: 6
 ---
+
 A castle has a moat, walls, guards and a locked inner room. If one fails, the others still protect the treasure. Security works the same way.
 
 ```chart:defense-in-depth
+
 ```
 
 ## Layers and examples
 
-| Layer | Examples |
-|-------|----------|
-| People | Training, awareness |
-| Perimeter | Firewalls |
-| Network | Segmentation, monitoring |
-| Host | Updates, antivirus |
+| Layer       | Examples                    |
+| ----------- | --------------------------- |
+| People      | Training, awareness         |
+| Perimeter   | Firewalls                   |
+| Network     | Segmentation, monitoring    |
+| Host        | Updates, antivirus          |
 | Application | Secure coding, input checks |
-| Data | Encryption, backups |
+| Data        | Encryption, backups         |
 
 ## Zero trust
 
