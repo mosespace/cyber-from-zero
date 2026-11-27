@@ -23,8 +23,9 @@
   --accent-2: var(--coral);
   --good: #19b886;
   --bad: #e5484d;
-  --font-display: var(--font-bricolage), system-ui, sans-serif;
-  --font-body: var(--font-dm), system-ui, sans-serif;
+  --font-display: var(--font-sans), system-ui, sans-serif;
+  --font-code: var(--font-source-code), ui-monospace, monospace;
+  --font-body: var(--font-sans), system-ui, sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -2498,4 +2499,78 @@ h4 {
 }
 .t-banner.pop {
   background: var(--c);
+}
+
+/* ---- type: one rounded family for text, Source Code Pro for code ---- */
+body {
+  font-size: 16px;
+  line-height: 1.7;
+}
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: -0.035em;
+}
+.hero h1 {
+  letter-spacing: -0.045em;
+}
+.prose {
+  font-size: 17px;
+}
+.prose code,
+.prose pre.code code,
+.widget .out,
+kbd,
+.icon-btn kbd {
+  font-family: var(--font-code);
+}
+.prose pre.code code {
+  font-size: 14.5px;
+  line-height: 1.6;
+}
+.widget .out {
+  font-weight: 600;
+  font-size: 21px;
+}
+h1,
+h2,
+h3,
+h4,
+.btn,
+.logo {
+  word-spacing: 0.08em;
+}
+.hero h1 {
+  letter-spacing: -0.04em;
+  word-spacing: 0.1em;
+}
+
+/* header: never wrap the logo, keep the nav compact */
+.logo {
+  white-space: nowrap;
+  flex: none;
+}
+.nav {
+  margin-left: 4px;
+}
+.nav a {
+  padding: 7px 11px;
+  white-space: nowrap;
+}
+/* path: START tag stays centred over its circle while it bobs */
+.start-tag {
+  top: -6px;
+  left: calc(50% + var(--dx));
+  transform: translateX(-50%);
+  animation: tagbob 1.6s ease-in-out infinite;
+}
+@keyframes tagbob {
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-6px);
+  }
 }

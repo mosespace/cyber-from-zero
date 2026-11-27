@@ -62,14 +62,7 @@ export default function PathTrail({ modules }: { modules: TrailModule[] }) {
                   className={`t-node ${isDone ? "done" : ""} ${dx > 0 ? "left" : "right"}`}
                   style={{ ["--dx" as string]: `${dx}px` }}
                 >
-                  {isNow && (
-                    <span
-                      className="start-tag"
-                      style={{ transform: `translateX(calc(-50% + ${dx}px))` }}
-                    >
-                      START
-                    </span>
-                  )}
+                  {isNow && <span className="start-tag">START</span>}
                   <Link
                     href={`/learn/${m.slug}/${l.slug}`}
                     className={`btn-node ${isNow ? "pulse" : ""}`}

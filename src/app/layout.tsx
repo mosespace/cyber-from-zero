@@ -1,20 +1,22 @@
 import type { Metadata } from "next";
-import { IBM_Plex_Sans, Schibsted_Grotesk } from "next/font/google";
+import { Plus_Jakarta_Sans, Source_Code_Pro } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import { getModules } from "@/lib/content";
 import { getCheatsheets, getLabs } from "@/lib/extras";
 import type { SearchItem } from "@/components/SearchModal";
 
-const display = Schibsted_Grotesk({
+/** One clean, friendly family for all text. */
+const sans = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  variable: "--font-bricolage",
-  weight: ["600", "700", "800"],
+  variable: "--font-sans",
+  weight: ["400", "500", "600", "700", "800"],
 });
-const body = IBM_Plex_Sans({
+/** Source Code Pro is the code font PostHog uses too. */
+const code = Source_Code_Pro({
   subsets: ["latin"],
-  variable: "--font-dm",
-  weight: ["400", "500", "600", "700"],
+  variable: "--font-source-code",
+  weight: ["400", "600"],
 });
 
 export const metadata: Metadata = {
@@ -52,7 +54,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     })),
   );
   return (
-    <html lang="en" className={`${display.variable} ${body.variable}`}>
+    <html lang="en" className={`${sans.variable} ${code.variable}`}>
       <body>
         <Header items={items} />
         <main>{children}</main>
