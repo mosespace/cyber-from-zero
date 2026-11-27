@@ -9,6 +9,7 @@
     "start": "next start",
     "audio": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/make-audio.mjs",
     "screenshots": "node scripts/screenshots.mjs",
+    "check:content": "node scripts/check-content.mjs",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
