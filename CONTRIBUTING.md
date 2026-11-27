@@ -53,6 +53,9 @@ npm run format         # fix the style of every file
 npm run format:check   # only check (this is what CI runs)
 ```
 
+The one-time reformat of the whole repository is listed in `.git-blame-ignore-revs`, so GitHub's blame view
+skips it. To do the same locally, run `git config blame.ignoreRevsFile .git-blame-ignore-revs`.
+
 Before opening a pull request, run:
 
 ```bash

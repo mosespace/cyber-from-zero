@@ -1,0 +1,5 @@
+# Commits that only reformatted files. Use with:
+#   git config blame.ignoreRevsFile .git-blame-ignore-revs
+
+# style: format the whole repository with Prettier
+ff8d29e5534f167e03a17c8ec7ceafbbd1b83050
