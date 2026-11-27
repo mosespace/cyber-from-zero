@@ -95,6 +95,21 @@ export const glossary: Term[] = [
     module: "networking",
   },
   {
+    term: "DHCP",
+    def: "Dynamic Host Configuration Protocol gives a device network settings, such as an IP address, when it joins. Your home router often does this; a rogue DHCP server can hand out unsafe settings.",
+    module: "networking",
+  },
+  {
+    term: "NAT",
+    def: "Network address translation changes addresses as traffic passes through a router. At home, it lets several devices share one public address, but it is not a firewall by itself.",
+    module: "networking",
+  },
+  {
+    term: "SSH",
+    def: "Secure Shell is an encrypted way to log in to another computer and run commands, often to manage a server. Check the server's identity before connecting so an impostor cannot trick you.",
+    module: "networking",
+  },
+  {
     term: "Protocol",
     def: "A set of rules computers follow to talk to each other.",
     module: "networking",
@@ -217,6 +232,16 @@ export const glossary: Term[] = [
     module: "defense",
   },
   {
+    term: "IDS",
+    def: "An intrusion detection system watches network or device activity for signs of trouble and raises an alert. It might flag repeated failed logins for an analyst to investigate.",
+    module: "defense",
+  },
+  {
+    term: "IPS",
+    def: "An intrusion prevention system watches network traffic for signs of an attack and can block it. Teams tune it carefully so it does not block normal traffic by mistake.",
+    module: "defense",
+  },
+  {
     term: "Zero trust",
     def: "Never trust, always verify, even inside the network.",
     module: "defense",
@@ -239,6 +264,11 @@ export const glossary: Term[] = [
   {
     term: "Incident",
     def: "A security event that causes harm, or could.",
+    module: "response-and-careers",
+  },
+  {
+    term: "SOC",
+    def: "A security operations centre is a team that watches alerts, investigates possible attacks and coordinates response. Analysts may compare an unusual login with other activity before deciding what to do.",
     module: "response-and-careers",
   },
   {

@@ -73,7 +73,7 @@ It is built to be **learned from**, not just read:
 | 9   | Ethical Hacking and Pentesting           | Intermediate | The attack phases, tools, practising legally                   |
 | 10  | Incident Response and Your Career        | Advanced     | Incident response, law and ethics, career path                 |
 
-Plus **10 labs** (one per module), **6 cheat sheets**, **50 quiz questions**, **58 glossary terms** and **40 audio narrations**. A 10 week [study plan](docs/STUDY-PLAN.md) is included.
+Plus **10 labs** (one per module), **6 cheat sheets**, **50 quiz questions**, **64 glossary terms** and **40 audio narrations**. A 10 week [study plan](docs/STUDY-PLAN.md) is included.
 
 ## Features
 
