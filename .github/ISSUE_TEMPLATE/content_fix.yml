@@ -1,0 +1,55 @@
+name: Content fix
+description: A lesson, lab, quiz or glossary entry is wrong, unclear or unsafe
+title: "[Content fix]: "
+labels: ["content: fix", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for improving the course. For tiny typos you can also just open a pull request.
+        **Unsafe advice** (something that could harm a learner's computer or data) is high priority. Please say so below.
+  - type: input
+    id: location
+    attributes:
+      label: Where is it?
+      description: Page URL or file path
+      placeholder: "/learn/cryptography/hashing-vs-encryption  or  content/modules/05-cryptography/02-hashing-vs-encryption.md"
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What kind of problem is it?
+      options:
+        - Factual mistake
+        - Confusing or too hard for a beginner
+        - Typo or grammar
+        - Broken link
+        - Quiz answer is wrong or unfair
+        - Lab step does not work
+        - Unsafe or risky advice
+        - Out of date
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong?
+      description: Quote the sentence if you can.
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: How should it read instead?
+      description: A suggestion, or a source that shows the right answer.
+  - type: dropdown
+    id: help
+    attributes:
+      label: Would you like to fix it yourself?
+      options:
+        - "Yes, I will open a pull request"
+        - "No, I am only reporting it"
+    validations:
+      required: true

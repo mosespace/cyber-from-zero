@@ -1,0 +1,89 @@
+name: Bug report
+description: Something on the website is broken or looks wrong
+title: "[Bug]: "
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us fix things! Please fill in as much as you can.
+        **Security problem?** Do not post it here. See SECURITY.md and use private reporting.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Tell us what you saw. Screenshots are very welcome.
+      placeholder: "When I click ... nothing happens."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. See the problem
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page or URL
+      description: For example /learn/networking/the-osi-model
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part is it?
+      options:
+        - Lessons and content display
+        - Audio player
+        - Quiz or practice mode
+        - Flashcards or glossary
+        - Learning path
+        - Progress, XP or streaks
+        - Search
+        - Labs or cheat sheets
+        - Layout or design
+        - Something else
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      multiple: true
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Other
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - Desktop or laptop
+        - Phone
+        - Tablet
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Console errors, operating system, screen size, and so on.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and did not find this one.
+          required: true
+        - label: I have read the Code of Conduct.
+          required: true

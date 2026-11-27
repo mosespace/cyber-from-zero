@@ -1,0 +1,86 @@
+name: Content suggestion
+description: Suggest a new lesson, lab, quiz question, cheat sheet or glossary term
+title: "[Content]: "
+labels: ["content", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Want to add to the course? Wonderful. Please read the **content style guide** (docs/CONTENT-STYLE-GUIDE.md) first.
+        Remember: this project teaches **defence and ethical hacking only**.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What would you like to add?
+      options:
+        - A new lesson
+        - A new lab
+        - A new module
+        - Quiz questions
+        - Glossary terms and flashcards
+        - A cheat sheet
+        - A diagram or interactive widget
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: topic
+    attributes:
+      label: Topic
+      placeholder: "For example: How VPNs work"
+    validations:
+      required: true
+  - type: dropdown
+    id: module
+    attributes:
+      label: Where does it fit?
+      options:
+        - 1. How the Digital World Works
+        - 2. The Security Mindset
+        - 3. Networking Basics
+        - 4. Operating Systems and Linux
+        - 5. Passwords and Cryptography
+        - 6. Malware, Phishing and Social Engineering
+        - 7. Web Security Essentials
+        - 8. Defending Systems
+        - 9. Ethical Hacking and Pentesting
+        - 10. Incident Response and Your Career
+        - It needs a new module
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does a beginner need it?
+      description: What will they be able to understand or do after it?
+    validations:
+      required: true
+  - type: textarea
+    id: outline
+    attributes:
+      label: Outline or draft
+      description: Bullet points are fine. Include any simple comparisons or analogies you would use.
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Links to trustworthy references you would use to check the facts.
+  - type: dropdown
+    id: help
+    attributes:
+      label: Who will write it?
+      options:
+        - "I will write it"
+        - "I would like to write it with some guidance"
+        - "I am only suggesting the topic"
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety and ethics
+      options:
+        - label: It is defensive or educational, and any practice is on the learner's own devices, local practice apps or targets that allow testing.
+          required: true
+        - label: It is my own writing, or properly credited and compatible with CC BY 4.0.
+          required: true
