@@ -4,6 +4,7 @@
 //   pip install edge-tts
 //   npm run audio              (skips files that already exist)
 //   FORCE=1 npm run audio      (re-record everything)
+//   ONLY=the-osi-model FORCE=1 npm run audio   (re-record matching files only)
 //   VOICE=en-US-AndrewNeural npm run audio
 //
 // Only the public course text is sent to the speech service.
@@ -17,6 +18,7 @@ const VOICE = process.env.VOICE ?? "en-US-AvaNeural";
 const RATE = process.env.RATE ?? "-4%";
 const BIN = process.env.EDGE_TTS ?? "edge-tts";
 const FORCE = !!process.env.FORCE;
+const ONLY = process.env.ONLY; // e.g. ONLY=the-osi-model re-records just matching files
 const JOBS = 4;
 
 const out = path.join(process.cwd(), "public", "audio");
@@ -52,6 +54,9 @@ function record(t, i) {
     });
   });
 }
+
+if (ONLY)
+  for (let i = tasks.length - 1; i >= 0; i--) if (!tasks[i].file.includes(ONLY)) tasks.splice(i, 1);
 
 let next = 0;
 async function worker() {

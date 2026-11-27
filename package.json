@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "audio": "node scripts/make-audio.mjs",
+    "audio": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/make-audio.mjs",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },

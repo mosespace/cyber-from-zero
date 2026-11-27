@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { slugify } from "./slug";
+import { slugify } from "./slug.ts";
 
 const ROOT = path.join(process.cwd(), "content", "modules");
 
